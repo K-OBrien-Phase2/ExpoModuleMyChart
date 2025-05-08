@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoMyChartModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.mychart.ExpoMyChartModule"]
+  }
+}
