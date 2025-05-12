@@ -1,0 +1,261 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MyChartLibrary
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Authentication
+import HomePage
+@_exported import MyChart
+@_exported import MyChartLibrary
+import Swift
+import UserNotificationsUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public let WPAPIMyChartNowErrorDomain: Swift.String
+@objc public protocol WPAPIMyChartNowFeatureListDelegate {
+  @objc func didGetMyChartNowFeatures(_ features: [Swift.String]?)
+  @objc optional func didFailToGetMyChartNowFeatures(withError error: Foundation.NSError)
+}
+public enum WPAPIMyChartNowActivity : Swift.Int {
+  case careTeam
+  case medications
+  case education
+  case questionnaires
+  case testResults
+  case documentCenter
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class WPAPIMyChartNow {
+  public static func myChartNowFeatureName(forActivity activity: MyChartLibrary.WPAPIMyChartNowActivity) -> Swift.String
+  public static func accessResultForMyChartNow() -> MyChartGlobals.WPAPIAccessResult
+  public static func getMyChartNowController() -> UIKit.UIViewController?
+  public static func getMyChartNowDeepLinkController(forParams params: [Swift.String : Swift.String]?) -> UIKit.UIViewController?
+  public static func getMyChartNowFeatureList(withDelegate delegate: any MyChartLibrary.WPAPIMyChartNowFeatureListDelegate)
+  @objc deinit
+}
+extension MyChartLibrary.WPAPIMyChartNow : PECore.PEMyChartNowComponentDelegate {
+  @objc dynamic public func didGetMyChartNowActivities(_ availableFeatures: [Swift.String]?)
+  @objc dynamic public func didGetMyChartNowActivitiesError(_ errorMessage: Swift.String?)
+}
+public let WPAPICareTeamErrorDomain: Swift.String
+public let WPAPINotificationCareTeamWidgetNeedReloaded: Swift.String
+@objc public protocol WPAPICareTeamDelegate {
+  @objc func didGetCareTeamViewController(_ careTeamController: UIKit.UIViewController)
+  @objc optional func didFailToGetCareTeamViewController(withError error: Foundation.NSError)
+}
+@_hasMissingDesignatedInitializers public class WPAPICareTeam {
+  public static func getCareTeamController(withDelegate delegate: any MyChartLibrary.WPAPICareTeamDelegate)
+  @objc deinit
+}
+extension MyChartLibrary.WPAPICareTeam : PECore.PECareTeamComponentDelegate {
+  @objc dynamic public func didGetCareTeamViewController(_ careTeamViewController: UIKit.UIViewController, withFailedOrgs failedOrgs: [any PECore.PEOrganizationInfoProtocol]?)
+  @objc dynamic public func didFailToGetCareTeamViewController(withError error: Foundation.NSError)
+}
+@_hasMissingDesignatedInitializers @available(*, deprecated, message: "This API class will soon no longer be available once the new home page is available in your Epic version.")
+public class WPAPISpringboard {
+  public static func accessResultForSpringboard() -> MyChartGlobals.WPAPIAccessResult
+  public static func getSpringboardController() -> UIKit.UIViewController?
+  @objc deinit
+}
+extension MyChartGlobals.IWPDeepLinkActionDelegate {
+  public func shouldExecuteDeepLink(_ deepLink: any MyChartGlobals.IWPDeepLink, forNewContext: any MyChartGlobals.IWPPerson) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class WPAPIDeepLinkManager {
+  public static func registerDeepLinkActionDelegate(_ delegate: any MyChartGlobals.IWPDeepLinkActionDelegate)
+  public static func unregisterDeepLinkActionDelegate()
+  @discardableResult
+  public static func execute(deepLink: any MyChartGlobals.IWPDeepLink, in navigationController: UIKit.UINavigationController?) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @discardableResult
+  public static func execute(activity: MyChartGlobals.WPAPIActivityIdentifier, in navigationController: UIKit.UINavigationController?) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @discardableResult
+  public static func execute(deepLinkUrl: Swift.String, in navigationController: UIKit.UINavigationController?) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @objc deinit
+}
+extension MyChartLibrary.WPAPIDeepLinkManager {
+  @available(swift, deprecated: 4.0, message: "Use WPAPIDeepLinkManager.execute for all workflows where you want to manually trigger and receive deep links. If you have implemented this in prior versions, it is possible that false will be returned now where this previously returned true. This will be removed in a later version of the feature and code module. Contact your technical services representative for more assistance if required.")
+  public class func hasEpicMyChartDeepLink() -> Swift.Bool
+  @available(swift, deprecated: 4.0, message: "Use WPAPIDeepLinkManager.execute for all workflows where you want to manually trigger and receive deep links. If you have implemented this in prior versions, it is possible that nil will be returned now where values were previously returned. This will be removed in a later version of the feature and code module. Contact your technical services representative for more assistance if required.")
+  public class func getEpicMyChartDeepLinkInfo() -> [Swift.String : Swift.String]?
+  @available(swift, deprecated: 4.0, message: "Use WPAPIDeepLinkManager.execute for this functionality. This will be removed in a later version of the feature and code module.")
+  public class func setEpicMyChartDeepLink(with deepLinkUrl: Swift.String)
+  @available(swift, deprecated: 4.0, message: "use WPAPIDeepLinkManager.execute for this functionality. This will be removed in a later version of the feature and code module.")
+  public class func clearEpicMyChartDeepLink()
+  @available(swift, deprecated: 4.0, message: "Please talk with your technical services representative if you are using this function. In version 10.1 and beyond, there are better ways to manage push notifications, and this API will be removed in a later version of the code module.")
+  public class func getPushNotificationDetails(with pushNotificationID: Swift.String, delegate: any MyChartGlobals.IWPGetPushNotificationDetailsDelegate)
+}
+@_hasMissingDesignatedInitializers public class WPAPIActivity {
+  public static func accessResultForActivity(_ activity: MyChartGlobals.WPAPIActivityIdentifier, forPerson person: any MyChartGlobals.IWPPerson) -> MyChartGlobals.WPAPIAccessResult
+  public static func accessResultForActivity(withDeepLinkUrl deepLinkUrl: Swift.String, forPerson person: any MyChartGlobals.IWPPerson) -> MyChartGlobals.WPAPIAccessResult
+  public static func accessResultForActivity(withDeepLink deepLink: any MyChartGlobals.IWPDeepLink, forPerson person: any MyChartGlobals.IWPPerson) -> MyChartGlobals.WPAPIAccessResult
+  public static func getViewControllerForActivity(_ activity: MyChartGlobals.WPAPIActivityIdentifier) -> UIKit.UIViewController?
+  public static func getViewControllerForActivity(withDeepLinkUrl deepLinkUrl: Swift.String) -> UIKit.UIViewController?
+  public static func getViewControllerForActivity(withDeepLink deepLink: any MyChartGlobals.IWPDeepLink) -> UIKit.UIViewController?
+  public static func shouldPresentViewControllerModallyForActivity(_ activity: MyChartGlobals.WPAPIActivityIdentifier) -> Swift.Bool
+  public static func shouldPresentViewControllerModallyForActivity(withDeepLinkUrl deepLinkUrl: Swift.String) -> Swift.Bool
+  public static func shouldPresentViewControllerModallyForActivity(withDeepLink deepLink: any MyChartGlobals.IWPDeepLink) -> Swift.Bool
+  @objc deinit
+}
+public let WPAPINotificationAppointmentArrivalSettingChanged: Swift.String
+@_hasMissingDesignatedInitializers public class WPAPIAppointmentLocationManager {
+  public static func accessResultForAppointmentMonitoring() -> MyChartGlobals.WPAPIAccessResult
+  public static func registerArrivalDelegate(_ delegate: any MyChartGlobals.IWPMonitoredAppointmentArrivalDelegate)
+  public static func requestUpdateForMonitoredAppointment(withDelegate delegate: (any MyChartGlobals.IWPMonitoredAppointmentUpdateDelegate)?)
+  public static func getCurrentMonitoredAppointment() -> (any MyChartGlobals.IWPAppointment)?
+  public static func getAppointmentArrivalFeatureStatus() -> MyChartGlobals.WPAPIAppointmentArrivalFeatureStatus
+  public static func disableAppointmentArrivalFeature()
+  public static func registerAppointmentArrivalCheckInDelegate(_ delegate: any MyChartGlobals.IWPAppointmentArrivalCheckInDelegate)
+  public static func unregisterAppointmentArrivalCheckInDelegate()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIFDILink {
+  public static func getUrlString(fdiID: Swift.String, contextDict: [Swift.String : Swift.String]? = nil, delegate: any MyChartGlobals.IWPFDILinkDelegate)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIHomepage {
+  public static func accessResultForHomepage() -> MyChartGlobals.WPAPIAccessResult
+  public static func getControllerThatManagesNavbarVisibility(_ manageNavbarVisibility: Swift.Bool, withDeepLink deepLink: (any MyChartGlobals.IWPDeepLink)?) -> UIKit.UIViewController?
+  public static func getHealthFeed() -> UIKit.UIViewController?
+  public static func setHealthFeedContext(_ healthFeed: UIKit.UIViewController, with person: any MyChartGlobals.IWPPerson)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIWebViewManager {
+  public static func addCookieToAllowList(cookieName: Swift.String)
+  public static func removeCookieFromAllowList(cookieName: Swift.String)
+  public static func clearAllCookiesFromAllowList()
+  public static func getAllCookiesFromAllowList() -> Swift.Set<Swift.String>
+  public static func setValue(_ value: Swift.String, forHTTPHeaderField field: Swift.String) -> Swift.Bool
+  public static func removeHTTPHeaderField(_ field: Swift.String)
+  public static func removeAllHTTPHeaderFields()
+  public static func getAllHTTPHeaderFields() -> [Swift.String : Swift.String]
+  public static func allowedHTTPHeaderField(_ field: Swift.String) -> Swift.Bool
+  public static func createCustomMyChartUrl(forMode mode: Swift.String, parameters: [Swift.String : Swift.String]?, delegate: any MyChartGlobals.IWPCreateMyChartUrlDelegate)
+  @available(*, deprecated, message: "This function is no longer required for the createCustomMyChartUrl API and will be removed in a future release")
+  public static func startJumpTokenLaunchLock()
+  @available(*, deprecated, message: "This function is no longer required for the createCustomMyChartUrl API and will be removed in a future release")
+  public static func endJumpTokenLaunchLock()
+  public static func setCustomWKWebViewConfiguration(_ configuration: WebKit.WKWebViewConfiguration)
+  public static func getCustomWKWebViewConfiguration() -> WebKit.WKWebViewConfiguration
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIAppDelegate {
+  public static func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil)
+  public static func application(_ application: UIKit.UIApplication, openURL url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]?) -> Swift.Bool
+  public static func application(_ application: UIKit.UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Foundation.Data)
+  public static func application(_ application: UIKit.UIApplication, didFailToRegisterForRemoteNotificationsWithError error: (any Swift.Error)?)
+  public static func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresentNotification notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: ((UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)? = nil, deepLinkInfoIfAvailable: (((any MyChartGlobals.IWPDeepLink)?) -> Swift.Void)? = nil)
+  public static func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceiveNotificationResponse response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: (() -> Swift.Void)?, showInAppNotifications: Swift.Bool = true)
+  public static func application(_ application: UIKit.UIApplication, willContinueUserActivityWithType userActivityType: Swift.String) -> Swift.Bool
+  public static func application(_ application: UIKit.UIApplication, continue userActivity: Foundation.NSUserActivity, restorationHandler: @escaping ([any UIKit.UIUserActivityRestoring]?) -> Swift.Void) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPILiveActivities {
+  public static func requestAppointmentLiveActivities()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIIdleTimer {
+  public static func start()
+  public static func stop()
+  public static func resetTimer()
+  public static func addTimeoutDelegate(_ delegate: any MyChartGlobals.IWPOnIdleTimeoutDelegate)
+  public static func removeTimeoutDelegate(_ delegate: any MyChartGlobals.IWPOnIdleTimeoutDelegate)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIServer {
+  public static func setInterconnectTestingUrl(_ url: Swift.String?, andOrganizationId orgId: Swift.String? = nil, andWebsiteName websiteName: Swift.String? = nil)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIWatchKit {
+  public static func accessResultForWatchLinking() -> MyChartGlobals.WPAPIAccessResult
+  public static func getCurrentWatchLinkDetails() -> MyChartGlobals.WPAPIAppleWatchLinkDetails
+  public static func unlinkExistingWatch(callback: ((_ success: Swift.Bool?) -> ())? = nil)
+  public static func getPrelaunchAlertController(onAccept: @escaping () -> Swift.Void, onCancel: (() -> Swift.Void)? = nil) -> UIKit.UIAlertController?
+  public static func getLinkingViewController(onLinkComplete: ((_ success: Swift.Bool) -> Swift.Void)? = nil, onLinkCanceled: (() -> Swift.Void)? = nil) -> some UIKit.UIViewController
+  
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIInfectionControl {
+  public static func isPreloginCovidStatusEnabled() -> Swift.Bool
+  @objc public static func getPreloginCovidStatusWidget(presentingViewController: UIKit.UIViewController) -> UIKit.UIView?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIPushNotifications {
+  public static func setPushNotificationsStatus(delegate: any MyChartGlobals.IWPPushNotificationsDelegate, enable: Swift.Bool)
+  public static func getPushNotificationsStatus(delegate: any MyChartGlobals.IWPPushNotificationsDelegate)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIUserManager {
+  public static func getUser() -> (any MyChartGlobals.IWPUser)?
+  public static func getAuthenticationStatus() -> MyChartGlobals.WPAPIAuthenticationStatus
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIPrelogin {
+  public static func getSignUpController() -> UIKit.UIViewController
+  public static func getRecoverPasswordController() -> UIKit.UIViewController
+  public static func getRecoverUsernameController() -> UIKit.UIViewController
+  public static func getResetPasswordControllerOnMaxPasswordAttemptsExceeded() -> UIKit.UIViewController
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPIAuthentication {
+  public static let RemainingPasscodeAttemptsKey: Swift.String
+  public static func isBiometricAuthenticationEnabled() -> Swift.Bool
+  public static func isPasscodeEnabled() -> Swift.Bool
+  public static func usernameForSecondaryLogin() -> Swift.String?
+  public static func login(withUsername username: Swift.String, password: Swift.String, delegate: any MyChartGlobals.IWPAuthenticationDelegate)
+  public static func login(withBiometricAuthentication delegate: any MyChartGlobals.IWPAuthenticationDelegate)
+  public static func login(withPasscode passcode: Swift.String, delegate: any MyChartGlobals.IWPAuthenticationDelegate)
+  public static func login(withUsername username: Swift.String?, authenticationToken: Swift.String, delegate: any MyChartGlobals.IWPAuthenticationDelegate)
+  public static func setLogoutDelegate(_ delegate: any MyChartGlobals.IWPOnLogoutDelegate)
+  public static func removeLogoutDelegate()
+  public static func logout()
+  @objc deinit
+}
+extension MyChartLibrary.WPAPIAuthentication : Authentication.ILibraryLoginDelegate {
+  public func loginSucceeded(withDeeplink deeplink: (any PECore.PEDeepLinkProtocol)?)
+  public func loginFailed(errorCode: Swift.Int, errorMessage: Swift.String?, errorInfo: [Swift.String : Any]?)
+}
+@_hasMissingDesignatedInitializers public class WPAPIApplication {
+  public static func resetIdleTimer(fromEvent event: UIKit.UIEvent)
+  public static func setCurrentLocaleOverride(_ locale: Swift.String?)
+  public static func setFormatterLocaleOverride(_ formatterLocale: Swift.String?)
+  public static func getCurrentLocaleOverride() -> Swift.String?
+  public static func getFormatterLocaleOverride() -> Swift.String?
+  public static func getCurrentLocale() -> Swift.String?
+  public static func getFormatterLocale() -> Swift.String?
+  @objc deinit
+}
+public let WPAPIGoalsErrorDomain: Swift.String
+@objc public protocol WPAPIGoalsDelegate {
+  @objc func didGetGoalsController(_ goalsController: UIKit.UIViewController)
+  @objc optional func didFailToGetGoalsController(withError error: Foundation.NSError)
+}
+@objc @_inheritsConvenienceInitializers public class WPAPIGoals : ObjectiveC.NSObject {
+  public static func accessResultForGoals() -> MyChartGlobals.WPAPIAccessResult
+  public static func getGoalsController(withDelegate delegate: any MyChartLibrary.WPAPIGoalsDelegate)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChartLibrary.WPAPIGoals : MyChart.WPRequestGoalsDelegate {
+  @objc dynamic public func didGetGoalsController(_ goalsController: MyChart.WPGoalsCollectionViewController)
+  @objc dynamic public func didFailToGetGoalsControllerWithError(_ error: any Swift.Error)
+}
+public let WPAPIPersonManagerErrorDomain: Swift.String
+@_hasMissingDesignatedInitializers public class WPAPIPersonManager {
+  public static func getPersonList() -> [any MyChartGlobals.IWPPerson]
+  public static func getCurrentPerson() -> (any MyChartGlobals.IWPPerson)?
+  public static func setCurrentPerson(_ person: any MyChartGlobals.IWPPerson)
+  public static func getAvailableColors() -> [UIKit.UIColor]
+  public static func canSetColors() -> Swift.Bool
+  public static func setColor(_ color: UIKit.UIColor, forPerson person: any MyChartGlobals.IWPPerson, withDelegate delegate: (any MyChartGlobals.IWPPersonManagerDelegate)?)
+  public static func canSetNicknames() -> Swift.Bool
+  public static func setNickname(_ nickname: Swift.String?, forPerson person: any MyChartGlobals.IWPPerson, withDelegate delegate: (any MyChartGlobals.IWPPersonManagerDelegate)?)
+  public static func canSetPhotos() -> Swift.Bool
+  public static func setPhoto(_ photo: UIKit.UIImage?, forPerson person: any MyChartGlobals.IWPPerson, withDelegate delegate: (any MyChartGlobals.IWPPersonManagerDelegate)?)
+  @objc deinit
+}
+extension MyChartLibrary.WPAPIMyChartNowActivity : Swift.Equatable {}
+extension MyChartLibrary.WPAPIMyChartNowActivity : Swift.Hashable {}
+extension MyChartLibrary.WPAPIMyChartNowActivity : Swift.RawRepresentable {}

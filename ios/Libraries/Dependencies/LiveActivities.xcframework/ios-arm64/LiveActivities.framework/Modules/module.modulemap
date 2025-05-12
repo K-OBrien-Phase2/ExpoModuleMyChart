@@ -1,0 +1,11 @@
+framework module LiveActivities {
+  umbrella header "LiveActivities.h"
+  export *
+
+  module * { export * }
+}
+
+module LiveActivities.Swift {
+  header "LiveActivities-Swift.h"
+  requires objc
+}

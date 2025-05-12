@@ -1,0 +1,37 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Messaging
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+@_exported import Messaging
+import PECore
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class PEMessagingComponentAPI : ObjectiveC.NSObject, PECore.PEMessagingComponentAPIProtocol {
+  @objc public func hasAccessForSendingMedicalAdviceMessage(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForMOMessages(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForInpatientMessages(_ encounterContext: PECore.PEEncounterContext) -> PECore.PEComponentAccessResult
+  @objc public func getMessageListViewController(_ patientContext: PECore.PEPatientContext, params: [Swift.String : Swift.String]) -> UIKit.UIViewController?
+  @objc public func getInpatientMessageListViewController(_ encounterContext: PECore.PEEncounterContext, viewControllerTitle: Swift.String?) -> UIKit.UIViewController?
+  @objc public func getMessageDetailViewController(_ patientContext: PECore.PEPatientContext, forMessage messageID: Swift.String, myChartWebMessageIDKey: Swift.String, andIsEncrypted isEncrypted: Swift.Bool, forOrganization orgID: Swift.String) -> UIKit.UIViewController?
+  @objc public func getComposeViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getComposeMedicalAdviceViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getComposeCustomerServiceViewController(_ patientContext: PECore.PEPatientContext, isExternal: Swift.Bool) -> UIKit.UIViewController?
+  @objc public func getComposeBillingCustomerServiceViewController(_ patientContext: PECore.PEPatientContext, forAccount encryptedAccountID: Swift.String, withType encryptedBillingContext: Swift.String, isExternal: Swift.Bool) -> UIKit.UIViewController?
+  @objc public func getProviderMessageViewController(_ patientContext: PECore.PEPatientContext, forProvider provider: any PECore.PEMessageProvider) -> UIKit.UIViewController?
+  @objc public func getComposeMedicalAdviceWithSubjectOrOrgViewController(_ patientContext: PECore.PEPatientContext, withSubject subject: Swift.String, forOrganization orgID: Swift.String) -> UIKit.UIViewController?
+  @objc public func getComposeMedicalAdviceWithDCSIDViewController(_ patientContext: PECore.PEPatientContext, withDCSID dcsID: Swift.String) -> UIKit.UIViewController?
+  @objc public func getComposeEduQuestionWithLTKIDViewController(_ patientContext: PECore.PEPatientContext, withLTKID ltkID: Swift.String, isExternal: Swift.Bool) -> UIKit.UIViewController?
+  @objc public func getComposePrescriptionMessageViewController(_ patientContext: PECore.PEPatientContext, withMedication medication: Swift.String) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class InpatientConversationWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  public init(encounterContext: PECore.PEEncounterContext? = nil)
+  override public func onViewWillDisappear(_ viewController: PECore.MyChartWebViewController)
+  override public func onViewDidAppear(_ controller: PECore.MyChartWebViewController)
+  override public func allowLaunchOutsideApp() -> Swift.Bool
+  @objc deinit
+}

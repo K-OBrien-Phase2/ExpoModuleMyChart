@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2018-2024 Epic Systems Corporation
+  -->
+<!--@formatter:off-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="wp_now_activity_name_problems" context="Default label for the problem list menu option in the MyChartNow menu. Health issues is the patient-friendly term we are using for problems.">Gezondheidsproblemen</string>
+  <string name="wp_now_ed_activity_name_problems" context="The patient-friendly title for the ED problem list, displayed in the navigation bar at the top of the view">Bezoekredenen</string>
+  <string name="wp_now_activity_name_medications" context="Default label for the medication list menu option in the MyChartNow menu">Medicijnen</string>
+  <string name="wp_now_activity_name_schedule" context="Default label for the inpatient schedule menu option in the MyChartNow menu">Gebeurt binnenkort</string>
+  <string name="wp_now_activity_name_care_team" context="Default label for the care/treatment team menu option in the MyChartNow menu">Uw behandelteam</string>
+  <string name="wp_now_activity_name_care_team_proxy" context="Default label for the care/treatment team menu option in the MyChartNow menu for a proxy, where %1$@ is the patient's name">Behandelteam van %1$@</string>
+  <string name="wp_now_activity_name_care_team_proxy_no_name" context="Default label for the care/treatment team menu option in the MyChartNow menu for a proxy with no name set">Contactbehandelteam</string>
+  <string name="wp_now_activity_name_results" context="Default label for the test results menu option in the MyChartNow menu">Onderzoeksuitslagen</string>
+  <string name="wp_now_activity_name_education" context="Default label for the patient education menu option in the MyChartNow menu">Voorlichting</string>
+  <string name="wp_now_activity_name_questionnaires" context="Default label for the questionnaires menu option in the MyChartNow menu">Vragenlijsten</string>
+  <string name="wp_now_activity_name_continuing_care" context="Default label for the continuing care menu option in the MyChartNow menu">Vervolgzorg</string>
+  <string name="wp_now_activity_name_messages" context="Default label for the messages menu option in the MyChartNow menu">Berichten</string>
+  <string name="wp_now_activity_name_mydocuments" context="Default label for the my documents menu option in the MyChartNow menu">Mijn documenten</string>
+  <string name="wp_now_activity_name_requests" context="Default label for the requests menu option in the MyChart Now menu">Aanvragen</string>
+  <string name="wp_now_activity_name_custom" context="Default label for a custom menu option in the MyChartNow menu.">Aangepaste activiteit</string>
+  <string name="wp_now_activity_name_onboarding_video" context="Default label for an onboarding video option in the MyChartNow menu.">Uitleg ziekenhuisopname bekijken</string>
+  <string name="wp_now_activity_name_onboarding_video_generic" context="Label for an onboarding video option in the MyChartNow menu in the ED">Uitleg bekijken</string>
+  <string name="wp_now_activity_name_avs" context="Default label for the After Visity Summary menu option in the MyChartNow menu.">Bezoeksamenvatting</string>
+  <string name="wp_now_activity_name_notes" context="Default label for the clinical notes menu option in the MyChartNow menu.">Notities van zorgteam</string>
+  <string name="wp_now_activity_name_workflow_step" context="Default label for workflow step widget.">Gebeurt nu</string>
+  <string name="wp_now_activity_name_proxy_access" context="Default label for Manage Friends and Family Access menu option in the MyChartNow menu">Toegang door familie en naasten</string>
+  <string name="wp_now_activity_name_checklist" context="Default activity name for the Checklist menu option in the MyChartNow menu.">Checklist ontslag</string>
+  <string name="wp_now_activity_name_friendsandfamilyupdates" context="Default label for the Friends And Family Updates menu option in the MyChartNow menu.">Updates voor familie en naasten</string>
+  <string name="wp_now_inpatient_patient_tab_acc_label" context="Accessibility label included in the patient tab label to let the user know this patient is admitted">Momenteel opgenomen.</string>
+  <string name="wp_now_inpatient_activities_header" context="Header label that appears above the list of activities available within an Inpatient MyChartNow context">Tijdens uw ziekenhuisopname</string>
+  <string name="wp_now_emergency_activities_header" context="Header label that appears above the list of activities available within an Emergency Bedside context. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits.">Tijdens uw bezoek</string>
+  <string name="wp_now_inpatient_activities_header_proxy" context="Header label that appears above the list of activities available within an Inpatient MyChartNow context for a proxy. %1$@ - the patient's name">Tijdens de ziekenhuisopname van %1$@</string>
+  <string name="wp_now_emergency_activities_header_proxy" context="Header label that appears above the list of activities available within an Emergency Bedside context for a proxy. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits. %1$@ - the patient's name">Tijdens het bezoek van %1$@</string>
+  <string name="wp_now_inpatient_activities_header_proxy_no_name" context="Header label that appears above the list of activities available within an Inpatient MyChartNow context for a proxy with no name set">Tijdens de ziekenhuisopname</string>
+  <string name="wp_now_emergency_activities_header_proxy_no_name" context="Header label that appears above the list of activities available within the Emergency Bedside context for a proxy with no name set. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits.">Tijdens het bezoek</string>
+  <string name="wp_now_inpatient_other_activities_header" context="Header label that appears above the list of activities normally available outside of an Inpatient MyChart Now context. Used to distinguish activities useful from within the hospital from those useful outside the hopsital.">Buiten het ziekenhuis</string>
+  <string name="wp_now_emergency_other_activities_header" context="Header label that appears above the list of activities normally available outside of an Emergency Bedside context. Used to distinguish activities useful from within the emergency department from those useful outside the current visit. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits.">Buiten dit bezoek</string>
+  <string name="wp_now_context_inpatient_generic_error" context="Error message that is displayed when there is a problem loading the details of a MyChart Now inpatient admission">Probleem bij laden van de ziekenhuisopnamedetails</string>
+  <string name="wp_now_context_emergency_generic_error" context="Error message that is displayed when there is a problem loading the details of a Emergency Bedside visit. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits.">Probleem bij het laden van de bezoekdetails</string>
+  <string name="wp_now_admitted" context="Describes the date that a patient was admitted to the hospital, or arrived in the ED.">Aangekomen op</string>
+  <string name="wp_now_close" context="Label for button which will close this activity.">Startpagina</string>
+  <string name="wp_now_back_home" context="Label for button which will close this activity and return the user to the home page.">Ga naar Startpagina</string>
+  <string name="wp_now_home_desc" context="Tells the user, who is an admitted patient, what will happen if they tap the Go to Home Page button. %1$@ is the organization's MyChart branded name.">Ga naar uw %1$@-startpagina om informatie van buiten uw ziekenhuisopname te zien.</string>
+  <string name="wp_now_home_desc_emergency" context="Tells the user, who is a patient using the Emergency Bedside context, what will happen if they tap the Go to Home Page button. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits. %1$@ is the organization's MyChart branded name.">Ga naar uw %1$@-startpagina om informatie over iets anders dan uw huidige bezoek te zien.</string>
+  <string name="wp_now_home_desc_proxy" context="Tells the user, who is a proxy to an admitted patient, what will happen if they tap the Go to Home Page button. %1$@ is the organization's MyChart branded name. %2$@ is the name of the admitted patient.">Ga naar uw %1$@-startpagina om informatie van buiten de ziekenhuisopname van %2$@ te zien.</string>
+  <string name="wp_now_home_desc_proxy_no_name" context="Tells the user, who is a proxy to an admitted patient whose name cannot be determined, what will happen if they tap the Go to Home Page button. %1$@ is the organization's MyChart branded name.">Ga naar uw %1$@-startpagina om informatie van buiten deze ziekenhuisopname te zien.</string>
+  <string name="wp_now_home_desc_proxy_emergency" context="Tells the user, who is a proxy to a patient who is in the Emergency Bedside context, what will happen if they tap the Go to Home Page button. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits. %1$@ is the organization's MyChart branded name. %2$@ is the name of the patient.">Ga naar uw %1$@-startpagina om informatie over iets anders dan het huidige bezoek van %2$@ te zien.</string>
+  <string name="wp_now_home_desc_proxy_no_name_emergency" context="Tells the user, who is a proxy to a patient who in the Emergency Bedside context, whose name cannot be determined, what will happen if they tap the Go to Home Page button. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits. %1$@ is the organization's MyChart branded name.">Ga naar uw %1$@-startpagina om informatie over iets anders dan dit huidige bezoek te zien.</string>
+  <string name="wp_now_est_discharge" context="Describes the date that a patient is expected to be discharged the hospital.">Gesch. ontslag</string>
+  <string name="wp_now_est_discharge_acc_label" context="Accessibility label that describes the date that a patient is expected to be discharged the hospital.">Geschat ontslag</string>
+  <string name="wp_now_encounter_short_description_inpatient" context="Default header for an inpatient MyChartNow context">Uw ziekenhuisopname</string>
+  <string name="wp_now_encounter_short_description_inpatient_proxy_no_name" context="Default header for an inpatient MyChartNow context for a proxy whose name cannot be determined">Ziekenhuisopname</string>
+  <string name="wp_now_encounter_short_description_inpatient_proxy" context="Default header for an inpatient MyChartNow context for a proxy. %1$@ - the proxy's name">De ziekenhuisopname van %1$@</string>
+  <string name="wp_now_encounter_short_description_emergency" context="Default header for an Emergency Bedside context. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits.">Uw huidige bezoek</string>
+  <string name="wp_now_encounter_short_description_emergency_proxy_no_name" context="Default header for an Emergency Bedside context for a proxy whose name cannot be determined. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits.">Huidige bezoek</string>
+  <string name="wp_now_encounter_short_description_emergency_proxy" context="Default header for an Emergency Bedside context for a proxy. Note that the Emergency Beside context may be used for acute visits that are not specifically Emergency Department visits. %1$@ - the proxy's name">Het huidige bezoek van %1$@</string>
+  <string name="wp_now_welcome_greeting_no_patient" context="Default welcome message greetimg for an inpatient MyChartNow context without a patient name">Hallo!</string>
+  <string name="wp_now_welcome_greeting" context="Default welcome message greetimg for an inpatient MyChart now context with a patient. %1$@ - The patient's name">Hallo %1$@</string>
+  <string name="wp_now_welcome_header_no_location" context="Default welcome message for an inpatient MyChart now context with no location.">Welkom.</string>
+  <string name="wp_now_welcome_header" context="Default welcome message for an inpatient MyChart now context with and location. %1$@ - The location name of the hospital">Welkom bij %1$@.</string>
+  <string name="wp_now_welcome_button_label" context="Default button label for a MyChartNow welcome/onboarding message.">OK, ik begrijp het.</string>
+  <string name="wp_now_welcome_button_acc_hint" context="Accessibility hint letting a VoiceOver user know that this button will dismiss the welcome text.">Dit bericht negeren.</string>
+  <string name="wp_now_welcome_video_button_label" context="Tutorial button label for MyChartNow welcome/onboarding screen">Uitleg bekijken</string>
+  <string name="wp_now_activity_button_unread_acc_label" context="Accessibility label letting a VoiceOver user know which activity this button will launch and that there is new content in the activity. %1$@ - The name of the activity">%1$@, nieuwe informatie</string>
+  <string name="wp_now_activity_button_acc_label_classic" context="Accessibility label letting a VoiceOver user know which activity this button will launch and the number of new alerts. %1$@ - The name of the activity, %2$@ - The number of new alerts">%1$@, %2$@ nieuw</string>
+  <string name="wp_now_problem_label_one_problem_name" context="Info label on the MyChart Now homescreen header to show the reason for this admission when there is a principal problem. This label can be tapped on to go to the problem list. %1$@ is the problem name.">U bent hier voor %1$@</string>
+  <string name="wp_now_problem_label_one_problem_nonprincipal_name" context="Info label on the MyChart Now homescreen header to show the reason for this admission when there is only 1 problem but not principal. This label can be tapped on to go to the problem list. %1$@ is the problem name.">We behandelen %1$@</string>
+  <string name="wp_now_problem_label_one_problem_name_proxy" context="Info label on the MyChart Now homescreen header to show the reason for this admission when there is either a principal problem or only 1 problem. This label can be tapped on to go to the problem list. %1$@ is the patient's name. %2$@ is the problem name.">%1$@ is hier voor %2$@</string>
+  <string name="wp_now_ed_one_problem_label" context="Info label on the MyChart Now homescreen header to show the reason for this ED visit when there is one problem. %1$@ is the problem.">U bent hier voor %1$@
+</string>
+  <string name="wp_now_ed_two_problem_label" context="Info label on the MyChart Now homescreen header to show the reason for this ED visit when there are two problems. %1$@, %2$@ are the problems.">U bent hier voor %1$@ en %2$@
+</string>
+  <string name="wp_now_ed_three_problem_label" context="Info label on the MyChart Now homescreen header to show the reason for this ED visit when there are three problems. %1$@, %2$@, %3$@ are the problems.">U bent hier voor %1$@, %2$@ en %3$@
+</string>
+  <plurals name="wp_now_ed_many_problem_label" context="Info label on the MyChart Now homescreen header to show the reason for this ED visit when there are four or more reasons for vist. %1$@ is the number of other remaining issues.">
+    <item quantity="one">(en %1$@ andere reden)</item>
+    <item quantity="other">(en %1$@ andere redenen)</item>
+  </plurals>
+  <string name="wp_now_ed_one_problem_label_proxy" context="Proxy facing Info label on the MyChart Now homescreen header to show the reason for this ED visit when there is one problem. %1$@ is the patient's name. %2$@ is the problem.">%1$@ is hier voor %2$@
+</string>
+  <string name="wp_now_ed_two_problem_label_proxy" context="Proxy Facing Info label on the MyChart Now homescreen header to show the reason for this ED visit when there are two problems. %1$@ is the patient's name. %2$@, %3$@ are the problems.">%1$@ is hier voor %2$@ en %3$@
+</string>
+  <string name="wp_now_ed_three_problem_label_proxy" context="Proxy facing Info label on the MyChart Now homescreen header to show the reason for this ED visit when there are three problems. %1$@ is the patient's name. %2$@, %3$@, %4$@ are the problems.">%1$@ is hier voor %2$@, %3$@ en %4$@
+</string>
+  <plurals name="wp_now_problem_label_multiple_problems" context="Info label on the MyChart Now homescreen header to show the reason for this admission when there is no principal problem but multiple other problems. This label can be tapped on to go to the problem list. Health issues is the patient-friendly term we are using for problems. %1$@ is number of problems.">
+    <item quantity="one">(en %1$@ ander gezondheidsprobleem)</item>
+    <item quantity="other">(en %1$@ andere gezondheidsproblemen)</item>
+  </plurals>
+  <string name="wp_now_problem_button_label" context="Title of the button that takes the patient to an activity where they can learn more about their problems and health issues. Will be all-caps when displayed.">Meer info</string>
+  <string name="wp_now_ed_problem_button_label" context="Title of the button that takes the patient to an activity where they can learn more about their problems and health issues. This version is for the ED.">Alle redenen bekijken</string>
+  <string name="wp_now_problem_button_acc_hint" context="Accessibility hint letting a VoiceOver user know that this button will launch the problems list. Health issues is the patient-friendly term we are using for problems.">Uw gezondheidsproblemen bekijken.</string>
+  <string name="wp_now_problem_button_acc_hint_proxy" context="Accessibility hint letting a VoiceOver user know that this button will launch the problems list when viewing as a proxy. Health issues is the patient-friendly term we are using for problems. %1$@ is the patient's name">De gezondheidsproblemen van %1$@ bekijken.</string>
+  <string name="wp_now_ed_problem_button_acc_hint" context="Accessibility hint letting a VoiceOver user know that this button will launch the problems list for the ED.">Alle bezoekredenen bekijken.</string>
+  <!-- Refreshing labels -->
+  <string name="wp_now_last_updated" context="Text that appears under the refresh indicator, informing the user about the last instant the data was updated. %1$@ is the formatted (shortHoursMinutes) instant of the last load or refresh.">Laatst bijgewerkt: %1$@</string>
+  <!-- Visit completed labels -->
+  <string name="wp_now_visit_ended_title_emergency" context="Text that appears in the title of the popup that appears after the current visit has ended.">Bezoek afgerond</string>
+  <string name="wp_now_visit_ended_title" context="Text that appears in the title of the popup that appears after the current hospital stay has ended.">Ziekenhuisopname afgerond</string>
+  <string name="wp_now_visit_ended_text_emergency" context="Text that appears in the body of the popup that appears after the current visit has ended.">Dit bezoek is beëindigd. In de activiteit Bezoeken kunt u uw onderzoeksuitslagen en meer informatie over dit bezoek bekijken.</string>
+  <string name="wp_now_visit_ended_text" context="Text that appears in the body of the popup that appears after the current hospital stay has ended.">Deze ziekenhuisopname is beëindigd. In de activiteit Bezoeken kunt u uw onderzoeksuitslagen bekijken en meer informatie over dit bezoek vinden.</string>
+  <string name="wp_now_return_home" context="Text that appears in the button after the current visit has ended, prompting the patient to return to the home page">Teruggaan naar startpagina</string>
+  <!-- Switcher tab labels -->
+  <string name="wp_now_tab_label_default_inpatient" context="Label for the tab used to switch to a patient's inpatient information.">Ziekenhuis</string>
+  <string name="wp_now_tab_label_default_generic" context="Label for the tab used to switch to a patient's Current Visit information.">Huidige bezoek</string>
+  <string name="wp_now_tab_label_care_team_inpatient" context="Label for the tab used to switch to a patient's hospital care team.">Ziekenhuisteam</string>
+  <string name="wp_now_tab_label_care_team_generic" context="Label for the tab used to switch to a patient's current visit care team.">Huidig zorgteam</string>
+  <string name="wp_now_tab_label_problems_list_inpatient" context="Label for the tab used to switch to a patient's hospital health issues.">Ziekenhuisproblemen</string>
+  <string name="wp_now_tab_label_medications_inpatient" context="Label for the tab used to switch to a patient's hospital medications within the Medications activity. The other alternative in this tab is outpatient medications with the label Home Medications">Ziekenhuismedicijnen</string>
+  <string name="wp_now_tab_label_medications_generic" context="Label for the tab used to switch to a patient's current visit (ED, IP) medications within the Medications activity. The other alternative in this tab is outpatient medications with the label Home Medications">Medicijnen huidige bezoek</string>
+  <string name="wp_now_tab_label_test_results_inpatient" context="Label for the tab used to switch to a patient's hospital lab results">Ziekenhuisresultaten</string>
+  <string name="wp_now_tab_label_test_results_generic" context="Label for the tab used to switch to a patient's current visit lab results">Uitslagen huidige bezoek</string>
+  <string name="wp_now_tab_label_default_no_context" context="Label for the tab used to switch to a patient's information.">Patiënt</string>
+  <string name="wp_now_tab_label_care_team_no_context" context="Label for the tab used to switch to a patient's outpatient care team.">Hoofdzorgteam</string>
+  <string name="wp_now_tab_label_problems_list_no_context" context="Label for the tab used to switch to a patient's general problem list.">Alle problemen</string>
+  <string name="wp_now_tab_label_medications_no_context" context="Label for the tab used to switch to a patient's outpatient medications within the Medications activity. The other alternative in this tab is hopsital medications with the label Hospital Medications, or Current Visit Medications when in the Emergency Department or other acute care scenario">Thuismedicijnen</string>
+  <string name="wp_now_tab_label_test_results_no_context" context="Label for the tab used to switch to a list of all of the patient's test results">Alle resultaten</string>
+  <string name="wp_now_tab_acc_label" context="Accessibility label letting a VoiceOver user know which context this button will launch and the number of new alerts. %1$@ - The name of the context, %2$@ - The number of new alerts">%1$@, %2$@ nieuw</string>
+  <string name="wp_now_tab_acc_hint" context="Accessibility hint for switching to a tab in a MyChart Now context. %1$@ = The tab label">Schakelt over naar %1$@</string>
+</resources>
+<!--@formatter:on-->

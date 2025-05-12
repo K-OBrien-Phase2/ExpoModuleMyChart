@@ -1,0 +1,35 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Onboarding
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreLocation
+import DeveloperToolsSupport
+import Foundation
+@_exported import Onboarding
+import PECore
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class PEOnboardingComponentAPI : ObjectiveC.NSObject, PECore.PEOnboardingComponentAPIProtocol {
+  @objc public func getPreLoginViewController() -> UIKit.UIViewController
+  @objc public func getHomePageOnboardingViewController(context: PECore.PEUserContext, onboardingDelegate: any PECore.IOnboardingDelegate) -> UIKit.UIViewController
+  @objc public func getTwoFactorEnrollmentOptionalViewController(linkAction: @escaping () -> Swift.Void, positiveAction: @escaping () -> Swift.Void, negativeAction: @escaping () -> Swift.Void, debugText: Swift.String?, debugLinkAction: (() -> Swift.Void)?) -> UIKit.UIViewController
+  @objc public func getTwoFactorEnrollmentRequiredViewController(linkAction: @escaping () -> Swift.Void, positiveAction: @escaping () -> Swift.Void, negativeAction: @escaping () -> Swift.Void, debugText: Swift.String?, debugLinkAction: (() -> Swift.Void)?) -> UIKit.UIViewController
+  @objc public func getOrgTermsConditionsViewController(_ phonebook: any PECore.PEPhonebookEntryProtocol, _ userPatient: (any PECore.PEPatientProtocol)?, _ patientList: [any PECore.PEPatientProtocol]?, _ onCompletion: @escaping (Swift.Bool) -> Swift.Void) -> UIKit.UIViewController?
+  @objc public func getSecondaryLoginSetupViewController(onCompletion: @escaping (Swift.Bool, Swift.Bool) -> Swift.Void) -> UIKit.UIViewController?
+  @objc public func getPushNotificationSetupViewController(onCompletion: @escaping () -> Swift.Void) -> UIKit.UIViewController?
+  @objc public func addStepToMidLoginOnboardingWorkflow(step: PECore.MidLoginOnboardingStep)
+  @objc public func clearStepsInMidLoginOnboardingWorkflow()
+  @objc public func getMidLoginOnboardingWorkflow() -> [Swift.Int]
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.Bundle {
+  public static var onboarding: Foundation.Bundle {
+    get
+  }
+}

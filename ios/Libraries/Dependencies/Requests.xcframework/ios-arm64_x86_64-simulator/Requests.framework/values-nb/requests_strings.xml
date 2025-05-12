@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">Forespørsler</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">Du kan bruke %%REQUESTS for å sende forespørsler som ikke haster til ditt helsefaglige team.</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">Du kan bruke %%REQUESTS for å sende forespørsler som ikke haster til %%PATNAME sitt helsefaglige team.</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">Sykehuspersonell vil motta forespørselen din og hjelpe deg. Hvis du har en hasteforespørsel, skal du bruke ringeknappen for sykepleier.</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">Hvis du vil avbryte en forespørsel du allerede har sendt, trykker du på elementet du forespurte, og deretter på Avbryt. Du kan rulle ned for å se flere forespørselsalternativer.</string>
+</resources>

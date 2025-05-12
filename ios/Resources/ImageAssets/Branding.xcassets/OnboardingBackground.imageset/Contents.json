@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "branding_onboarding_background_3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

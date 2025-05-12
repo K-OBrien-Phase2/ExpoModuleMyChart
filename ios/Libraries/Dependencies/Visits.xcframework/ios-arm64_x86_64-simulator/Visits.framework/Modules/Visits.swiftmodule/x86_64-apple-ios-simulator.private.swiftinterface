@@ -1,0 +1,41 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Visits
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import PECore
+import Swift
+import SwiftUI
+@_exported import Visits
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct AvsSnapshot : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class PEVisitsComponentAPI : ObjectiveC.NSObject, PECore.PEVisitsComponentAPIProtocol {
+  @objc public func getMOPastVisitDetailsModeQSP() -> Swift.String
+  @objc public func getMOPastVisitDetailsOrgIdQSP() -> Swift.String
+  @objc public func getMOPastVisitDetailsIsExternalQSP() -> Swift.String
+  @objc public func hasAccessForAfterVisitSummary(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func isExternalVisit(deepLinkUrl: Swift.String?) -> Swift.Bool
+  @objc public func shouldUseMOPastVisitDetails(_ patientContext: PECore.PEPatientContext, deepLinkUrl: Swift.String?, isExternal: Swift.Bool) -> Swift.Bool
+  @objc public func getMOPastVisitDetailsController(_ patientContext: PECore.PEPatientContext, isNotes: Swift.Bool, viewControllerTitle: Swift.String?, params: [Swift.String : Swift.String], orgInfo: (any PECore.PEOrganizationInfoProtocol)?) -> UIKit.UIViewController
+  @objc public func hasAccessForBedsideVisitNotes(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func getBedsideAfterVisitSummaryViewController(_ encounterContext: PECore.PEEncounterContext, showHeader: Swift.Bool, viewControllerTitle: Swift.String?) -> UIKit.UIViewController?
+  @objc public func getAvsPdfViewController(_ patientContext: PECore.PEPatientContext, dcsID: Swift.String?, setTitle: Swift.Bool, showBackButton: Swift.Bool, orgID: Swift.String?) -> UIKit.UIViewController?
+  @objc public func getBedsideVisitNotesViewController(_ encounterContext: PECore.PEEncounterContext, viewControllerTitle: Swift.String?) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol DocumentLoadErrorHandlerProtocol {
+  func handleError()
+}
+@objc public class BedsideAvsWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  public init(encounterContext: PECore.PEEncounterContext? = nil)
+  override public func onPageFinished(_ viewController: PECore.MyChartWebViewController)
+  override open func onEpicHttpRequest(_ viewController: PECore.MyChartWebViewController, deepLink: any PECore.PEDeepLinkProtocol, forOrganization: PECore.PEOrganizationInfo?)
+  @objc deinit
+}

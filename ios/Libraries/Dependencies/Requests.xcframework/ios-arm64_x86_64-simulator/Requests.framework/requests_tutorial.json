@@ -1,0 +1,18 @@
+{
+  "tutorialId": "requests_tutorial",
+  "tutorialSteps": [
+    {
+      "descriptionString": "wp_requests_tutorial_overview",
+      "descriptionStringProxy": "wp_requests_tutorial_overview_proxy",
+      "viewId": "wp_mychart_webview"
+    },
+    {
+      "descriptionString": "wp_requests_tutorial_overview_2",
+      "viewId": "wp_mychart_webview"
+    },
+    {
+      "descriptionString": "wp_requests_tutorial_controls",
+      "viewId": "wp_mychart_webview"
+    }
+  ]
+}

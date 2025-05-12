@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020-2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_messages_component_title" constraints="2 lines, 17 characters per line" context="Default title for the Messages activity">Viestikeskus</string>
+  <string name="wp_messages_tutorial_overview" context="Tutorial text introducing the patient to the messages activity.">Jos haluat kysyä jotain tai jakaa tietoja omatiimillesi, lähetä viesti. Käytä kiireellisissä asioissa hoitajan kutsupainiketta.</string>
+  <string name="wp_messages_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the messages activity. %%PATNAME is replaced with the name of the patient">Jos haluat kysyä jotain tai jakaa tietoja henkilön %%PATNAME omatiimille, lähetä viesti. Käytä kiireellisissä asioissa hoitajan kutsupainiketta.</string>
+  <string name="wp_messages_tutorial_overview_2" context="Tutorial text explaining further details about messages to the patient.">Kaikki omatiimisi jäsenet voivat vastata viesteihisi. Jos haluat esittää kysymyksen tai kommentin tietylle henkilölle, mainitse tämä viestissäsi.</string>
+  <string name="wp_messages_tutorial_overview_2_proxy" context="Tutorial text explaining further details about messages to the patient proxy. %%PATNAME is replaced with the name of the patient">Kaikki henkilön %%PATNAME omatiimin jäsenet voivat vastata viesteihisi. Jos haluat esittää kysymyksen tai kommentin tietylle henkilölle, mainitse tämä viestissäsi.</string>
+</resources>

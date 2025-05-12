@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_continuingcare_activity_title" context="Title for the Continuing Care activity">Cuidados Contínuos</string>
+  <string name="wp_continuingcare_tutorial_overview" context="Tutorial text introducing the continuing care activity to the patient. %%CONTINUINGCARE is replaced with the name of the activity.">%%CONTINUINGCARE permite que você revise os provedores que oferecem cuidados após a alta e selecione seus provedores preferidos.</string>
+  <string name="wp_continuingcare_tutorial_overview_proxy" context="Tutorial text introducing the continuing care activity to the patient proxy. %%CONTINUINGCARE is replaced with the name of the activity. %%PATNAME is replaced with the name of the patient">%%CONTINUINGCARE permite que você revise os provedores que oferecem cuidados após a alta e selecione os provedores preferidos de %%PATNAME.</string>
+  <string name="wp_continuingcare_tutorial_overview_2" context="Tutorial text explaining more about the workings of continuing care to the patient.">Revise estas opções de cuidados e marque suas preferências. Se você tiver problemas ao revisar esta lista, entre em contato com seu gerente de caso.</string>
+  <string name="wp_continuingcare_tutorial_overview_2_proxy" context="Tutorial text explaining more about the workings of continuing care to the patient proxy. %%PATNAME is replaced with the name of the patient">Revise estas opções de cuidados e marque as preferências de %%PATNAME. Se você tiver problemas ao revisar esta lista, entre em contato com o gerente de caso de %%PATNAME.</string>
+</resources>

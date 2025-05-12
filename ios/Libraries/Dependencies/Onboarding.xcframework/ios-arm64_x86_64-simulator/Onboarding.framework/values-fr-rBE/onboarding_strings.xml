@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copyright © 2022-2024 Epic Systems Corporation
+ -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <!-- Generic Onboarding Strings -->
+  <string name="wp_onboarding_accept_button" context="A button that, when pressed, gives permission to perform an action">Accepter</string>
+  <string name="wp_onboarding_return_button" context="A button that, when pressed, returns to the previous screen">Retour</string>
+  <string name="wp_onboarding_skip_button" context="A button that, when pressed, skips the current onboarding workflow step">Ignorer pour l\'instant</string>
+  <string name="wp_onboarding_access_button" context="A button that, when pressed, accesses MyChart. %1$@ is the app name.">Accéder à %1$@</string>
+  <string name="wp_onboarding_play_button" context="A button that, when pressed, plays the background animation for the welcome screen.">Lire animation en arrière-plan</string>
+  <string name="wp_onboarding_pause_button" context="A button that, when pressed, pauses the background animation for the welcome screen.">Mettre animation en arrière-plan en pause</string>
+  <!-- Home Page Onboarding Strings -->
+  <string name="wp_core_onboarding_skip" context="Button label to dismiss Home Page onboarding.">Ignorer</string>
+  <string name="wp_core_onboarding_next" context="Button label to move to the next slide in the Home Page onboarding workflow.">Suivant</string>
+  <string name="wp_core_onboarding_back" context="Button label to move to the previous slide in the Home Page onboarding workflow.">Retour</string>
+  <string name="wp_core_onboarding_complete" context="Button label to complete the Home Page onboarding workflow.">Terminé</string>
+  <string name="wp_core_onboarding_how_to_video" context="This is the text of a button that the user can select to play an educational video.">Lire vidéo</string>
+  <string name="wp_core_accessibility_onboarding_page_control" context="Accessibility label telling the user what page of Home Page onboarding they are currently on. %1$@ is the current page index. $2$s is the total number of pages.">Page %1$@ sur %2$@.</string>
+  <!-- AX Strings -->
+  <string name="wp_onboarding_ax_welcome_logo" context="Accessibility string that is read out to a user upon tapping the logo on the welcome screen, welcoming the user to the app. %1$@ is the name of the app.">Bienvenue sur %1$@!</string>
+  <string name="wp_onboarding_ax_checkbox" context="The accessibility role of a checkbox. Used for iOS as SwiftUI does not support a checkbox role.">Case à cocher</string>
+  <string name="wp_onboarding_progress_dots" context="Indicates the progress of the mid-login onboarding workflow, where %1$@ is the current task and %2$@ is the total number of tasks.">Tâche %1$@ sur %2$@</string>
+  <!-- EULA and Privacy Policy -->
+  <string name="wp_onboarding_welcome_eula_checkbox" context="Checkbox description for accepting MyChart's EULA, where %1$@ is the regional term for the EULA, and %2$@ is the app name.">J\'accepte: %1$@ pour %2$@.</string>
+  <string name="wp_onboarding_ax_welcome_view_eula" context="Accessibility string indicating that the user can tap to view the EULA for the app. %1$@ is the regional term for the EULA and %2$@ is the app name.">Appuyer pour ouvrir: %1$@ pour %2$@.</string>
+  <string name="wp_onboarding_welcome_privacy_checkbox" context="Checkbox description for accepting MyChart's Privacy Policy, where %1$@ is the regional term for the Privacy Policy, and %2$@ is the app name.">J\'accepte: %1$@ pour %2$@.</string>
+  <string name="wp_onboarding_ax_welcome_view_privacy" context="Accessibility string indicating that the user can tap to view the Privacy Policy for the app. %1$@ is the regional term for the Privacy Policy and %2$@ is the app name.">Appuyer pour ouvrir: %1$@ pour %2$@.</string>
+  <string name="wp_onboarding_eula_name" context="Regional term for End User License Agreement.">Contrat de licence de l\'utilisateur final</string>
+  <string name="wp_onboarding_privacy_name" context="Regional term for Privacy Policy.">Politique de confidentialité</string>
+  <!-- Request Push Notifications -->
+  <string name="wp_onboarding_notifications" context="Feature name for the notifications onboarding step.">Notifications</string>
+  <string name="wp_onboarding_notifications_title" context="Short tagline explaining why a user should enable notifications.">Rester connecté(e) grâce aux notifications</string>
+  <string name="wp_onboarding_notifications_content" context="Longer reason describing why a user should enable notifications, briefly explaining the benefits.">Obtenir des notifications pour les nouveaux résultats d\'analyses, messages de prestataires, rappels de rendez-vous et plus.</string>
+  <string name="wp_onboarding_notifications_error_title" context="In the event an error occurs while trying to secure notifications permissions, show the user an alert with this string as the title.">Erreur</string>
+  <string name="wp_onboarding_notifications_error_body" context="In the event an error occurs while trying to secure notifications permissions, show the user an alert with this string as the body.">Une erreur non précisée est survenue lors de la tentative d\'obtenir l\'autorisation pour les notifications. Veuillez réessayer.</string>
+  <!-- Request Location Access -->
+  <string name="wp_onboarding_location" context="Feature name for the location permissions onboarding step.">Localisation</string>
+  <string name="wp_onboarding_location_title" context="Short tagline explaining why a user should turn on location services.">Simplifier votre expérience en partageant votre localisation</string>
+  <string name="wp_onboarding_location_content" context="Longer reason describing why a user should turn on location services, briefly explaining benefits and that the app will not store location data, where %1$@ is the app name">%1$@ peut utiliser votre localisation pour suggérer des options près de vous, effectuer le check-in plus rapidement pour vos rendez-vous, et plus encore. %1$@ ne partagera jamais vos données de localisation.</string>
+  <!-- Two Factor Authentication -->
+  <string name="wp_onboarding_two_factor" context="Feature name for the two-step verification onboarding step.">Vérification en deux étapes</string>
+  <string name="wp_onboarding_two_factor_title" context="Short tagline explaining why a user should turn on two-step verification.">Sécuriser votre compte</string>
+  <string name="wp_onboarding_two_factor_content" context="Longer reason describing why a user should turn on two-step verification.">Activer la vérification en deux étapes pour sécuriser votre compte.</string>
+  <string name="wp_onboarding_two_factor_positive_button" context="Used as positive button text for the two factor enrollment onboarding view. When tapped, move to the authentication step of two-step setup.">Activer la vérification en deux étapes</string>
+  <string name="wp_onboarding_two_factor_negative_button" context="Used as negative button text for the two factor enrollment onboarding view. When tapped, exits two factor enrollment.">Annuler et se déconnecter</string>
+  <string name="wp_onboarding_two_factor_enrollment_onboarding_link" context="Link button text that, when tapped, lets the user learn more about the two factor enrollment setup process.">En savoir plus</string>
+  <!-- Organization Terms & Conditions -->
+  <string name="wp_onboarding_org_terms" context="Feature name for the terms and conditions onboarding step.">Conditions générales</string>
+  <string name="wp_onboarding_org_terms_link" context="Feature name for the terms and conditions onboarding step. %1$@ is the regional name for terms and conditions and the proxy disclaimer, %2$@ is the organization's name.">En appuyant sur Accepter, vous acceptez les %1$@ pour %2$@.</string>
+  <string name="wp_onboarding_org_terms_ax_link" context="Accessibility string indicating that the user can tap to view the terms and conditions. %1$@ is the regional name for terms and conditions and the proxy disclaimer, %2$@ is the organization's name.">Appuyer pour afficher les %1$@ pour %2$@.</string>
+  <string name="wp_onboarding_org_terms_name" context="Regional name for the terms and conditions and the proxy disclaimer.">Conditions générales</string>
+  <string name="wp_onboarding_org_terms_and_proxy_disclaimer_name" context="Regional name for the terms and conditions.">Conditions générales et Conditions générales d\'accès par mandataire</string>
+  <string name="wp_onboarding_org_terms_positive_button" context="Used as positive button text for the organization terms and conditions onboarding view, and moves to the next step of onboarding.">Accepter</string>
+  <string name="wp_onboarding_org_terms_negative_button" context="Used as negative button text for the organization terms and conditions onboarding view. If this button is pushed, it should log the user out.">Refuser et se déconnecter</string>
+  <string name="wp_onboarding_name_list_separator" context="A separator used repeatedly for any size list of names in the proxy disclaimer, in the terms and conditions. In English we use a comma with a space e.g. Lisa(separator)Nicole(separator)John(separator)Alex would turn into Lisa, Nicole, John, Alex.">,</string>
+  <!-- Secondary Login Setup - Passcode -->
+  <string name="wp_onboarding_secondary_passcode" context="Feature name for the secondary login passcode onboarding step.">Code à usage unique</string>
+  <string name="wp_onboarding_secondary_passcode_title" context="Short tagline explaining why a user should turn on passcode secondary login.">Se connecter rapidement avec un code à usage unique</string>
+  <string name="wp_onboarding_secondary_passcode_content" context="Longer reason describing why a user should turn on passcode secondary login. %1$@ is the MyChart brand name.">Vous pouvez utiliser un code d\'accès à 4 chiffres pour vous connecter rapidement à %1$@ sur cet appareil.</string>
+  <string name="wp_onboarding_secondary_passcode_positive_button" context="Used as positive button text for the passcode secondary login onboarding view. When tapped, show the passcode creation screen.">Créer un code à usage unique</string>
+  <!-- Secondary Login Setup - Biometrics -->
+  <string name="wp_onboarding_secondary_biometrics" context="Feature name for the secondary login biometrics onboarding step">Identification biométrique</string>
+  <string name="wp_onboarding_secondary_biometrics_title" context="Short tagline explaining why a user should turn on biometrics secondary login.">Se connecter rapidement avec l\'identification biométrique</string>
+  <string name="wp_onboarding_secondary_biometrics_content" context="Longer reason describing why a user should turn on the biometrics secondary login. %1$@ is the MyChart brand name.">Vous pouvez utiliser l\'identification biométrique pour vous connecter rapidement à %1$@ sur cet appareil.</string>
+  <string name="wp_onboarding_secondary_biometrics_positive_button" context="Used as positive button text for the biometrics secondary login onboarding view. When tapped, show the Android biometrics permissions prompt.">Activer l\'identification biométrique</string>
+  <string name="wp_onboarding_secondary_biometrics_error" context="Generic error message for when an attempt to enable biometrics fails">Une erreur est survenue lors de la tentative d\'activation de l\'identification biométrique.</string>
+  <string name="wp_biometric_onboarding_add_title" context="The title of dialog when biometric is going to be added" length="34 characters">Identification biométrique</string>
+  <string name="wp_biometric_onboarding_add_message" context="The message of dialog when biometric is going to be added" length="34 characters">Vous pouvez configurer l\'authentification biométrique pour vous connecter à ce compte. Cela permettra à toute personne qui a des données biométriques enregistrées sur cet appareil de se connecter à votre compte.</string>
+  <string name="wp_biometric_onboarding_new_title" context="The positive button of dialog when biometric is going to be added" length="34 characters">Utiliser l\'identification biométrique</string>
+  <string name="wp_biometric_onboarding_cancel_title" context="The negative button of dialog when biometric is going to be added" length="34 characters">Non, merci</string>
+  <string name="wp_biometric_onboarding_add_message_touchid" context="The title of dialog when Touch ID is going to be added">Vous pouvez configurer Touch ID pour vous connecter à ce compte. Cela permettra à toute personne qui a une empreinte digitale enregistrée sur cet appareil de se connecter à votre compte.</string>
+  <string name="wp_biometric_onboarding_new_title_touchid" context="The positive button of dialog when Touch ID is going to be added" length="34 characters">Utiliser Touch ID</string>
+  <!-- Secondary Login Setup - Touch ID -->
+  <string name="wp_onboarding_secondary_touchid" context="Feature name for the secondary login Touch ID onboarding step.">Touch ID</string>
+  <string name="wp_onboarding_secondary_touchid_title" context="Short tagline explaining why a user should turn on Touch ID secondary login.">Se connecter rapidement avec Touch ID</string>
+  <string name="wp_onboarding_secondary_touchid_content" context="Longer reason describing why a user should turn on Touch ID secondary login. %1$@ is the MyChart brand name.">Vous pouvez utiliser Touch ID pour vous connecter rapidement à %1$@ sur cet appareil.</string>
+  <string name="wp_onboarding_secondary_touchid_positive_button" context="Used as positive button text for the Touch ID secondary login onboarding view. When tapped, show the Touch ID permissions prompt.">Activer Touch ID</string>
+  <!-- Secondary Login Setup - Face ID -->
+  <string name="wp_onboarding_secondary_faceid" context="Feature name for the secondary login Face ID onboarding step.">Face ID</string>
+  <string name="wp_onboarding_secondary_faceid_title" context="Short tagline explaining why a user should turn on Face ID secondary login.">Se connecter rapidement avec Face ID</string>
+  <string name="wp_onboarding_secondary_faceid_content" context="Longer reason describing why a user should turn on Face ID secondary login. %1$@ is the MyChart brand name.">Vous pouvez utiliser Face ID pour vous connecter rapidement à %1$@ sur cet appareil.</string>
+  <string name="wp_onboarding_secondary_faceid_positive_button" context="Used as positive button text for the Face ID secondary login onboarding view. When tapped, show the Face ID permissions prompt.">Activer Face ID</string>
+  <!-- Secondary Login Setup - Optic ID -->
+  <string name="wp_onboarding_secondary_opticid" context="(iOS only) Feature name for the secondary login Optic ID onboarding step.">Optic ID</string>
+  <string name="wp_onboarding_secondary_opticid_title" context="(iOS only) Short tagline explaining why a user should turn on Optic ID secondary login.">Se connecter rapidement avec Optic ID</string>
+  <string name="wp_onboarding_secondary_opticid_content" context="(iOS only) Longer reason describing why a user should turn on Optic ID secondary login. %1$@ is the MyChart brand name.">Utiliser Optic ID pour vous connecter rapidement à %1$@ sur cet appareil.</string>
+  <string name="wp_onboarding_secondary_opticid_positive_button" context="(iOS only) Used as positive button text for the Optic ID secondary login onboarding view. When tapped, show the Optic ID permissions prompt.">Activer Optic ID</string>
+  <!-- Organization Selection -->
+  <string name="wp_onboarding_org_select_title" context="Title at the top of the organization selection onboarding step">Ajouter vos organisations</string>
+  <string name="wp_onboarding_org_select_body_caption" context="Caption text for the organization selection onboarding step ">Bienvenue sur MyChart!</string>
+  <string name="wp_onboarding_org_select_body_line_1" context="1st line of body text in the organization selection onboarding step">Pour commencer, veuillez ajouter les organisations qui vous prodiguent des soins, une assurance santé ou d\'autres services de santé.</string>
+  <string name="wp_onboarding_org_select_body_line_2" context="2nd line of body text in the organization selection onboarding step">Commencez en recherchant votre organisation ou en scannant un code QR que votre organisation a fourni.</string>
+  <string name="wp_onboarding_org_select_positive_button_text" context="Positive button text for the organization selection onboarding step">Rechercher une organisation</string>
+  <!-- 11.3.1 -->
+  <string name="wp_onboarding_acknowledge_button_text" context="Text for a button that a user taps to acknowledge a document (typically the Privacy Policy of the app)">Réception confirmée</string>
+  <string name="wp_privacy_policy_acknowledge_checkbox_label" context="Checkbox label prompting users to acknowledge the app's Privacy Policy where %1$@ is the Privacy Policy document name (always set to the wp_onboarding_privacy_name string) and %2$@ is the app name.">J\'accuse réception de la %1$@ pour %2$@</string>
+</resources>

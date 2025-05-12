@@ -1,0 +1,11 @@
+framework module Visits {
+  umbrella header "Visits.h"
+  export *
+
+  module * { export * }
+}
+
+module Visits.Swift {
+  header "Visits-Swift.h"
+  requires objc
+}

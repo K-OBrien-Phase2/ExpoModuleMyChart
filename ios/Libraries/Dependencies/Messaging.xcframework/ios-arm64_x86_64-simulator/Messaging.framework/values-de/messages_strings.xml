@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020-2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_messages_component_title" constraints="2 lines, 17 characters per line" context="Default title for the Messages activity">Nachrichtencenter</string>
+  <string name="wp_messages_tutorial_overview" context="Tutorial text introducing the patient to the messages activity.">Wenn Sie eine Frage haben oder Ihrem Betreuungsteam etwas mitteilen möchten, können Sie in diesem Menü eine Nachricht an Ihr Betreuungsteam senden. In dringenden Fällen verwenden Sie jedoch bitte die Ruftaste.</string>
+  <string name="wp_messages_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the messages activity. %%PATNAME is replaced with the name of the patient">Wenn Sie eine Frage haben oder dem Betreuungsteam von %%PATNAME etwas mitteilen möchten, können Sie in diesem Menü eine Nachricht an Ihr Betreuungsteam senden. In dringenden Fällen verwenden Sie jedoch bitte die Ruftaste.</string>
+  <string name="wp_messages_tutorial_overview_2" context="Tutorial text explaining further details about messages to the patient.">Jedes Mitglied Ihres Betreuungsteams kann auf Ihre Nachrichten antworten. Bei Fragen oder Kommentaren, die sich gezielt an ein bestimmtes Mitglied richten, vermerken Sie dies bitte in Ihrer Nachricht.</string>
+  <string name="wp_messages_tutorial_overview_2_proxy" context="Tutorial text explaining further details about messages to the patient proxy. %%PATNAME is replaced with the name of the patient">Jedes Mitglied des Betreuungsteams von %%PATNAME kann auf Ihre Nachrichten antworten. Bei Fragen oder Kommentaren, die sich gezielt an ein bestimmtes Mitglied richten, vermerken Sie dies bitte in Ihrer Nachricht.</string>
+</resources>

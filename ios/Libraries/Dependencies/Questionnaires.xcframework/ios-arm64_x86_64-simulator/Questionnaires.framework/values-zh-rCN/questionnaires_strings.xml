@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_questionnaires_activity_title" context="Title for the Questionnaires activity">问卷</string>
+  <string name="wp_questionnaires_tutorial_overview" context="Tutorial text introducing the questionnaires (A Few Questions) activity to the patient. %%QUESTIONNAIRES is replaced with the name of the activity.">%%QUESTIONNAIRES让您与您的医疗人员分享更多信息。如果您在填写问卷过程中有任何问题，请联系您的护理团队。</string>
+  <string name="wp_questionnaires_tutorial_overview_proxy" context="Tutorial text introducing the questionnaires (A Few Questions) activity to the patient proxy. %%QUESTIONNAIRES is replaced with the name of the activity. %%PATNAME is replaced with the name of the patient">%%QUESTIONNAIRES让您与%%PATNAME的医疗人员分享更多信息。如果您在填写问卷过程中有任何问题，请联系%%PATNAME的护理团队。</string>
+  <string name="wp_questionnaires_tutorial_overview_2" context="Tutorial text explaining more about the workings of questionnaires to the patient.">在您完成一份问卷之后，您的护理团队可以立刻看到您提交的内容。如果您想在提交问卷之后更改任何答案，请联系您的护理团队。</string>
+  <string name="wp_questionnaires_tutorial_overview_2_proxy" context="Tutorial text explaining more about the workings of questionnaires to the patient proxy. %%PATNAME is replaced with the name of the patient">在您完成一份问卷之后，%%PATNAME的护理团队可以立刻看到您提交的内容。如果您想在提交问卷之后更改任何答案，请联系%%PATNAME的护理团队。</string>
+  <string name="wp_questionnaires_tutorial_mfq" context="Tutorial text explaining that some questionnaires are expected to be answered more than once">一些问卷可以在您入院期间回答多次。</string>
+  <string name="wp_questionnaires_tutorial_mfq_proxy" context="Tutorial text explaining that some questionnaires are expected to be answered more than once. %%PATNAME is replaced with the name of the patient">一些问卷可以在%%PATNAME入院期间回答多次。</string>
+</resources>

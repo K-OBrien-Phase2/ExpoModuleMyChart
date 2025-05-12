@@ -1,0 +1,10 @@
+{
+    "tutorialId": "checklist_tutorial",
+    "tutorialSteps": [
+        {
+            "descriptionString": "wp_checklist_tutorial_overview",
+            "descriptionStringProxy": "wp_checklist_tutorial_overview_proxy",
+            "viewId": "wp_mychart_webview"
+        }
+    ]
+}

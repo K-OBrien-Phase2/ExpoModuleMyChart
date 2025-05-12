@@ -1,0 +1,500 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Checklist",
+    "printedName": "Checklist",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Checklist",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Checklist"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChecklistWebViewControllerManager",
+        "printedName": "ChecklistWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encounterContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChecklistWebViewControllerManager",
+                "printedName": "Checklist.ChecklistWebViewControllerManager",
+                "usr": "c:@M@Checklist@objc(cs)ChecklistWebViewControllerManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PEEncounterContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEEncounterContext",
+                    "printedName": "PECore.PEEncounterContext",
+                    "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Checklist0A24WebViewControllerManagerC16encounterContextAC6PECore011PEEncounterG0CSg_tcfc",
+            "mangledName": "$s9Checklist0A24WebViewControllerManagerC16encounterContextAC6PECore011PEEncounterG0CSg_tcfc",
+            "moduleName": "Checklist",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "allowLaunchOutsideApp",
+            "printedName": "allowLaunchOutsideApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Checklist0A24WebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "mangledName": "$s9Checklist0A24WebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "moduleName": "Checklist",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewDidAppear",
+            "printedName": "onViewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Checklist0A24WebViewControllerManagerC02onC9DidAppearyy6PECore07MyChartbcD0CF",
+            "mangledName": "$s9Checklist0A24WebViewControllerManagerC02onC9DidAppearyy6PECore07MyChartbcD0CF",
+            "moduleName": "Checklist",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewWillDisappear",
+            "printedName": "onViewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Checklist0A24WebViewControllerManagerC02onC13WillDisappearyy6PECore07MyChartbcD0CF",
+            "mangledName": "$s9Checklist0A24WebViewControllerManagerC02onC13WillDisappearyy6PECore07MyChartbcD0CF",
+            "moduleName": "Checklist",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChecklistWebViewControllerManager",
+                "printedName": "Checklist.ChecklistWebViewControllerManager",
+                "usr": "c:@M@Checklist@objc(cs)ChecklistWebViewControllerManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Checklist@objc(cs)ChecklistWebViewControllerManager(im)init",
+            "mangledName": "$s9Checklist0A24WebViewControllerManagerCACycfc",
+            "moduleName": "Checklist",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Checklist@objc(cs)ChecklistWebViewControllerManager",
+        "mangledName": "$s9Checklist0A24WebViewControllerManagerC",
+        "moduleName": "Checklist",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@PECore@objc(cs)MyChartWebViewControllerManager",
+        "superclassNames": [
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Checklist",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Checklist"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEChecklistComponentAPI",
+        "printedName": "PEChecklistComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForChecklist",
+            "printedName": "hasAccessForChecklist(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Checklist@objc(cs)PEChecklistComponentAPI(im)hasAccessForChecklist:",
+            "mangledName": "$s9Checklist23PEChecklistComponentAPIC012hasAccessForA0y6PECore011PEComponentF6ResultOAE16PEPatientContextCF",
+            "moduleName": "Checklist",
+            "objc_name": "hasAccessForChecklist:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getChecklistViewController",
+            "printedName": "getChecklistViewController(_:buttonStyle:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonStyle",
+                "printedName": "PECore.MyChartWebViewController.ButtonStyle",
+                "usr": "s:6PECore24MyChartWebViewControllerC11ButtonStyleO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Checklist@objc(cs)PEChecklistComponentAPI(im)getChecklistViewController:buttonStyle:viewControllerTitle:",
+            "mangledName": "$s9Checklist23PEChecklistComponentAPIC03getA14ViewController_11buttonStyle04viewG5TitleSo06UIViewG0CSg6PECore18PEEncounterContextC_AJ010MyChartWebfG0C06ButtonI0OSSSgtF",
+            "moduleName": "Checklist",
+            "objc_name": "getChecklistViewController:buttonStyle:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEChecklistComponentAPI",
+                "printedName": "Checklist.PEChecklistComponentAPI",
+                "usr": "c:@M@Checklist@objc(cs)PEChecklistComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Checklist@objc(cs)PEChecklistComponentAPI(im)init",
+            "mangledName": "$s9Checklist23PEChecklistComponentAPICACycfc",
+            "moduleName": "Checklist",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Checklist@objc(cs)PEChecklistComponentAPI",
+        "mangledName": "$s9Checklist23PEChecklistComponentAPIC",
+        "moduleName": "Checklist",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEChecklistComponentAPIProtocol",
+            "printedName": "PEChecklistComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEChecklistComponentAPIProtocol",
+            "mangledName": "$s6PECore31PEChecklistComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Checklist\/Checklist\/Classes\/PEChecklistComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 11,
+      "value": "\"checklist\""
+    }
+  ]
+}

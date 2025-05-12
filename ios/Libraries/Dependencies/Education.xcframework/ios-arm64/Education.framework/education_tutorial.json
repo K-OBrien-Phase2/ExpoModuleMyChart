@@ -1,0 +1,14 @@
+{
+  "tutorialId": "education_tutorial",
+  "tutorialSteps": [
+	{
+	  "descriptionString": "wp_education_tutorial_list_overview",
+	  "descriptionStringProxy": "wp_education_tutorial_list_overview_proxy",
+	  "viewId": "wp_mychart_webview"
+	},
+	{
+	  "descriptionString": "wp_education_tutorial_title_and_point_overview",
+	  "viewId": "wp_mychart_webview"
+	}
+  ]
+}

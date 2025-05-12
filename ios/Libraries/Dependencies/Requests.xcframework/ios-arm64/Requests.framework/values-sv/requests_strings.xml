@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">Förfrågningar</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">Du kan använda %%REQUESTS att skicka icke-brådskande begäran till ditt vårdteam.</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">Du kan använda %%REQUESTS att skicka icke-brådskande begäran till vårdteamet för %%PATNAME.</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">Sjukhuspersonalen tar emot din förfrågan och kommer att hjälpa dig. Använd anropsknappen om förfrågan är brådskande.</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">För att avbryta en begäran som du redan har skickat, trycker du på artikeln du begärde och sedan på Avbryt. Du kan bläddra ner för att se flera begärningsalternativ.</string>
+</resources>

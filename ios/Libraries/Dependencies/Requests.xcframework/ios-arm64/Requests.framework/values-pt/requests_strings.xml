@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">Solicitações</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">Você pode usar %%REQUESTS para enviar solicitações não urgentes à sua equipe de cuidados.</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">Você pode usar %%REQUESTS para enviar pedidos não urgentes para a equipe de cuidados de %%PATNAME.</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">A equipe do hospital receberá sua solicitação e fornecerá ajudará. Se você tiver uma solicitação urgente, use o botão de chamada da enfermeira.</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">Para cancelar uma solicitação já enviada, toque no item solicitado e toque em Cancelar. Você pode rolar para baixo para ver mais opções de solicitação.</string>
+</resources>

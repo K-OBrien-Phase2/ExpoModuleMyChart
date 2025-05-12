@@ -1,0 +1,1741 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TestResults",
+    "printedName": "TestResults",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IncrementalLoadingTracker",
+        "printedName": "IncrementalLoadingTracker",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IncrementalLoadingTracker",
+                "printedName": "TestResults.IncrementalLoadingTracker",
+                "usr": "s:11TestResults25IncrementalLoadingTrackerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11TestResults25IncrementalLoadingTrackerV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11TestResults25IncrementalLoadingTrackerV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TestResults",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11TestResults25IncrementalLoadingTrackerV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11TestResults25IncrementalLoadingTrackerV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TestResults",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11TestResults25IncrementalLoadingTrackerV",
+        "mangledName": "$s11TestResults25IncrementalLoadingTrackerV",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PETestResultsComponentAPI",
+        "printedName": "PETestResultsComponentAPI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "testResultViewedNotification",
+            "printedName": "testResultViewedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cpy)testResultViewedNotification",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC28testResultViewedNotificationSSvpZ",
+            "moduleName": "TestResults",
+            "static": true,
+            "objc_name": "testResultViewedNotification",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cm)testResultViewedNotification",
+                "mangledName": "$s11TestResults06PETestB12ComponentAPIC28testResultViewedNotificationSSvgZ",
+                "moduleName": "TestResults",
+                "static": true,
+                "objc_name": "testResultViewedNotification",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "organizationLinkUpdatedNotification",
+            "printedName": "organizationLinkUpdatedNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cpy)organizationLinkUpdatedNotification",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC35organizationLinkUpdatedNotificationSSvpZ",
+            "moduleName": "TestResults",
+            "static": true,
+            "objc_name": "organizationLinkUpdatedNotification",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cm)organizationLinkUpdatedNotification",
+                "mangledName": "$s11TestResults06PETestB12ComponentAPIC35organizationLinkUpdatedNotificationSSvgZ",
+                "moduleName": "TestResults",
+                "static": true,
+                "objc_name": "organizationLinkUpdatedNotification",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "communityRefreshBannerNeedUpdate",
+            "printedName": "communityRefreshBannerNeedUpdate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cpy)communityRefreshBannerNeedUpdate",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC32communityRefreshBannerNeedUpdateSSvpZ",
+            "moduleName": "TestResults",
+            "static": true,
+            "objc_name": "communityRefreshBannerNeedUpdate",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cm)communityRefreshBannerNeedUpdate",
+                "mangledName": "$s11TestResults06PETestB12ComponentAPIC32communityRefreshBannerNeedUpdateSSvgZ",
+                "moduleName": "TestResults",
+                "static": true,
+                "objc_name": "communityRefreshBannerNeedUpdate",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "communityNotificationRefreshBannerUpdateKey",
+            "printedName": "communityNotificationRefreshBannerUpdateKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cpy)communityNotificationRefreshBannerUpdateKey",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC43communityNotificationRefreshBannerUpdateKeySSvpZ",
+            "moduleName": "TestResults",
+            "static": true,
+            "objc_name": "communityNotificationRefreshBannerUpdateKey",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(cm)communityNotificationRefreshBannerUpdateKey",
+                "mangledName": "$s11TestResults06PETestB12ComponentAPIC43communityNotificationRefreshBannerUpdateKeySSvgZ",
+                "moduleName": "TestResults",
+                "static": true,
+                "objc_name": "communityNotificationRefreshBannerUpdateKey",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "communityNotificationShouldRefreshH2GData",
+            "printedName": "communityNotificationShouldRefreshH2GData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11TestResults06PETestB12ComponentAPIC41communityNotificationShouldRefreshH2GDataSSvpZ",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC41communityNotificationShouldRefreshH2GDataSSvpZ",
+            "moduleName": "TestResults",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11TestResults06PETestB12ComponentAPIC41communityNotificationShouldRefreshH2GDataSSvgZ",
+                "mangledName": "$s11TestResults06PETestB12ComponentAPIC41communityNotificationShouldRefreshH2GDataSSvgZ",
+                "moduleName": "TestResults",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getMOTestResultModeQSP",
+            "printedName": "getMOTestResultModeQSP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)getMOTestResultModeQSP",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC22getMOTestResultModeQSPSSyF",
+            "moduleName": "TestResults",
+            "objc_name": "getMOTestResultModeQSP",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMOTestResultOrgIdQSP",
+            "printedName": "getMOTestResultOrgIdQSP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)getMOTestResultOrgIdQSP",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC23getMOTestResultOrgIdQSPSSyF",
+            "moduleName": "TestResults",
+            "objc_name": "getMOTestResultOrgIdQSP",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMOTestResultEOrderIDQSP",
+            "printedName": "getMOTestResultEOrderIDQSP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)getMOTestResultEOrderIDQSP",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC26getMOTestResultEOrderIDQSPSSyF",
+            "moduleName": "TestResults",
+            "objc_name": "getMOTestResultEOrderIDQSP",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForTestResults",
+            "printedName": "hasAccessForTestResults(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)hasAccessForTestResults:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "TestResults",
+            "objc_name": "hasAccessForTestResults:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForOutpatientTestResults",
+            "printedName": "hasAccessForOutpatientTestResults(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)hasAccessForOutpatientTestResults:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC022hasAccessForOutpatientaB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "TestResults",
+            "objc_name": "hasAccessForOutpatientTestResults:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForMOInpatientTestResults",
+            "printedName": "hasAccessForMOInpatientTestResults(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)hasAccessForMOInpatientTestResults:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC023hasAccessForMOInpatientaB0y6PECore011PEComponentG6ResultOAE18PEEncounterContextCF",
+            "moduleName": "TestResults",
+            "objc_name": "hasAccessForMOInpatientTestResults:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForMOTestResults",
+            "printedName": "hasAccessForMOTestResults(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)hasAccessForMOTestResults:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC018hasAccessForMOTestB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "TestResults",
+            "objc_name": "hasAccessForMOTestResults:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldUseMOTestResultDetails",
+            "printedName": "shouldUseMOTestResultDetails(_:deepLinkUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)shouldUseMOTestResultDetails:deepLinkUrl:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC28shouldUseMOTestResultDetails_11deepLinkUrlSb6PECore16PEPatientContextC_SSSgtF",
+            "moduleName": "TestResults",
+            "objc_name": "shouldUseMOTestResultDetails:deepLinkUrl:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInpatientTestResultsViewController",
+            "printedName": "getInpatientTestResultsViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)getInpatientTestResultsViewController:viewControllerTitle:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC012getInpatientaB14ViewController_04viewI5TitleSo06UIViewI0CSg6PECore18PEEncounterContextC_SSSgtF",
+            "moduleName": "TestResults",
+            "objc_name": "getInpatientTestResultsViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTestResultsViewController",
+            "printedName": "getTestResultsViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)getTestResultsViewController:viewControllerTitle:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC03getaB14ViewController_04viewH5TitleSo06UIViewH0CSg6PECore16PEPatientContextC_SSSgtF",
+            "moduleName": "TestResults",
+            "objc_name": "getTestResultsViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTestResultDetailsViewController",
+            "printedName": "getTestResultDetailsViewController(_:viewControllerTitle:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)getTestResultDetailsViewController:viewControllerTitle:params:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC03getA27ResultDetailsViewController_04viewJ5Title6paramsSo06UIViewJ0CSg6PECore16PEPatientContextC_SSSgSDyS2SGtF",
+            "moduleName": "TestResults",
+            "objc_name": "getTestResultDetailsViewController:viewControllerTitle:params:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMOTestResultDetailsViewController",
+            "printedName": "getMOTestResultDetailsViewController(_:viewControllerTitle:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)getMOTestResultDetailsViewController:viewControllerTitle:params:",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPIC36getMOTestResultDetailsViewController_04viewK5Title6paramsSo06UIViewK0CSg6PECore16PEPatientContextC_SSSgSDyS2SGtF",
+            "moduleName": "TestResults",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PETestResultsComponentAPI",
+                "printedName": "TestResults.PETestResultsComponentAPI",
+                "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI(im)init",
+            "mangledName": "$s11TestResults06PETestB12ComponentAPICACycfc",
+            "moduleName": "TestResults",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TestResults@objc(cs)PETestResultsComponentAPI",
+        "mangledName": "$s11TestResults06PETestB12ComponentAPIC",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PETestResultsComponentAPIProtocol",
+            "printedName": "PETestResultsComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PETestResultsComponentAPIProtocol",
+            "mangledName": "$s6PECore33PETestResultsComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "TestResults"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 16,
+      "value": "\"OrganizationID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 12,
+      "value": "\"IsExternal\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 973,
+      "length": 18,
+      "value": "\"OrganizationName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1015,
+      "length": 9,
+      "value": "\"LogoUrl\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 22,
+      "value": "\"OrganizationLinkType\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 17,
+      "value": "\"LastRefreshDate\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "Array",
+      "offset": 376,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 535,
+      "length": 10,
+      "value": "\"TestList\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 13,
+      "value": "\"NextLabLink\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 18,
+      "value": "\"ResultVisibility\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "Array",
+      "offset": 755,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "Array",
+      "offset": 812,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 10,
+      "value": "\"TestList\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 941,
+      "length": 12,
+      "value": "\"nextLabMap\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2310,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/TestResultsWebServiceAPI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2957,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 930,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 982,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1799,
+      "length": 12,
+      "value": "\"LabDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1859,
+      "length": 4,
+      "value": "\"47\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1901,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2070,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2110,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2157,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2245,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "Array",
+      "offset": 2456,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2587,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7481,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/ViewControllers\/TestResultsViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/IncrementalLoadingTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 14,
+      "value": "\"Organization\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/IncrementalLoadingTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 12,
+      "value": "\"NextItemID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/IncrementalLoadingTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 6,
+      "value": "\"Done\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Views\/TestResultTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Views\/TestResultTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1030,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Views\/TestResultTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Views\/TestResultTableViewCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1467,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 783,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 808,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 835,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 858,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1855,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1945,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2034,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2748,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3006,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3349,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3448,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3581,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3700,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3901,
+      "length": 10,
+      "value": "\"ObjectID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3932,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3958,
+      "length": 5,
+      "value": "\"DAT\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3989,
+      "length": 11,
+      "value": "\"OrderedBy\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4023,
+      "length": 8,
+      "value": "\"Status\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4052,
+      "length": 6,
+      "value": "\"Read\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4085,
+      "length": 12,
+      "value": "\"ResultDate\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4124,
+      "length": 12,
+      "value": "\"IsAbnormal\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4163,
+      "length": 12,
+      "value": "\"ResultType\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4208,
+      "length": 18,
+      "value": "\"IsResultTimeNull\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4254,
+      "length": 13,
+      "value": "\"PreviewBody\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4307,
+      "length": 25,
+      "value": "\"PreviewProviderPhotoURL\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4378,
+      "length": 31,
+      "value": "\"HasPreviewProviderPhotoOnBlob\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4437,
+      "length": 13,
+      "value": "\"PreviewName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4484,
+      "length": 19,
+      "value": "\"PreviewProviderID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4536,
+      "length": 14,
+      "value": "\"Organization\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/Models\/TestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4580,
+      "length": 13,
+      "value": "\"HideDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/PETestResultsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 12,
+      "value": "\"WB_RESULTS\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/PETestResultsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 29,
+      "value": "\"epichttp:\/\/app\/test-results\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/PETestResultsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 21,
+      "value": "\"testresults\/details\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/PETestResultsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 10,
+      "value": "\"pageMode\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/PETestResultsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 8,
+      "value": "\"eorgid\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/TestResults\/TestResults\/Classes\/PETestResultsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 10,
+      "value": "\"eorderid\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/TestResults.build\/Release-iphonesimulator\/TestResults.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 25,
+      "value": "\"ColoredExternalDataIcon\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/TestResults.build\/Release-iphonesimulator\/TestResults.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 932,
+      "length": 21,
+      "value": "\"DisclosureIndicator\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/TestResults.build\/Release-iphonesimulator\/TestResults.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 25,
+      "value": "\"DisclosureIndicatorLeft\""
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ShareEverywhere",
+    "printedName": "ShareEverywhere",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEShareEverywhereComponentAPI",
+        "printedName": "PEShareEverywhereComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForShareEverywhere",
+            "printedName": "hasAccessForShareEverywhere(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ShareEverywhere@objc(cs)PEShareEverywhereComponentAPI(im)hasAccessForShareEverywhere:",
+            "mangledName": "$s15ShareEverywhere07PEShareB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "ShareEverywhere",
+            "objc_name": "hasAccessForShareEverywhere:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getShareEverywhereViewController",
+            "printedName": "getShareEverywhereViewController(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ShareEverywhere@objc(cs)PEShareEverywhereComponentAPI(im)getShareEverywhereViewController:",
+            "mangledName": "$s15ShareEverywhere07PEShareB12ComponentAPIC03getaB14ViewControllerySo06UIViewH0CSg6PECore16PEPatientContextCF",
+            "moduleName": "ShareEverywhere",
+            "objc_name": "getShareEverywhereViewController:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEShareEverywhereComponentAPI",
+                "printedName": "ShareEverywhere.PEShareEverywhereComponentAPI",
+                "usr": "c:@M@ShareEverywhere@objc(cs)PEShareEverywhereComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ShareEverywhere@objc(cs)PEShareEverywhereComponentAPI(im)init",
+            "mangledName": "$s15ShareEverywhere07PEShareB12ComponentAPICACycfc",
+            "moduleName": "ShareEverywhere",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ShareEverywhere@objc(cs)PEShareEverywhereComponentAPI",
+        "mangledName": "$s15ShareEverywhere07PEShareB12ComponentAPIC",
+        "moduleName": "ShareEverywhere",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEShareEverywhereComponentAPIProtocol",
+            "printedName": "PEShareEverywhereComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEShareEverywhereComponentAPIProtocol",
+            "mangledName": "$s6PECore37PEShareEverywhereComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "ShareEverywhere"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1695,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1745,
+      "length": 4,
+      "value": "0.33"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1793,
+      "length": 4,
+      "value": "32.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereTokenResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 22,
+      "value": "\"ShareEverywhereToken\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereTokenResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 12,
+      "value": "\"Expiration\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereTokenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereTokenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereTokenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1502,
+      "length": 25,
+      "value": "\"www.shareeverywhere.com\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereTokenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1644,
+      "length": 11,
+      "value": "\"#3083FBFF\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ShareEverywhere\/ShareEverywhere\/Classes\/ShareEverywhereRequestTokenAlertController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 903,
+      "length": 3,
+      "value": "128"
+    }
+  ]
+}

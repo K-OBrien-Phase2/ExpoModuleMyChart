@@ -1,0 +1,11 @@
+framework module MyDocuments {
+  umbrella header "MyDocuments.h"
+  export *
+
+  module * { export * }
+}
+
+module MyDocuments.Swift {
+  header "MyDocuments-Swift.h"
+  requires objc
+}

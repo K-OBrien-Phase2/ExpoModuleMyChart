@@ -1,0 +1,11 @@
+framework module Requests {
+  umbrella header "Requests.h"
+  export *
+
+  module * { export * }
+}
+
+module Requests.Swift {
+  header "Requests-Swift.h"
+  requires objc
+}

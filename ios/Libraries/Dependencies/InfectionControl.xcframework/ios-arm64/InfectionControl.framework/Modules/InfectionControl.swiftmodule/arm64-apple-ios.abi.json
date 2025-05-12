@@ -1,0 +1,3088 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "InfectionControl",
+    "printedName": "InfectionControl",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEInfectionControlComponentAPI",
+        "printedName": "PEInfectionControlComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForCovidStatus",
+            "printedName": "hasAccessForCovidStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI(im)hasAccessForCovidStatus:",
+            "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPIC23hasAccessForCovidStatusy6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "InfectionControl",
+            "objc_name": "hasAccessForCovidStatus:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForPreloginCovidStatus",
+            "printedName": "hasAccessForPreloginCovidStatus(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI(im)hasAccessForPreloginCovidStatus:",
+            "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPIC31hasAccessForPreloginCovidStatusy6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "InfectionControl",
+            "objc_name": "hasAccessForPreloginCovidStatus:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCovidStatusController",
+            "printedName": "getCovidStatusController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI(im)getCovidStatusController:viewControllerTitle:",
+            "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPIC24getCovidStatusController_04viewI5TitleSo06UIViewI0CSg6PECore16PEPatientContextC_SSSgtF",
+            "moduleName": "InfectionControl",
+            "objc_name": "getCovidStatusController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCovidStatusViewModel",
+            "printedName": "getCovidStatusViewModel(_:successHandler:failureHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ObjectiveC.NSObject) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PECore.WebServiceFailedError) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebServiceFailedError",
+                    "printedName": "PECore.WebServiceFailedError",
+                    "usr": "c:@M@PECore@objc(cs)WebServiceFailedError"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI(im)getCovidStatusViewModel:successHandler:failureHandler:",
+            "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPIC23getCovidStatusViewModel_14successHandler07failureL0So8NSObjectCSg6PECore16PEPatientContextC_yAHcyAJ21WebServiceFailedErrorCctF",
+            "moduleName": "InfectionControl",
+            "objc_name": "getCovidStatusViewModel:successHandler:failureHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPreloginCovidStatusWidget",
+            "printedName": "getPreloginCovidStatusWidget(_:defaultTheme:presentingViewController:existingLiveModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPhonebookEntryProtocol",
+                "printedName": "any PECore.PEPhonebookEntryProtocol",
+                "usr": "c:@M@PECore@objc(pl)PEPhonebookEntryProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEThemeProtocol",
+                "printedName": "any PECore.PEThemeProtocol",
+                "usr": "c:@M@PECore@objc(pl)PEThemeProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PELiveModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PELiveModel",
+                    "printedName": "PECore.PELiveModel",
+                    "usr": "c:@M@PECore@objc(cs)PELiveModel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI(im)getPreloginCovidStatusWidget:defaultTheme:presentingViewController:existingLiveModel:",
+            "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPIC28getPreloginCovidStatusWidget_12defaultTheme24presentingViewController17existingLiveModelSo6UIViewCSg6PECore24PEPhonebookEntryProtocol_p_AK07PEThemeW0_pSo0sO0CSgAK06PELiveR0CSgtF",
+            "moduleName": "InfectionControl",
+            "objc_name": "getPreloginCovidStatusWidget:defaultTheme:presentingViewController:existingLiveModel:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCovidPreloginOnboardingController",
+            "printedName": "getCovidPreloginOnboardingController(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IOnboardingDelegate",
+                "printedName": "any PECore.IOnboardingDelegate",
+                "usr": "c:@M@PECore@objc(pl)IOnboardingDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI(im)getCovidPreloginOnboardingController::",
+            "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPIC36getCovidPreloginOnboardingControllerySo06UIViewJ0CSg6PECore16PEPatientContextC_AH19IOnboardingDelegate_ptF",
+            "moduleName": "InfectionControl",
+            "objc_name": "getCovidPreloginOnboardingController::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEInfectionControlComponentAPI",
+                "printedName": "InfectionControl.PEInfectionControlComponentAPI",
+                "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI(im)init",
+            "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPICACycfc",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InfectionControl@objc(cs)PEInfectionControlComponentAPI",
+        "mangledName": "$s16InfectionControl011PEInfectionB12ComponentAPIC",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEInfectionControlComponentAPIProtocol",
+            "printedName": "PEInfectionControlComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEInfectionControlComponentAPIProtocol",
+            "mangledName": "$s6PECore38PEInfectionControlComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ICSelfLoadingView",
+        "printedName": "ICSelfLoadingView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "selfLoadingNibName",
+            "printedName": "selfLoadingNibName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16InfectionControl17ICSelfLoadingViewC04selfD7NibNameSSSgvp",
+            "mangledName": "$s16InfectionControl17ICSelfLoadingViewC04selfD7NibNameSSSgvp",
+            "moduleName": "InfectionControl",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16InfectionControl17ICSelfLoadingViewC04selfD7NibNameSSSgvg",
+                "mangledName": "$s16InfectionControl17ICSelfLoadingViewC04selfD7NibNameSSSgvg",
+                "moduleName": "InfectionControl",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16InfectionControl17ICSelfLoadingViewC6bundleSo8NSBundleCvp",
+            "mangledName": "$s16InfectionControl17ICSelfLoadingViewC6bundleSo8NSBundleCvp",
+            "moduleName": "InfectionControl",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16InfectionControl17ICSelfLoadingViewC6bundleSo8NSBundleCvg",
+                "mangledName": "$s16InfectionControl17ICSelfLoadingViewC6bundleSo8NSBundleCvg",
+                "moduleName": "InfectionControl",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ICSelfLoadingView",
+                "printedName": "InfectionControl.ICSelfLoadingView",
+                "usr": "c:@M@InfectionControl@objc(cs)ICSelfLoadingView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InfectionControl@objc(cs)ICSelfLoadingView(im)initWithFrame:",
+            "mangledName": "$s16InfectionControl17ICSelfLoadingViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InfectionControl.ICSelfLoadingView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ICSelfLoadingView",
+                    "printedName": "InfectionControl.ICSelfLoadingView",
+                    "usr": "c:@M@InfectionControl@objc(cs)ICSelfLoadingView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InfectionControl@objc(cs)ICSelfLoadingView(im)initWithCoder:",
+            "mangledName": "$s16InfectionControl17ICSelfLoadingViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createView",
+            "printedName": "createView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16InfectionControl17ICSelfLoadingViewC06createE0yyF",
+            "mangledName": "$s16InfectionControl17ICSelfLoadingViewC06createE0yyF",
+            "moduleName": "InfectionControl",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InfectionControl@objc(cs)ICSelfLoadingView",
+        "mangledName": "$s16InfectionControl17ICSelfLoadingViewC",
+        "moduleName": "InfectionControl",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InfectionControl"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CovidPreloginConfirmationViewController",
+        "printedName": "CovidPreloginConfirmationViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(overrideNibName:overrideBundle:context:parentPageViewController:canGoBack:isLast:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CovidPreloginConfirmationViewController",
+                "printedName": "InfectionControl.CovidPreloginConfirmationViewController",
+                "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEUserContext",
+                "printedName": "PECore.PEUserContext",
+                "usr": "c:@M@PECore@objc(cs)PEUserContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEOnboardingHostViewController",
+                "printedName": "PECore.PEOnboardingHostViewController",
+                "usr": "c:@M@PECore@objc(cs)PEOnboardingHostViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16InfectionControl39CovidPreloginConfirmationViewControllerC15overrideNibName0H6Bundle7context010parentPagefG09canGoBack6isLastACSSSg_So8NSBundleCSg6PECore13PEUserContextCAN016PEOnboardingHostfG0CS2btcfc",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC15overrideNibName0H6Bundle7context010parentPagefG09canGoBack6isLastACSSSg_So8NSBundleCSg6PECore13PEUserContextCAN016PEOnboardingHostfG0CS2btcfc",
+            "moduleName": "InfectionControl",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InfectionControl.CovidPreloginConfirmationViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CovidPreloginConfirmationViewController",
+                    "printedName": "InfectionControl.CovidPreloginConfirmationViewController",
+                    "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)initWithCoder:",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)viewDidLoad",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC11viewDidLoadyyF",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)viewWillAppear:",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC14viewWillAppearyySbF",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)viewDidAppear:",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC13viewDidAppearyySbF",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setViewStrings",
+            "printedName": "setViewStrings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16InfectionControl39CovidPreloginConfirmationViewControllerC03setF7StringsyyF",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC03setF7StringsyyF",
+            "moduleName": "InfectionControl",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CovidPreloginConfirmationViewController",
+                "printedName": "InfectionControl.CovidPreloginConfirmationViewController",
+                "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "InfectionControl",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "actionTapped",
+            "printedName": "actionTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)actionTapped",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC12actionTappedyyF",
+            "moduleName": "InfectionControl",
+            "objc_name": "actionTapped",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "backTapped",
+            "printedName": "backTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)backTapped",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC10backTappedyyF",
+            "moduleName": "InfectionControl",
+            "objc_name": "backTapped",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nextTapped",
+            "printedName": "nextTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)nextTapped",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC10nextTappedyyF",
+            "moduleName": "InfectionControl",
+            "objc_name": "nextTapped",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playTapped",
+            "printedName": "playTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@InfectionControl@objc(cs)CovidPreloginConfirmationViewController(im)playTapped",
+            "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC10playTappedyyF",
+            "moduleName": "InfectionControl",
+            "objc_name": "playTapped",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InfectionControl@objc(cs)CovidPreloginConfirmationViewController",
+        "mangledName": "$s16InfectionControl39CovidPreloginConfirmationViewControllerC",
+        "moduleName": "InfectionControl",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IOnboardingNavigationDelegate",
+            "printedName": "IOnboardingNavigationDelegate",
+            "usr": "c:@M@PECore@objc(pl)IOnboardingNavigationDelegate",
+            "mangledName": "$s6PECore29IOnboardingNavigationDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "InfectionControl",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InfectionControl"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InfectionControl"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InfectionControl"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "InfectionControl"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryImmunizationRegistryResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 11,
+      "value": "\"QueryInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 12,
+      "value": "\"DoseNumber\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1268,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1303,
+      "length": 14,
+      "value": "\"Manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1343,
+      "length": 11,
+      "value": "\"LotNumber\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 10,
+      "value": "\"Location\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 20,
+      "value": "\"AdministrationDate\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1483,
+      "length": 9,
+      "value": "\"GivenBy\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
+      "length": 14,
+      "value": "\"IsReconciled\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 25,
+      "value": "\"IsHealthWalletSupported\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 17,
+      "value": "\"CanBeReconciled\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 26,
+      "value": "\"HasPendingReconciliation\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1736,
+      "length": 5,
+      "value": "\"URI\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1774,
+      "length": 18,
+      "value": "\"HasJustBeenAdded\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidAdministeredVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 1829,
+      "length": 22,
+      "value": "\"HasJustBeenDiscarded\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/PreloginCovidStatusWidget.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/PreloginCovidStatusWidget.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidVaccineStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidVaccineStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidVaccineStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidVaccineStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidVaccineStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidVaccineStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 383,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/SelectableOptionCard.swift",
+      "kind": "BooleanLiteral",
+      "offset": 740,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/SelectableOptionCard.swift",
+      "kind": "StringLiteral",
+      "offset": 830,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/SelectableOptionCard.swift",
+      "kind": "StringLiteral",
+      "offset": 866,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidReconInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 265,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidReconInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncOrganizationInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 383,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncOrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 29,
+      "value": "\"HasUnreconciledVaccinations\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/RegistryQueryStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 323,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/RegistryQueryStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/RegistryQueryStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 531,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/RegistryQueryStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 651,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/RegistryQueryStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 738,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/GetCovidBarcodeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 17,
+      "value": "\"VaccineBarcodes\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/GetCovidBarcodeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 21,
+      "value": "\"TestResultsBarcodes\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/GetCovidBarcodeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 15,
+      "value": "\"LearnMoreLink\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/GetCovidBarcodeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 27,
+      "value": "\"CovidAppleWalletELFActive\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/StatusDetailRow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestingStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestingStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestingStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestingStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 438,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 469,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 500,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 527,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1065,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1173,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1219,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1272,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidStatusViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1329,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncExternalCovidVaccinesResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 18,
+      "value": "\"QueryAndSyncInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 20,
+      "value": "\"CanShowQueryBanner\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 18,
+      "value": "\"CanQueryRegistry\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 21,
+      "value": "\"RegistryQueryStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/PatientReconAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/PatientReconAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 248,
+      "length": 2,
+      "value": "46"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/PatientReconAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/ScreeningSubtext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/HealthCardUnavailableBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/HealthCardUnavailableBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/HealthCardUnavailableBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 361,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/HealthCardUnavailableBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/HealthCardUnavailableBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/HealthCardUnavailableBannerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 20,
+      "value": "\"PatientDisplayName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 12,
+      "value": "\"PatientDOB\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 4883,
+      "length": 15,
+      "value": "\"VaccineStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 4939,
+      "length": 26,
+      "value": "\"VaccineDosesAdministered\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5011,
+      "length": 31,
+      "value": "\"VaccineStatusOrganizationInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5079,
+      "length": 22,
+      "value": "\"VaccineDosesRequired\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5138,
+      "length": 22,
+      "value": "\"AdministeredVaccines\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5195,
+      "length": 20,
+      "value": "\"NextVaccineDueDate\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5252,
+      "length": 22,
+      "value": "\"NextVaccineIsBooster\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5311,
+      "length": 22,
+      "value": "\"LastDoseReceivedDate\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5371,
+      "length": 23,
+      "value": "\"ShowVaccineGreenLight\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5424,
+      "length": 15,
+      "value": "\"TestingStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5477,
+      "length": 23,
+      "value": "\"SupportingTestResults\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5531,
+      "length": 16,
+      "value": "\"HasMoreResults\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5597,
+      "length": 35,
+      "value": "\"ShouldDeemphasizeMostRecentResult\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5680,
+      "length": 33,
+      "value": "\"DaysToEmphasizeMostRecentResult\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5745,
+      "length": 17,
+      "value": "\"ScreeningStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5803,
+      "length": 26,
+      "value": "\"NonScoredScreeningStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5872,
+      "length": 28,
+      "value": "\"ScreeningStatusDescription\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 5939,
+      "length": 24,
+      "value": "\"ScreeningAnswerDateISO\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6003,
+      "length": 25,
+      "value": "\"ScreeningAnswerHoursAgo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6062,
+      "length": 19,
+      "value": "\"ScreeningEpicHttp\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6116,
+      "length": 30,
+      "value": "\"PreviousScreeningSubmissions\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6176,
+      "length": 15,
+      "value": "\"ResourceLinks\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6228,
+      "length": 22,
+      "value": "\"EmergencyPhoneNumber\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6283,
+      "length": 18,
+      "value": "\"OrganizationInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6332,
+      "length": 16,
+      "value": "\"VaccinePdfInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6379,
+      "length": 16,
+      "value": "\"CanDownloadPDF\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6442,
+      "length": 32,
+      "value": "\"VaccinationHealthCardAvailable\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6520,
+      "length": 31,
+      "value": "\"TestResultHealthCardAvailable\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6595,
+      "length": 29,
+      "value": "\"VaccinationHealthCardBanner\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6667,
+      "length": 28,
+      "value": "\"TestResultHealthCardBanner\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6728,
+      "length": 18,
+      "value": "\"HealthWalletLink\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6772,
+      "length": 11,
+      "value": "\"QueryInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6816,
+      "length": 18,
+      "value": "\"QueryAndSyncInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6871,
+      "length": 22,
+      "value": "\"CanReconcileDirectly\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 6938,
+      "length": 30,
+      "value": "\"VaccineQuestionnaireEpicHttp\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 7008,
+      "length": 25,
+      "value": "\"HasPendingPatientUpdate\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 7072,
+      "length": 33,
+      "value": "\"VaccineSyncEnabledOrganizations\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 7148,
+      "length": 37,
+      "value": "\"HasVaccineSyncDisabledOrganizations\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/ReconcileCovidVaccinationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 465,
+      "length": 13,
+      "value": "\"ReconStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/ReconcileCovidVaccinationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 16,
+      "value": "\"NewCovidStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/GetCovidWalletExportResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 24,
+      "value": "\"JsonWrappedHealthCards\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/PreloginCovidStatusLiveModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 466,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlStringHelpers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 651,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineStatusDetailRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineStatusDetailRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineStatusDetailRow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 483,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineStatusDetailRow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineStatusDetailRow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineStatusDetailRow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 646,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPdfInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 12,
+      "value": "\"DocumentID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPdfInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 16,
+      "value": "\"DocumentStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineDoseSubtext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/VaccineDoseSubtext.swift",
+      "kind": "BooleanLiteral",
+      "offset": 618,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/GetCovidPDFResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 16,
+      "value": "\"VaccinePdfInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 328,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 390,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 608,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 650,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 680,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 710,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidQuestionnaireScreenStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 788,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/VaccineSyncLearnMoreViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/VaccineSyncLearnMoreViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1404,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/VaccineSyncLearnMoreViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/VaccineSyncLearnMoreViewController.swift",
+      "kind": "Array",
+      "offset": 1670,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/VaccineSyncLearnMoreViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1814,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/VaccineSyncLearnMoreViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1951,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1998,
+      "length": 4,
+      "value": "\"Id\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2023,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2053,
+      "length": 9,
+      "value": "\"NameUTF\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2082,
+      "length": 5,
+      "value": "\"Key\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2124,
+      "length": 22,
+      "value": "\"OrderingProviderName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2176,
+      "length": 12,
+      "value": "\"ResultDate\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2211,
+      "length": 8,
+      "value": "\"Status\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 18,
+      "value": "\"OrganizationInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2310,
+      "length": 25,
+      "value": "\"IsHealthWalletSupported\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2368,
+      "length": 18,
+      "value": "\"ResultingLabName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2417,
+      "length": 16,
+      "value": "\"StatusHoursAgo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2464,
+      "length": 16,
+      "value": "\"HasCollectTime\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2511,
+      "length": 16,
+      "value": "\"CollectInstISO\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2553,
+      "length": 11,
+      "value": "\"CollectTZ\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2597,
+      "length": 18,
+      "value": "\"HasResultingTime\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2648,
+      "length": 18,
+      "value": "\"ResultingInstISO\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2694,
+      "length": 13,
+      "value": "\"ResultingTZ\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidTestResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2748,
+      "length": 26,
+      "value": "\"CanShowH2GDetailsLocally\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPreviousScreening.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 10,
+      "value": "\"AnswerID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPreviousScreening.swift",
+      "kind": "StringLiteral",
+      "offset": 754,
+      "length": 15,
+      "value": "\"AnswerDateISO\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPreviousScreening.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 17,
+      "value": "\"ScreeningStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPreviousScreening.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
+      "length": 26,
+      "value": "\"NonScoredScreeningStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPreviousScreening.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 28,
+      "value": "\"ScreeningStatusDescription\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPreviousScreening.swift",
+      "kind": "StringLiteral",
+      "offset": 972,
+      "length": 19,
+      "value": "\"ScreeningEpicHttp\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/Onboarding\/CovidWalletRequiredViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/Onboarding\/CovidWalletRequiredViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidResourceLink.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidResourceLink.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "\"URL\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/ReconciledVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 5,
+      "value": "\"URI\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/ReconciledVaccine.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 8,
+      "value": "\"Action\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 780,
+      "length": 21,
+      "value": "\"CanShowUpdateBanner\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 18,
+      "value": "\"CanQueryRegistry\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 20,
+      "value": "\"CanSyncH2GVaccines\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 22,
+      "value": "\"QueryAndSyncTimedOut\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 20,
+      "value": "\"QueryAndSyncStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 26,
+      "value": "\"LastQueriedOrganizations\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 29,
+      "value": "\"LastQueryIncludedRegistries\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/QueryAndSyncInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 29,
+      "value": "\"LastQueryHadUnsupportedOrgs\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 9,
+      "value": "\"#D80000\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 9,
+      "value": "\"#0F784A\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 22,
+      "value": "\"GENERALQUESTIONNAIRE\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 15,
+      "value": "\"IMMUNIZATIONS\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 12,
+      "value": "\"LABDETAILS\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 6,
+      "value": "\"LABS\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 18,
+      "value": "\"COVIDTESTRESULTS\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Utilities\/InfectionControlUtilities.swift",
+      "kind": "StringLiteral",
+      "offset": 720,
+      "length": 37,
+      "value": "\"CovidPreloginOnboardingActedUponKey\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/BannerCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/BannerCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Views\/TestResultSubtext.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPDFDocumentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPDFDocumentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/Models\/CovidPDFDocumentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 622,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidBarcodeDisplayViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/CovidBarcodeDisplayViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 52,
+      "value": "\"https:\/\/redirect.health.apple.com\/SMARTHealthCard\/\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/Onboarding\/CovidPreloginConfirmationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1199,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/Onboarding\/CovidPreloginConfirmationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/Onboarding\/CovidWalletSelectionViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 407,
+      "length": 39,
+      "value": "\"DigitalWalletExport.smart-health-card\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/Onboarding\/CovidWalletSelectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1899,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/InfectionControl\/InfectionControl\/Classes\/ViewControllers\/Onboarding\/CovidWalletSelectionViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2000,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 741,
+      "length": 16,
+      "value": "\"ChevronEndIcon\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 34,
+      "value": "\"add_to_apple_wallet_health_badge\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 18,
+      "value": "\"arrow_with_clock\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 15,
+      "value": "\"beaker_emblem\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 27,
+      "value": "\"beakerwithcritical_emblem\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 11,
+      "value": "\"clipboard\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1741,
+      "length": 22,
+      "value": "\"clipboard_with_check\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
+      "length": 23,
+      "value": "\"clipboard_with_pencil\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 26,
+      "value": "\"covid_prelogin_new_login\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
+      "length": 26,
+      "value": "\"covid_prelogin_old_login\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2431,
+      "length": 14,
+      "value": "\"curved_arrow\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2578,
+      "length": 14,
+      "value": "\"demo_barcode\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2736,
+      "length": 19,
+      "value": "\"exclamationcircle\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2877,
+      "length": 8,
+      "value": "\"export\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3029,
+      "length": 20,
+      "value": "\"folder_heart_arrow\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3184,
+      "length": 15,
+      "value": "\"health_wallet\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3322,
+      "length": 9,
+      "value": "\"id_card\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3453,
+      "length": 8,
+      "value": "\"person\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3584,
+      "length": 9,
+      "value": "\"qr_code\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3735,
+      "length": 19,
+      "value": "\"signal_with_slash\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3898,
+      "length": 20,
+      "value": "\"status_test_result\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4042,
+      "length": 9,
+      "value": "\"syringe\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4188,
+      "length": 16,
+      "value": "\"syringe_emblem\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4352,
+      "length": 22,
+      "value": "\"syringe_emblem_yield\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4509,
+      "length": 15,
+      "value": "\"syringe_yield\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4688,
+      "length": 31,
+      "value": "\"works_with_apple_health_badge\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/InfectionControl.build\/Release-iphoneos\/InfectionControl.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4865,
+      "length": 21,
+      "value": "\"wp_download_generic\""
+    }
+  ]
+}

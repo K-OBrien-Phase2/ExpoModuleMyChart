@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright © 2023 Epic Systems Corporation
+-->
+<resources>
+  <!--  Appointment Live Activities  -->
+  <string name="wp_live_activities_appointment_starts_at" context="Used in the views of appointment Live Activities as a label for the start time. The time will be under the label on a seperate line, and will appear in the compact trailing view of the Live Activity. The start time of the appointment will be in a shortened format such as 4:45 PM or 16:45 depending on the user's device settings">يبدأ في  </string>
+  <string name="wp_live_activities_appointment_starts_at_time" context="Used in the views of appointment Live Activities to display the start time of an appointment. %1$@ is the start time of the appointment in a shortened format such as 4:45 PM or 16:45 depending on the user's device settings.">يبدأ في %1$@</string>
+  <string name="wp_live_activities_appointment_tap_to_view_details" context="Used in the views of appointment Live Activities to indicate that tapping on the view will open the visit details.">اضغط لعرض التفاصيل</string>
+  <!--  Appointment Live Activities - Accessibility  -->
+  <string name="wp_live_activities_appointment_accessibility_label_general" context="Used as an accessibility label for the lockscreen view of appointment Live Activities to indicate to the user that they have an upcoming appointment at a specific time. %1$@ is the start time of the appointment in a shortened format such as 4:45 PM or 16:45 depending on the user's device settings.">لديك موعد قادم في %1$@</string>
+  <string name="wp_live_activities_appointment_accessibility_label_detailed" context="Used as an accessibility label for all Live Activity views except for the lockscreen view to indicate to the user that they have a specific appointment with an organization at a specific time. %1$@ is the appointment type (Video Visit, Office Visit, etc.). %2$@ is the name of the organization. %3$@ is the start time of the appointment in a shortened format such as 4:45 PM or 16:45 depending on the user's device settings.">لديك %1$@ قادم مع %2$@ في %3$@</string>
+  <string name="wp_live_activities_appointment_accessibility_hint_opens_visit_details" context="Used as an accessibility hint in appointment Live Activities to inform the user that activating the accessibility element will open the visit details.">يفتح تفاصيل الزيارة</string>
+  <!--  Video Visit Live Activity -->
+  <string name="wp_live_activities_video_visit" context="Used in the views of Video Visit Live Activities as a fallback string when the visit title string cannot be determined OR as a generic video visit title string if the information shouldn't be displayed such as on the lockscreen. This string will be used in place of a more specific string (such as Video Visit, Office Visit, etc.) to indicate to the user what the information in the Live Activity is for.">زيارة فيديو</string>
+  <string name="wp_live_activities_video_visit_tap_to_join" context="Used in the views of Video Visit Live Activities to indicate that tapping on the view will join the Video Visit">اضغط للإنضمام</string>
+  <!--  Video Visit Live Activity - Accessibility  -->
+  <string name="wp_live_activities_video_visit_accessibility_hint_joins_video_visit" context="Used as an accessibility hint in a Video Visit Live Activity to inform the user that activating the accessibility element will join the Video Visit.">يقوم بالإنضمام إلى زيارة الفيديو</string>
+</resources>

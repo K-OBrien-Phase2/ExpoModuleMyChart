@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2017-2023 Epic Systems Corporation
+  -->
+<resources>
+  <!-- Share Everywhere -->
+  <string name="wp_share_everywhere_title" context="Title for Share Everywhere springboard button, which launches the Share Everywhere activity and title for Share Everywhere activity.">Share Everywhere</string>
+  <string name="wp_share_everywhere_description_title" context="Title for the description of the Share Everywhere activity, which explains how the feature works to end users.">Compartilhar seu Prontuário Médico</string>
+  <string name="wp_share_everywhere_description_text" context="Text for the description of the Share Everywhere activity, which explains how the feature works to end users. %1$@ is the brand name of the portal.">Conceda acesso único e limitado às informações de saúde que você pode ver em %1$@, que podem incluir:</string>
+  <string name="wp_share_everywhere_medications_label" context="Label for medications, in the context of being available via Share Everywhere.">Medicamentos</string>
+  <string name="wp_share_everywhere_health_issues_label" context="Label for health issues, in the context of being available via Share Everywhere.">Condições de Saúde</string>
+  <string name="wp_share_everywhere_allergies_label" context="Label for allergies, in the context of being available via Share Everywhere.">Alergias</string>
+  <string name="wp_share_everywhere_immunizations_label" context="Label for immunizations, in the context of being available via Share Everywhere.">Imunizações</string>
+  <string name="wp_share_everywhere_write_note_label" context="Label for the ability to write a note to the patient's chart, in the context of being available via Share Everywhere.">A pessoa que acessar seu prontuário também poderá escrever uma nota clínica para sua equipe de atendimento.</string>
+  <string name="wp_share_everywhere_request_token_button_title" context="Title for button to request a share token for Share Everywhere.">Solicitar código de compartilhamento</string>
+  <string name="wp_share_everywhere_active_token_title" context="Title for Share Everywhere token card, which contains an active Share Token and instructions on how to use it.">Agora você pode compartilhar seu prontuário!</string>
+  <string name="wp_share_everywhere_active_token_instructions" context="Instructions for using an active Share Token. %1$@ is the name of the person who's accessing the record. %2$@ is the website URL where the Token can be exchanged.">%1$@ agora pode consultar %2$@ e digitar o código de compartilhamento abaixo para ver seu prontuário.</string>
+  <string name="wp_share_everywhere_dismiss_token_button_title" context="Appears as the text on a button in the Share Everywhere screen after a user generates a share code. A user can tap on the button displaying this text to delete and remove the Share Everywhere code">Dispensar</string>
+  <string name="wp_share_everywhere_token_expiration" context="Label indicating how much time remains until the active Share Token expires.">O código de compartilhamento expira em %1$@</string>
+  <string name="wp_share_everywhere_alert_title" context="Title for Share Everywhere request alert, which prompts the user for more info before requesting a new Share Token.">Quem Está Acessando Seu Prontuário?</string>
+  <string name="wp_share_everywhere_alert_message" context="Message for Share Everywhere request alert, which prompts the user for more info before requesting a new Share Token.">Digite o nome da pessoa que acessará seu prontuário.</string>
+  <string name="wp_share_everywhere_alert_edittext_hint" context="Placeholder text for the name that the user must enter when requesting a new Share Token.">Nome</string>
+  <string name="wp_share_everywhere_alert_button_request" context="Title for the button on the Share Everywhere request alert that completes the request for a new Share Token.">Solicitar</string>
+  <string name="wp_share_everywhere_alert_button_cancel" context="Title for the button on the Share Everywhere request alert that cancels the request.">Cancelar</string>
+</resources>

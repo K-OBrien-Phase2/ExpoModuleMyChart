@@ -1,0 +1,388 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MyChartGlobals
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import MyChartGlobals
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum WPAPIDeepLinkExecuteResult : Swift.Int {
+  case executeSuccess = 0
+  case executeFailedUnknown = 1
+  case executeFailedUnsupported = 2
+  case executeFailedNoSecurity = 3
+  case executeFailedBadURL = 4
+  case executeFailedPatientNotCurrent = 5
+  case executeFailedPatientNotFound = 6
+  case executeFailedMismatchedOrganization = 7
+  case executeFailedUnableToExecute = 8
+  case executeFailedH2GUnsupported = 9
+  case executeFailedLogout = 10
+  case executePendingLogin = 11
+  case executePendingRetrievingData = 12
+  case executeFailedExternalLinkUnsupported = 13
+  case executeFailedOtherDeepLinkInProgress = 15
+  case executeFailedSecurityOutOfDate = 16
+  case executePendingUpdatedSecurity = 17
+  case executeFailedNotOnUIThread = 18
+  public var errorMessage: Swift.String? {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum WPAPIAppointmentArrivalFeatureStatus : Swift.Int {
+  case disabled = 1
+  case onboardingNotShown
+  case missingSetupRequirement
+  case enabled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IWPCreateMyChartUrlDelegate {
+  @objc func createdUrlRequest(_ urlRequest: Foundation.URLRequest, allowedHosts: [Swift.String])
+  @objc func urlCreationFailed(_ errorMessage: Swift.String)
+}
+@objc public enum WPAPIRequestControllerErrorCode : Swift.Int {
+  case unknown = -1
+  case noAccess = 1
+  case noData = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum WPAPISetPushNotificationsStatusResult : Swift.Int {
+  case turnedOn
+  case failedToTurnOn
+  case turnedOff
+  case failedToTurnOff
+  case notSupported
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum WPAPIPushNotificationsStatus : Swift.Int {
+  case on = 1
+  case off
+  case notSupported
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IWPMonitoredAppointmentArrivalDelegate {
+  @objc func didArrive(forMonitoredAppointment appointment: (any MyChartGlobals.IWPAppointment)!)
+}
+@available(swift, deprecated: 4.0, message: "Please talk with your technical services representative if you are using this protocol. In version 10.1 and beyond, there are better ways to manage push notifications, and this protocol will be removed in a later version of the code module.")
+public protocol IWPGetPushNotificationDetailsDelegate : AnyObject {
+  func didGetPushNotificationDetails(params: [Swift.String : Swift.String])
+  func didFailToGetPushNotificationDetails()
+}
+@objc public protocol IWPPersonManagerDelegate {
+  @objc optional func didSetColor(forPerson person: any MyChartGlobals.IWPPerson, withError error: Foundation.NSError?)
+  @objc optional func didSetNickname(forPerson person: any MyChartGlobals.IWPPerson, withError error: Foundation.NSError?)
+  @objc optional func didSetPhoto(forPerson person: any MyChartGlobals.IWPPerson, withError error: Foundation.NSError?)
+}
+@objc public enum WPAPINewFeatureKey : Swift.Int {
+  case happyTogether = 0
+  case familyAccess
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol IWPOnLogoutDelegate {
+  @objc func onLogoutStarted()
+  @objc func unwindToLoginScreen() -> Swift.Bool
+}
+@objc public enum WPAPIAppointmentSelfArrivalMechanism : Swift.Int {
+  case geolocation = 1
+  case bluetoothBeacons = 2
+  case userInitiated = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum WPAPIActivityIdentifier : Swift.CaseIterable {
+  case undefined
+  case accountDeactivation
+  case accountSettings
+  case addFlowsheetReadings(episodeId: Swift.String)
+  case allergies
+  case appleWatchLinking
+  case appointmentArrivalCheckIn(csn: Swift.String, person: any MyChartGlobals.IWPPerson, appointmentTime: Foundation.Date, selfArrivalMechanism: MyChartGlobals.WPAPIAppointmentSelfArrivalMechanism)
+  case appointmentArrivalSetup
+  case appointmentAVS(dat: Swift.String)
+  case appointmentNotes(dat: Swift.String)
+  case appointmentList
+  case appointmentTicketDecline(encryptedTicketId: Swift.String)
+  case appointmentTicketScheduling(encryptedTicketId: Swift.String)
+  case askAQuestion
+  case bedsideSelfServiceTabletCode
+  case billingAutoPay(accountId: Swift.String?, context: Swift.String?)
+  case billingCustomerService(encryptedAccountId: Swift.String, encryptedBillingContext: Swift.String)
+  case billingSummary
+  case billingPayment(accountId: Swift.String?, context: Swift.String?)
+  case careJourneys
+  case careTeam
+  case changePassword
+  case changeShortcuts
+  case claims
+  case communicationPreferences
+  case communityResources
+  case computerReadableExport
+  case contactLensPrescription
+  case contactVerification
+  case continuingCare(encounterCsn: Swift.String)
+  case copyright
+  case costCalculator
+  case covidStatus
+  case customerService
+  case dayAtAGlance
+  case documentDownload(dcsId: Swift.String, dcsExt: Swift.String?, orgId: Swift.String?)
+  case documentHub
+  case drivingDirections(address: Swift.String, latitude: Swift.String?, longitude: Swift.String?)
+  case ecgMessage(filePathUrl: Swift.String)
+  case eCheckIn(csn: Swift.String, isCsnEncrypted: Swift.Bool)
+  case eCheckInAdditionalSteps(csn: Swift.String, isCsnEncrypted: Swift.Bool)
+  case education
+  case educationTableOfContents(titleId: Swift.String)
+  case educationPoint(iedId: Swift.String, taskId: Swift.String?, taskInstant: Swift.String?, taskTitle: Swift.String?)
+  case emailVerification
+  case evisit
+  case eyeglassPrescription
+  case familyAccess
+  case featureLibrary
+  case financialAssistance
+  case flowsheetDetails(episodeId: Swift.String)
+  case futureAppointmentDetails(csn: Swift.String, isCsnEncrypted: Swift.Bool)
+  case geneticProfile
+  case goals
+  case growthCharts
+  case healthConnections
+  case healthIssues
+  case healthLinks
+  case healthSummary
+  case historyQuestionnaire
+  case immunizations
+  case implants
+  case insuranceCards
+  case insuranceHub(cvgId: Swift.String?)
+  case insuranceSummary
+  case insuranceCoverageDetails
+  case learnMore
+  case letters
+  case linkMyAccounts
+  case manageLinkedDevices
+  case manageLinkedDevicesOnlyDevices
+  case medicalAdvice
+  case medicarePrescriptionPayPlan
+  case medications
+  case messageDetails(messageId: Swift.String)
+  case messages
+  case mobileVerification
+  case myChartNowHome
+  case myDocuments
+  case onDemandVideoVisit(reasonForVisitId: Swift.String?)
+  case onMyWay
+  case openAttachment(dcsId: Swift.String, dcsExt: Swift.String?, orgId: Swift.String?)
+  case organDonor
+  case paperlessBilling
+  case patientEstimates
+  case personalInformation
+  case personalize
+  case pharmacyMessage(encryptedMedicationId: Swift.String)
+  case pregnancyHubEnroll
+  case premiumBilling
+  case preventiveCare
+  case providerDetails(providerId: Swift.String, isProviderIdEncrypted: Swift.Bool, orgId: Swift.String?)
+  case providerFinder
+  case proxyConfirmation
+  case questionnaires
+  case referrals
+  case reimbursementRequest
+  case reportViewer(reportMnemonic: Swift.String)
+  case researchStudies
+  case safetyPlan
+  case scheduling
+  case schedulingTickets
+  case shareEverywhere
+  case sharingHub
+  case startVideoVisit(csn: Swift.String, isCsnEncrypted: Swift.Bool)
+  case symptomChecker
+  case testResultDetails(orderId: Swift.String, isOrderIdEncrypted: Swift.Bool)
+  case testResults
+  case tiffAttachment(dcsId: Swift.String, dcsExt: Swift.String?, orgId: Swift.String?)
+  case toDo
+  case toDoChanges
+  case toDoChangeDetails(changeId: Swift.String, changeDAT: Swift.String)
+  case toDoLinkTask(ltkID: Swift.String, ltkInstant: Swift.String)
+  case toDoOverdue
+  case toDoManageReminders
+  case toDoProgress
+  case trackMyHealth
+  case trendsDashboard
+  case upcomingOrders
+  case videoVisitParticipants
+  public var deepLinkUrl: Swift.String? {
+    get
+  }
+  public typealias AllCases = [MyChartGlobals.WPAPIActivityIdentifier]
+}
+extension MyChartGlobals.WPAPIActivityIdentifier {
+  public static var allCases: [MyChartGlobals.WPAPIActivityIdentifier] {
+    get
+  }
+}
+@objc public protocol IWPAppointmentArrivalCheckInDelegate {
+  @objc func didFinishCheckInWorkflow(with status: MyChartGlobals.WPAPIAppointmentArrivalStatus)
+  @objc func didCancelCheckInWorkflow()
+}
+public enum WPAPIAppleWatchLinkDetails {
+  case notLinkable
+  case unlinked
+  case linkedForThisUser
+  case linkedForDifferentUser
+  case linkedToDifferentOrg
+  public static func == (a: MyChartGlobals.WPAPIAppleWatchLinkDetails, b: MyChartGlobals.WPAPIAppleWatchLinkDetails) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol IWPFDILinkDelegate : AnyObject {
+  func didGetUrlString(url: Swift.String)
+  func didFailToGetUrl(withError error: Foundation.NSError)
+}
+@objc public enum WPAPIAuthenticationStatus : Swift.Int {
+  case notAuthenticated = 0
+  case limitedAuthentication = 1
+  case fullyAuthenticated = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum WPAPILoginResult : Swift.Int {
+  case unknown = -1, success = 1, expiredTestLibrary = 2, webserviceError = 3, genericError = 4, maxAttemptsExceeded = 5, maxPasswordResetTriesReached = 6, readOnlyServer = 7, passwordExpired = 8, termsAndConditionsFailed = 10, twoFactorFailed = 11, passwordExpiredFailed = 12, usernamePasswordFailed = 13, loginInactive = 14, loginDeleted = 15, loginExpired = 16, loginServerError = 17, proxyOnly = 18, appVersionTooLow = 19, secondaryLoginInvalidAuthToken = 20, secondaryLoginPasswordChanged = 21, maxPasswordExceededCanReset = 22, maxPasswordExceededCannotReset = 23, networkNotAvailable = 24, userCanceled = 25, passcodeNotSet = 7002, touchIDFailed = 7004, touchIDNotAvailable = 7005, mustUsePassword = 7007, secondaryLoginIncorrectPasscode = 10000, secondaryLoginIncorrectPasscodeDisabled = 10001, secondaryLoginMethodDisabled = 10007
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol IWPDeepLinkActionDelegate : AnyObject {
+  func didInvokeDeepLink(_ deepLink: any MyChartGlobals.IWPDeepLink, navigationController: inout UIKit.UINavigationController?) -> Swift.Bool
+  func shouldExecuteDeepLink(_ deepLink: any MyChartGlobals.IWPDeepLink, forNewContext: any MyChartGlobals.IWPPerson) -> Swift.Bool
+}
+public protocol IWPDeepLink {
+  var url: Swift.String { get }
+  var apiActivity: MyChartGlobals.WPAPIActivityIdentifier { get }
+  var person: (any MyChartGlobals.IWPPerson)? { get }
+  func getOptions() -> MyChartGlobals.WPAPIDeepLinkOption
+}
+public struct WPAPIDeepLinkOption : Swift.OptionSet {
+  public let rawValue: Swift.Int
+  public init(rawValue: Swift.Int)
+  public static let none: MyChartGlobals.WPAPIDeepLinkOption
+  public static let switchPersonContext: MyChartGlobals.WPAPIDeepLinkOption
+  public typealias ArrayLiteralElement = MyChartGlobals.WPAPIDeepLinkOption
+  public typealias Element = MyChartGlobals.WPAPIDeepLinkOption
+  public typealias RawValue = Swift.Int
+}
+@objc public protocol IWPOnIdleTimeoutDelegate {
+  @objc func onIdleTimeout()
+  @objc func onIdleTimeoutComplete()
+}
+@objc public protocol IWPMonitoredAppointmentUpdateDelegate {
+  @objc func didFinishUpdate(withMonitoredAppointment appointment: (any MyChartGlobals.IWPAppointment)?)
+}
+@objc public enum WPAPIAccessResult : Swift.Int {
+  case accessAllowed = 1
+  case notAuthenticated
+  case missingServerUpdate
+  case missingSecurity
+  case missingAppPermissions
+  case userDisabledSetting
+  case deprecated
+  case deviceVersionNotSupported
+  case unknown
+  case menusNotLoaded
+  case securityNotLoaded
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol IWPAuthenticationDelegate : AnyObject {
+  func loginSucceeded(withDeepLink deepLink: (any MyChartGlobals.IWPDeepLink)?)
+  func loginFailed(withError error: any Swift.Error)
+  func getPresentationViewController() -> UIKit.UIViewController
+}
+@objc public protocol IWPPushNotificationsDelegate {
+  @objc func setPushNotificationsReturned(with status: MyChartGlobals.WPAPISetPushNotificationsStatusResult)
+  @objc func pushNotificationsReturned(with status: MyChartGlobals.WPAPIPushNotificationsStatus)
+}
+public enum WPAPIPersonManagerErrorCode : Swift.Int {
+  case requestServerError
+  case invalidAccess
+  case nicknameTooLong
+  case invalidColor
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension MyChartGlobals.WPAPIDeepLinkExecuteResult : Swift.Equatable {}
+extension MyChartGlobals.WPAPIDeepLinkExecuteResult : Swift.Hashable {}
+extension MyChartGlobals.WPAPIDeepLinkExecuteResult : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPIAppointmentArrivalFeatureStatus : Swift.Equatable {}
+extension MyChartGlobals.WPAPIAppointmentArrivalFeatureStatus : Swift.Hashable {}
+extension MyChartGlobals.WPAPIAppointmentArrivalFeatureStatus : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPIRequestControllerErrorCode : Swift.Equatable {}
+extension MyChartGlobals.WPAPIRequestControllerErrorCode : Swift.Hashable {}
+extension MyChartGlobals.WPAPIRequestControllerErrorCode : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPISetPushNotificationsStatusResult : Swift.Equatable {}
+extension MyChartGlobals.WPAPISetPushNotificationsStatusResult : Swift.Hashable {}
+extension MyChartGlobals.WPAPISetPushNotificationsStatusResult : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPIPushNotificationsStatus : Swift.Equatable {}
+extension MyChartGlobals.WPAPIPushNotificationsStatus : Swift.Hashable {}
+extension MyChartGlobals.WPAPIPushNotificationsStatus : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPINewFeatureKey : Swift.Equatable {}
+extension MyChartGlobals.WPAPINewFeatureKey : Swift.Hashable {}
+extension MyChartGlobals.WPAPINewFeatureKey : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPIAppointmentSelfArrivalMechanism : Swift.Equatable {}
+extension MyChartGlobals.WPAPIAppointmentSelfArrivalMechanism : Swift.Hashable {}
+extension MyChartGlobals.WPAPIAppointmentSelfArrivalMechanism : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPIAppleWatchLinkDetails : Swift.Equatable {}
+extension MyChartGlobals.WPAPIAppleWatchLinkDetails : Swift.Hashable {}
+extension MyChartGlobals.WPAPIAuthenticationStatus : Swift.Equatable {}
+extension MyChartGlobals.WPAPIAuthenticationStatus : Swift.Hashable {}
+extension MyChartGlobals.WPAPIAuthenticationStatus : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPILoginResult : Swift.Equatable {}
+extension MyChartGlobals.WPAPILoginResult : Swift.Hashable {}
+extension MyChartGlobals.WPAPILoginResult : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPIAccessResult : Swift.Equatable {}
+extension MyChartGlobals.WPAPIAccessResult : Swift.Hashable {}
+extension MyChartGlobals.WPAPIAccessResult : Swift.RawRepresentable {}
+extension MyChartGlobals.WPAPIPersonManagerErrorCode : Swift.Equatable {}
+extension MyChartGlobals.WPAPIPersonManagerErrorCode : Swift.Hashable {}
+extension MyChartGlobals.WPAPIPersonManagerErrorCode : Swift.RawRepresentable {}

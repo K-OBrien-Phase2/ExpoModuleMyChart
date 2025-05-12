@@ -1,0 +1,11 @@
+framework module SVGRasterizer {
+  umbrella header "SVGRasterizer.h"
+  export *
+
+  module * { export * }
+}
+
+module SVGRasterizer.Swift {
+  header "SVGRasterizer-Swift.h"
+  requires objc
+}

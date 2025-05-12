@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by nlindner on 11/22/2023
+  ~ Copyright (c) 2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_checklist_tutorial_overview" context="Tutorial text introducing the patient to the checklist activity. %%CHECKLIST is replaced with the name of the activity."> %%CHECKLIST viser det, dit sundhedsfaglige team arbejder på for at gøre dig klar til at blive udskrevet fra hospitalet.</string>
+  <string name="wp_checklist_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the checklist activity %%CHECKLIST is replaced with the name of the activity."> %%CHECKLIST viser det, %%PATNAMEs sundhedsfaglige team arbejder på for at gøre %%PATNAME klar til at blive udskrevet fra hospitalet.</string>
+</resources>

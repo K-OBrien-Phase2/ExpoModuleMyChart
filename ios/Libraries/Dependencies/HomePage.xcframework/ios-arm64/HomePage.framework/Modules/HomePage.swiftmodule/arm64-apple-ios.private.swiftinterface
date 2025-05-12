@@ -1,0 +1,427 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name HomePage
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import DeveloperToolsSupport
+import Foundation
+@_exported import HomePage
+import PECore
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class HPMyChartNowFeedItem : HomePage.HPFeedItem {
+  public var encounterReasonDisplayText: Swift.String
+  public var startDateDisplayText: Swift.String
+  public var endDateDisplayText: Swift.String
+  public var departmentDisplayText: Swift.String
+  public var whatsNewDisplayText: Swift.String
+  required public init(from decoder: any Swift.Decoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HomepageWebServiceAPI {
+  @available(watchOS 6, *)
+  @available(iOS, unavailable)
+  public class func getFeedForAppleWatch() -> PECore.WebService<HomePage.HPGetMixedItemFeedResponse>?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class HPMenuGroup : ObjectiveC.NSObject, Swift.Decodable {
+  @objc public var items: [HomePage.HPMenuItem]
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HPZeroStateFeedItem : HomePage.HPFeedItem {
+  public init(zeroStateIconKey: Swift.String)
+  @objc override dynamic public init()
+  public var zeroStateIconKey: Swift.String
+  public var image: UIKit.UIImage? {
+    get
+    set
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class HPToDoSuggestedTasksFeedItem : HomePage.HPFeedItem {
+  public func getHeaderText() -> Swift.String
+  public func getBodyText() -> Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PEHomePageComponentAPI : ObjectiveC.NSObject, PECore.PEHomePageComponentAPIProtocol {
+  public static let HPOnboardingCompleteVersionKey: Swift.String
+  public static let welcomeWizardLaunchForUnlinkedNotification: Foundation.Notification
+  public static var sMenus: [Swift.String : [ObjectiveC.NSObject]]
+  @objc public static func getStaticMenus() -> [Swift.String : [ObjectiveC.NSObject]]
+  @objc public static func setStaticMenus(menus: [Swift.String : [ObjectiveC.NSObject]])
+  @objc public func hasAccessForHomePage(_ context: PECore.PEUserContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForHomePageMenuAudit(_ context: PECore.PEUserContext) -> PECore.PEComponentAccessResult
+  @objc public func isMenuViewController(_ viewController: UIKit.UIViewController?) -> Swift.Bool
+  @objc public func getHomePageFeed(for context: PECore.PEUserContext) -> UIKit.UIViewController
+  @objc public func setHealthFeedContext(_ feed: UIKit.UIViewController, person: any PECore.PEPersonProtocol)
+  @objc public func getHomePage(for context: PECore.PEUserContext, with overlay: PECore.HomepageOverlayType, presetPerson selectedPerson: (any PECore.PEPersonProtocol)?) -> UIKit.UIViewController
+  @objc public func getMyChartCentralHomePage(for context: PECore.PEUserContext, presetPerson selectedPerson: (any PECore.PEPersonProtocol)?) -> UIKit.UIViewController
+  @objc public func invalidateFeed()
+  @objc public func getPersonalizeShortcutsViewController(forUserContext userContext: PECore.PEUserContext, andPatientContext patientContext: PECore.PEPatientContext) -> UIKit.UIViewController
+  @objc public func hasAccessForPersonalizeShortcuts(_ context: PECore.PEUserContext) -> PECore.PEComponentAccessResult
+  @objc public func getPersonalizeShortcutsActivityTitle(_ userContext: PECore.PEUserContext, _ patientContext: PECore.PEPatientContext?) -> Swift.String
+  @objc public func notifyReloadMenu()
+  @objc public func setAppleWatchCardDismissmal(_ userContext: PECore.PEUserContext, _ isDismissed: Swift.Bool)
+  @objc public func preloadMenu(completion: @escaping ((_ success: Swift.Bool, _ error: PECore.WebServiceFailedError) -> Swift.Void))
+  @objc public func getOnboardingCompleteStatus(_ userContext: PECore.PEUserContext) -> Swift.Bool
+  @objc public func preventMenuFromReopeningUponReturn()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HPVisitDisplayDetails : ObjectiveC.NSObject, Swift.Decodable {
+  public var timeDisplayText: Swift.String?
+  public var monthDisplayText: Swift.String?
+  public var weekdayDisplayText: Swift.String?
+  public var dayDisplayText: Swift.String?
+  public var yearDisplayText: Swift.String?
+  public var year: Swift.Int? {
+    get
+  }
+  public var departmentDisplayText: Swift.String?
+  public var arrivalLocationDisplayText: Swift.String?
+  public var providerDisplayText: Swift.String?
+  public var date: Foundation.Date?
+  required public init(from decoder: any Swift.Decoder) throws
+  public func shouldShowYear() -> Swift.Bool
+  public static func shouldShowYear(date: Foundation.Date?, forceYearDisplay: Swift.Bool = false) -> Swift.Bool
+  @objc deinit
+}
+@objc public class HPAction : ObjectiveC.NSObject, Swift.Decodable {
+  @objc public enum UriType : Swift.Int {
+    case unknown = -1
+    case redirect = 0
+    case invisiblePost = 1
+    case softPost = 2
+    case hardPost = 3
+    case fdi = 4
+    case patientSwitch = 998
+    case reload = 999
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public var uri: Swift.String?
+  @objc public var displayText: Swift.String?
+  @objc public var type: HomePage.HPAction.UriType
+  public init?(uri: Swift.String, displayText: Swift.String, type: HomePage.HPAction.UriType, iconKey: Swift.String? = nil, id: Swift.String? = nil)
+  required public init(from decoder: any Swift.Decoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class HPMyChartCentralMainViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func prepare(for segue: UIKit.UIStoryboardSegue, sender: Any?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func accessibilityPerformMagicTap() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func showNavigationBar(_ shouldShow: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension HomePage.HPMyChartCentralMainViewController : UIKit.UIPopoverPresentationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adaptivePresentationStyle(for controller: UIKit.UIPresentationController, traitCollection: UIKit.UITraitCollection) -> UIKit.UIModalPresentationStyle
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func presentationControllerShouldDismiss(_ presentationController: UIKit.UIPresentationController) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
+}
+extension HomePage.HPMyChartCentralMainViewController : PECore.PEHostableComponentViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setComponentHost(_ componentHost: any PECore.PEComponentHostProtocol)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func shouldHideComponentHostEpicLogoInNavBar() -> Swift.Bool
+}
+extension HomePage.HPMyChartCentralMainViewController : PECore.IOnMyChartCentralHomepageErrorDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func onHomepageLoadingError()
+}
+@objc @_hasMissingDesignatedInitializers public class HPMyChartCentralFeedItem : HomePage.HPFeedItem {
+  public var headerText: Swift.String?
+  public var summaryText: Swift.String?
+  public var oneLoginHeader: Swift.String?
+  public var autoUpdateHeader: Swift.String?
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class HPUpcomingVisitFeedItem : HomePage.HPFeedItem {
+  public var csn: Swift.String
+  public var visitTypeDisplayText: Swift.String
+  public var visitDisplayDetails: HomePage.HPVisitDisplayDetails
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class HPFastPassFeedItem : HomePage.HPFeedItem {
+  @objc public var headerDisplayText: Swift.String?
+  @objc deinit
+}
+@objc public class HPAnnouncementFeedItem : HomePage.HPFeedItem {
+  public var titleDisplayText: Swift.String?
+  public var bodyDisplayText: Swift.String?
+  public var imageUrl: Swift.String?
+  required public init(from decoder: any Swift.Decoder)
+  @objc deinit
+}
+public struct HPMenuSearchItem : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class HPResultGroupFeedItem : HomePage.HPFeedItem {
+  public var titleDisplayText: Swift.String
+  public var resultGroupDetailsText: Swift.String
+  public var newCommentText: Swift.String
+  public var shouldShowNewCommentText: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class HPAccountSummaryFeedItem : HomePage.HPFeedItem {
+  public var accountStatusDisplayText: Swift.String
+  public var amountDueDisplayText: Swift.String
+  public var billingSystemDisplayText: Swift.String?
+  public var guarantorDisplayText: Swift.String
+  public var recentPaymentDisplayText: Swift.String?
+  public var serviceAreaDisplayText: Swift.String
+  public var serviceAreaLogoUrl: Swift.String?
+  public var serviceAreaLogoIconKey: Swift.String?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HPGetMixedItemFeedResponse : Swift.Decodable {
+  public var subjects: [HomePage.HPSubject]
+  @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class HPAbstractFeedItem : ObjectiveC.NSObject, Swift.Decodable {
+  @objc override dynamic public init()
+  required public init(from decoder: any Swift.Decoder)
+  @objc deinit
+}
+extension Foundation.Bundle {
+  public static var homePage: Foundation.Bundle {
+    get
+  }
+}
+extension PECore.CoreButton {
+  @_Concurrency.MainActor @preconcurrency public func addCrossFadeButton(toneColor: UIKit.UIColor, iconColor: UIKit.UIColor = UIColor.white) -> UIKit.UIView?
+}
+@_hasMissingDesignatedInitializers public class HPEpicFunFacts {
+  @objc deinit
+}
+
+@objc @_hasMissingDesignatedInitializers public class HPConversationFeedItem : HomePage.HPFeedItem {
+  public var subjectDisplayText: Swift.String
+  public var senderDisplayText: Swift.String
+  public var bodyPreviewDisplayText: Swift.String
+  public var dateSentDisplayText: Swift.String
+  public func senderIsMyChartUser() -> Swift.Bool
+  @objc deinit
+}
+extension HomePage.HPConversationFeedItem : PECore.ProviderImageDataSource {
+  @objc dynamic public var providerId: Swift.String {
+    @objc get
+  }
+  @objc dynamic public var isProviderIdEncrypted: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var hasImageOnBlob: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var organization: any PECore.PEOrganizationInfoProtocol {
+    @objc get
+  }
+  @objc dynamic public var imageURL: Swift.String {
+    @objc get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class HPMenuAuditWebServiceAPI : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class HPVideoVisitFeedItem : HomePage.HPFeedItem {
+  public var visitTypeDisplayText: Swift.String
+  public var visitDisplayDetails: HomePage.HPVisitDisplayDetails
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class HPMediaFeedItem : HomePage.HPFeedItem {
+  public var mediaUrl: Swift.String?
+  public var mediaIconKey: Swift.String?
+  @objc deinit
+}
+@objc open class HPSubject : ObjectiveC.NSObject, Swift.Decodable {
+  open var person: (any PECore.PEPersonProtocol)? {
+    get
+    set
+  }
+  public var feedItems: [HomePage.HPFeedItem]
+  public var zeroStateIconKey: Swift.String? {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  required public init(accountId: Swift.String?, feedItems: [HomePage.HPFeedItem])
+  @objc deinit
+}
+extension HomePage.HPSubject : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class HPMainViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public var shouldManageNavigationBarVisibility: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func prepare(for segue: UIKit.UIStoryboardSegue, sender: Any?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func accessibilityPerformMagicTap() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func accessibilityScroll(_ direction: UIKit.UIAccessibilityScrollDirection) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func showNavigationBar(_ shouldShow: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension HomePage.HPMainViewController : UIKit.UIPopoverPresentationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func adaptivePresentationStyle(for controller: UIKit.UIPresentationController, traitCollection: UIKit.UITraitCollection) -> UIKit.UIModalPresentationStyle
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func presentationControllerShouldDismiss(_ presentationController: UIKit.UIPresentationController) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
+}
+extension HomePage.HPMainViewController : PECore.PEHostableComponentViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setComponentHost(_ componentHost: any PECore.PEComponentHostProtocol)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func shouldHideComponentHostEpicLogoInNavBar() -> Swift.Bool
+}
+extension HomePage.HPMainViewController : PECore.IOnboardingDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onboardingDismissed(withActionCompleted onboardingActionCompleted: Swift.Bool)
+}
+@objc @_hasMissingDesignatedInitializers public class HPTestResultFeedItem : HomePage.HPFeedItem {
+  public var resultDetailsDisplayText: Swift.String
+  @objc deinit
+}
+extension HomePage.HPTestResultFeedItem : PECore.ProviderImageDataSource {
+  @objc dynamic public var providerId: Swift.String {
+    @objc get
+  }
+  @objc dynamic public var isProviderIdEncrypted: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var hasImageOnBlob: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var organization: any PECore.PEOrganizationInfoProtocol {
+    @objc get
+  }
+  @objc dynamic public var imageURL: Swift.String {
+    @objc get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HPFeedItem : HomePage.HPAbstractFeedItem {
+  @objc public var topicId: Swift.Int
+  @objc public var iconKey: Swift.String?
+  @objc public var subIconKey: Swift.String?
+  @objc public var displayText: Swift.String
+  @objc public var primaryAction: HomePage.HPAction?
+  @objc public var secondaryAction: HomePage.HPAction?
+  @objc public var tertiaryAction: HomePage.HPAction?
+  @objc public var defaultAction: HomePage.HPAction?
+  @objc public var shouldShowWatermark: Swift.Bool
+  @objc public var careEverywhereInfo: HomePage.HPFeedItem.HPCareEverywhereInfo?
+  @objc override dynamic public init()
+  @objc @_hasMissingDesignatedInitializers public class HPCareEverywhereInfo : PECore.PEOrganizationInfo {
+    @objc required dynamic public init()
+    @objc override public func getPayerLogo() -> UIKit.UIImage?
+    @objc override public func getPayerName() -> Swift.String?
+    public func shouldShowPayerInfo() -> Swift.Bool
+    @objc deinit
+  }
+  @objc deinit
+}
+extension HomePage.HPFeedItem : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+
+@_hasMissingDesignatedInitializers @objc public class HPMenuItem : ObjectiveC.NSObject, Swift.Decodable {
+  @objc public var launchUri: Swift.String
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+public struct HPMenuAuditEvent : Swift.Codable {
+  public enum MenuAction : Swift.Int {
+    case menu_open
+    case menu_closed
+    case input_entered
+    case input_deleted
+    case input_cleared
+    case menu_scrolled
+    case menu_selected
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class HPMenuAuditEventUtils : ObjectiveC.NSObject {
+  @objc public static func flushMenuAuditLogs()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class HPFeedViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var fullyExpandedOffset: CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency public func reloadSpacer()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension HomePage.HPFeedViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func scrollViewDidStopScrolling(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
+}
+extension HomePage.HPFeedViewController : PECore.H2GErrorBannerViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didTapH2GBanner(popupComponent: any PECore.PEH2GOrgPopupComponentAPIProtocol)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didCloseH2GBanner()
+}
+@objc @_hasMissingDesignatedInitializers public class HPMessageFeedItem : HomePage.HPFeedItem {
+  public var subjectDisplayText: Swift.String
+  public var bodyPreviewDisplayText: Swift.String
+  public var hasNoPreview: Swift.Bool
+  public var senderDisplayText: Swift.String
+  @objc deinit
+}
+extension HomePage.HPMessageFeedItem : PECore.ProviderImageDataSource {
+  @objc dynamic public var providerId: Swift.String {
+    @objc get
+  }
+  @objc dynamic public var isProviderIdEncrypted: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var hasImageOnBlob: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var organization: any PECore.PEOrganizationInfoProtocol {
+    @objc get
+  }
+  @objc dynamic public var imageURL: Swift.String {
+    @objc get
+  }
+}
+public struct HPMenuAuditResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension HomePage.HPAction.UriType : Swift.Equatable {}
+extension HomePage.HPAction.UriType : Swift.Hashable {}
+extension HomePage.HPAction.UriType : Swift.RawRepresentable {}
+extension HomePage.HPMenuAuditEvent.MenuAction : Swift.Equatable {}
+extension HomePage.HPMenuAuditEvent.MenuAction : Swift.Hashable {}
+extension HomePage.HPMenuAuditEvent.MenuAction : Swift.RawRepresentable {}

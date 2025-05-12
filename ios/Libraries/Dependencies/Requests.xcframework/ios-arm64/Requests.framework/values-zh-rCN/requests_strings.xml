@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">请求</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">您可以使用%%REQUESTS来发送非紧急的请求给您的护理团队。</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">您可以使用%%REQUESTS来发送非紧急的请求给%%PATNAME的护理团队。</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">医院的医疗人员会收到您的请求然后给您提供服务。如果您有紧急需求，请使用护士呼叫按键。</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">如果需要取消您已发送的请求，点击这条请求，然后点击取消。您可以向下滚动查询更多选项。</string>
+</resources>

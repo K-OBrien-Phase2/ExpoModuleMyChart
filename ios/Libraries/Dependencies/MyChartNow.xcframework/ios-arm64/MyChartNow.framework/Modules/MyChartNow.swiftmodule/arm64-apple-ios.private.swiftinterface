@@ -1,0 +1,177 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MyChartNow
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import DeveloperToolsSupport
+import Foundation
+@_exported import MyChartNow
+import PECore
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension Foundation.Bundle {
+  public static var myChartNow: Foundation.Bundle {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class PEMyChartNowComponentAPI : ObjectiveC.NSObject, PECore.PEMyChartNowComponentAPIProtocol {
+  @objc public func getMyChartNowActivitiesForPatientContext(_ patientContext: PECore.PEPatientContext, delegate: (any PECore.PEMyChartNowComponentDelegate)!)
+  @objc public func onPatientContextChanged()
+  @objc public func hasAccessForMyChartNow(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func getMyChartNowFullscreenViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getMyChartNowFullscreenViewController(_ patientContext: PECore.PEPatientContext, secondaryDeepLinkUrl: Swift.String) -> UIKit.UIViewController?
+  @objc public func getMyChartNowWidgetViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getMyChartNowClassicViewController(_ patientContext: PECore.PEPatientContext, componentHost: (any PECore.PEComponentHostProtocol)?) -> UIKit.UIViewController?
+  @objc public func getMyChartNowDeepLinkController(_ userInfo: [Swift.String : Swift.String]?) -> UIKit.UIViewController?
+  @objc public func getMyChartNowDeepLinkUrl(_ userInfo: [Swift.String : Swift.String]?) -> Swift.String?
+  @objc public func getMyChartNowSwitcherView(_ encounterContext: PECore.PEEncounterContext, _ activityDescriptor: Swift.String, _ delegate: any PECore.PEMyChartNowSwitcherDelegate) -> any UIKit.UIView & PECore.PEMyChartNowSwitcherProtocol
+  @objc public func getMyChartNowIcon(_ myChartnowContextId: Swift.String) -> UIKit.UIImage
+  @objc public func getMyChartNowPatientTabAccessibilityLabel(_ myChartnowContextId: Swift.String) -> Swift.String
+  @objc public func getMyChartNowOtherActivityListTitle(_ myChartnowContextId: Swift.String) -> Swift.String
+  @objc public func getMyChartNowHasShownForCurrPatient() -> Swift.Bool
+  @objc public func setMyChartNowHasShownForCurrPatient(_ hasShown: Swift.Bool)
+  @objc public func setMyChartNowOnboardingURL(url: Swift.String)
+  @objc public func getMyChartNowOnboardingURL() -> Swift.String
+  @objc public func getTitleForMyChartNowActivity(_ patientContext: PECore.PEPatientContext, _ activityDescriptor: Swift.String, onTitleValueRetrieved: @escaping (_ activityTitle: Swift.String?) -> Swift.Void)
+  @objc public func getListOfProblems(encounterContext: PECore.PEEncounterContext) -> [Swift.String]
+  @objc public func getMyChartContext(patientContext: PECore.PEPatientContext, onComplete: @escaping (_ encounter: (any PECore.PEEncounterProtocol)?) -> Swift.Void, onError: @escaping () -> Swift.Void)
+  @objc public func getMyChartNowFeedTheme(myChartNowContextId: Swift.String) -> (any PECore.PEMyChartNowItemFeedThemeProtocol)?
+  @objc public func getMyChartNowAvailableContexts() -> [Swift.String]
+  @objc public func invalidateFeatureBadge(encounterContext: PECore.PEEncounterContext, featureID: Swift.String)
+  @objc public func isCacheExpired(patientContext: PECore.PEPatientContext) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol FeatureImageLoaderDelegate {
+  func onImageLoadingComplete()
+}
+@_hasMissingDesignatedInitializers public class MyChartNowUtilities {
+  public static func isRemoteEncounter(_ patientContext: PECore.PEPatientContext, _ encounterContext: PECore.PEEncounterContext) -> Swift.Bool
+  public static func addEncounterSession(_ userContext: PECore.PEUserContext, _ patientContext: PECore.PEPatientContext, _ encounterContext: PECore.PEEncounterContext)
+  public static func removeEncounterSession(_ userContext: PECore.PEUserContext, _ patientContext: PECore.PEPatientContext, _ encounterContext: PECore.PEEncounterContext)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class NowSwitcherItemView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public func selected(isSelected: Swift.Bool, animate: Swift.Bool)
+  @objc deinit
+}
+public enum MyChartNowFeatureType : Swift.String, Swift.Codable {
+  case Problems
+  case Medications
+  case Schedule
+  case CareTeam
+  case Results
+  case Education
+  case Questionnaires
+  case ContinuingCare
+  case Messages
+  case Consents
+  case Requests
+  case Custom
+  case OnboardingVideo
+  case AfterVisitSummary
+  case WorkflowStep
+  case ProxyAccess
+  case Checklist
+  case Notes
+  case FriendsAndFamilyUpdates
+  public static func enumFromActivity(descriptor: Swift.String) -> MyChartNow.MyChartNowFeatureType?
+  public func getDefaultName(patientContext: PECore.PEPatientContext) -> Swift.String
+  public func getLaunchViewController(patientContext: PECore.PEPatientContext, encounterContext: PECore.PEEncounterContext?, componentHost: any PECore.PEComponentHostProtocol, viewControllerTitle: Swift.String?) -> UIKit.UIViewController?
+  public func launchDeepLinkActivity(url: Swift.String, person: any PECore.PEPersonProtocol, navController: UIKit.UINavigationController)
+  public func getIcon() -> Swift.String
+  public func getClassicIcon() -> Swift.String
+  public func isWidgette() -> Swift.Bool
+  public func isButtonPlus() -> Swift.Bool
+  public func needsNewNavigationController() -> Swift.Bool
+  public func shouldLaunchFromComponentHost() -> Swift.Bool
+  public func hasSecurity(forPatient patientContext: PECore.PEPatientContext) -> Swift.Bool
+  public func hasSecurity(forEncounter encounterContext: PECore.PEEncounterContext) -> Swift.Bool
+  public func getEncounterSpecificAlertTypes() -> Swift.Array<PECore.PEAlertType>
+  public func getAlertTypes() -> Swift.Array<PECore.PEAlertType>
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class NowSwitcherView : UIKit.UIView, PECore.PEMyChartNowSwitcherProtocol {
+  @_Concurrency.MainActor @preconcurrency @objc public var currentContext: PECore.PEMyChartNowSwitcherContext
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willMove(toWindow newWindow: UIKit.UIWindow?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum NowContextId : Swift.Int, Swift.CaseIterable {
+  case None
+  case Inpatient
+  case Emergency
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [MyChartNow.NowContextId]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [MyChartNow.NowContextId] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension MyChartNow.NowContextId {
+  public func getTabIcon(feature: MyChartNow.MyChartNowFeatureType) -> Swift.String
+  public func getTabName(feature: MyChartNow.MyChartNowFeatureType) -> Swift.String
+  public func shouldShowProblemsLearnMoreButtonInHeader(numberOfProblems: Swift.Int) -> Swift.Bool
+  public func getPrimaryProblemText(problemsArray: PECore.LossyCodableArray<MyChartNow.EncounterReason>, patientContext: PECore.PEPatientContext) -> Swift.String
+  public func getSecondayProblemText(problemsArray: PECore.LossyCodableArray<MyChartNow.EncounterReason>) -> Swift.String
+  public func getProblemButtonTitle() -> Swift.String
+  public func getProblemButtonAccessibilityHint(patientContext: PECore.PEPatientContext) -> Swift.String
+  public func getOnboardingVideoKey() -> Swift.String
+}
+public class Feature : Swift.Codable, PECore.CacheableImageDataSource {
+  @objc public var imageURL: Swift.String
+  public func getName(patientContext: PECore.PEPatientContext) -> Swift.String
+  public func getBadgeCount(encounterContext: PECore.PEEncounterContext) -> Swift.Int
+  public func setBadgeCount(count: Swift.Int)
+  public func hasMCNBadge() -> Swift.Bool
+  public func getImage() -> UIKit.UIImage?
+  public func getClassicImage() -> UIKit.UIImage?
+  public func setImage(_ image: UIKit.UIImage?)
+  public func getLaunchUri() -> Swift.String?
+  public func isFeatureSupported() -> Swift.Bool
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum FeatureType : Swift.String, Swift.Codable {
+  case EPIC_RELEASED
+  case CUSTOM
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct EncounterReason : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol MyChartNowLoaderDelegate : AnyObject {
+  func onMyChartNowDataLoaded()
+}
+extension MyChartNow.MyChartNowFeatureType : Swift.Equatable {}
+extension MyChartNow.MyChartNowFeatureType : Swift.Hashable {}
+extension MyChartNow.MyChartNowFeatureType : Swift.RawRepresentable {}
+extension MyChartNow.NowContextId : Swift.Equatable {}
+extension MyChartNow.NowContextId : Swift.Hashable {}
+extension MyChartNow.NowContextId : Swift.RawRepresentable {}
+extension MyChartNow.FeatureType : Swift.Equatable {}
+extension MyChartNow.FeatureType : Swift.Hashable {}
+extension MyChartNow.FeatureType : Swift.RawRepresentable {}

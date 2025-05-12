@@ -1,0 +1,46 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Questionnaires
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import PECore
+@_exported import Questionnaires
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class QuestionnairesAnswerWebViewControllerManager : Questionnaires.QuestionnairesWebViewControllerManager {
+  override public func onMyChartRequestsClose(_ viewController: PECore.MyChartWebViewController)
+  override public func onWorkflowCompleteAndClose(_ viewController: PECore.MyChartWebViewController, launching deepLinkUrl: Swift.String?)
+  override public func allowLaunchOutsideApp() -> Swift.Bool
+  override public init(encounterContext: PECore.PEEncounterContext? = nil, shouldSendCompleteNotification: Swift.Bool = super, completionDelegate: (any PECore.PEQuestionnaireCompletionDelegate)? = nil, closeAfterOneQuestionnaire: Swift.Bool = super)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QuestionnairesComponentAPI : ObjectiveC.NSObject, PECore.PEQuestionnairesComponentAPIProtocol {
+  @objc public func hasAccessForPatientQuestionnaires(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForInpatientQuestionnaires(_ encounterContext: PECore.PEEncounterContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForGeneralQuestionnaire(_ patientContext: PECore.PEPatientContext, contextType: Swift.String) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForHistoryQuestionnaire(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func getPatientQuestionnairesViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getInpatientQuestionnairesViewController(_ encounterContext: PECore.PEEncounterContext, viewControllerTitle: Swift.String?) -> UIKit.UIViewController?
+  @objc public func getQuestionnairesViewController(forQuestionnaire questionnaireID: Swift.String, andSeries seriesAnswerID: Swift.String, patientContext: PECore.PEPatientContext, completionDelegate: (any PECore.PEQuestionnaireCompletionDelegate)?) -> UIKit.UIViewController?
+  @objc public func getStartQuestionnaireViewController(_ patientContext: PECore.PEPatientContext, epicHttpLink: Swift.String) -> UIKit.UIViewController?
+  @objc public func getAppointmentQuestionnairesViewController(csn: Swift.String, patientContext: PECore.PEPatientContext, organization: (any PECore.PEOrganizationInfoProtocol)?) -> UIKit.UIViewController
+  @objc public func getHistoryAppointmentQuestionnairesViewController(csn: Swift.String, patientContext: PECore.PEPatientContext, organization: (any PECore.PEOrganizationInfoProtocol)?) -> UIKit.UIViewController
+  @objc public func getOldServerAppointmentQuestionnairesViewController(csn: Swift.String, patientContext: PECore.PEPatientContext, organization: (any PECore.PEOrganizationInfoProtocol)?) -> UIKit.UIViewController
+  @objc public func getQuestionnaireMessageTaskViewController(messageID: Swift.String, taskID: Swift.String, patientContext: PECore.PEPatientContext, organization: (any PECore.PEOrganizationInfoProtocol)?) -> UIKit.UIViewController
+  @objc public func getHistoryQuestionnaireMessageTaskViewController(messageID: Swift.String, taskID: Swift.String, patientContext: PECore.PEPatientContext, organization: (any PECore.PEOrganizationInfoProtocol)?) -> UIKit.UIViewController
+  @objc public func getGeneralQuestionnaireViewController(patientContext: PECore.PEPatientContext, parameters: [Swift.String : Swift.String]) -> UIKit.UIViewController
+  @objc public func getHistoryQuestionnaireViewController(patientContext: PECore.PEPatientContext, parameters: [Swift.String : Swift.String]) -> UIKit.UIViewController
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class QuestionnairesWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  public init(encounterContext: PECore.PEEncounterContext? = nil, shouldSendCompleteNotification: Swift.Bool = false, completionDelegate: (any PECore.PEQuestionnaireCompletionDelegate)? = nil, closeAfterOneQuestionnaire: Swift.Bool = false)
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onPageFinished(_ viewController: PECore.MyChartWebViewController)
+  override public func onViewWillDisappear(_ viewController: PECore.MyChartWebViewController)
+  override public func onViewDidAppear(_ controller: PECore.MyChartWebViewController)
+  override public func allowLaunchOutsideApp() -> Swift.Bool
+  @objc deinit
+}

@@ -1,0 +1,11 @@
+framework module Checklist {
+  umbrella header "Checklist.h"
+  export *
+
+  module * { export * }
+}
+
+module Checklist.Swift {
+  header "Checklist-Swift.h"
+  requires objc
+}

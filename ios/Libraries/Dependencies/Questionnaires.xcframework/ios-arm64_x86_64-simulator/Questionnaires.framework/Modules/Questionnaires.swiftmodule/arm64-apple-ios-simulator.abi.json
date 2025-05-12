@@ -1,0 +1,1555 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Questionnaires",
+    "printedName": "Questionnaires",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Questionnaires",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Questionnaires"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuestionnairesAnswerWebViewControllerManager",
+        "printedName": "QuestionnairesAnswerWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onMyChartRequestsClose",
+            "printedName": "onMyChartRequestsClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A30AnswerWebViewControllerManagerC22onMyChartRequestsCloseyy6PECore0hicdE0CF",
+            "mangledName": "$s14Questionnaires0A30AnswerWebViewControllerManagerC22onMyChartRequestsCloseyy6PECore0hicdE0CF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onWorkflowCompleteAndClose",
+            "printedName": "onWorkflowCompleteAndClose(_:launching:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A30AnswerWebViewControllerManagerC26onWorkflowCompleteAndClose_9launchingy6PECore07MyChartcdE0C_SSSgtF",
+            "mangledName": "$s14Questionnaires0A30AnswerWebViewControllerManagerC26onWorkflowCompleteAndClose_9launchingy6PECore07MyChartcdE0C_SSSgtF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowLaunchOutsideApp",
+            "printedName": "allowLaunchOutsideApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A30AnswerWebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "mangledName": "$s14Questionnaires0A30AnswerWebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encounterContext:shouldSendCompleteNotification:completionDelegate:closeAfterOneQuestionnaire:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuestionnairesAnswerWebViewControllerManager",
+                "printedName": "Questionnaires.QuestionnairesAnswerWebViewControllerManager",
+                "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesAnswerWebViewControllerManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PEEncounterContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEEncounterContext",
+                    "printedName": "PECore.PEEncounterContext",
+                    "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEQuestionnaireCompletionDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEQuestionnaireCompletionDelegate",
+                    "printedName": "any PECore.PEQuestionnaireCompletionDelegate",
+                    "usr": "c:@M@PECore@objc(pl)PEQuestionnaireCompletionDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Questionnaires0A30AnswerWebViewControllerManagerC16encounterContext30shouldSendCompleteNotification18completionDelegate26closeAfterOneQuestionnaireAC6PECore011PEEncounterH0CSg_SbAH025PEQuestionnaireCompletionN0_pSgSbtcfc",
+            "mangledName": "$s14Questionnaires0A30AnswerWebViewControllerManagerC16encounterContext30shouldSendCompleteNotification18completionDelegate26closeAfterOneQuestionnaireAC6PECore011PEEncounterH0CSg_SbAH025PEQuestionnaireCompletionN0_pSgSbtcfc",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesAnswerWebViewControllerManager",
+        "mangledName": "$s14Questionnaires0A30AnswerWebViewControllerManagerC",
+        "moduleName": "Questionnaires",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@Questionnaires@objc(cs)QuestionnairesWebViewControllerManager",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Questionnaires.QuestionnairesWebViewControllerManager",
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Questionnaires",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Questionnaires"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuestionnairesComponentAPI",
+        "printedName": "QuestionnairesComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForPatientQuestionnaires",
+            "printedName": "hasAccessForPatientQuestionnaires(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)hasAccessForPatientQuestionnaires:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC019hasAccessForPatientA0y6PECore011PEComponentE6ResultOAE16PEPatientContextCF",
+            "moduleName": "Questionnaires",
+            "objc_name": "hasAccessForPatientQuestionnaires:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForInpatientQuestionnaires",
+            "printedName": "hasAccessForInpatientQuestionnaires(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)hasAccessForInpatientQuestionnaires:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC021hasAccessForInpatientA0y6PECore011PEComponentE6ResultOAE18PEEncounterContextCF",
+            "moduleName": "Questionnaires",
+            "objc_name": "hasAccessForInpatientQuestionnaires:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForGeneralQuestionnaire",
+            "printedName": "hasAccessForGeneralQuestionnaire(_:contextType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)hasAccessForGeneralQuestionnaire:contextType:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC32hasAccessForGeneralQuestionnaire_11contextType6PECore011PEComponentE6ResultOAF16PEPatientContextC_SStF",
+            "moduleName": "Questionnaires",
+            "objc_name": "hasAccessForGeneralQuestionnaire:contextType:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForHistoryQuestionnaire",
+            "printedName": "hasAccessForHistoryQuestionnaire(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)hasAccessForHistoryQuestionnaire:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC32hasAccessForHistoryQuestionnairey6PECore011PEComponentE6ResultOAE16PEPatientContextCF",
+            "moduleName": "Questionnaires",
+            "objc_name": "hasAccessForHistoryQuestionnaire:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPatientQuestionnairesViewController",
+            "printedName": "getPatientQuestionnairesViewController(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getPatientQuestionnairesViewController:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC010getPatientA14ViewControllerySo06UIViewG0CSg6PECore16PEPatientContextCF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getPatientQuestionnairesViewController:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInpatientQuestionnairesViewController",
+            "printedName": "getInpatientQuestionnairesViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getInpatientQuestionnairesViewController:viewControllerTitle:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC012getInpatientA14ViewController_04viewG5TitleSo06UIViewG0CSg6PECore18PEEncounterContextC_SSSgtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getInpatientQuestionnairesViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getQuestionnairesViewController",
+            "printedName": "getQuestionnairesViewController(forQuestionnaire:andSeries:patientContext:completionDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEQuestionnaireCompletionDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEQuestionnaireCompletionDelegate",
+                    "printedName": "any PECore.PEQuestionnaireCompletionDelegate",
+                    "usr": "c:@M@PECore@objc(pl)PEQuestionnaireCompletionDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getQuestionnairesViewControllerForQuestionnaire:andSeries:patientContext:completionDelegate:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC03getA14ViewController16forQuestionnaire9andSeries14patientContext18completionDelegateSo06UIViewF0CSgSS_SS6PECore09PEPatientL0CAL025PEQuestionnaireCompletionN0_pSgtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getQuestionnairesViewControllerForQuestionnaire:andSeries:patientContext:completionDelegate:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStartQuestionnaireViewController",
+            "printedName": "getStartQuestionnaireViewController(_:epicHttpLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getStartQuestionnaireViewController:epicHttpLink:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC35getStartQuestionnaireViewController_12epicHttpLinkSo06UIViewH0CSg6PECore16PEPatientContextC_SStF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getStartQuestionnaireViewController:epicHttpLink:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAppointmentQuestionnairesViewController",
+            "printedName": "getAppointmentQuestionnairesViewController(csn:patientContext:organization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEOrganizationInfoProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEOrganizationInfoProtocol",
+                    "printedName": "any PECore.PEOrganizationInfoProtocol",
+                    "usr": "c:@M@PECore@objc(pl)PEOrganizationInfoProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getAppointmentQuestionnairesViewControllerWithCsn:patientContext:organization:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC014getAppointmentA14ViewController3csn14patientContext12organizationSo06UIViewG0CSS_6PECore09PEPatientJ0CAJ26PEOrganizationInfoProtocol_pSgtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getAppointmentQuestionnairesViewControllerWithCsn:patientContext:organization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHistoryAppointmentQuestionnairesViewController",
+            "printedName": "getHistoryAppointmentQuestionnairesViewController(csn:patientContext:organization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEOrganizationInfoProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEOrganizationInfoProtocol",
+                    "printedName": "any PECore.PEOrganizationInfoProtocol",
+                    "usr": "c:@M@PECore@objc(pl)PEOrganizationInfoProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getHistoryAppointmentQuestionnairesViewControllerWithCsn:patientContext:organization:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC021getHistoryAppointmentA14ViewController3csn14patientContext12organizationSo06UIViewH0CSS_6PECore09PEPatientK0CAJ26PEOrganizationInfoProtocol_pSgtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getHistoryAppointmentQuestionnairesViewControllerWithCsn:patientContext:organization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOldServerAppointmentQuestionnairesViewController",
+            "printedName": "getOldServerAppointmentQuestionnairesViewController(csn:patientContext:organization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEOrganizationInfoProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEOrganizationInfoProtocol",
+                    "printedName": "any PECore.PEOrganizationInfoProtocol",
+                    "usr": "c:@M@PECore@objc(pl)PEOrganizationInfoProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getOldServerAppointmentQuestionnairesViewControllerWithCsn:patientContext:organization:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC023getOldServerAppointmentA14ViewController3csn14patientContext12organizationSo06UIViewI0CSS_6PECore09PEPatientL0CAJ26PEOrganizationInfoProtocol_pSgtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getOldServerAppointmentQuestionnairesViewControllerWithCsn:patientContext:organization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getQuestionnaireMessageTaskViewController",
+            "printedName": "getQuestionnaireMessageTaskViewController(messageID:taskID:patientContext:organization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEOrganizationInfoProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEOrganizationInfoProtocol",
+                    "printedName": "any PECore.PEOrganizationInfoProtocol",
+                    "usr": "c:@M@PECore@objc(pl)PEOrganizationInfoProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getQuestionnaireMessageTaskViewControllerWithMessageID:taskID:patientContext:organization:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC41getQuestionnaireMessageTaskViewController9messageID04taskK014patientContext12organizationSo06UIViewI0CSS_SS6PECore09PEPatientN0CAK26PEOrganizationInfoProtocol_pSgtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getQuestionnaireMessageTaskViewControllerWithMessageID:taskID:patientContext:organization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHistoryQuestionnaireMessageTaskViewController",
+            "printedName": "getHistoryQuestionnaireMessageTaskViewController(messageID:taskID:patientContext:organization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEOrganizationInfoProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEOrganizationInfoProtocol",
+                    "printedName": "any PECore.PEOrganizationInfoProtocol",
+                    "usr": "c:@M@PECore@objc(pl)PEOrganizationInfoProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getHistoryQuestionnaireMessageTaskViewControllerWithMessageID:taskID:patientContext:organization:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC48getHistoryQuestionnaireMessageTaskViewController9messageID04taskL014patientContext12organizationSo06UIViewJ0CSS_SS6PECore09PEPatientO0CAK26PEOrganizationInfoProtocol_pSgtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getHistoryQuestionnaireMessageTaskViewControllerWithMessageID:taskID:patientContext:organization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGeneralQuestionnaireViewController",
+            "printedName": "getGeneralQuestionnaireViewController(patientContext:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getGeneralQuestionnaireViewControllerWithPatientContext:parameters:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC37getGeneralQuestionnaireViewController14patientContext10parametersSo06UIViewH0C6PECore09PEPatientJ0C_SDyS2SGtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getGeneralQuestionnaireViewControllerWithPatientContext:parameters:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHistoryQuestionnaireViewController",
+            "printedName": "getHistoryQuestionnaireViewController(patientContext:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)getHistoryQuestionnaireViewControllerWithPatientContext:parameters:",
+            "mangledName": "$s14Questionnaires0A12ComponentAPIC37getHistoryQuestionnaireViewController14patientContext10parametersSo06UIViewH0C6PECore09PEPatientJ0C_SDyS2SGtF",
+            "moduleName": "Questionnaires",
+            "objc_name": "getHistoryQuestionnaireViewControllerWithPatientContext:parameters:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuestionnairesComponentAPI",
+                "printedName": "Questionnaires.QuestionnairesComponentAPI",
+                "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI(im)init",
+            "mangledName": "$s14Questionnaires0A12ComponentAPICACycfc",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesComponentAPI",
+        "mangledName": "$s14Questionnaires0A12ComponentAPIC",
+        "moduleName": "Questionnaires",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEQuestionnairesComponentAPIProtocol",
+            "printedName": "PEQuestionnairesComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEQuestionnairesComponentAPIProtocol",
+            "mangledName": "$s6PECore36PEQuestionnairesComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Questionnaires",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Questionnaires"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QuestionnairesWebViewControllerManager",
+        "printedName": "QuestionnairesWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encounterContext:shouldSendCompleteNotification:completionDelegate:closeAfterOneQuestionnaire:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuestionnairesWebViewControllerManager",
+                "printedName": "Questionnaires.QuestionnairesWebViewControllerManager",
+                "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesWebViewControllerManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PEEncounterContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEEncounterContext",
+                    "printedName": "PECore.PEEncounterContext",
+                    "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEQuestionnaireCompletionDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEQuestionnaireCompletionDelegate",
+                    "printedName": "any PECore.PEQuestionnaireCompletionDelegate",
+                    "usr": "c:@M@PECore@objc(pl)PEQuestionnaireCompletionDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Questionnaires0A24WebViewControllerManagerC16encounterContext30shouldSendCompleteNotification18completionDelegate26closeAfterOneQuestionnaireAC6PECore011PEEncounterG0CSg_SbAH025PEQuestionnaireCompletionM0_pSgSbtcfc",
+            "mangledName": "$s14Questionnaires0A24WebViewControllerManagerC16encounterContext30shouldSendCompleteNotification18completionDelegate26closeAfterOneQuestionnaireAC6PECore011PEEncounterG0CSg_SbAH025PEQuestionnaireCompletionM0_pSgSbtcfc",
+            "moduleName": "Questionnaires",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldOverrideAllowedPageLoad",
+            "printedName": "shouldOverrideAllowedPageLoad(_:url:isMyChartWebsite:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A24WebViewControllerManagerC29shouldOverrideAllowedPageLoad_3url16isMyChartWebsiteSb6PECore0mnbcD0C_10Foundation3URLVSbtF",
+            "mangledName": "$s14Questionnaires0A24WebViewControllerManagerC29shouldOverrideAllowedPageLoad_3url16isMyChartWebsiteSb6PECore0mnbcD0C_10Foundation3URLVSbtF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPageFinished",
+            "printedName": "onPageFinished(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A24WebViewControllerManagerC14onPageFinishedyy6PECore07MyChartbcD0CF",
+            "mangledName": "$s14Questionnaires0A24WebViewControllerManagerC14onPageFinishedyy6PECore07MyChartbcD0CF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewWillDisappear",
+            "printedName": "onViewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A24WebViewControllerManagerC02onC13WillDisappearyy6PECore07MyChartbcD0CF",
+            "mangledName": "$s14Questionnaires0A24WebViewControllerManagerC02onC13WillDisappearyy6PECore07MyChartbcD0CF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewDidAppear",
+            "printedName": "onViewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A24WebViewControllerManagerC02onC9DidAppearyy6PECore07MyChartbcD0CF",
+            "mangledName": "$s14Questionnaires0A24WebViewControllerManagerC02onC9DidAppearyy6PECore07MyChartbcD0CF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowLaunchOutsideApp",
+            "printedName": "allowLaunchOutsideApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Questionnaires0A24WebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "mangledName": "$s14Questionnaires0A24WebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QuestionnairesWebViewControllerManager",
+                "printedName": "Questionnaires.QuestionnairesWebViewControllerManager",
+                "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesWebViewControllerManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesWebViewControllerManager(im)init",
+            "mangledName": "$s14Questionnaires0A24WebViewControllerManagerCACycfc",
+            "moduleName": "Questionnaires",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Questionnaires@objc(cs)QuestionnairesWebViewControllerManager",
+        "mangledName": "$s14Questionnaires0A24WebViewControllerManagerC",
+        "moduleName": "Questionnaires",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@PECore@objc(cs)MyChartWebViewControllerManager",
+        "superclassNames": [
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 22,
+      "value": "\"GENERALQUESTIONNAIRE\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 22,
+      "value": "\"HISTORYQUESTIONNAIRE\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 34,
+      "value": "\"DENYBEDSIDEGENERALQUESTIONNAIRES\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 16,
+      "value": "\"Questionnaires\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 16,
+      "value": "\"handleepichttp\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 19,
+      "value": "\"apptquestionnaire\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 14,
+      "value": "\"appthistques\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 974,
+      "length": 27,
+      "value": "\"AppointmentQuestionnaires\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 15,
+      "value": "\"Questionnaire\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 22,
+      "value": "\"HistoryQuestionnaire\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1245,
+      "length": 19,
+      "value": "\"WB_QUESTIONNAIRES\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesWebViewControllerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 794,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Questionnaires\/Questionnaires\/Classes\/QuestionnairesWebViewControllerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 898,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

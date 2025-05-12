@@ -1,0 +1,3897 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "LiveActivities",
+    "printedName": "LiveActivities",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppointmentActivityAttributes",
+        "printedName": "AppointmentActivityAttributes",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "csn",
+            "printedName": "csn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities29AppointmentActivityAttributesP3csnSSvp",
+            "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3csnSSvp",
+            "moduleName": "LiveActivities",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP3csnSSvg",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3csnSSvg",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP3csnSSvs",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3csnSSvs",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP3csnSSvM",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3csnSSvM",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dat",
+            "printedName": "dat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities29AppointmentActivityAttributesP3datSSvp",
+            "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3datSSvp",
+            "moduleName": "LiveActivities",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP3datSSvg",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3datSSvg",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP3datSSvs",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3datSSvs",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP3datSSvM",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP3datSSvM",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startInstant",
+            "printedName": "startInstant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvp",
+            "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvp",
+            "moduleName": "LiveActivities",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvg",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvg",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvs",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvs",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvM",
+                "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP12startInstant10Foundation4DateVvM",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : LiveActivities.AppointmentActivityAttributes>",
+                "sugared_genericSig": "<Self where Self : LiveActivities.AppointmentActivityAttributes>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14LiveActivities29AppointmentActivityAttributesP",
+        "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP",
+        "moduleName": "LiveActivities",
+        "genericSig": "<τ_0_0 : ActivityKit.ActivityAttributes>",
+        "sugared_genericSig": "<Self : ActivityKit.ActivityAttributes>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ActivityAttributes",
+            "printedName": "ActivityAttributes",
+            "usr": "s:11ActivityKit0A10AttributesP",
+            "mangledName": "$s11ActivityKit0A10AttributesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveActivityUtil",
+        "printedName": "LiveActivityUtil",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "areLiveActivitiesAvailable",
+            "printedName": "areLiveActivitiesAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities0A12ActivityUtilC03areaB9AvailableSbvpZ",
+            "mangledName": "$s14LiveActivities0A12ActivityUtilC03areaB9AvailableSbvpZ",
+            "moduleName": "LiveActivities",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities0A12ActivityUtilC03areaB9AvailableSbvgZ",
+                "mangledName": "$s14LiveActivities0A12ActivityUtilC03areaB9AvailableSbvgZ",
+                "moduleName": "LiveActivities",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14LiveActivities0A12ActivityUtilC",
+        "mangledName": "$s14LiveActivities0A12ActivityUtilC",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WidgetKit",
+        "printedName": "WidgetKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveActivities"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoVisitLiveActivityWidget",
+        "printedName": "VideoVisitLiveActivityWidget",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoVisitLiveActivityWidget",
+                "printedName": "LiveActivities.VideoVisitLiveActivityWidget",
+                "usr": "s:14LiveActivities010VideoVisitA14ActivityWidgetC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LiveActivities010VideoVisitA14ActivityWidgetCACycfc",
+            "mangledName": "$s14LiveActivities010VideoVisitA14ActivityWidgetCACycfc",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.WidgetConfiguration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WidgetConfiguration",
+                    "printedName": "SwiftUI.WidgetConfiguration",
+                    "usr": "s:7SwiftUI19WidgetConfigurationP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities010VideoVisitA14ActivityWidgetC4bodyQrvp",
+            "mangledName": "$s14LiveActivities010VideoVisitA14ActivityWidgetC4bodyQrvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.WidgetConfiguration",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WidgetConfiguration",
+                        "printedName": "SwiftUI.WidgetConfiguration",
+                        "usr": "s:7SwiftUI19WidgetConfigurationP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities010VideoVisitA14ActivityWidgetC4bodyQrvg",
+                "mangledName": "$s14LiveActivities010VideoVisitA14ActivityWidgetC4bodyQrvg",
+                "moduleName": "LiveActivities",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14LiveActivities010VideoVisitA14ActivityWidgetC",
+        "mangledName": "$s14LiveActivities010VideoVisitA14ActivityWidgetC",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Widget",
+            "printedName": "Widget",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.WidgetConfiguration",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WidgetConfiguration",
+                        "printedName": "SwiftUI.WidgetConfiguration",
+                        "usr": "s:7SwiftUI19WidgetConfigurationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI6WidgetP",
+            "mangledName": "$s7SwiftUI6WidgetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WPAPILiveActivityWidgets",
+        "printedName": "WPAPILiveActivityWidgets",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getVideoVisitLiveActivityWidget",
+            "printedName": "getVideoVisitLiveActivityWidget()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.Widget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Widget",
+                    "printedName": "SwiftUI.Widget",
+                    "usr": "s:7SwiftUI6WidgetP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LiveActivities24WPAPILiveActivityWidgetsC013getVideoVisitaD6WidgetQryFZ",
+            "mangledName": "$s14LiveActivities24WPAPILiveActivityWidgetsC013getVideoVisitaD6WidgetQryFZ",
+            "moduleName": "LiveActivities",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14LiveActivities24WPAPILiveActivityWidgetsC",
+        "mangledName": "$s14LiveActivities24WPAPILiveActivityWidgetsC",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveActivityErrors",
+        "printedName": "LiveActivityErrors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingRequiredData",
+            "printedName": "missingRequiredData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LiveActivities.LiveActivityErrors.Type) -> (Swift.String) -> LiveActivities.LiveActivityErrors",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> LiveActivities.LiveActivityErrors",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LiveActivityErrors",
+                        "printedName": "LiveActivities.LiveActivityErrors",
+                        "usr": "s:14LiveActivities0A14ActivityErrorsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(info: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LiveActivities.LiveActivityErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LiveActivityErrors",
+                        "printedName": "LiveActivities.LiveActivityErrors",
+                        "usr": "s:14LiveActivities0A14ActivityErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14LiveActivities0A14ActivityErrorsO19missingRequiredDatayACSS_tcACmF",
+            "mangledName": "$s14LiveActivities0A14ActivityErrorsO19missingRequiredDatayACSS_tcACmF",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14LiveActivities0A14ActivityErrorsO",
+        "mangledName": "$s14LiveActivities0A14ActivityErrorsO",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ActivityKit",
+        "printedName": "ActivityKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoVisitAttributes",
+        "printedName": "VideoVisitAttributes",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isExpired",
+            "printedName": "isExpired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV9isExpiredSbvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV9isExpiredSbvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV9isExpiredSbvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV9isExpiredSbvg",
+                "moduleName": "LiveActivities",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "csn",
+            "printedName": "csn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV3csnSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV3csnSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV3csnSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV3csnSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV3csnSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV3csnSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV3csnSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV3csnSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dat",
+            "printedName": "dat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV3datSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV3datSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV3datSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV3datSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV3datSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV3datSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV3datSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV3datSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startInstant",
+            "printedName": "startInstant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startInstant10Foundation4DateVvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV8durationSdvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV8durationSdvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV8durationSdvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV8durationSdvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV8durationSdvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV8durationSdvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV8durationSdvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV8durationSdvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expirationInstant",
+            "printedName": "expirationInstant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV17expirationInstant10Foundation4DateVvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV17expirationInstant10Foundation4DateVvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV17expirationInstant10Foundation4DateVvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV17expirationInstant10Foundation4DateVvg",
+                "moduleName": "LiveActivities",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visitDetailsDeepLink",
+            "printedName": "visitDetailsDeepLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV20visitDetailsDeepLink10Foundation3URLVSgvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "joinVisitDeepLink",
+            "printedName": "joinVisitDeepLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV04joinD8DeepLink10Foundation3URLVSgvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startsAt",
+            "printedName": "startsAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV8startsAtSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV8startsAtSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV8startsAtSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV8startsAtSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV8startsAtSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV8startsAtSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV8startsAtSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV8startsAtSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startsAtTime",
+            "printedName": "startsAtTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12startsAtTimeSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "genericVideoVisitTitle",
+            "printedName": "genericVideoVisitTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV07genericcD5TitleSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "specificVideoVisitTitle",
+            "printedName": "specificVideoVisitTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV08specificcD5TitleSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tapToViewDetails",
+            "printedName": "tapToViewDetails",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV16tapToViewDetailsSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tapToJoin",
+            "printedName": "tapToJoin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV9tapToJoinSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV9tapToJoinSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV9tapToJoinSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV9tapToJoinSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV9tapToJoinSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV9tapToJoinSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV9tapToJoinSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV9tapToJoinSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "generalAxLabel",
+            "printedName": "generalAxLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV14generalAxLabelSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "detailedAxLabel",
+            "printedName": "detailedAxLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV15detailedAxLabelSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tapToViewDetailsAxHint",
+            "printedName": "tapToViewDetailsAxHint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV22tapToViewDetailsAxHintSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tapToJoinAxHint",
+            "printedName": "tapToJoinAxHint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvs",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvs",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvM",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV15tapToJoinAxHintSSvM",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(csn:dat:date:duration:visitDetailsDeepLink:joinVisitDeepLink:startsAt:startsAtTime:genericVideoVisitTitle:specificVideoVisitTitle:tapToViewDetails:tapToJoin:generalAxLabel:detailedAxLabel:tapToViewDetailsAxHint:tapToJoinAxHint:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoVisitAttributes",
+                "printedName": "LiveActivities.VideoVisitAttributes",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV3csn3dat4date8duration20visitDetailsDeepLink04joindlM08startsAt0oP4Time07genericcD5Title08specificcdS009tapToViewK00uV4Join14generalAxLabel08detailedZ5Label0uvwkZ4Hint0uvxZ4HintACSS_SS10Foundation4DateVSdAT3URLVSgAYS10Stcfc",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV3csn3dat4date8duration20visitDetailsDeepLink04joindlM08startsAt0oP4Time07genericcD5Title08specificcdS009tapToViewK00uV4Join14generalAxLabel08detailedZ5Label0uvwkZ4Hint0uvxZ4HintACSS_SS10Foundation4DateVSdAT3URLVSgAYS10Stcfc",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ContentState",
+            "printedName": "ContentState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "useTapToJoin",
+                "printedName": "useTapToJoin",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvp",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvp",
+                "moduleName": "LiveActivities",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvg",
+                    "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvg",
+                    "moduleName": "LiveActivities",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvs",
+                    "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvs",
+                    "moduleName": "LiveActivities",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvM",
+                    "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinSbvM",
+                    "moduleName": "LiveActivities",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(useTapToJoin:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentState",
+                    "printedName": "LiveActivities.VideoVisitAttributes.ContentState",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "hasDefaultArg": true,
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinAESb_tcfc",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV12useTapToJoinAESb_tcfc",
+                "moduleName": "LiveActivities",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentState",
+                    "printedName": "LiveActivities.VideoVisitAttributes.ContentState",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV6encode2toys7Encoder_p_tKF",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV9hashValueSivp",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV9hashValueSivp",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV9hashValueSivg",
+                    "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV9hashValueSivg",
+                    "moduleName": "LiveActivities",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV4hash4intoys6HasherVz_tF",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentState",
+                    "printedName": "LiveActivities.VideoVisitAttributes.ContentState",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentState",
+                    "printedName": "LiveActivities.VideoVisitAttributes.ContentState",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV2eeoiySbAE_AEtFZ",
+                "moduleName": "LiveActivities",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV12ContentStateV",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoVisitAttributes",
+                "printedName": "LiveActivities.VideoVisitAttributes",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LiveActivities",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV9hashValueSivp",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV9hashValueSivp",
+            "moduleName": "LiveActivities",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV9hashValueSivg",
+                "mangledName": "$s14LiveActivities20VideoVisitAttributesV9hashValueSivg",
+                "moduleName": "LiveActivities",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV4hash4intoys6HasherVz_tF",
+            "moduleName": "LiveActivities",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoVisitAttributes",
+                "printedName": "LiveActivities.VideoVisitAttributes",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoVisitAttributes",
+                "printedName": "LiveActivities.VideoVisitAttributes",
+                "usr": "s:14LiveActivities20VideoVisitAttributesV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV2eeoiySbAC_ACtFZ",
+            "moduleName": "LiveActivities",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LiveActivities20VideoVisitAttributesV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14LiveActivities20VideoVisitAttributesV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LiveActivities",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14LiveActivities20VideoVisitAttributesV",
+        "mangledName": "$s14LiveActivities20VideoVisitAttributesV",
+        "moduleName": "LiveActivities",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AppointmentActivityAttributes",
+            "printedName": "AppointmentActivityAttributes",
+            "usr": "s:14LiveActivities29AppointmentActivityAttributesP",
+            "mangledName": "$s14LiveActivities29AppointmentActivityAttributesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ActivityAttributes",
+            "printedName": "ActivityAttributes",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ContentState",
+                "printedName": "ContentState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentState",
+                    "printedName": "LiveActivities.VideoVisitAttributes.ContentState",
+                    "usr": "s:14LiveActivities20VideoVisitAttributesV12ContentStateV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:11ActivityKit0A10AttributesP",
+            "mangledName": "$s11ActivityKit0A10AttributesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveActivities"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LiveActivities"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveActivities"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "LiveActivities"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Activity",
+        "printedName": "Activity",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onStateChange",
+            "printedName": "onStateChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ActivityKit.Activity<τ_0_0>, ActivityKit.ActivityState) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ActivityKit.Activity<τ_0_0>, ActivityKit.ActivityState)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Activity",
+                        "printedName": "ActivityKit.Activity<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11ActivityKit0A0C"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityState",
+                        "printedName": "ActivityKit.ActivityState",
+                        "usr": "s:11ActivityKit0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ActivityKit0A0C14LiveActivitiesE13onStateChangeyyyACyxG_AA0aF0OtcF",
+            "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE13onStateChangeyyyACyxG_AA0aF0OtcF",
+            "moduleName": "LiveActivities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ActivityKit.ActivityAttributes>",
+            "sugared_genericSig": "<Attributes where Attributes : ActivityKit.ActivityAttributes>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onContentChange",
+            "printedName": "onContentChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ActivityKit.Activity<τ_0_0>, ActivityKit.ActivityContent<τ_0_0.ContentState>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ActivityKit.Activity<τ_0_0>, ActivityKit.ActivityContent<τ_0_0.ContentState>)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Activity",
+                        "printedName": "ActivityKit.Activity<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11ActivityKit0A0C"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityContent",
+                        "printedName": "ActivityKit.ActivityContent<τ_0_0.ContentState>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DependentMember",
+                            "printedName": "τ_0_0.ContentState"
+                          }
+                        ],
+                        "usr": "s:11ActivityKit0A7ContentV"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ActivityKit0A0C14LiveActivitiesE15onContentChangeyyyACyxG_AA0aF0Vy0F5StateQzGtcF",
+            "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE15onContentChangeyyyACyxG_AA0aF0Vy0F5StateQzGtcF",
+            "moduleName": "LiveActivities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ActivityKit.ActivityAttributes>",
+            "sugared_genericSig": "<Attributes where Attributes : ActivityKit.ActivityAttributes>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPushTokenChange",
+            "printedName": "onPushTokenChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ActivityKit.Activity<τ_0_0>, Foundation.Data) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ActivityKit.Activity<τ_0_0>, Foundation.Data)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Activity",
+                        "printedName": "ActivityKit.Activity<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:11ActivityKit0A0C"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ActivityKit0A0C14LiveActivitiesE17onPushTokenChangeyyyACyxG_10Foundation4DataVtcF",
+            "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE17onPushTokenChangeyyyACyxG_10Foundation4DataVtcF",
+            "moduleName": "LiveActivities",
+            "genericSig": "<τ_0_0 where τ_0_0 : ActivityKit.ActivityAttributes>",
+            "sugared_genericSig": "<Attributes where Attributes : ActivityKit.ActivityAttributes>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isActive",
+            "printedName": "isActive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ActivityKit0A0C14LiveActivitiesE8isActiveSbvp",
+            "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE8isActiveSbvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ActivityKit0A0C14LiveActivitiesE8isActiveSbvg",
+                "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE8isActiveSbvg",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ActivityKit.ActivityAttributes>",
+                "sugared_genericSig": "<Attributes where Attributes : ActivityKit.ActivityAttributes>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasEnded",
+            "printedName": "hasEnded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ActivityKit0A0C14LiveActivitiesE8hasEndedSbvp",
+            "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE8hasEndedSbvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ActivityKit0A0C14LiveActivitiesE8hasEndedSbvg",
+                "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE8hasEndedSbvg",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ActivityKit.ActivityAttributes>",
+                "sugared_genericSig": "<Attributes where Attributes : ActivityKit.ActivityAttributes>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStale",
+            "printedName": "isStale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ActivityKit0A0C14LiveActivitiesE7isStaleSbvp",
+            "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE7isStaleSbvp",
+            "moduleName": "LiveActivities",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ActivityKit0A0C14LiveActivitiesE7isStaleSbvg",
+                "mangledName": "$s11ActivityKit0A0C14LiveActivitiesE7isStaleSbvg",
+                "moduleName": "LiveActivities",
+                "genericSig": "<τ_0_0 where τ_0_0 : ActivityKit.ActivityAttributes>",
+                "sugared_genericSig": "<Attributes where Attributes : ActivityKit.ActivityAttributes>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ActivityKit0A0C",
+        "mangledName": "$s11ActivityKit0A0C",
+        "moduleName": "ActivityKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : ActivityKit.ActivityAttributes>",
+        "sugared_genericSig": "<Attributes where Attributes : ActivityKit.ActivityAttributes>",
+        "intro_iOS": "16.1",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGFloat",
+        "printedName": "CGFloat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dynamicIslandCornerRadius",
+            "printedName": "dynamicIslandCornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14CoreFoundation7CGFloatV14LiveActivitiesE25dynamicIslandCornerRadiusACvpZ",
+            "mangledName": "$s12CoreGraphics7CGFloatV14LiveActivitiesE25dynamicIslandCornerRadiusACvpZ",
+            "moduleName": "LiveActivities",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14CoreFoundation7CGFloatV14LiveActivitiesE25dynamicIslandCornerRadiusACvgZ",
+                "mangledName": "$s12CoreGraphics7CGFloatV14LiveActivitiesE25dynamicIslandCornerRadiusACvgZ",
+                "moduleName": "LiveActivities",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14CoreFoundation7CGFloatV",
+        "mangledName": "$s12CoreGraphics7CGFloatV",
+        "moduleName": "CoreFoundation",
+        "intro_Macosx": "10.0",
+        "intro_iOS": "2.0",
+        "intro_tvOS": "9.0",
+        "intro_watchOS": "1.0",
+        "declAttributes": [
+          "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryFloatingPoint",
+            "printedName": "BinaryFloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawSignificand",
+                "printedName": "RawSignificand",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RawExponent",
+                "printedName": "RawExponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SB",
+            "mangledName": "$sSB"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FloatingPoint",
+            "printedName": "FloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Exponent",
+                "printedName": "Exponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SF",
+            "mangledName": "$sSF"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgPassedAsDouble",
+            "printedName": "_CVarArgPassedAsDouble",
+            "usr": "s:s22_CVarArgPassedAsDoubleP",
+            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI18_FormatSpecifiableP",
+            "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/LiveActivities\/LiveActivities\/Classes\/Attributes\/Appointment\/VideoVisit\/VideoVisitAttributes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4477,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/LiveActivities\/LiveActivities\/Classes\/Extension\/CGFloat+DynamicIslandCornerRadius.swift",
+      "kind": "IntegerLiteral",
+      "offset": 444,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/LiveActivities.build\/Release-iphoneos\/LiveActivities.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 21,
+      "value": "\"LockScreenSecondary\""
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UpcomingOrders",
+    "printedName": "UpcomingOrders",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "UpcomingOrders",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEUpcomingOrdersComponentAPI",
+        "printedName": "PEUpcomingOrdersComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForUpcomingOrders",
+            "printedName": "hasAccessForUpcomingOrders(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UpcomingOrders@objc(cs)PEUpcomingOrdersComponentAPI(im)hasAccessForUpcomingOrders:",
+            "mangledName": "$s14UpcomingOrders010PEUpcomingB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "UpcomingOrders",
+            "objc_name": "hasAccessForUpcomingOrders:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUpcomingOrdersViewController",
+            "printedName": "getUpcomingOrdersViewController(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UpcomingOrders@objc(cs)PEUpcomingOrdersComponentAPI(im)getUpcomingOrdersViewController::",
+            "mangledName": "$s14UpcomingOrders010PEUpcomingB12ComponentAPIC03getaB14ViewControllerySo06UIViewH0C6PECore16PEPatientContextC_SSSgtF",
+            "moduleName": "UpcomingOrders",
+            "objc_name": "getUpcomingOrdersViewController::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEUpcomingOrdersComponentAPI",
+                "printedName": "UpcomingOrders.PEUpcomingOrdersComponentAPI",
+                "usr": "c:@M@UpcomingOrders@objc(cs)PEUpcomingOrdersComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UpcomingOrders@objc(cs)PEUpcomingOrdersComponentAPI(im)init",
+            "mangledName": "$s14UpcomingOrders010PEUpcomingB12ComponentAPICACycfc",
+            "moduleName": "UpcomingOrders",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UpcomingOrders@objc(cs)PEUpcomingOrdersComponentAPI",
+        "mangledName": "$s14UpcomingOrders010PEUpcomingB12ComponentAPIC",
+        "moduleName": "UpcomingOrders",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEUpcomingOrdersComponentAPIProtocol",
+            "printedName": "PEUpcomingOrdersComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEUpcomingOrdersComponentAPIProtocol",
+            "mangledName": "$s6PECore36PEUpcomingOrdersComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/UpcomingOrders\/UpcomingOrders\/Classes\/UpcomingOrdersWebViewControllerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 9,
+      "value": "\"tickets\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/UpcomingOrders\/UpcomingOrders\/Classes\/PEUpcomingOrdersComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 16,
+      "value": "\"upcomingorders\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/UpcomingOrders\/UpcomingOrders\/Classes\/PEUpcomingOrdersComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 7,
+      "value": "\"ordid\""
+    }
+  ]
+}

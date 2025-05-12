@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ContinuingCare
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import ContinuingCare
+import Foundation
+import PECore
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class ContinuingCareListWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func onWorkflowCompleteAndClose(_ viewController: PECore.MyChartWebViewController, launching deepLinkUrl: Swift.String?)
+  override public func onMyChartRequestsClose(_ viewController: PECore.MyChartWebViewController)
+  override public func allowLaunchOutsideApp() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class ContinuingCareWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  public init(encounterContext: PECore.PEEncounterContext? = nil)
+  override public func onPageFinished(_ viewController: PECore.MyChartWebViewController)
+  override public func onViewWillDisappear(_ viewController: PECore.MyChartWebViewController)
+  override public func onViewDidAppear(_ controller: PECore.MyChartWebViewController)
+  override public func allowLaunchOutsideApp() -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PEContinuingCareComponentAPI : ObjectiveC.NSObject, PECore.PEContinuingCareComponentAPIProtocol {
+  @objc public func hasAccessForContinuingCare(_ encounterContext: PECore.PEEncounterContext) -> PECore.PEComponentAccessResult
+  @objc public func getContinuingCareViewController(_ encounterContext: PECore.PEEncounterContext, viewControllerTitle: Swift.String?) -> UIKit.UIViewController?
+  @objc public func getOpenListViewController(_ encounterContext: PECore.PEEncounterContext, epicHttpLink: Swift.String) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}

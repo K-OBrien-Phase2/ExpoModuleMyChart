@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020-2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_messages_component_title" constraints="2 lines, 17 characters per line" context="Default title for the Messages activity">Centro de mensajes</string>
+  <string name="wp_messages_tutorial_overview" context="Tutorial text introducing the patient to the messages activity.">Si quiere hacer una pregunta o compartir algo con su equipo de atención médica, envíele un mensaje aquí. Para algo urgente, ¡utilice el botón para llamar al enfermero!</string>
+  <string name="wp_messages_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the messages activity. %%PATNAME is replaced with the name of the patient">Si quiere hacer una pregunta o compartir algo con el equipo de atención médica de %%PATNAME, envíele un mensaje aquí. Para algo urgente, ¡utilice el botón para llamar al enfermero!</string>
+  <string name="wp_messages_tutorial_overview_2" context="Tutorial text explaining further details about messages to the patient.">Todas las personas en su equipo de atención médica pueden responder a sus mensajes. Si tiene una pregunta o comentario para alguien en particular, mencione a esa persona en su mensaje.</string>
+  <string name="wp_messages_tutorial_overview_2_proxy" context="Tutorial text explaining further details about messages to the patient proxy. %%PATNAME is replaced with the name of the patient">Todas las personas en el equipo de atención médica de %%PATNAME pueden responder a sus mensajes. Si tiene una pregunta o comentario para alguien en particular, mencione a esa persona en su mensaje.</string>
+</resources>

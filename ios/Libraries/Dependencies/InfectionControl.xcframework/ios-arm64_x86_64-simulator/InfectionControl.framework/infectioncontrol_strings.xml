@@ -1,0 +1,583 @@
+<!--
+  ~ Copyright © 2020-2024 Epic Systems Corporation
+  -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    
+    <!-- Patient Info -->
+    <string name="wp_infection_control_dateofbirth_label"
+        context="Used to display the patient's date of birth. %1$s is the patient's date of birth in medium date format, like 'May 16, 2019'">DOB: %1$s</string>
+    <string name="wp_infection_control_dateofbirth_accessibility_label"
+        context="Used to display the patient's date of birth. %1$s is the patient's date of birth in medium date format, like 'May 16, 2019'">Date of birth: %1$s</string>
+
+    <!-- Testing Status: Unknown -->
+    <string name="wp_infection_control_covid_test_status_unknown"
+        context="Status displayed based on available test results, indicating that the patient has not yet been tested.">No test results found</string>
+    <string name="wp_infection_control_covid_test_status_unknown_subtext_with_org"
+        context="Used to add additional context for the unknown test result status. %1$s is the local organization the patient is logged in to.">%1$s has no information about your COVID-19 tests.</string>
+    
+    <!-- Testing Status: Pending -->
+    <string name="wp_infection_control_covid_test_status_pending"
+        context="Status displayed based on available test results, indicating that a test has been ordered but not yet resulted/released.">Testing in progress</string>
+    <string name="wp_infection_control_covid_test_status_pending_subtext"
+        context="Used to add additional context for the pending test result status. %1$s is the ordering provider of the test. %2$s is the organization that ordered the test. %3$s is the medium formatted date that the test was ordered, like 'May 16, 2019'.">Ordered by %1$s at %2$s on %3$s.</string>
+    
+    <!-- Testing Status: Virus Detected/Not Detected -->
+    <string name="wp_infection_control_covid_test_status_not_detected"
+        context="Status displayed based on available test results, indicating that virus that causes COVID-19 has NOT been detected.">Tested - Virus not detected</string>
+    <string name="wp_infection_control_covid_test_status_detected"
+        context="Status displayed based on available test results, indicating that virus that causes COVID-19 has been detected.">Tested - Virus detected</string>
+    <plurals name="wp_infection_control_covid_test_status_daysago"
+        context="Displayed below the status based on available test results to indicate how long ago a test was resulted. %1$s is the number of days ago that the test was resulted, like '4">
+        <item quantity="one">(%1$s day ago)</item>
+        <item quantity="other">(%1$s days ago)</item>
+    </plurals>
+    <plurals name="wp_infection_control_covid_test_status_tested_but_old"
+        context="Status displayed based on available test results, indicating that a patient has been tested for COVID-19, but the test is too old to be considered 'recent'. %1$s is the number of days that detemine recency.">
+        <item quantity="one">No COVID-19 test results found from the past day</item>
+        <item quantity="other">No COVID-19 test results found from the past %1$s days</item>
+    </plurals>
+    <string name="wp_infection_control_covid_test_status_not_detected_subtext"
+        context="Used to add additional context for the 'not detected' test result status. %1$s is the organization that completed the test. %2$s is the medium formatted date that the test was resulted, like 'May 16, 2019'.">Performed at %1$s on %2$s.</string>
+    <string name="wp_infection_control_covid_test_status_detected_subtext"
+        context="Used to add additional context for the 'detected' test result status. %1$s is the organization that completed the test. %2$s is the medium formatted date that the test was resulted, like 'May 16, 2019'.">Performed at %1$s on %2$s.</string>
+    <string name="wp_infection_control_covid_hx_test_not_detected"
+        context="Status displayed for a past test result, indicating that virus that causes COVID-19 has NOT been detected.">Virus not detected</string>
+    <string name="wp_infection_control_covid_hx_test_detected"
+        context="Status displayed for a past test result, indicating that virus that causes COVID-19 has been detected.">Virus detected</string>
+    <string name="wp_infection_control_covid_test_status_tested_but_old_widget_text"
+        context="Status displayed on the prelogin widget based on available test results, indicating that a patient has been tested for COVID-19, but the test is too old to be considered 'recent'.">No recent COVID-19 test results found</string>
+
+    <!-- Expanded Test Status Subtext -->
+    <string name="wp_infection_control_covid_test_subtext_header_label"
+        context="Header label shown in Covid Testing status subtext, marking it as the most recent test result details">Most Recent Test Result</string>
+    <string name="wp_infection_control_covid_test_subtext_name_label"
+        context="Label shown in Covid Testing status subtext, for the name of the test.">Name</string>
+    <string name="wp_infection_control_covid_test_subtext_status_label"
+        context="Label shown in Covid Testing status subtext, for the status of the test.">Status</string>
+    <string name="wp_infection_control_covid_test_subtext_collected_label"
+        context="Label shown in Covid Testing status subtext, for the date/time the test was collected.">Collected</string>
+    <string name="wp_infection_control_covid_test_subtext_resulted_label"
+        context="Label shown in Covid Testing status subtext, for the date/time the test was resulted.">Resulted</string>
+    <string name="wp_infection_control_covid_test_subtext_performed_label"
+        context="Label shown in Covid Testing status subtext, for the name of the location where the test was performed.">Performed</string>
+    <string name="wp_infection_control_covid_test_subtext_date_time_with_timezone"
+        context="Formatted date shown for a covid test result, indicating the date, time and timezone a test was resulted or collected. %1$s is the formatted date and time in medium format, like 'Nov 23, 2020 7:46pm'. %2$s is the timezone marker, like 'CST'.">%1$s %2$s</string>
+    <plurals name="wp_infection_control_covid_test_status_hoursago"
+        context="Displayed below the status based on available test results to indicate how long ago a test was resulted. %1$s is the number of hours ago that the test was resulted, like '4">
+        <item quantity="one">(%1$s hour ago)</item>
+        <item quantity="other">(%1$s hours ago)</item>
+    </plurals>
+    
+    <!-- Expanded Screening Status Subtext -->
+    <string name="wp_infection_control_covid_screening_subtext_header_label"
+        context="Header label shown in Covid Self-assessment status subtext, marking it as the most recent self-assessment">Most Recent Self-Assessment</string>
+    
+    <!-- General Subtext -->
+    <string name="wp_infection_control_covid_subtext_view_details"
+        context="Button shown in Covid status subtext views, which takes the user to their full test result or screening details.">View details</string>
+
+    <!-- Screening Status: Not Screened / No score (error) -->
+    <string name="wp_infection_control_covid_screening_status_not_screened"
+        context="Status displayed based on available questionnaire screenings, indicating that the patient has not answered a screening in the last 24 hrs.">No recent self-assessments</string>
+    <string name="wp_infection_control_covid_screening_status_not_screened_subtext_with_org"
+        context="Used to add additional context for the not-screened screening status. %1$s is the local organization the patient is logged in to.">%1$s has no COVID-19 self-assessments from you in the last 24 hours.</string>
+    <string name="wp_infection_control_covid_screening_status_screened_no_score"
+        context="Status displayed based on available questionnaire screenings, indicating that the patient has answered a screening in the last 24 hrs, and no score was returned">Self-assessment complete - Failed to determine risk of infection</string>
+    <string name="wp_infection_control_covid_screening_status_screened_no_score_subtext"
+        context="Used to add additional context for the screened-no score screening status.">Contact your healthcare provider to discuss your answers and determine your risk of currently having COVID-19.</string>
+    
+    <!-- Screening Status: Non scored QNR -->
+    <string name="wp_infection_control_covid_screening_non_scored_nothing_reported"
+        context="Status displayed based on available COVID-19 questionnaire screenings, indicating that the patient has answered a non-scoring screening in the last 24 hrs, and no symptoms or exposure was reported. 'Complete' means the questionnaire screening was answered.">Self-assessment complete - No symptoms or exposure reported</string>
+    <string name="wp_infection_control_covid_screening_non_scored_nothing_reported_subtext"
+        context="Used to add additional context for the non-scored, nothing reported questionnaire screening status. 'Consult' means 'check with', and 'provider' refers to a health care provider (human).">Continue to follow public health COVID-19 recommendations, and consult a medical provider if you develop severe symptoms, become concerned about exposure to COVID-19, or have any concerns about your health.</string>
+    <string name="wp_infection_control_covid_screening_non_scored_symptoms_reported"
+        context="Status displayed based on available questionnaire screenings, indicating that the patient has answered a non-scoring screening in the last 24 hrs, and symptoms were reported. 'Complete' means the questionnaire screening was answered.">Self-assessment complete - One or more symptoms reported</string>
+    <string name="wp_infection_control_covid_screening_non_scored_symptoms_reported_subtext"
+        context="Used to add additional context for the non-scored, symptoms reported screening status. %1$s is an emergency phone number. 'Consult' means 'check with', and 'provider' refers to a health care provider (human). ">Continue to monitor your symptoms. If you are concerned about your symptoms, consult your provider. If your symptoms are severe or become severe, call %1$s.</string>
+    <string name="wp_infection_control_covid_screening_non_scored_exposure_reported"
+        context="Status displayed based on available COVID-19 questionnaire screenings, indicating that the patient has answered a non-scoring screening in the last 24 hrs, and exposure was reported. 'Complete' means the questionnaire screening was answered.">Self-assessment complete - COVID-19 exposure reported</string>
+    <string name="wp_infection_control_covid_screening_non_scored_exposure_reported_subtext"
+        context="Used to add additional context for the non-scored, exposure reported screening status. %1$s is an emergency phone number. 'Consult' means 'check with', and 'provider' refers to a health care provider (human).">If you are concerned about your COVID-19 exposure, consult your provider. If you develop severe symptoms, call %1$s.</string>
+    <string name="wp_infection_control_covid_screening_non_scored_symptoms_and_exposure_reported"
+        context="Status displayed based on available COVID-19 questionnaire screenings, indicating that the patient has answered a non-scoring screening in the last 24 hrs, and both symptoms and exposure was reported. 'Complete' means the questionnaire screening was answered.">Self-assessment complete - One or more symptoms and COVID-19 exposure reported</string>
+    <string name="wp_infection_control_covid_screening_non_scored_symptoms_and_exposure_reported_subtext"
+        context="Used to add additional context for the non-scored, both symptoms and exposure reported screening status. %1$s is an emergency phone number. 'Consult' means 'check with', and 'provider' refers to a health care provider (human).">Continue to monitor your symptoms. If you are concerned about your symptoms or COVID-19 exposure, consult your provider. If symptoms are severe or become severe, call %1$s.</string>
+    <string name="wp_infection_control_covid_screening_non_scored_no_risk_questions"
+        context="Status displayed based on available COVID-19 questionnaire screenings, indicating that the patient has answered a non-scoring screening in the last 24 hrs that didn't have any risk questions. 'Complete' means the questionnaire screening was answered.">Self-assessment complete</string>
+    <string name="wp_infection_control_covid_screening_non_scored_no_risk_questions_subtext"
+        context="Used to add additional context for the non-scored, no risk questions screening status. %1$s is the name of the header for resource links ('Helpful Resources' in English)">Continue to wear a mask and practice social distancing. View the %1$s section to learn more about COVID-19.</string>
+    
+    <!-- Screening Status: Yes/No symptoms or contact reported -->
+    <string name="wp_infection_control_covid_screening_status_screened_high_risk"
+        context="Status displayed based on available questionnaire screenings, indicating that the patient has answered a screening in the last 24 hrs, and the patient has high risk.">Self-assessment complete - High risk of infection</string>
+    <string name="wp_infection_control_covid_screening_status_screened_low_risk"
+        context="Status displayed based on available questionnaire screenings, indicating that the patient has answered a screening in the last 24 hrs, and the patient has low risk.">Self-assessment complete - Low risk of infection</string>
+    <string name="wp_infection_control_covid_screening_status_screened_positive_test"
+        context="Status displayed based on available questionnaire screenings, indicating that the patient has answered a screening in the last 24 hrs, and the patient indicated they have had a positive test.">Self-assessment complete - Positive test reported</string>
+    <string name="wp_infection_control_covid_screening_status_screened_positive_test_subtext"
+        context="Used to add additional context for the 'positive test reported' screening status.">Your latest self-assessment reported a positive COVID-19 test result.</string>
+    <plurals name="wp_infection_control_covid_screening_status_screened_hours_ago"
+        context="Displayed next to the status based on available questionnaire screenings to indicate how long ago a screening was completed. %1$s is the number of hours ago that the questionnaire was completed, like '4">
+        <item quantity="one">(%1$s hour ago)</item>
+        <item quantity="other">(%1$s hours ago)</item>
+    </plurals>
+    <string name="wp_infection_control_covid_screening_status_screened_zero_hours_ago"
+        context="Displayed next to the status based on available questionnaire screenings to indicate that a screening was completed less than an hour ago.">(under an hour ago)</string>
+    <string name="wp_infection_control_covid_screening_status_screened_action_label"
+        context="Button text that links the user to a new screening questionnaire">Start a new COVID-19 self-assessment</string>
+    <string name="wp_infection_control_covid_hx_screening_high_risk"
+        context="Status displayed for a past questionnaire screening, indicating that the screening determined the patient had high risk.">High risk self-assessment</string>
+    <string name="wp_infection_control_covid_hx_screening_low_risk"
+        context="Status displayed for a past questionnaire screening, indicating that the screening determined the patient had low risk.">Low risk self-assessment</string>
+    <string name="wp_infection_control_covid_hx_screening_positive_test"
+        context="Status displayed for a past questionnaire screening, indicating that the patient reported they had a positive test in their screening.">Positive test reported</string>
+    <string name="wp_infection_control_covid_hx_screening_no_score"
+        context="Status displayed for a past questionnaire screening, indicating that the screening was not able to determine a risk for the patient.">Failed to determine risk of infection</string>
+    <string name="wp_infection_control_covid_hx_screening_non_scored_nothing_reported"
+        context="Status displayed for a past non-scored questionnaire screening, indicating that the patient didn't report symptoms or exposure.">No symptoms or exposure reported</string>
+    <string name="wp_infection_control_covid_hx_screening_non_scored_symptoms_reported"
+        context="Status displayed for a past non-scored questionnaire screening, indicating that the patient reported symptoms.">One or more symptoms reported</string>
+    <string name="wp_infection_control_covid_hx_screening_non_scored_exposure_reported"
+        context="Status displayed for a past non-scored questionnaire screening, indicating that the patient reported exposure.">COVID-19 exposure reported</string>
+    <string name="wp_infection_control_covid_hx_screening_non_scored_symptoms_and_exposure_reported"
+        context="Status displayed for a past non-scored questionnaire screening, indicating that the patient reported symptoms and exposure.">One or more symptoms and COVID-19 exposure reported</string>
+    <string name="wp_infection_control_covid_hx_screening_non_scored_no_risk_questions"
+        context="Status displayed for a past non-scored questionnaire screening that did not have any risk questions. 'Complete' means the questionnaire screening was answered.">Self-assessment complete</string>
+    
+    <!-- Vaccine Status -->
+    <string name="wp_infection_control_covid_vaccine_status_not_started"
+        context="Status displayed based on administered vaccines, indicating that the patient has not had any.">No vaccine doses found</string>
+    <string name="wp_infection_control_covid_vaccine_status_not_started_subtext_with_org"
+        context="Subtext displayed based on administered vaccines, indicating that the patient has not had any. %1$s is the local organization the patient is logged in to.">%1$s has no information about your COVID-19 vaccinations.</string>
+    <string name="wp_infection_control_covid_vaccine_status_unknown"
+        context="Status displayed based on administered vaccines, indicating that the patient's status is unknown.">Vaccination status unknown</string>
+    <string name="wp_infection_control_covid_vaccine_status_unknown_subtext"
+        context="Subtext displayed based on administered vaccines, indicating that the patient's status is unknown.">COVID-19 vaccination status unknown.</string>
+    <plurals name="wp_infection_control_covid_vaccine_status_completed_doses"
+        context="Status displayed based on administered vaccines, indicating the number of doses the patient has had. %1$s is the number of doses received.">
+        <item quantity="one">%1$s COVID-19 vaccine dose received</item>
+        <item quantity="two">%1$s COVID-19 vaccine doses received</item>
+        <item quantity="other">%1$s COVID-19 vaccine doses received</item>
+    </plurals>
+    <plurals name="wp_infection_control_covid_vaccine_status_completed_doses_prelogin"
+        context="Text displayed the Prelogin Covid widget based on administered vaccines, indicating the number of doses the patient has had. %1$s is the number of doses received.">
+        <item quantity="one">%1$s vaccine dose received</item>
+        <item quantity="two">%1$s vaccine doses received</item>
+        <item quantity="other">%1$s vaccine doses received</item>
+    </plurals>
+    <string name="wp_infection_control_covid_vaccine_status_next_dose_subtitle"
+        context="Subtitle displayed based on administered vaccines, indicating that the patient has an upcoming dose due. %1$s is the date the vaccine is due in medium date format, like 'Dec 10, 2020'">Next dose due on or after %1$s</string>
+    <string name="wp_infection_control_covid_vaccine_status_next_booster_subtitle"
+        context="Subtitle displayed based on administered vaccines, indicating that the patient has an upcoming booster dose recommended. %1$s is the date after which the booster is recommended in medium date format, like 'Dec 10, 2020'">Booster dose recommended on or after %1$s</string>
+    <string name="wp_infection_control_covid_vaccine_status_last_dose_subtitle"
+        context="Subtitle displayed based on administered vaccines, indicating when the patient had their most recent dose. %1$s is the date that they had their last dose, in medium date format, like 'Dec 10, 2020'">Most recent dose received on %1$s</string>
+    <string name="wp_infection_control_covid_vaccine_status_incomplete_banner_text"
+        context="Warning banner text shown when a patient may have received one or more invalid vaccines on file, to explain why we're not showing any doses received. Provider in this context is a person.">Your COVID-19 vaccination information might be incomplete. Check back later, or contact your provider for more information.</string>
+    
+    <!-- Vaccine dose subtext -->
+    <string name="wp_infection_control_covid_vaccine_status_dose_subtext_dose_date"
+        context="Part of subtext shown for an administered vaccine dose, which contains dose number and date information. %1$s is the number of the dose (dose 1 is their first shot, etc). %2$s is the medium formatted date that the vaccine was received, like 'Dec 16, 2019'">Dose %1$s administered on %2$s</string>
+    <string name="wp_infection_control_covid_vaccine_status_dose_subtext_dose_date_without_dose_number"
+        context="Part of subtext shown for an administered vaccine dose, which contains date information. %1$s is the medium formatted date that the vaccine was received, like 'Dec 16, 2019'">Dose administered on %1$s</string>
+    <string name="wp_infection_control_covid_vaccine_status_dose_subtext_name_label"
+        context="Part of subtext shown for an administered vaccine dose, which contains the label for name and dose information.">Name</string>
+    <string name="wp_infection_control_covid_vaccine_status_dose_subtext_manufacturer_label"
+        context="Part of subtext shown for an administered vaccine dose, which contains the label for vaccine manufacturer.">Manufacturer</string>
+    <string name="wp_infection_control_covid_vaccine_status_dose_subtext_lot_label"
+        context="Part of subtext shown for an administered vaccine dose, which contains the label for the vaccine lot number.">Lot #</string>
+    <string name="wp_infection_control_covid_vaccine_status_dose_subtext_location_label"
+        context="Part of subtext shown for an administered vaccine dose, which contains the label for the location the vaccine was administered.">Location</string>
+    <string name="wp_infection_control_covid_vaccine_status_dose_subtext_givenby_label"
+        context="Part of subtext shown for an administered vaccine dose, which contains the label for the provider that administered the vaccine.">Given by</string>
+    
+    <!-- History -->
+    <string name="wp_infection_control_covid_hx_results_header"
+        context="Header shown before the list of historical test results.">Past Test Results</string>
+    <string name="wp_infection_control_covid_hx_results_notice"
+        context="Message shown after the list of historical results, indicating that not all results are included.">Not all COVID-19 test results are shown</string>
+    <string name="wp_infection_control_covid_hx_results_view_all"
+        context="Link shown after the list of historical results, which takes the user to the test result list.">View all test results</string>
+    <string name="wp_infection_control_covid_hx_screenings_header"
+        context="Header shown before the list of historical questionnaire screenings.">Past Self-Assessments</string>
+    <string name="wp_infection_control_covid_hx_screenings_full_notice"
+        context="Message shown after the list of historical questionnaire screenings, indicating that only a certain number of recent screenings are included.">Only your five most recent COVID-19 self-assessments are shown. Self-assessments are from the past two weeks</string>
+    <string name="wp_infection_control_covid_hx_screenings_notice_only_recent"
+        context="Message shown after the list of historical questionnaire screenings, indicating that only recent screenings are included">Self-assessments are from the past two weeks</string>
+    
+    <!-- Resource Links -->
+    <string name="wp_infection_control_covid_links_header"
+        context="Used as a header for a list of links related to COVID-19">Helpful Resources</string>
+    <string name="wp_infection_control_covid_link_failed"
+        context="Message shown when a link fails to launch">Unable to open link</string>
+    <string name="wp_infection_control_covid_link_external_ax_notice"
+        context="Accessibility only text that lets the user know that a link opens outside of the app.">Opens externally</string>
+    
+    <!-- Org Information -->
+    <string name="wp_infection_control_information_from"
+        context="Title for happy together pop up about where your covid status information is coming from.">Information from:</string>
+    <plurals name="wp_infection_control_covid_status_h2g_error"
+        context="Error message shown at the bottom of the screen when the Covid Status activity was unable to load data from a happy together organization.  %1$s is the org name that failed.">
+        <item quantity="one">We\'re having issues getting data from your linked account, %1$s.</item>
+        <item quantity="other">We\'re having issues getting data from your linked accounts.</item>
+    </plurals>
+    <plurals name="wp_infection_control_covid_status_h2g_error_title"
+        context="Text shown before a list of external organizations that the Covid Status activity was unable to load data from.">
+        <item quantity="one">Account with connection issues:</item>
+        <item quantity="other">Accounts with connection issues:</item>
+    </plurals>
+    
+    <!-- Download vaccination record -->
+    <string name="wp_infection_control_download_record_button_text"
+        context="Text for the button to download a PDF record of the vaccination information">Download vaccination PDF</string>
+    <string name="wp_infection_control_download_record_in_progress"
+        context="Text for the button indicating to the user that the vaccination record download is in progress">Downloading vaccination PDF…</string>
+    <string name="wp_infection_control_download_taking_long"
+        context="Message shown to the user that the vaccination record download is taking long, and they should try later.">Generating your PDF is taking longer than expected. Please try again later.</string>
+    <string name="wp_infection_control_download_failed"
+        context="Message shown to the user that the vaccination record download failed, and they should try later.">Downloading your PDF failed. Please try again later.</string>
+    
+    <!-- Prelogin Widget -->
+    <string name="wp_infection_control_prelogin_covid_primary_text"
+        context="Primary text for Prelogin Covid Status widget. %1$s is the name of the patient whose information is shown.">COVID-19 Status for %1$s</string>
+    <string name="wp_infection_control_prelogin_covid_expand_button"
+        context="Text for the button that expands the Prelogin Covid Status details">Show Details</string>
+    <string name="wp_infection_control_prelogin_covid_hide_button"
+        context="Text for the button that hides the Prelogin Covid Status details">Hide Details</string>
+    <string name="wp_infection_control_prelogin_covid_lost_access"
+        context="Error shown to a patient when they tried to load prelogin covid status, but no longer have access to the feature.">You no longer have access to COVID-19 Status Preview.</string>
+    <string name="wp_infection_control_prelogin_covid_general_loading_error"
+        context="Error shown to a patient when they tried to load prelogin covid status and there is an error loading">Unable to load your COVID-19 Status Preview. Please try again later.</string>
+    <string name="wp_infection_control_prelogin_covid_loading_text"
+        context="Text shown while the Prelogin Covid Status details are loading"
+        tools:ignore="TypographyEllipsis">Loading latest COVID-19 information...</string>
+    <string name="wp_infection_control_prelogin_covid_enabled"
+        context="Toast shown when a patient successfully enables viewing their COVID-19 Status prelogin.">COVID-19 Status Preview enabled!</string>
+
+    <!-- Prelogin Toggle -->
+    <string name="wp_infection_control_prelogincovid_overwrite_alert_title" context="Title of the alert shown when a patient attempts to enable viewing their COVID-19 Status prelogin, and another user on the device has enabled the feature.">Already In Use</string>
+    <string name="wp_infection_control_prelogincovid_overwrite_alert_message" context="Message of the alert shown when a patient attempts to enable viewing their COVID-19 Status prelogin, and another user on the device has enabled the feature.">Enabling COVID-19 Status Preview here will replace any existing preview on this device. Would you like to continue?</string>
+    <string name="wp_infection_control_prelogincovid_overwrite_alert_replace_button" context="Positive button text on the alert shown when a patient attempts to enable viewing their COVID-19 Status prelogin, and another user on the device has enabled the feature.">Enable Preview</string>
+    <string name="wp_infection_control_prelogincovid_toggle_error" context="Toast shown when a patient attempts to enables viewing their COVID-19 Status prelogin, and it fails.">There was an issue enabling COVID-19 Status Preview</string>
+    <string name="wp_infection_control_prelogincovid_toggle_off_alert_title"  context="Title of the alert shown when a patient toggles the COVID-19 Status prelogin feature off.">Turn off COVID-19 Status Preview?</string>
+    <string name="wp_infection_control_prelogincovid_toggle_off_alert_message" context="Message of tthe alert shown when a patient toggles the COVID-19 Status prelogin feature off.">Are you sure you want to disable COVID-19 Status Preview?</string>
+    <string name="wp_infection_control_prelogincovid_inuse_message_and_secondarylogin" context="The message in dialog showed when a user is enabling prelogin covid and a secondary login method and/or prelogin covid has already been set for another user. %1$s is the name of the biometric method for secondary login, like Touch ID. %2$s is the name of the organization">A passcode, %1$s, or COVID-19 Status Preview has already been set on this device for another user at %2$s. Enabling COVID-19 Status Preview will remove these for the other user. Would you like to continue?</string>
+    <string name="wp_infection_control_prelogincovid_inuse_message_and_passcode" context="The message in dialog showed when a user is enabling prelogin covid and a passcode and/or prelogin covid has already been set for another user. %1$s is the name of the organization">A passcode or COVID-19 Status Preview has already been set on this device for another user at %1$s. Enabling COVID-19 Status Preview will remove these for the other user. Would you like to continue?</string>
+
+    <!-- Onboarding -->
+    <string name="wp_infection_control_prelogin_nudge_primary_text"
+        context="Text shown in a banner that lets users know they can enable COVID-19 Status Preview.">Want to get to your COVID-19 test results and vaccination history faster? Learn how you can see this information before you log in.</string>
+    <string name="wp_infection_control_learn_more_button"
+        context="Positive button shown in a banner that allows patients to launch a workflow with more information.">Learn more</string>
+    <string name="wp_infection_control_dismiss_button"
+        context="Negative button sbown in a banner that allows patients to dismiss the banner.">Dismiss</string>
+    <string name="wp_infection_control_prelogin_onboarding_dismissed_toast"
+        context="Toast shown when a patient is prompted for COVID-19 Status Preview, and decideds against enabling the feature. %1$s is the name of the COVID-19 activity.">You can turn on COVID-19 Status Preview in Account Settings or in %1$s</string>
+    <string name="wp_infection_control_prelogin_onboarding_title"
+        context="Title for the initial onboarding page introducing the user to the COVID-19 Status Preview feature">COVID-19 Status Preview</string>
+    <string name="wp_infection_control_prelogin_onboarding_description"
+        context="Description for the initial onboarding page introducing the user to the COVID-19 Status Preview feature">With this feature enabled, you can quickly access your COVID-19 testing and vaccination status from the login screen. This allows you to easily share your information without logging in.</string>
+    <string name="wp_infection_control_prelogin_onboarding_description_no_test_results"
+        context="Description for the initial onboarding page introducing the user to the COVID-19 Status Preview feature when test results are disabled">With this feature enabled, you can quickly access your COVID-19 vaccination status from the login screen. This allows you to easily share your information without logging in.</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_overview_title"
+        context="Title of the COVID-19 Status Preview feature on the onboarding page prior to a more detailed description">COVID-19 Status Preview</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_overview_intro_text"
+        context="Introductory text about the information that will be shown in the COVID-19 Status Preview feature">The following information will be shown before you log in to your account.</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_overview_tests_item"
+        context="Text shown on a row in the onboarding page that states COVID-19 testing status is shown for COVID-19 Status Preview">COVID-19 testing status</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_overview_vaccs_item"
+        context="Text shown on a row in the onboarding page that states COVID-19 vaccination status is shown for COVID-19 Status Preview">COVID-19 vaccination status</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_overview_demo_item"
+        context="Text shown on a row in the onboarding page that states name and DOB is shown for COVID-19 Status Preview">Legal name and date of birth</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_lost_device_text"
+        context="A detailed description on the onboarding page of the workflow to unlink your device and disable the COVID-19 Status Preview feature. %1$s is the name of the 'Account Settings' activity in mobile. %2$s is the name of the 'COVID-19' activity in mobile. %3$s is the name of the 'Share my Record' activity on the website.">You can turn this off later in %1$s and %2$s on the app or %3$s on the website.</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_lost_device_mobile_unlink"
+        context="The location on the mobile app where a user may unlink their device and disable the COVID-19 Status Preview feature">Account Settings</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_enable_button"
+        context="Text on a button in the onboarding page to enable the COVID-19 Status Preview feature">Turn on COVID-19 Status Preview</string>
+    <string name="wp_infection_control_prelogin_onboarding_confirmation_decline_button"
+        context="Text on a button in the onboarding page to continue without enabling the COVID-19 Status Preview feature">No thanks</string>
+    
+    <!-- Covid Status Share -->
+    <string name="wp_infection_control_status_share_button"
+        context="Text on a button in the covid-19 status page to show a menu with options to download/export (share) their covid-19 status">Download</string>
+    
+    <string name="wp_infection_control_status_share_title"
+        context="Title on a menu to show options for the user to share their covid-19 status">How would you like to share?</string>
+    <string name="wp_infection_control_status_share_cancel"
+        context="Cancellation button text on a menu to show options for the user to share their covid-19 status">Never mind</string>
+    
+    <!-- Health Card QR Codes -->
+    <string name="wp_infection_control_qr_display_button"
+        context="Text on a button in the covid-19 status page to allow a user to scan QR Codes containing their covid-19 status">QR Codes</string>
+    
+    <plurals name="wp_infection_control_qr_display_intro_text_with_personal_data_disclaimer"
+        context="Introduction text in the workflow to allow a user to scan QR Codes containing their covid-19 status, and informs the user that their legal name and date of birth are included in the QR Codes.">
+        <item quantity="one">Scan this QR Code at participating locations to share your COVID-19 information. This QR Code also includes your legal name and date of birth.</item>
+        <item quantity="other">Scan these QR Codes at participating locations to share your COVID-19 information. These QR Codes also include your legal name and date of birth.</item>
+    </plurals>
+    
+    <plurals name="wp_infection_control_qr_display_vaccination_skew_status"
+        context="Status title used for vaccinations in the scenario that not all vaccinations are eligible to be in a QR Code. Specifies the number (%1$s) of vaccinations included in the QR code">
+        <item quantity="one">%1$s vaccine dose included in QR Codes</item>
+        <item quantity="other">%1$s vaccine doses included in QR Codes</item>
+    </plurals>
+    
+    <string name="wp_infection_control_qr_display_vaccination_set_number"
+        context="Subtext under a vaccination QR Code that details the set number of the current QR Code (%1$s) and also the total number of QR Codes in this section (%2$s)">Vaccination QR Code %1$s of %2$s</string>
+    <string name="wp_infection_control_qr_display_test_result_set_number"
+        context="Subtext under a test result QR Code that details the set number of the current QR Code (%1$s) and also the total number of QR Codes in this section (%2$s)">Test Result QR Code %1$s of %2$s</string>
+    
+    <string name="wp_infection_control_qr_display_vaccination_barcode_accessibility_label"
+        context="Accessibility text read out by screen-readers for a vaccination QR Code">Vaccination QR Code</string>
+    <string name="wp_infection_control_qr_display_test_result_barcode_accessibility_label"
+        context="Accessibility text read out by screen-readers for a test result QR Code">Test Result QR Code</string>
+    
+    <string name="wp_infection_control_qr_display_mychart_epic_logo_accessibility_label"
+        context="Accessibility text read out by screen-readers for a mychart is epic logo">MyChart is Epic</string>
+
+    <string name="wp_infection_control_qr_display_prelogin_hide" context="Text for the button that hides the Prelogin Covid QR Codes">Hide QR Codes</string>
+    
+    <string name="wp_infection_control_vaccination_qr_unavailable_banner_text"
+        context="Informational banner description text for the case where they may find that vaccinations are not available as a QR Code. %1$s is the name of the organization providing the data">%1$s does not support displaying your vaccination information as QR Codes.</string>
+    <string name="wp_infection_control_test_result_qr_unavailable_banner_text"
+        context="Informational banner description text for the case where they may find that test results are not available as a QR Code. %1$s is the name of the organization providing the data">%1$s does not support displaying your test result information as QR Codes.</string>
+
+    <string name="wp_infection_control_qr_error_title"
+        context="Title of the error message shown when QR Code generation failed, for COVID vaccinations, COVID test results, or both.">Unable to generate QR Codes</string>
+    <string name="wp_infection_control_qr_error_body"
+        context="Body of the error message shown when QR Code generation failed, for COVID vaccinations, COVID test results, or both.">Please try again later or contact your healthcare organization if the problem persists.</string>
+
+    <!-- Digital Wallet Export -->
+    <string name="wp_infection_control_wallet_export_another_button"
+        context="Text on a button in the covid-19 status page to allow a user to export their covid-19 status to another health wallet application">Export to another digital wallet app</string>
+    
+    <string name="wp_infection_control_wallet_export_button"
+        context="Text on a button in the covid-19 status page to allow a user to export their covid-19 status to a health wallet application">Export to a digital wallet app</string>
+    
+    <string name="wp_infection_control_apple_wallet_and_health_export_button"
+        context="Text on a button in the covid-19 status page to allow a user to export their covid-19 status to Apple Wallet or Apple Health">Add to Apple Wallet or Health</string>
+    
+    <string name="wp_infection_control_apple_health_export_button"
+        context="Text on a button in the covid-19 status page to allow a user to export their covid-19 status to Apple Health">Add to Apple Health</string>
+    
+    <string name="wp_infection_control_wallet_export_title"
+        context="Introduction text in onboarding to introduce them to the export to health wallet workflow">Export to a digital wallet app</string>
+    <string name="wp_infection_control_wallet_export_description"
+        context="Description text in onboarding to introduce them to the export to health wallet workflow">Export your most recent COVID-19 vaccination and test result information to digital wallet apps on your device that support SMART Health Cards.</string>
+    
+    <string name="wp_infection_control_wallet_export_required_title"
+        context="Title text in onboarding to educate on the prerequisites to using the export to health wallet workflow">Ensure that a digital wallet app is installed</string>
+    <string name="wp_infection_control_wallet_export_required_description"
+        context="Subtext in onboarding to educate on the prerequisites to using the export to health wallet workflow">The export will not be successful if there is not a compatible digital wallet app installed.</string>
+    <string name="wp_infection_control_wallet_export_definition_title"
+        context="Title text in onboarding to educate on the definition of a health wallet for the export to health wallet workflow">What is a digital wallet app?</string>
+    <string name="wp_infection_control_wallet_export_definition_text"
+        context="Description text in onboarding to educate on the definition of a health wallet for the export to health wallet workflow.">Digital wallet apps can store a variety of items including credit cards, event tickets, and healthcare data. If your digital wallet app supports SMART Health Cards, you can save your COVID-19 information and share it when needed, even if you\'re offline.</string>
+    <string name="wp_infection_control_smart_health_card_definition_title"
+        context="Title text in onboarding to educate on the definition of a SMART health card for the export to health wallet workflow.">What is a SMART Health Card?</string>
+    <string name="wp_infection_control_smart_health_card_definition_text"
+        context="Description text in onboarding to educate on the definition of a SMART health card for the export to health wallet workflow.">SMART Health Cards are digital versions of your healthcare information that you can easily share.</string>
+    
+    <string name="wp_infection_control_wallet_export_selection_title"
+        context="Title text in the main page of the export to health wallet workflow">Export to a digital wallet</string>
+    <string name="wp_infection_control_wallet_export_selection_description_choice"
+        context="Subtext in the main page of the export to health wallet workflow. Options of what to include for the export will be shown below.">Select what information you would like to export</string>
+    <string name="wp_infection_control_wallet_export_selection_description_no_choice"
+        context="Subtext in the main page of the export to health wallet workflow. There is only one option available so the user will only be exporting that option">The following information will be exported</string>
+    <string name="wp_infection_control_wallet_export_selection_vaccination_card_title"
+        context="Vaccination export option title text in the main page of the export to health wallet workflow. This will be selectable as an option to export to a health wallet">Vaccinations</string>
+    <string name="wp_infection_control_wallet_export_selection_vaccination_card_subtext"
+        context="Vaccination export option subtext in the main page of the export to health wallet workflow. This will be selectable as an option to export to a health wallet">Your most recent vaccination status</string>
+    <string name="wp_infection_control_wallet_export_selection_test_result_card_title"
+        context="Test Result export option title in the main page of the export to health wallet workflow. This will be selectable as an option to export to a health wallet">Test Results</string>
+    <string name="wp_infection_control_wallet_export_selection_test_result_card_subtext"
+        context="Test Result export option subtext in the main page of the export to health wallet workflow. This will be selectable as an option to export to a health wallet">Your most recent COVID-19 test result</string>
+    <string name="wp_infection_control_wallet_export_selection_personal_data_disclaimer"
+        context="Disclaimer text in the main page of the export to health wallet workflow. This informs the user that their legal name and date of birth are included in the export.">This export also includes your legal name and date of birth.</string>
+    
+    <string name="wp_infection_control_wallet_export_selection_selected_card_accessibility"
+        context="Accessibility text read out when the user hovers over an export option that is currently selected in the export to health wallet workflow. The selected pre-text is handled by the screenreader. %1$s is the export option title, %2$s is the subtext">%1$s, %2$s</string>
+    <string name="wp_infection_control_wallet_export_selection_unselected_card_accessibility"
+        context="Accessibility text read out when the user hovers over an export option that is currently not selected in the export to health wallet workflow. %1$s is the export option title, %2$s is the subtext">Not Selected: %1$s, %2$s</string>
+    
+    <string name="wp_infection_control_wallet_export_selection_export_button"
+        context="Text for the export button that initiates the export to health wallet workflow">Export</string>
+    <string name="wp_infection_control_wallet_export_selection_close_button"
+        context="Text for the close button that exits the export to health wallet workflow">Close</string>
+    <string name="wp_infection_control_wallet_export_selection_no_options_selected"
+        context="Text for the alert toast shown that informs the user to select at least one option to export a health wallet">Please select at least one option to export</string>
+    <string name="wp_infection_control_wallet_export_chooser_title"
+        context="Text for the chooser shown when the user is deciding which health wallet to export to after initiating the export">Export to a digital wallet:</string>
+    <string name="wp_infection_control_wallet_export_failed"
+        context="Error text for the alert toast shown when the export to a health wallet has failed">Failed to export. Please try again later.</string>
+    
+    <string name="wp_infection_control_wallet_vaccination_export_unavailable_banner_text"
+        context="Informational banner description text for the case where they may find that vaccinations are not available for export to health card. %1$s is the name of the organization providing the data">%1$s does not support exporting your vaccination information.</string>
+    <string name="wp_infection_control_wallet_test_result_export_unavailable_banner_text"
+        context="Informational banner description text for the case where they may find that the test results are not available for export to health card. %1$s is the name of the organization providing the data">%1$s does not support exporting your test result information.</string>
+    
+    <!-- Health Card General -->
+    <string name="wp_infection_control_vaccination_unreconciled_banner_title"
+        context="Warning banner title text indicating that this dose of the patients vaccination status has not been reviewed by a provider for sharing">This vaccination information has not been reviewed by a provider</string>
+    <string name="wp_infection_control_vaccination_partial_unreconciled_banner_title"
+        context="Warning banner title text for the case that one or more doses of the patients vaccination status has not been reviewed by a provider for sharing">Some vaccination information has not been reviewed by a provider</string>
+    <string name="wp_infection_control_vaccination_all_unreconciled_banner_title"
+        context="Warning banner title text for the case that all doses of the patients vaccination status has not been reviewed by a provider for sharing">Your vaccination information has not been reviewed by a provider</string>
+    
+    <string name="wp_infection_control_vaccination_unsupported_banner_title"
+        context="Warning banner title text indicating that this dose of the patients vaccination status cannot be shared">This vaccination information cannot be shared</string>
+    <string name="wp_infection_control_vaccination_partial_unsupported_banner_title"
+        context="Warning banner title text for the case that one or more doses of the patients vaccination status cannot be shared">Some vaccination information cannot be shared</string>
+    <string name="wp_infection_control_vaccination_all_unsupported_banner_title"
+        context="Warning banner title text for the case that all doses of the patients vaccination status cannot be shared">Your vaccination information cannot be shared</string>
+    
+    <string name="wp_infection_control_vaccination_banner_description_main"
+        context="Warning banner description text for the case that some portions of the users COVID-19 status is not available for QR Codes or export. 'It' is referring to the term 'vaccination information'.">It will not be included in anything you download, export, or share as proof of vaccination.</string>
+    <string name="wp_infection_control_vaccination_banner_description_barcodes_not_included"
+        context="Warning banner description text for the case that some portions of the users COVID-19 status are not available for QR Codes. 'It' is referring to the term 'vaccination information'.">It is not included in QR Codes.</string>
+    <string name="wp_infection_control_vaccination_banner_description_barcodes_not_available"
+        context="Warning banner description text for the case that all portions of the users COVID-19 status are not available for QR Codes. 'It' is referring to the term 'vaccination information'.">It is not available as a QR code.</string>
+    <string name="wp_infection_control_vaccination_banner_description_export"
+        context="Warning banner description text for the case that some portions of the users COVID-19 status is not available for export. 'It' is referring to the term 'vaccination information'">It is not included in the export.</string>
+
+    <string name="wp_infection_control_external_onboarding_link_accessibility_note"
+        context="Snippet read out after an external health wallet onboarding link to notify voice assistant users that this will take them out of the app. %1$s is the preceding text of the onboarding link">%1$s, opens externally.</string>
+
+    <!-- Banner Accessibility text -->
+    <string name="wp_infection_control_warning_banner_icon_accessibility_text"
+        context="Accessibility text read out for the icon of a warning banner.">Warning</string>
+    <string name="wp_infection_control_success_banner_icon_accessibility_text"
+        context="Accessibility text read out for the icon of a success banner.">Success</string>
+    <string name="wp_infection_control_alert_banner_icon_accessibility_text"
+        context="Accessibility text read out for the icon of an alert banner.">Alert</string>
+    <string name="wp_infection_control_information_banner_icon_accessibility_text"
+        context="Accessibility text read out for the icon of an informational banner.">Information</string>
+
+    <!-- Patient initiated registry querying -->
+    <string name="wp_infection_control_default_query_title"
+        context="Title for the query banner that the patient can use to query state government registries to get updated vaccination information">Not seeing your vaccine dose?</string>
+    <string name="wp_infection_control_default_query_message"
+        context="Message for the query banner that the patient can use to query state government registries to get updated vaccination information">If you received a COVID-19 vaccine and don\'t see it here, check for updates from vaccination registries.</string>
+    <string name="wp_infection_control_default_sync_message"
+        context="Message for the sync banner that the patient can use to sync external vaccines to get updated vaccination information">If you received a COVID-19 vaccine and don\'t see it here, check for updates from your linked accounts.</string>
+    <string name="wp_infection_control_default_query_and_sync_message"
+        context="Message for the query and sync banner that the patient can use to query state government registries and sync external vaccines to get updated vacciation information">If you received a COVID-19 vaccine and don\'t see it here, check for updates from vaccination registries and your linked accounts.</string>
+    <string name="wp_infection_control_query_primary_button_text"
+        context="Button text for the button that the patient can use to query state government registries to get updated vaccination information">Update</string>
+    <string name="wp_infection_control_query_secondary_button_text"
+        context="Button text for the button that the patient can use dismiss the query banner">Not now</string>
+    <string name="wp_infection_control_loading_query_title"
+        context="Title for the query banner while we are loading vaccination information from state government registries">Searching for your information…</string>
+    <string name="wp_infection_control_loading_query_message"
+        context="Message for the query banner that tells patients that they might have to wait a few seconds while we load vaccination information from state government registries">This may take a few seconds.</string>
+    <string name="wp_infection_control_success_query_title"
+        context="Title for the query banner indicating that we successfully updated the patient's vaccination information from the state government registries">Update successful!</string>
+    <string name="wp_infection_control_success_query_message"
+        context="Message for the query banner indicating that we successfully updated the patient's vaccination information from the state government registries">Your vaccination information has been updated.</string>
+    <string name="wp_infection_control_failed_query_title"
+        context="Title for the query banner indicating that the web service checking the state government registries timed out without receiving any new vaccination information">We didn\'t get an update from vaccination registries yet.</string>
+    <string name="wp_infection_control_failed_sync_title"
+        context="Title for the sync banner indicating that the web service checking the patient's linked accounts timed out without receiving any new vaccination information">We didn\'t get any updates yet.</string>
+    <string name="wp_infection_control_no_data_query_title"
+        context="Title for the query banner indicating that we did not receive any new vaccination information from the state government registries">We didn\'t get any new information from vaccination registries.</string>
+    <string name="wp_infection_control_no_data_sync_title"
+        context="Title for the query banner indicating that we did not receive any new vaccination information from the patient's linked accounts">We didn\'t get any new information.</string>
+    <string name="wp_infection_control_failed_query_message"
+        context="Message for the query banner indicating that we did not receive any new vaccination information from the state government registries">Check back later, or contact your healthcare provider for additional help.</string>
+
+    <!-- Patient initiated vaccine reconciliation -->
+    <string name="wp_infection_control_recon_send_careteam_message_title"
+        context="Title for the banner that allows a patient to send a message to their care team to either accept or deny an unreconciled vaccination">Does this dose match your vaccination card?</string>
+    <string name="wp_infection_control_recon_confirm_vaccination"
+        context="Button title for the button to confirm that a patient received the vaccination">Yes, confirm</string>
+    <string name="wp_infection_control_recon_deny_vaccination"
+        context="Button title for the button to deny that a patient has received the vaccination">No, make corrections</string>
+    <string name="wp_infection_control_recon_deny_vaccination_no_questionnaire"
+        context="Button title for the button to deny that a patient has received the vaccination but there is no vaccine questionnaire available">No, dismiss</string>
+    <string name="wp_infection_control_enter_vaccine_details_button_text"
+        context="Button text for the button that the patient can use to manually enter vaccination information">Enter information</string>
+    <string name="wp_infection_control_vaccine_request_submitted_title"
+        context="Title for the query banner indicating that the patient successfully submitted a request to update their vaccination">Your vaccination information has been submitted</string>
+    <string name="wp_infection_control_vaccine_request_submitted_message"
+        context="Message for the query banner indicating that the patient successfully submitted a request to update their vaccination">Your information will be updated after it has been reviewed.</string>
+    <string name="wp_infection_control_recon_vaccination_verified_title"
+        context="Title for the banner indicating that the patient's vaccination was verified and will be added to their chart">Vaccination verified</string>
+    <string name="wp_infection_control_recon_vaccination_verified_message"
+        context="Message for the banner indicating that the patient's vaccination was verified and will be added to their chart">This vaccination has been added to your record.</string>
+    <string name="wp_infection_control_recon_vaccination_deleted_title"
+        context="Title for the banner indicating that the patient's vaccination was deleted and will be removed from their chart">Dose dismissed</string>
+    <string name="wp_infection_control_recon_vaccination_error_title"
+        context="Title for the banner indicating that there was an error in the web service to update the patient's vaccination">We were unable to process your request for this dose</string>
+    <string name="wp_infection_control_recon_vaccination_error_message"
+        context="Message for the banner indicating that there was an error in the web service to update the patient's vaccination">Please try again later.</string>
+    <string name="wp_infection_control_recon_enter_details"
+        context="Message for the banner indicating that the patient can manually enter vaccine details">You can enter your vaccination information.</string>
+    <string name="wp_infection_control_recon_enter_details_add_dose"
+        context="Message for the banner that shows after discarding a vaccine indicating that the patient can enter vaccine details to add a new dose">To add a new dose, enter your vaccination information.</string>
+    <string name="wp_infection_control_recon_confirm_add_popup_title"
+        context="Title for the popup asking the user to confirm if they want to add the vaccination dose.">Add vaccine dose?</string>
+    <string name="wp_infection_control_recon_confirm_add_popup_message"
+        context="Message for the popup asking the user to confirm if they want to add the vaccination dose. %1$s is the date the vaccination dose was administered">Are you sure you want to add the dose administered on %1$s to your record?</string>
+    <string name="wp_infection_control_recon_confirm_add_popup_button"
+        context="Text for the popup button that confirms that the user wants to add the vaccination dose.">Add</string>
+    <string name="wp_infection_control_recon_confirm_remove_popup_title"
+        context="Title for the popup asking the user to confirm if they want to discard the vaccination dose.">Are you sure?</string>
+    <string name="wp_infection_control_recon_confirm_remove_popup_title_no_questionnaire"
+        context="Title for the popup asking the user to confirm if they want to discard the vaccination dose but there is no vaccine questionnaire available.">Dismiss vaccine dose?</string>
+    <string name="wp_infection_control_recon_confirm_remove_popup_message"
+        context="Message for the popup asking the user to confirm if they want to discard the vaccination dose. %1$s is the date the vaccination dose was administered">If you continue, the dose administered on %1$s will not be added to your record. You may enter correct dose information after continuing.</string>
+    <string name="wp_infection_control_recon_confirm_remove_popup_message_no_questionnaire"
+        context="Message for the popup asking the user to confirm if they want to discard the vaccination dose but there is no vaccine questionnaire available. %1$s is the date the vaccination dose was administered">Are you sure you want to dismiss the dose administered on %1$s? It will not be added to your record.</string>
+    <string name="wp_infection_control_recon_confirm_remove_popup_button"
+        context="Text for the popup button that confirms that the user wants to discard the vaccination dose.">Continue</string>
+    <string name="wp_infection_control_recon_confirm_remove_popup_button_no_questionnaire"
+        context="Text for the popup button that confirms that the user wants to discard the vaccination dose but there is no vaccine questionnaire available.">Dismiss</string>
+    <string name="wp_infection_control_recon_confirm_back_popup_button"
+        context="Text for the popup button that cancels the update of the vaccination dose and takes the user back out of the popup">Go back</string>
+    <string name="wp_infection_control_failed_query_try_again_or_enter_details"
+        context="Part of the message for the query banner indicating that we did not receive any new vaccination information from the vaccination registries and the patient can manually enter vaccine details">Check back later. If the registries still don\'t return your vaccination information, you can enter your vaccination details.</string>
+    <string name="wp_infection_control_failed_sync_try_again_or_enter_details"
+        context="Part of the message for the query banner indicating that we did not receive any new vaccination information from the patient's linked accounts and the patient can manually enter vaccine details">Check back later. If you still don\'t see your vaccination information, you can enter it yourself.</string>
+    <string name="wp_infection_control_recon_requires_review_warning"
+        context="Message for the banner that allows a patient to request reconciliation of a vaccine that warns them they will not be able to share it as proof of vaccination until it is verified by a provider">Until a provider confirms you\'ve received this dose, it will not be included in anything you download, export, or share as proof of vaccination.</string>
+
+    <!-- Quick Access Options -->
+    <string name="wp_infection_control_quick_access_options_header"
+        context="Header text for an options menu that can toggle features related to accessing COVID-19 vaccination credentials quicker">Quick Access Options</string>
+    <string name="wp_infection_control_enable_status_preview_toggle_label"
+        context="Label text for a switch that toggles the pre-login COVID-19 status widget">View COVID-19 information on the pre-login screen</string>
+    
+    <!-- Registry Query and External Vaccine Sync -->
+    <string name="wp_infection_control_vaccine_sync_learn_more_title"
+        context="Title for the screen giving patients more info about syncing updated vaccination information to their chart at the local organization. %1$s is the app display name (i.e. MyChart)">Where did %1$s check for updates?</string>
+    <string name="wp_infection_control_update_sources_text"
+        context="Text describing a list of various sources that were checked for updated vaccination information, and then synced to the patient's chart at the local organization. %1$s is the app display name (i.e. MyChart)">%1$s checked for updated vaccination information from the following sources:</string>
+    <string name="wp_infection_control_update_sources_query_registry"
+        context="Text listing the vaccination registries as a source that were checked for updated vaccination information. %1$s is the branded name of the local organization">Vaccination registries through %1$s</string>
+    <string name="wp_infection_control_update_sources_warning_unreconciled_vaccines"
+        context="Warning text for a list item, telling the patient that a specific organization has unreconciled vaccines and was not checked for updated vaccination information">Has unreviewed vaccine information</string>
+    <string name="wp_infection_control_learn_more_warning_unreconciled_vaccines"
+        context="Warning to the patient on the vaccine sync learn more screen that at least one of their linked accounts has unreconciled vaccines">Some of your linked accounts have unreviewed vaccination information, which was not included in the most recent update. This information might become available after it is reviewed by you or your providers at those organizations.</string>
+    <string name="wp_infection_control_learn_more_warning_unsupported_orgs"
+        context="Warning to the patient on the vaccine sync learn more screen that at least one of their linked accounts doesn't support syncing vaccines">Your other linked accounts do not support this feature yet, and they were not checked in the most recent update.</string>
+    <string name="wp_infection_control_vaccine_sync_try_again_or_enter_details"
+        context="Text on the vaccine sync learn more screen indicating that the web service checking the patient's linked accounts timed out without receiving any new vaccination information, and the patient can manually enter vaccine details">If you still don\'t see your vaccination information, you can try again later or enter it yourself.</string>
+    <string name="wp_infection_control_vaccine_sync_try_again_or_contact_provider"
+        context="Text on the vaccine sync learn more screen indicating that the web service checking the patient's linked accounts timed out without receiving any new vaccination information">If you still don\'t see your vaccination information, you can try again later or contact your healthcare provider for additional help.</string>
+    <string name="wp_infection_control_no_data_sync_enter_details"
+        context="Text on the vaccine sync learn more screen indicating that we did not receive any new vaccination information from the patient's linked accounts and the patient can manually enter vaccine details">If your vaccination information listed here is incomplete, you can enter updates yourself.</string>
+    <string name="wp_infection_control_no_data_sync_contact_provider"
+        context="Text on the vaccine sync learn more screen indicating that we did not receive any new vaccination information from the patient's linked accounts">Contact your healthcare provider for additional help.</string>
+    <string name="wp_infection_control_vaccine_sync_updated_information_text"
+        context="Text on the vaccine sync learn more screen telling the patient that their providers will be able to access their new vaccination information. %1$s is the branded name of the local organization">Your providers at %1$s have access to your updated vaccination information.</string>
+    
+    
+    <!-- OS Wallet Export -->
+    <string name="wp_infection_control_os_wallet_add_to_apple_wallet_and_health_accessibility_label"
+        context="Accessibility text read out by VoiceOver for the Add to Apple Wallet and Health button that exports information to Apple Wallet and Health. %1$s is the type of information that will be exported, like vaccination or test result information">Add %1$s to Apple Wallet and Health. Opens externally</string>
+    <string name="wp_infection_control_os_wallet_works_with_apple_health_accessibility_label"
+        context="Accessibility text read out by VoiceOver for the Works with Apple Health button that exports information to Apple Health. %1$s is the type of information that will be exported, like vaccination or test result information">Add %1$s to Apple Health. Opens externally</string>
+    <string name="wp_infection_control_os_wallet_add_to_apple_wallet_accessibility_label"
+        context="Accessibility text read out by VoiceOver for the Add to Apple Wallet button that exports Covid-19 vaccination information to Apple Wallet.">Add vaccination to Apple Wallet</string>
+</resources>

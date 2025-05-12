@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copyright © 2022-2024 Epic Systems Corporation
+ -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <!-- Generic Onboarding Strings -->
+  <string name="wp_onboarding_accept_button" context="A button that, when pressed, gives permission to perform an action">Godta</string>
+  <string name="wp_onboarding_return_button" context="A button that, when pressed, returns to the previous screen">Gå tilbake</string>
+  <string name="wp_onboarding_skip_button" context="A button that, when pressed, skips the current onboarding workflow step">Hopp over inntil videre</string>
+  <string name="wp_onboarding_access_button" context="A button that, when pressed, accesses MyChart. %1$@ is the app name.">Åpne %1$@</string>
+  <string name="wp_onboarding_play_button" context="A button that, when pressed, plays the background animation for the welcome screen.">Spill av bakgrunnsanimasjon</string>
+  <string name="wp_onboarding_pause_button" context="A button that, when pressed, pauses the background animation for the welcome screen.">Paus bakgrunnsanimasjon</string>
+  <!-- Home Page Onboarding Strings -->
+  <string name="wp_core_onboarding_skip" context="Button label to dismiss Home Page onboarding.">Hopp over</string>
+  <string name="wp_core_onboarding_next" context="Button label to move to the next slide in the Home Page onboarding workflow.">Neste</string>
+  <string name="wp_core_onboarding_back" context="Button label to move to the previous slide in the Home Page onboarding workflow.">Tilbake</string>
+  <string name="wp_core_onboarding_complete" context="Button label to complete the Home Page onboarding workflow.">Utført</string>
+  <string name="wp_core_onboarding_how_to_video" context="This is the text of a button that the user can select to play an educational video.">Se video</string>
+  <string name="wp_core_accessibility_onboarding_page_control" context="Accessibility label telling the user what page of Home Page onboarding they are currently on. %1$@ is the current page index. $2$s is the total number of pages.">Side %1$@ av %2$@.</string>
+  <!-- AX Strings -->
+  <string name="wp_onboarding_ax_welcome_logo" context="Accessibility string that is read out to a user upon tapping the logo on the welcome screen, welcoming the user to the app. %1$@ is the name of the app.">Velkommen til %1$@!</string>
+  <string name="wp_onboarding_ax_checkbox" context="The accessibility role of a checkbox. Used for iOS as SwiftUI does not support a checkbox role.">Avmerkingsboks</string>
+  <string name="wp_onboarding_progress_dots" context="Indicates the progress of the mid-login onboarding workflow, where %1$@ is the current task and %2$@ is the total number of tasks.">Oppgave %1$@ av %2$@</string>
+  <!-- EULA and Privacy Policy -->
+  <string name="wp_onboarding_welcome_eula_checkbox" context="Checkbox description for accepting MyChart's EULA, where %1$@ is the regional term for the EULA, and %2$@ is the app name.">Jeg godtar %1$@ for %2$@.</string>
+  <string name="wp_onboarding_ax_welcome_view_eula" context="Accessibility string indicating that the user can tap to view the EULA for the app. %1$@ is the regional term for the EULA and %2$@ is the app name.">Trykk for å åpne %1$@ for %2$@.</string>
+  <string name="wp_onboarding_welcome_privacy_checkbox" context="Checkbox description for accepting MyChart's Privacy Policy, where %1$@ is the regional term for the Privacy Policy, and %2$@ is the app name.">Jeg godtar %1$@ for %2$@.</string>
+  <string name="wp_onboarding_ax_welcome_view_privacy" context="Accessibility string indicating that the user can tap to view the Privacy Policy for the app. %1$@ is the regional term for the Privacy Policy and %2$@ is the app name.">Trykk for å åpne %1$@ for %2$@.</string>
+  <string name="wp_onboarding_eula_name" context="Regional term for End User License Agreement.">Lisensavtale for sluttbrukere</string>
+  <string name="wp_onboarding_privacy_name" context="Regional term for Privacy Policy.">Personvernerklæring</string>
+  <!-- Request Push Notifications -->
+  <string name="wp_onboarding_notifications" context="Feature name for the notifications onboarding step.">Varsler</string>
+  <string name="wp_onboarding_notifications_title" context="Short tagline explaining why a user should enable notifications.">Hold kontakten med varsler</string>
+  <string name="wp_onboarding_notifications_content" context="Longer reason describing why a user should enable notifications, briefly explaining the benefits.">Bli varslet om nye prøveresultater, meldinger fra behandlere, påminnelser om timer og mer.</string>
+  <string name="wp_onboarding_notifications_error_title" context="In the event an error occurs while trying to secure notifications permissions, show the user an alert with this string as the title.">Feil</string>
+  <string name="wp_onboarding_notifications_error_body" context="In the event an error occurs while trying to secure notifications permissions, show the user an alert with this string as the body.">Det oppstod en uspesifisert feil under forsøk på å innhente tillatelse til varsler. Prøv på nytt.</string>
+  <!-- Request Location Access -->
+  <string name="wp_onboarding_location" context="Feature name for the location permissions onboarding step.">Posisjon</string>
+  <string name="wp_onboarding_location_title" context="Short tagline explaining why a user should turn on location services.">Effektiviser opplevelsen din ved å dele posisjonen din</string>
+  <string name="wp_onboarding_location_content" context="Longer reason describing why a user should turn on location services, briefly explaining benefits and that the app will not store location data, where %1$@ is the app name">%1$@ kan bruke posisjonen din til å foreslå alternativer i nærheten, sjekke inn for timer raskere, med mer. %1$@ vil aldri lagre posisjonsdataene dine.</string>
+  <!-- Two Factor Authentication -->
+  <string name="wp_onboarding_two_factor" context="Feature name for the two-step verification onboarding step.">To-faktor-autentisering</string>
+  <string name="wp_onboarding_two_factor_title" context="Short tagline explaining why a user should turn on two-step verification.">Hold kontoen din sikker</string>
+  <string name="wp_onboarding_two_factor_content" context="Longer reason describing why a user should turn on two-step verification.">Aktiver to-faktor-autentisering for å sikre kontoen din.</string>
+  <string name="wp_onboarding_two_factor_positive_button" context="Used as positive button text for the two factor enrollment onboarding view. When tapped, move to the authentication step of two-step setup.">Slå på to-faktor-autentisering</string>
+  <string name="wp_onboarding_two_factor_negative_button" context="Used as negative button text for the two factor enrollment onboarding view. When tapped, exits two factor enrollment.">Avbryt og logg ut</string>
+  <string name="wp_onboarding_two_factor_enrollment_onboarding_link" context="Link button text that, when tapped, lets the user learn more about the two factor enrollment setup process.">Finn ut mer</string>
+  <!-- Organization Terms & Conditions -->
+  <string name="wp_onboarding_org_terms" context="Feature name for the terms and conditions onboarding step.">Vilkår og betingelser</string>
+  <string name="wp_onboarding_org_terms_link" context="Feature name for the terms and conditions onboarding step. %1$@ is the regional name for terms and conditions and the proxy disclaimer, %2$@ is the organization's name.">Ved å trykke på Godta godtar du %1$@ for %2$@.</string>
+  <string name="wp_onboarding_org_terms_ax_link" context="Accessibility string indicating that the user can tap to view the terms and conditions. %1$@ is the regional name for terms and conditions and the proxy disclaimer, %2$@ is the organization's name.">Trykk for å vise %1$@ for %2$@.</string>
+  <string name="wp_onboarding_org_terms_name" context="Regional name for the terms and conditions and the proxy disclaimer.">Vilkår og betingelser</string>
+  <string name="wp_onboarding_org_terms_and_proxy_disclaimer_name" context="Regional name for the terms and conditions.">Vilkår og betingelser og Ansvarsfraskrivelse for fullmaktshaver</string>
+  <string name="wp_onboarding_org_terms_positive_button" context="Used as positive button text for the organization terms and conditions onboarding view, and moves to the next step of onboarding.">Godta</string>
+  <string name="wp_onboarding_org_terms_negative_button" context="Used as negative button text for the organization terms and conditions onboarding view. If this button is pushed, it should log the user out.">Avslå og logg ut</string>
+  <string name="wp_onboarding_name_list_separator" context="A separator used repeatedly for any size list of names in the proxy disclaimer, in the terms and conditions. In English we use a comma with a space e.g. Lisa(separator)Nicole(separator)John(separator)Alex would turn into Lisa, Nicole, John, Alex.">,</string>
+  <!-- Secondary Login Setup - Passcode -->
+  <string name="wp_onboarding_secondary_passcode" context="Feature name for the secondary login passcode onboarding step.">Kode</string>
+  <string name="wp_onboarding_secondary_passcode_title" context="Short tagline explaining why a user should turn on passcode secondary login.">Logg inn raskt med en kode</string>
+  <string name="wp_onboarding_secondary_passcode_content" context="Longer reason describing why a user should turn on passcode secondary login. %1$@ is the MyChart brand name.">Bruk en 4-sifret kode for å logge inn på %1$@ raskt på denne enheten.</string>
+  <string name="wp_onboarding_secondary_passcode_positive_button" context="Used as positive button text for the passcode secondary login onboarding view. When tapped, show the passcode creation screen.">Opprett en kode</string>
+  <!-- Secondary Login Setup - Biometrics -->
+  <string name="wp_onboarding_secondary_biometrics" context="Feature name for the secondary login biometrics onboarding step">Biometri</string>
+  <string name="wp_onboarding_secondary_biometrics_title" context="Short tagline explaining why a user should turn on biometrics secondary login.">Logg inn raskt med biometri</string>
+  <string name="wp_onboarding_secondary_biometrics_content" context="Longer reason describing why a user should turn on the biometrics secondary login. %1$@ is the MyChart brand name.">Bruk biometri for å logge inn på %1$@ raskt på denne enheten.</string>
+  <string name="wp_onboarding_secondary_biometrics_positive_button" context="Used as positive button text for the biometrics secondary login onboarding view. When tapped, show the Android biometrics permissions prompt.">Slå på biometri</string>
+  <string name="wp_onboarding_secondary_biometrics_error" context="Generic error message for when an attempt to enable biometrics fails">Det oppstod en feil under forsøk på å aktivere biometri.</string>
+  <string name="wp_biometric_onboarding_add_title" context="The title of dialog when biometric is going to be added" length="34 characters">Biometrisk innlogging</string>
+  <string name="wp_biometric_onboarding_add_message" context="The message of dialog when biometric is going to be added" length="34 characters">Du kan konfigurere biometrisk autentisering for å logge inn på denne kontoen. Hvis du gjør det, vil alle med biometrisk informasjon registrert på denne enheten kunne logge inn på kontoen din.</string>
+  <string name="wp_biometric_onboarding_new_title" context="The positive button of dialog when biometric is going to be added" length="34 characters">Bruk biometri</string>
+  <string name="wp_biometric_onboarding_cancel_title" context="The negative button of dialog when biometric is going to be added" length="34 characters">Nei takk</string>
+  <string name="wp_biometric_onboarding_add_message_touchid" context="The title of dialog when Touch ID is going to be added">Du kan konfigurere Touch ID for å logge inn på denne kontoen. Hvis du gjør det, vil alle med et fingeravtrykk registrert på denne enheten kunne logge inn på kontoen din.</string>
+  <string name="wp_biometric_onboarding_new_title_touchid" context="The positive button of dialog when Touch ID is going to be added" length="34 characters">Bruk Touch ID</string>
+  <!-- Secondary Login Setup - Touch ID -->
+  <string name="wp_onboarding_secondary_touchid" context="Feature name for the secondary login Touch ID onboarding step.">Touch ID</string>
+  <string name="wp_onboarding_secondary_touchid_title" context="Short tagline explaining why a user should turn on Touch ID secondary login.">Logg inn raskt med Touch ID</string>
+  <string name="wp_onboarding_secondary_touchid_content" context="Longer reason describing why a user should turn on Touch ID secondary login. %1$@ is the MyChart brand name.">Bruk Touch ID for å logge inn på %1$@ raskt på denne enheten.</string>
+  <string name="wp_onboarding_secondary_touchid_positive_button" context="Used as positive button text for the Touch ID secondary login onboarding view. When tapped, show the Touch ID permissions prompt.">Slå på Touch ID</string>
+  <!-- Secondary Login Setup - Face ID -->
+  <string name="wp_onboarding_secondary_faceid" context="Feature name for the secondary login Face ID onboarding step.">Face ID</string>
+  <string name="wp_onboarding_secondary_faceid_title" context="Short tagline explaining why a user should turn on Face ID secondary login.">Logg inn raskt med Face ID</string>
+  <string name="wp_onboarding_secondary_faceid_content" context="Longer reason describing why a user should turn on Face ID secondary login. %1$@ is the MyChart brand name.">Bruk Face ID for å logge inn på %1$@ raskt på denne enheten.</string>
+  <string name="wp_onboarding_secondary_faceid_positive_button" context="Used as positive button text for the Face ID secondary login onboarding view. When tapped, show the Face ID permissions prompt.">Slå på Face ID</string>
+  <!-- Secondary Login Setup - Optic ID -->
+  <string name="wp_onboarding_secondary_opticid" context="(iOS only) Feature name for the secondary login Optic ID onboarding step.">Optic ID</string>
+  <string name="wp_onboarding_secondary_opticid_title" context="(iOS only) Short tagline explaining why a user should turn on Optic ID secondary login.">Logg raskt inn med Optic ID</string>
+  <string name="wp_onboarding_secondary_opticid_content" context="(iOS only) Longer reason describing why a user should turn on Optic ID secondary login. %1$@ is the MyChart brand name.">Bruk Optic ID for raskt å logge inn på %1$@ på denne enheten.</string>
+  <string name="wp_onboarding_secondary_opticid_positive_button" context="(iOS only) Used as positive button text for the Optic ID secondary login onboarding view. When tapped, show the Optic ID permissions prompt.">Slå på Optic ID</string>
+  <!-- Organization Selection -->
+  <string name="wp_onboarding_org_select_title" context="Title at the top of the organization selection onboarding step">Legg til organisasjonene dine</string>
+  <string name="wp_onboarding_org_select_body_caption" context="Caption text for the organization selection onboarding step ">Velkommen til MyChart!</string>
+  <string name="wp_onboarding_org_select_body_line_1" context="1st line of body text in the organization selection onboarding step">For å komme i gang legger du til organisasjonene der du mottar behandling, helseforsikring og andre helsetjenester.</string>
+  <string name="wp_onboarding_org_select_body_line_2" context="2nd line of body text in the organization selection onboarding step">Begynn med å søke etter organisasjonen din eller skanne en QR-kode fra organisasjonen din.</string>
+  <string name="wp_onboarding_org_select_positive_button_text" context="Positive button text for the organization selection onboarding step">Søk etter en organisasjon</string>
+  <!-- 11.3.1 -->
+  <string name="wp_onboarding_acknowledge_button_text" context="Text for a button that a user taps to acknowledge a document (typically the Privacy Policy of the app)">Bekreft</string>
+  <string name="wp_privacy_policy_acknowledge_checkbox_label" context="Checkbox label prompting users to acknowledge the app's Privacy Policy where %1$@ is the Privacy Policy document name (always set to the wp_onboarding_privacy_name string) and %2$@ is the app name.">Jeg bekrefter %1$@ for %2$@</string>
+</resources>

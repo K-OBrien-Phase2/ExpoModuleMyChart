@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_mydocuments_activity_title" context="Title for the My Documents activity">Meine Dokumente</string>
+  <string name="wp_mydocuments_tutorial_overview" context="Tutorial text introducing the my documents activity to the patient. %%MYDOCUMENTS is replaced with the name of the activity.">Mit %%MYDOCUMENTS können Sie neue Formulare unterschreiben und bereits unterschriebene Formulare ansehen.</string>
+  <string name="wp_mydocuments_tutorial_overview_2" context="Tutorial text explaining to the patient the section of forms that have to be signed by the patient.">Die Formulare ganz oben können nun ausgefüllt werden. Wenn Sie ein Formular absenden, wird dieses zunächst von Ihrem Betreuungsteam überprüft, bevor es in Ihrer Akte abgelegt wird.</string>
+  <string name="wp_mydocuments_tutorial_overview_2_proxy" context="Tutorial text explaining to the proxy the section of forms that have to be signed by the patient.">Die Formulare ganz oben können nun ausgefüllt werden. Wenn Sie ein Formular absenden, wird dieses zunächst von dem Betreuungsteam von %%PATNAME überprüft, bevor es in der Akte von %%PATNAME abgelegt wird.</string>
+  <string name="wp_mydocuments_tutorial_overview_3" context="Tutorial text explaining the section of completed forms that are available to be viewed by the patient.">Unten sind die abgelegten Formulare, die Sie bereits ausgefüllt haben. Tippen Sie auf eines der Formulare, um es anzuzeigen.</string>
+</resources>

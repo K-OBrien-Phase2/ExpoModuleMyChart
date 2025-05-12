@@ -1,0 +1,2491 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MyChart
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import ActivityKit
+import Authentication
+import Combine
+import CoreFoundation
+import CoreImage
+import DeveloperToolsSupport
+import EventKitUI
+import Foundation
+import HomePage
+import LiveActivities
+@_exported import MyChart
+import MyChartGlobals
+import PECore
+import PassKit
+import Speech
+import Swift
+import SwiftUI
+import UIKit
+import UniformTypeIdentifiers
+import UserNotifications
+import WatchConnectivity
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class WPPushNotificationLoader {
+  @objc deinit
+}
+extension MyChart.WPPushNotificationLoader : PECore.PEDeepLinkLoaderProtocol {
+  public func getData(for deepLink: any PECore.PEDeepLinkProtocol, callback: @escaping (Swift.Bool) -> Swift.Void)
+  public func modify(_ deepLink: any PECore.PEDeepLinkProtocol) -> any PECore.PEDeepLinkProtocol
+}
+extension MyChart.WPPushNotificationLoader {
+  public static func getPushNotificationDetailsInternal(notificationID: Swift.String, debugInfo: (deepLinkUrl: Swift.String?, focusWPR: Swift.String?, shouldFailDetailsService: Swift.Bool)? = nil, onSuccess: @escaping (_ response: MyChart.WPGetPushNotificationDetailsResponse?) -> Swift.Void, onFailure: @escaping ((PECore.WebServiceFailedError) -> Swift.Void))
+}
+@_hasMissingDesignatedInitializers public class WPDeepLinkComponentAPI : PECore.PEDeepLinkComponentAPIProtocol {
+  @discardableResult
+  public func execute(deepLinkUrl: Swift.String?, in navigationController: UIKit.UINavigationController?, params: [PECore.PEDeepLinkParam : Any]?, options: PECore.PEDeepLinkOption) -> Swift.Bool
+  @discardableResult
+  public func execute(deepLink: any PECore.PEDeepLinkProtocol, in navigationController: UIKit.UINavigationController?) -> Swift.Bool
+  public func constructDeepLinkFromUrl(_ url: Foundation.URL) -> any PECore.PEDeepLinkProtocol
+  public func constructEpicHttpDeepLink(feature: PECore.PEDeepLinkFeatureIdentifier, queryParams: [Swift.String : Swift.String]?) -> any PECore.PEDeepLinkProtocol
+  public func constructEpicHttpDeepLink(feature: PECore.PEDeepLinkFeatureIdentifier, queryParams: [Swift.String : Swift.String]?, encodeParams: Swift.Bool) -> any PECore.PEDeepLinkProtocol
+  public func getViewController(for deepLinkUrl: Swift.String) -> UIKit.UIViewController?
+  public func accessResult(for deepLinkUrl: Swift.String, person: any PECore.PEPersonProtocol) -> PECore.PEComponentAccessResult
+  public func getAndClearDeepLinkPendedForLogin() -> (any PECore.PEDeepLinkProtocol)?
+  public func hasDeepLinkPendingLogin() -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPPersonalPreferencesWebServiceAPI : ObjectiveC.NSObject {
+  @objc public class func savePersonalPreferences(updatedPersonalPreferencesList: [MyChart.WPPersonalPreferences]?, successHandler: @escaping () -> Swift.Void, failureHandler: @escaping () -> Swift.Void)
+  @objc public class func updatePersonalPreferences()
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class LocalePhonebookReader : PECore.ServerLocaleSourceReader {
+  public init(_ phonebook: any PECore.PEPhonebookEntryProtocol)
+  public func readLocales() -> [PECore.PELocale]
+  public func readDefaultLocale() -> PECore.PELocale
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPAttachmentUploadViewController : MyChart.WPViewController {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init()
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(withAttachment attachment: MyChart.WPAttachment)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class WPAppointmentArrivalEventAuditWebServiceAPI : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChart.WPAppointmentLocationManager : MyChart.FutureAppointmentsLoaderDelegate {
+  public func didFinishLoadingAppointments(with appointments: [MyChart.WPAppointment])
+  public func shouldLoadAppointments(for patient: MyChart.WPPatient) -> Swift.Bool
+  @objc dynamic public func registerWithFutureAppointmentsLoader()
+  @objc dynamic public func unregisterWithFutureAppointmentsLoader()
+  @objc dynamic public func onLeavingAppointmentArrivalMonitoringFlow(appointment: MyChart.WPMonitoredForArrivalAppointment?)
+  @objc dynamic public func initiateAppointmentArrivalMonitoring()
+  public func processAppointmentsResults(_ appointments: [MyChart.WPAppointment])
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DisableAppointmentArrivalView : PECore.SwiftUIViewComponent<MyChart.DisableAppointmentArrivalCapturedView> {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public static func getInstance(onUpdate: @escaping (Swift.Bool) -> Swift.Void) -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct DisableAppointmentArrivalCapturedView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7MyChart37DisableAppointmentArrivalCapturedViewV4bodyQrvp", 0) __
+}
+extension Foundation.NSMutableArray {
+  @objc public static func removeDuplicates(fromArray original: Foundation.NSMutableArray, isDuplicate: (Any, Any) -> Swift.Bool) -> Foundation.NSMutableArray
+}
+@_inheritsConvenienceInitializers @objc open class WPVisitAutoPay : MyChart.WPObject, Swift.Codable {
+  @objc override dynamic public func setXMLValue(_ value: Any!, forKey key: Swift.String!)
+  @objc override dynamic public init!(objectID: Swift.String!, andName name: Swift.String!)
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  open func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPAppointmentArrivalOnboardingViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public static func getInstance(withUserContext userContext: PECore.PEUserContext, completionHandler: ((Swift.Bool) -> Swift.Void)?) -> MyChart.WPAppointmentArrivalOnboardingViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MyChart.WPAppointmentArrivalOnboardingViewController : MyChartGlobals.IWPPushNotificationsDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setPushNotificationsReturned(with status: MyChartGlobals.WPAPISetPushNotificationsStatusResult)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pushNotificationsReturned(with status: MyChartGlobals.WPAPIPushNotificationsStatus)
+}
+extension MyChart.WPAppointmentArrivalOnboardingViewController : PECore.PEHostableComponentViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setComponentHost(_ componentHost: any PECore.PEComponentHostProtocol)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func shouldHideComponentHostEpicLogoInNavBar() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func shouldShowComponentHostUserInfoInNavBar() -> Swift.Bool
+}
+extension MyChart.WPAppointmentsComponentAPI {
+  @objc dynamic public func requestAppointmentLiveActivities_internal()
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class EFGraphLegend : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var metadataDelegate: (any MyChart.GraphMetadataSwitchDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public var abnormalDataColor: UIKit.UIColor?
+  @objc @_Concurrency.MainActor @preconcurrency public var dataColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var labelColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var metadataType: MyChart.WPFlowsheetRowMetadataType {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var isHidden: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
+  @objc @_Concurrency.MainActor @preconcurrency public func setMetadataSwitch(leftOn: Swift.Bool, rightOn: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor @preconcurrency public static func drawBeforeMealShapeCenteredAt(point: CoreFoundation.CGPoint, context: CoreGraphics.CGContext?, color: CoreGraphics.CGColor)
+  @objc @_Concurrency.MainActor @preconcurrency public static func drawAfterMealShapeCenteredAt(point: CoreFoundation.CGPoint, context: CoreGraphics.CGContext?, color: CoreGraphics.CGColor)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPTestScan : MyChart.WPObject, Swift.Codable {
+  @objc public var dcsID: Swift.String?
+  @objc public var encryptedDCSID: Swift.String?
+  @objc public var fileName: Swift.String?
+  @objc public var fileType: Swift.String?
+  @objc public var data: Foundation.Data?
+  @objc public var scanDateTime: Foundation.Date?
+  @objc override dynamic public func setXMLValue(_ value: Any!, forKey key: Swift.String!)
+  @objc override dynamic public init!(objectID: Swift.String!, andName name: Swift.String!)
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPLinkAppleWatchViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency public class func getPrelaunchAlertController(onAccept: @escaping () -> Swift.Void, onCancel: (() -> Swift.Void)? = nil) -> UIKit.UIAlertController?
+  @_Concurrency.MainActor @preconcurrency public class func unlinkExistingWatch(callback: ((_ success: Swift.Bool?) -> ())? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPAppointmentsListViewController : MyChart.WPTableViewController, PECore.PEObserver {
+  @_Concurrency.MainActor @preconcurrency @objc override public static func springboardItem() -> MyChart.WPSpringboardInfo
+  @objc @_Concurrency.MainActor @preconcurrency public static func instantiate() -> MyChart.WPAppointmentsListViewController
+  @objc @_Concurrency.MainActor @preconcurrency public static func instantiate(justScheduledDetails: MyChart.WPJustScheduledDetails?) -> MyChart.WPAppointmentsListViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension MyChart.WPAppointmentsListViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+}
+extension MyChart.WPAppointmentsListViewController : MyChart.WPPatientVisitGuideLoadedProtocol {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func visitGuideLoaded(with data: Foundation.Data?)
+}
+extension MyChart.WPAppointmentsListViewController : MyChart.WPCancelAppointmentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func cancelAppointmentDidNotConfirm()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func cancelAppointmentConfirmed(_ cancelledAppointments: [Any]?, with type: MyChart.WPCancelType)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func cancelAppointmentConfirmFailure(_ cancelledAppointments: [Any]?, with type: MyChart.WPCancelType)
+}
+extension MyChart.WPAppointmentsListViewController : PECore.CommunityDataRefreshViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func launchRefreshView()
+}
+extension MyChart.WPAppointmentsListViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var launchesH2GContextLocally: Swift.Bool {
+    get
+  }
+}
+extension MyChart.WPAppointmentsListViewController : MyChart.WPCustomFeatureLaunchListener {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func showExternalLinkPrompt() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onLaunchSuccess()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onLaunchFailure(_ showError: Swift.Bool)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPPatientGoalsTableViewCell : UIKit.UITableViewCell {
+  @objc @_Concurrency.MainActor @preconcurrency public func setup(goal: MyChart.WPPersonalNotesInfo?, sectionViewController: MyChart.WPHSSectionViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc @_Concurrency.MainActor @preconcurrency public func reloadCell(with goal: MyChart.WPPersonalNotesInfo)
+  @objc @_Concurrency.MainActor @preconcurrency public func setTheme(_ orgTheme: (any PECore.PEThemeProtocol)?)
+  @available(iOS 3.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MyChart.WPPatientGoalsTableViewCell : UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textView(_ textView: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+}
+extension MyChart.WPPatientVisitGuideLoadingViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func ensurePatientVisitGuideDataIsLoaded(response: MyChart.WPGetPatientVisitGuideResponse)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentTimeView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var accessibilityElements: [Any]? {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPScreeningsServiceResponse : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var screenings: [MyChart.WPScreening]!
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct AppointmentLiveActivityData {
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPPersonalizeViewController : UIKit.UICollectionViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public static func getInstance(withUserContext userContext: PECore.PEUserContext) -> MyChart.WPPersonalizeViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(collectionViewLayout layout: UIKit.UICollectionViewLayout)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MyChart.WPPersonalizeViewController : UIKit.UICollectionViewDelegateFlowLayout {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+}
+extension MyChart.WPPersonalizeViewController {
+  @_Concurrency.MainActor @preconcurrency public func didBeginEditingPhoto(for personalPreferences: MyChart.WPPersonalPreferences?, fromView view: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency public func didUpdatePersonalPreferences()
+}
+extension MyChart.WPPersonalizeViewController : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+}
+extension MyChart.WPPersonalizeViewController : PECore.PEHostableComponentViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setComponentHost(_ componentHost: any PECore.PEComponentHostProtocol)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func shouldShowComponentHostUserInfoInNavBar() -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AccountDeviceListView : PECore.SwiftUIViewComponent<MyChart.DeviceListView> {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public static func getInstance(devices: [MyChart.WPDeviceInfo]?, onUpdate: @escaping ([MyChart.WPDeviceInfo]?) -> Swift.Void) -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override public func shouldShowComponentHostUserInfoInNavBar() -> Swift.Bool
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct DeviceListView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7MyChart14DeviceListViewV4bodyQrvp", 0) __
+}
+@_hasMissingDesignatedInitializers public class WPAppointmentRequestViewModel : MyChart.WPAppointmentsListRowViewModel {
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class WPTelemedicineWaitingRoomViewController : MyChart.WPViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public static func instantiate(appointment: MyChart.WPAppointment) -> MyChart.WPTelemedicineWaitingRoomViewController
+  @_Concurrency.MainActor @preconcurrency public var initService: MyChart.WPInitializeVideoService?
+  @_Concurrency.MainActor @preconcurrency public var provStatusService: MyChart.WPGetProviderStatusService?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency public func clearRequests()
+}
+extension MyChart.WPTelemedicineWaitingRoomViewController : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewWillEndDragging(_ scrollView: UIKit.UIScrollView, withVelocity velocity: CoreFoundation.CGPoint, targetContentOffset: Swift.UnsafeMutablePointer<CoreFoundation.CGPoint>)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+@_inheritsConvenienceInitializers @objc public class WPMyChartBrandingConfigurationLoader : ObjectiveC.NSObject {
+  public typealias LoaderCallback = (MyChart.WPMyChartBrandingConfiguration?) -> Swift.Void
+  @objc public static func loadLegacyBrandingConfiguration(withWebsiteUrl websiteUrl: Swift.String, completion: @escaping MyChart.WPMyChartBrandingConfigurationLoader.LoaderCallback)
+  @objc public static func loadLegacyBrandingConfiguration(withWebsiteUrl websiteUrl: Swift.String, hasNewBrandingPaths: Swift.Bool, brandingLocale: Swift.String, completion: @escaping MyChart.WPMyChartBrandingConfigurationLoader.LoaderCallback)
+  public static func getLegacyCacheStringForTheme(theme: (any PECore.PEThemeProtocol)?) -> Swift.String?
+  public static func convertLegacyCacheStringToTheme(cacheString: Swift.String?) -> (any PECore.PEThemeProtocol)?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class VideoVisitLiveActivityController : MyChart.AppointmentLiveActivityController<LiveActivities.VideoVisitAttributes> {
+  public typealias Attributes = LiveActivities.VideoVisitAttributes
+  public static let instance: MyChart.VideoVisitLiveActivityController
+  @objc deinit
+  public func createLiveActivityContent(attributes: LiveActivities.VideoVisitAttributes) throws -> ActivityKit.ActivityContent<LiveActivities.VideoVisitAttributes.ContentState>
+  public static func didAttemptToJoinVideoVisit(appointment: MyChart.WPAppointment)
+  override public func supportsLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) -> Swift.Bool
+  override public func shouldCreateLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) -> Swift.Bool
+  override public func createLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) throws
+  override public func updateLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) throws
+  override public func handleCancelation(csn: Swift.String)
+  override public func handleReschedule(csn: Swift.String)
+}
+@_inheritsConvenienceInitializers @objc public class WPUtil_CoreGraphics : ObjectiveC.NSObject {
+  @objc public static func drawPolygonCenteredAt(point: CoreFoundation.CGPoint, radius: Swift.Double, sides: Swift.Int, context: CoreGraphics.CGContext?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MyChartAppDelegate : MyChart.WPAppDelegate, Combine.ObservableObject {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func application(_ application: UIKit.UIApplication, configurationForConnecting connectingSceneSession: UIKit.UISceneSession, options: UIKit.UIScene.ConnectionOptions) -> UIKit.UISceneConfiguration
+  @_Concurrency.MainActor @preconcurrency public func hideCover(animated: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency public func showCover(animated: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency public var isKeyboardVisible: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public func hideKeyboard()
+  @_Concurrency.MainActor @preconcurrency public static var monitoredUserSettings: [Swift.String] {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension MyChart.WPComposeMessageViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPTelehealthVisitModeBannerView : MyChart.WPFutureAppointmentSectionView, PECore.PEObserver {
+  @_Concurrency.MainActor @preconcurrency public func set(with viewModel: any MyChart.WPFutureAppointmentDetailsSectionViewModel)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPFeatureDetails : MyChart.WPObject, Swift.Codable {
+  @objc public var featureId: Swift.String?
+  @objc public var label: Swift.String?
+  @objc public var icon: Swift.String?
+  @objc override dynamic public init!(objectID: Swift.String!, andName name: Swift.String!)
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class WPMedicationsTabbedWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func onViewWillAppear(_ controller: PECore.MyChartWebViewController)
+  override public func onFallbackToJumpToken(_ viewController: PECore.MyChartWebViewController)
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class WPGetCommunityUpdateStatusResponse : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var communityUpdateStatuses: [MyChart.WPCommunityUpdateStatus]
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public class WPCommunityUpdateStatus : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var success: Swift.Int
+  @objc public var dxoId: Swift.String?
+  @objc public var orgName: Swift.String?
+  @objc public var focusWPR: Swift.String?
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class WPCookieHandler : ObjectiveC.NSObject, PECore.WebSessionEventDelegate {
+  @objc public func onWebSessionReady(success: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LiveActivityController<Attributes> : MyChart.ILiveActivityController where Attributes : ActivityKit.ActivityAttributes {
+  public var liveActivityType: Swift.String {
+    get
+  }
+  @objc deinit
+}
+@objc extension UIKit.UILabel {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func setTextOrHide(_ text: Swift.String?)
+}
+@objc @_inheritsConvenienceInitializers public class EFDataSetUtils : ObjectiveC.NSObject {
+  @objc public static func accumulatedGraphData(dataSet: MyChart.EFDataSet?, period: MyChart.WPAccumulationPeriod) -> MyChart.EFDataSet?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPApplicationComponentAPI : ObjectiveC.NSObject, PECore.PEApplicationComponentAPIProtocol {
+  @objc public func logout()
+  @objc public func logout(withDeepLinkUrl url: Swift.String)
+  @objc public func switchCurrentPerson(_ person: any PECore.PEPersonProtocol)
+  @discardableResult
+  @objc public func switchCurrentPerson(wprId: Swift.String?) -> Swift.Bool
+  @discardableResult
+  @objc public func switchCurrentPerson(wprId: Swift.String?, eAccountId: Swift.String?) -> Swift.Bool
+  @objc public func isInternalBuild() -> Swift.Bool
+  @objc public func getApplicationId() -> Swift.String
+  @objc public func getApplicationType() -> PECore.ApplicationType
+  @objc public func isHealthKitDataAvailable() -> Swift.Bool
+  @objc public func isBrandedApp() -> Swift.Bool
+  @objc public func isSelfSubmittedApp() -> Swift.Bool
+  @objc public func isEpicSubmittedApp() -> Swift.Bool
+  @objc public func getBrandedAppOrgId() -> Swift.String
+  @objc public func getBrandedCustomerImage() -> UIKit.UIImage?
+  @objc public func isTestLibraryExpired() -> Swift.Bool
+  @objc public func getServerPrimaryLocale() -> PECore.PELocale?
+  @objc public func getCurrentLocale() -> PECore.PELocale
+  @objc public func getDefaultLocale() -> PECore.PELocale
+  @objc public func getCommandLocale() -> PECore.PELocale
+  @objc public func getFormatterLocale() -> PECore.PELocale
+  @objc public func getCurrencyFormatterLocale() -> PECore.PELocale
+  @objc public func getLocaleSettingsDebugDescription(withDevice: Swift.Bool) -> Swift.String
+  @objc public func getDatePattern(from dateFormatTemplate: Swift.String) -> Swift.String?
+  @objc public func isFullyAuthenticated() -> Swift.Bool
+  @objc public func startIdleTimer()
+  @objc public func stopIdleTimer()
+  @objc public func resetIdleTimer()
+  @objc public func getCurrentUserContext() -> PECore.PEUserContext?
+  @objc public func getCurrentPatientContext() -> PECore.PEPatientContext?
+  @objc public func getPrivacyPolicyURL() -> Swift.String?
+  @objc public func getDeviceUId() -> Swift.String
+  @objc public func invalidateAlertsForPatient()
+  @objc public func getCurrentLocaleOverride() -> PECore.PELocale?
+  @objc public func shouldEnableLogoutButton() -> Swift.Bool
+  @objc public func getAppleWatchState() -> PECore.PEAppleWatchState
+  @objc public func isTimeout() -> Swift.Bool
+  @objc public func isPrintingSupported() -> Swift.Bool
+  @objc public func getAppDisplayName() -> Swift.String
+  @objc public func getDefaultTheme() -> any PECore.PEThemeProtocol
+  @objc public func getAppLaunchScheme() -> Swift.String?
+  @objc public func clearLoginState()
+  @objc public func isAppReviewModeEnabled() -> Swift.Bool
+  @objc public func getPhonebookUrl() -> Swift.String
+  @objc public func shouldSuppressMOPrintingOnboarding() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ChangePasswordWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  override public func onViewWillDisappear(_ controller: PECore.MyChartWebViewController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension MyChart.WPViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func setUpTwoNavigationBarStyle()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func setUpPatientImageForSecondBar(title: Swift.String, atPatientIndex patientIndex: ObjectiveC.NSInteger)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func animateNavigationBar()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func enableExpandingNavBar()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func disableExpandingNavBar(animated: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func disableExpandingNavBar()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func removePushAnimation(view: UIKit.UIView)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func shouldHideEpicLogoInNavBar() -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func shouldCollapseTitleInsteadOfBanner() -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc public class WPECheckInWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  @objc public static func getViewController(parameters: [PECore.MyChartWebParameter]?, isEVisit: Swift.Bool, isInpatient: Swift.Bool, orgInfo: MyChart.WPOrganizationInfo?) -> MyChart.WPComponentContainerViewController?
+  @objc public static func getDeepLinkParams(ForCSN csn: Swift.String, isCsnEncrypted: Swift.Bool, orgInfo: MyChart.WPOrganizationInfo?, isEVisit: Swift.Bool, isInpatient: Swift.Bool) -> [Swift.String : Swift.String]
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onWebViewWillClose(_ viewController: PECore.MyChartWebViewController, callback: @escaping (() -> ()))
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol WPAppointmentsListRowViewModel {
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class SecondaryLoginManager : ObjectiveC.NSObject {
+  @objc public static var isSecondaryLoginFeatureAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc public static var isPasscodeLoginFeatureAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc public static var isBiometricLoginFeatureAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc(removeSecondaryLoginForOrgId:withCompletionHandler:) public static func removeSecondaryLogin(orgId: Swift.String) async throws -> Swift.Bool
+  @objc(removeSecondaryLoginForOrgId:) public static func removeSecondaryLogin(orgId: Swift.String)
+  public static func removeSecondaryLogin() async throws -> Swift.Bool
+  @objc(removePasscodeLoginForOrgId:withCompletionHandler:) public static func removePasscodeLogin(orgId: Swift.String) async throws -> Swift.Bool
+  @objc(removePasscodeLoginForOrgId:) public static func removePasscodeLogin(orgId: Swift.String)
+  @objc(removeBiometricLoginForOrgId:withCompletionHandler:) public static func removeBiometricLogin(orgId: Swift.String) async throws -> Swift.Bool
+  @objc(removeBiometricLoginForOrgId:) public static func removeBiometricLogin(orgId: Swift.String)
+  @objc deinit
+}
+@objc extension MyChart.WPNotificationPopdownViewController {
+  @discardableResult
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func execute(deepLink: Swift.String?, in navigationController: UIKit.UINavigationController) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+}
+public protocol ILiveActivityController : AnyObject {
+  var liveActivityType: Swift.String { get }
+}
+public struct GetUnverifiedProxyUrlParameters {
+  public init(dxoId: Swift.String, csn: Swift.String, encryptedEptId: Swift.String?, encryptedLvvId: Swift.String?, orgName: Swift.String?)
+  public init(dxoId: Swift.String, csn: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class AppointmentLiveActivityController<Attributes> : MyChart.LiveActivityController<Attributes>, MyChart.IAppointmentLiveActivityController where Attributes : LiveActivities.AppointmentActivityAttributes {
+  public var enforceSingleLiveActivity: Swift.Bool {
+    get
+  }
+  public func endLiveActivityImmediately(csn: Swift.String)
+  public func getFirstLiveActivityAttributes() -> (any LiveActivities.AppointmentActivityAttributes)?
+  public func getAllLiveActivityAttributes() -> [any LiveActivities.AppointmentActivityAttributes]
+  public func hasLiveActivity(csn: Swift.String) -> Swift.Bool
+  public func hasLiveActivity(appointment: MyChart.WPAppointment) -> Swift.Bool
+  public func hasLiveActivity(from data: MyChart.AppointmentLiveActivityData) -> Swift.Bool
+  public func supportsLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) -> Swift.Bool
+  public func shouldCreateLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) -> Swift.Bool
+  public func createLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) throws
+  public func updateLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) throws
+  public func handleCancelation(csn: Swift.String)
+  public func handleReschedule(csn: Swift.String)
+  @objc deinit
+}
+@objc extension MyChart.WPUtil_UI {
+  @objc(sectionHeaderViewWithTitle:andIcon:andAccessibilityLabel:andTarget:andSelector:) public static func sectionHeaderView(title: Swift.String, icon: UIKit.UIImage?, accessibilityLabel axLabel: Swift.String?, target: Any?, selector: ObjectiveC.Selector?) -> MyChart.WPTableViewSectionHeaderView?
+  @objc(sectionHeaderViewWithTitle:andSubtitle:andIcon:andAccessibilityLabel:andTarget:andSelector:) public static func sectionHeaderView(title: Swift.String, subtitle: Swift.String?, icon: UIKit.UIImage?, accessibilityLabel axLabel: Swift.String?, target: Any?, selector: ObjectiveC.Selector?) -> MyChart.WPTableViewSectionHeaderView?
+  @objc public static func getTopNavigationController() -> UIKit.UINavigationController?
+  @objc public static func getTopViewController() -> UIKit.UIViewController?
+  @objc public static func getTopViewController(rootViewController: UIKit.UIViewController?) -> UIKit.UIViewController?
+}
+@_inheritsConvenienceInitializers @objc public class WPCovidStatusSpringboardManager : ObjectiveC.NSObject, MyChart.WPSpringboardManager {
+  @objc public static func springboardItem() -> MyChart.WPSpringboardInfo!
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPScreeningsWebViewController : MyChart.WPActivityWebViewController {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any MyChart.WPHealthSummaryMOWorkflowCompleteDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(type: Swift.Int, templateID: Swift.String, closeDelegate: any MyChart.WPHealthSummaryMOWorkflowCompleteDelegate)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func closePressed(_ sender: Any!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(stringMode modeString: Swift.String!, parameters params: [Swift.String : Swift.String]!, andPresentationStyle style: MyChart.WPViewPresentationStyle, patientIndex: Swift.Int, isExternal: Swift.Bool, orgID: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPTableViewSectionHeaderView : UIKit.UITableViewHeaderFooterView {
+  @_Concurrency.MainActor @preconcurrency @objc final override public var textLabel: UIKit.UILabel? {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc extension MyChart.WPCampaignViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func execute(deepLink: Swift.String?, in navigationController: UIKit.UINavigationController) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func launchCampaignScheduling()
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func getErrorMessageFor(result: MyChartGlobals.WPAPIDeepLinkExecuteResult) -> Swift.String?
+}
+@objc public class WPAppointmentArrivalWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  public init(withUserContext userContext: PECore.PEUserContext, forCSN csn: Swift.String, andIsCSNEncrypted isCSNEncrypted: Swift.Bool, andPatientIndex patientIndex: ObjectiveC.NSInteger, andInitiatedWithBeacons initiatedWithBeacons: Swift.Bool, andEnableSnooze enableSnooze: Swift.Bool, andInitiatedFromSnooze initiatedFromSnooze: Swift.Bool, andInitiatedFromUser userInitiated: Swift.Bool, andOrgID arrivedApptOrganizationID: Swift.String, andFirstUserID firstUserID: Swift.String, andAppointmentTime appointmentTime: Foundation.Date?, andArrivalWindowEndTime arrivalWindowEndTime: Foundation.Date?)
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onWorkflowCompleteAndClose(_ viewController: PECore.MyChartWebViewController, launching deepLinkUrl: Swift.String?)
+  override public func onWebViewStateChanged(_ viewController: PECore.MyChartWebViewController, stateMessage: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPTestResultDetailWebViewController : MyChart.WPActivityWebViewController {
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(orderID: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func closePressed(_ sender: Any!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func backPressed(_ sender: Any!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func shouldShowBackNavigation() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(stringMode modeString: Swift.String!, parameters params: [Swift.String : Swift.String]!, andPresentationStyle style: MyChart.WPViewPresentationStyle, patientIndex: Swift.Int, isExternal: Swift.Bool, orgID: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FutureAppointmentsLoader {
+  @objc public func load()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPHKDeviceInfo : MyChart.WPDeviceInfo {
+  @objc public var platform: Swift.String?
+  @objc override dynamic public init!(objectID: Swift.String!, andName name: Swift.String!)
+  @objc override dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class LinkedWatchDetails : ObjectiveC.NSObject {
+  @objc public var uuid: Swift.String
+  @objc public var deviceName: Swift.String
+  @objc public var orgId: Swift.String
+  @objc public var orgName: Swift.String
+  @objc public var wprId: Swift.String
+  @objc public var userNickname: Swift.String
+  public var linkDetails: MyChartGlobals.WPAPIAppleWatchLinkDetails {
+    get
+  }
+  @objc public var isLinkedToCurrentOrg: Swift.Bool {
+    @objc get
+  }
+  @objc public var isLinkedToCurrentUser: Swift.Bool {
+    @objc get
+  }
+  @objc @discardableResult
+  public func unlinkFromOrg() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class UnlinkWatchCapturedWorkflowView : PECore.SwiftUIViewComponent<MyChart.UnlinkWatchView> {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public static func getInstance(onUpdate: @escaping (Swift.Bool) -> Swift.Void) -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct UnlinkWatchView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7MyChart15UnlinkWatchViewV4bodyQrvp", 0) __
+}
+extension MyChart.WPMyChartRefComponentAPI : Authentication.IAuthenticationComponentHostingApplication {
+  @objc dynamic public func loadPhonebookEntries(success: @escaping ([any PECore.PEPhonebookEntryProtocol], Swift.Bool) -> Swift.Void, failure: @escaping ((PECore.WebServiceFailedError) -> Swift.Void))
+  public var logoutTask: _Concurrency.Task<Swift.Void, Swift.Never>? {
+    get async
+  }
+  @objc dynamic public func isEULAAccepted() -> Swift.Bool
+  @objc dynamic public func notificationsOnboardingViewed() -> Swift.Bool
+  @objc dynamic public func locationOnboardingViewed() -> Swift.Bool
+  @objc dynamic public func getPreferredOrgIds() -> [Swift.String]
+  @objc dynamic public func addOrgToPreferredOrgs(org: any PECore.PEPhonebookEntryProtocol)
+  @objc dynamic public var currentInternalPhonebookUrl: Swift.String? {
+    @objc get
+  }
+  @objc dynamic public func clearFavoriteOrganizations()
+  @objc dynamic public func getOrgSelectionViewController() -> UIKit.UINavigationController
+  @objc dynamic public func scanOrgSelectQRCode(viewController: UIKit.UIViewController)
+  @objc dynamic public func loadLegacyThemeForServer(pbEntry: any PECore.PEPhonebookEntryProtocol, websiteUrl: Swift.String, hasNewBrandingPaths: Swift.Bool, locale: Swift.String, success: @escaping (any PECore.PEThemeProtocol) -> Swift.Void, failure: @escaping (() -> Swift.Void))
+  @objc dynamic public func getLegacyCacheStringForTheme(theme: (any PECore.PEThemeProtocol)?) -> Swift.String?
+  @objc dynamic public func convertLegacyCacheStringToTheme(cacheString: Swift.String?) -> (any PECore.PEThemeProtocol)?
+  public func onInitialLoginCompleted(authResponse: Authentication.AuthenticateResponse, phonebookEntry: any PECore.PEPhonebookEntryProtocol, authType: PECore.PEAuthType)
+  @objc dynamic public func onPatientsLoaded(patients: [Authentication.MyChartPatient])
+  @objc dynamic public func onPatientsUpdated(patients: [Authentication.MyChartPatient]) async
+  @objc dynamic public func setAllFeaturesAsDone()
+  @objc dynamic public func getFeatureLoadStatusForPatient(accountID: Swift.String) -> PECore.FeatureLoadStatus
+  @objc dynamic public func onLoginCompleted()
+  @objc dynamic public func tryPasscodeLogin(passcode: Swift.String, server: any PECore.PEPhonebookEntryProtocol, onCompletion: @escaping (Swift.String, Swift.String, Swift.Int) -> Swift.Void)
+  @objc dynamic public func getTokenForBiometric(server: any PECore.PEPhonebookEntryProtocol, onCompletion: @escaping (Swift.String, Swift.String) -> Swift.Void)
+  @objc dynamic public var isSecondaryLoginFeatureAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var isPasscodeLoginFeatureAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public var isBiometricLoginFeatureAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public func canLaunchSignUpWorkflow(server: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc dynamic public func launchSignUpWorkflow(for server: any PECore.PEPhonebookEntryProtocol, in navigationController: UIKit.UIViewController, with theme: any PECore.PEThemeProtocol)
+  @objc dynamic public func canLaunchForgotUsernameWorkflow(server: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc dynamic public func launchForgotUsernameWorkflow(for server: any PECore.PEPhonebookEntryProtocol, in navigationController: UIKit.UIViewController, with theme: any PECore.PEThemeProtocol)
+  @objc dynamic public func canLaunchForgotPasswordWorkflow(server: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc dynamic public func launchForgotPasswordWorkflow(for server: any PECore.PEPhonebookEntryProtocol, in navigationController: UIKit.UIViewController, with theme: any PECore.PEThemeProtocol)
+  @objc dynamic public func canLaunchResetPasswordWorkflow(server: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc dynamic public func launchResetPasswordWorkflow(for server: any PECore.PEPhonebookEntryProtocol, in navigationController: UIKit.UIViewController, with theme: any PECore.PEThemeProtocol)
+  @objc dynamic public func shouldHideOrgSelection() -> Swift.Bool
+  @objc dynamic public func getPasswordChangeExpireViewController(onCompletion: @escaping (Swift.Bool, Swift.String?) -> Swift.Void) -> UIKit.UIViewController?
+  @objc dynamic public func loadCustomStrings(onCompletion: @escaping (_ success: Swift.Bool) -> Swift.Void)
+  @objc dynamic public func performAsyncLoginTasks(onCompletion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc dynamic public func pendPostSignupDeepLink(_ deepLinkUrl: Swift.String)
+  @objc dynamic public func performLoadingBrandingTasks(onCompletion: @escaping () -> Swift.Void)
+  public func launchHomePage(with deepLink: (any PECore.PEDeepLinkProtocol)?)
+  @objc dynamic public func getTopViewController() -> UIKit.UIViewController?
+  @objc dynamic public func isWebSessionToolOn() -> Swift.Bool
+  @objc dynamic public func showAppUriLaunchErrorAlert(url: Foundation.URL, webView: WebKit.WKWebView, presentFrom: UIKit.UIViewController)
+  @objc dynamic public func getAppStoreUrl() -> Swift.String?
+}
+@_inheritsConvenienceInitializers @objc public class WPDeepLinkManager : ObjectiveC.NSObject {
+  weak public static var actionDelegate: (any MyChartGlobals.IWPDeepLinkActionDelegate)?
+  public static var executionTimeout: Swift.Double
+  @objc public static let EpicHttpUrlPrefix: Swift.String
+  @objc public static let EpicMyChartUrlPrefix: Swift.String
+  @objc public static let EpicHttpH2GOrgID: Swift.String
+  @objc public static let EpicHttpH2GOrgName: Swift.String
+  @objc public static let EpicHttpH2GOrgLogoUrl: Swift.String
+  public static let EpicHttpH2Gkeys: (orgId: Swift.String, orgName: Swift.String, orglogoUrl: Swift.String)
+  @discardableResult
+  public static func execute(deepLinkUrl: Swift.String?, in navigationController: UIKit.UINavigationController? = nil, params: [PECore.PEDeepLinkParam : Any] = [:], options: PECore.PEDeepLinkOption = .none) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @discardableResult
+  public static func execute(activity: MyChartGlobals.WPAPIActivityIdentifier, in navigationController: UIKit.UINavigationController? = nil, params: [PECore.PEDeepLinkParam : Any] = [:], options: PECore.PEDeepLinkOption = .none) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @discardableResult
+  public static func execute(deepLink: any PECore.PEDeepLinkProtocol, in navigationController: UIKit.UINavigationController? = nil) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @discardableResult
+  public static func execute(deepLink: any MyChartGlobals.IWPDeepLink, in navigationController: UIKit.UINavigationController? = nil) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @discardableResult
+  public static func getAndClearDeepLinkPendedForLogin() -> (any PECore.PEDeepLinkProtocol)?
+  @objc public static func hasDeepLinkPendingLogin() -> Swift.Bool
+  public static func constructDeepLinkUrl(scheme: Swift.String, feature: PECore.PEDeepLinkFeatureIdentifier, queryParams: [Swift.String : Swift.String]? = nil, encodeParams: Swift.Bool = true) -> Swift.String
+  @objc public static func isValidDeepLinkUrl(_ url: Swift.String?) -> Swift.Bool
+  public static func accessResult(for deepLinkUrl: Swift.String, person: any MyChartGlobals.IWPPerson) -> MyChart.WPActivityAccessResult
+  public static func accessResult(for deepLink: any MyChartGlobals.IWPDeepLink, personProtocol: any PECore.PEPersonProtocol) -> MyChart.WPActivityAccessResult
+  public static func getViewController(for deepLinkUrl: Swift.String, params: [PECore.PEDeepLinkParam : Any] = [:], options: PECore.PEDeepLinkOption = .none) -> UIKit.UIViewController?
+  public static func getRefActivity(for deepLinkUrl: Swift.String) -> MyChart.WPActivity
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension MyChart.WPDeepLinkManager {
+  @objc public static func legacyGetPendingDeepLinkInfo() -> [Swift.String : Swift.String]?
+  @objc public static func legacyGetParamsForLibrary(_ deepLinkUrl: Swift.String) -> [Swift.String : Swift.String]
+}
+public struct WPGetPushNotificationDetailsResponse : Swift.Decodable {
+  public var pushNotification: MyChart.WPPushNotification?
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc extension MyChart.WPLoginToken {
+  @objc dynamic public func removeSecondaryLogin() async throws -> Swift.Bool
+  @objc dynamic public func removeSecondaryLogin()
+  @objc dynamic public func removePasscodeLogin() async throws -> Swift.Bool
+  @objc dynamic public func removePasscodeLogin()
+  @objc dynamic public func removeBiometricLogin() async throws -> Swift.Bool
+  @objc dynamic public func removeBiometricLogin()
+}
+@objc extension WatchConnectivity.WCSession {
+  @objc override dynamic open class func keyPathsForValuesAffectingValue(forKey key: Swift.String) -> Swift.Set<Swift.String>
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentDetailsViewController : MyChart.WPViewController, PECore.PEObserver {
+  @objc @_Concurrency.MainActor @preconcurrency public static let ArriveAppointmentKey: Swift.String
+  @objc @_Concurrency.MainActor @preconcurrency public var startVideoVisitOnLoad: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public static func instantiate(appointment: MyChart.WPAppointment) -> MyChart.WPFutureAppointmentDetailsViewController
+  @objc @_Concurrency.MainActor @preconcurrency public static func instantiate(csn: Swift.String?, isCsnEncrypted: Swift.Bool, organizationInfo: MyChart.WPOrganizationInfo?, waitListEntry: MyChart.WPWaitListEntry?, justScheduledDetails: MyChart.WPJustScheduledDetails?) -> MyChart.WPFutureAppointmentDetailsViewController
+  @objc @_Concurrency.MainActor @preconcurrency public static func instantiate(csn: Swift.String?, isCsnEncrypted: Swift.Bool, organizationInfo: MyChart.WPOrganizationInfo?, waitListEntry: MyChart.WPWaitListEntry?, justScheduledDetails: MyChart.WPJustScheduledDetails?, isEVisit: Swift.Bool) -> MyChart.WPFutureAppointmentDetailsViewController
+  @objc @_Concurrency.MainActor @preconcurrency public static func instantiate(csn: Swift.String?, isCsnEncrypted: Swift.Bool, organizationInfo: MyChart.WPOrganizationInfo?, waitListEntry: MyChart.WPWaitListEntry?, justScheduledDetails: MyChart.WPJustScheduledDetails?, shouldArriveAppointment: ObjectiveC.ObjCBool, isEVisit: Swift.Bool) -> MyChart.WPFutureAppointmentDetailsViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency public func reloadData()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MyChart.WPFutureAppointmentDetailsViewController : MyChart.WPOnDemandVideoVisitAlertDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func show(onDemandVideoVisitAlert alert: UIKit.UIAlertController!)
+}
+extension MyChart.WPFutureAppointmentDetailsViewController : MyChart.WPPatientVisitGuideLoadedProtocol {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func visitGuideLoaded(with data: Foundation.Data?)
+}
+extension MyChart.WPFutureAppointmentDetailsViewController : MyChart.WPCancelAppointmentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func cancelAppointmentDidNotConfirm()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func cancelAppointmentConfirmed(_ cancelledAppointments: [Any]?, with type: MyChart.WPCancelType)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func cancelAppointmentConfirmFailure(_ cancelledAppointments: [Any]?, with type: MyChart.WPCancelType)
+}
+extension MyChart.WPFutureAppointmentDetailsViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+}
+extension MyChart.WPFutureAppointmentDetailsViewController : EventKitUI.EKEventEditViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func eventEditViewController(_ controller: EventKitUI.EKEventEditViewController, didCompleteWith action: EventKitUI.EKEventEditViewAction)
+}
+@objc extension Foundation.UserDefaults {
+  @objc(legacyCompatibleDefaults) public static func legacyCompatible() -> Foundation.UserDefaults?
+}
+@_Concurrency.MainActor @preconcurrency public struct MyChartContentView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7MyChart0aB11ContentViewV4bodyQrvp", 0) __
+}
+@_inheritsConvenienceInitializers @objc public class WPEVisitWebViewControllerManager : PECore.MyChartWebViewControllerManager, MyChart.WPSpringboardManager {
+  @objc public static func getViewController() -> MyChart.WPComponentContainerViewController?
+  @objc public static func springboardItem() -> MyChart.WPSpringboardInfo!
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onWebViewWillClose(_ viewController: PECore.MyChartWebViewController, callback: @escaping (() -> ()))
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPNoImmunizationsNoticeTableViewCell : UIKit.UITableViewCell {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
+  @available(iOS 3.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct WPAppointmentRequestResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc public protocol WPAppointmentsListRow {
+  @objc func set(with viewModel: any MyChart.WPAppointmentsListRowViewModel)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPAppleWalletSandboxViewController : MyChart.WPViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+extension MyChart.WPAppleWalletSandboxViewController : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc public class WPWebSessionManagerWebServiceAPI : ObjectiveC.NSObject {
+  public static let LoginTokenAccessTypeMobile: Swift.String
+  public static let LoginTokenAccessTypeFullSite: Swift.String
+  public static let LoginTokenAccessTypeStandard: Swift.String
+  public class func getMyChartUrl(patientIndex: Swift.Int, mode: MyChart.WPMyChartWebViewMode, parameters: [Swift.String : Swift.String]?, listener: any MyChart.WPGetMyChartUrlCallbackProtocol)
+  @objc public class func getMyChartUrl(patientIndex: Swift.Int, stringMode: Swift.String, parameters: [Swift.String : Swift.String]?, listener: any MyChart.WPGetMyChartUrlCallbackProtocol)
+  public class func getMyChartJumpToken(patientIndex: Swift.Int, mode: MyChart.WPMyChartWebViewMode, parameters: [Swift.String : Swift.String]?, isExternal: Swift.Bool, orgId: Swift.String?, listener: any MyChart.WPGetMyChartJumpTokenCallbackProtocol)
+  @objc public class func getMyChartJumpToken(patientIndex: Swift.Int, stringMode: Swift.String, parameters: [Swift.String : Swift.String]?, isExternal: Swift.Bool, orgId: Swift.String?, listener: any MyChart.WPGetMyChartJumpTokenCallbackProtocol)
+  @objc public class func getMyChartJumpTokenLibrary(patientIndex: Swift.Int, stringMode: Swift.String, parameters: [Swift.String : Swift.String]?, isExternal: Swift.Bool, orgId: Swift.String?, listener: any MyChartGlobals.IWPCreateMyChartUrlDelegate)
+  public class func requestLoginToken(patientIndex: Swift.Int, mode: Swift.String, parameters: [MyChart.Parameter], isExternal: Swift.Bool, orgId: Swift.String?, useH2GMyChartFullSiteAccessToken: Swift.Bool = false, usePinchToZoomTokenType: Swift.Bool = false) -> PECore.WebService<MyChart.GetLoginTokenResponse>
+  public class func requestMyChartUrl(patientIndex: Swift.Int, mode: Swift.String, parameters: [MyChart.Parameter]) -> PECore.WebService<MyChart.GetMyChartUrlResponse>
+  @objc public class func getModeString(_ modeEnum: MyChart.WPMyChartWebViewMode) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct GetLoginTokenResponse : Swift.Decodable {
+  public func generateUrlRequest() -> Foundation.URLRequest?
+  public func getBodyFromSSOParams() -> Swift.String
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GetMyChartUrlResponse : Swift.Codable {
+  public func generateDirectUrlRequest() -> Foundation.URLRequest?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Parameter : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc extension MyChart.WPServer {
+  @objc public static let wpPrefUseCustomServer: Swift.String
+  @objc public static let wpPrefConnectionServer: Swift.String
+  @objc public static let wpPrefAppReviewMode: Swift.String
+  @objc public static let wpServerFormatterLocaleKey: Swift.String
+  @objc public static let wpServerAllowedLanguagesKey: Swift.String
+  @objc public static let wpServerDefaultLanguageKey: Swift.String
+  @objc public static let wpServerFormatterLocaleOverrideKey: Swift.String
+  @objc public static let wpServerBrandedDefaultLocaleKey: Swift.String
+  @objc public static let wpServerBrandedAllowedLocalesKey: Swift.String
+  @objc public static let wpServerBrandedServerPrimaryLocaleKey: Swift.String
+  @objc public static let wpServerBrandedShowLanguagePicker: Swift.String
+  @objc public static let epicAppReviewServerUrl: Swift.String
+  @objc public static let epicAppReviewWebsiteName: Swift.String
+  @objc public enum WPCachedImageType : Swift.Int {
+    case myChartLogo
+    case serverLogo
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public static func orgIdMatchesCurrentOrAffiliate(_ orgId: Swift.String?) -> Swift.Bool
+  @objc public static func isAppReviewModeEnabled() -> Swift.Bool
+  @objc public static func isInternalSearchEnabled() -> Swift.Bool
+  @objc public static func getCachedImage(_ imageType: MyChart.WPServer.WPCachedImageType, for orgId: Swift.String) -> UIKit.UIImage?
+  @objc public static func setCachedImage(_ image: UIKit.UIImage, forType imageType: MyChart.WPServer.WPCachedImageType, andOrgId orgId: Swift.String)
+  @objc public static func removeCachedImage(_ imageType: MyChart.WPServer.WPCachedImageType, for orgId: Swift.String)
+  @objc dynamic public func getBrandLogo(_ useDarkLogo: Swift.Bool, completionHandler: @escaping ((UIKit.UIImage) -> ()))
+  @objc dynamic public func setupLocaleSettingsSource(defaultLocale: PECore.PELocale?, allowedLocales: [PECore.PELocale]?)
+  @objc dynamic public func getAllowedLanguagesValue() -> Swift.String
+  @objc dynamic public func getDefaultLanguageValue() -> Swift.String
+  @objc dynamic public func getFormatterLocaleValue() -> Swift.String
+  @objc dynamic public func getFormatterLocaleOverrideValue() -> Swift.String?
+  @objc dynamic public func getBrandedAllowedLocales() -> [Swift.String]
+  @objc dynamic public func getBrandedDefaultLocale() -> Swift.String
+  @objc dynamic public func getBrandedServerPrimaryLocale() -> Swift.String
+  @objc dynamic public func getBrandedShowLanguagePicker() -> Swift.Bool
+  @objc dynamic public func getServerOptionValue(forKey targetKey: Swift.String) -> Swift.String?
+  @objc dynamic public func getAllowedLocales() -> [PECore.PELocale]
+  @objc dynamic public func getLocationArray() -> [Swift.String]
+  @objc dynamic public func getAkaMnemonics() -> [Swift.String]
+  @objc dynamic public func getFkaMnemonics() -> [Swift.String]
+  @objc dynamic public func removeSecondaryLogin() async throws -> Swift.Bool
+  @objc dynamic public func removePasscodeLogin() async throws -> Swift.Bool
+  @objc dynamic public func removeBiometricLogin() async throws -> Swift.Bool
+  @objc dynamic public func setThemeHelper(theme: any PECore.PEThemeProtocol)
+}
+extension MyChart.WPServer : PECore.SearchableProtocol {
+  @objc dynamic public func getSearchTerms() -> [Swift.String]
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class WPIconTextButtonViewModel : ObjectiveC.NSObject {
+  @objc public var title: Swift.String? {
+    get
+  }
+  @objc public var image: UIKit.UIImage? {
+    get
+  }
+  @objc public var keepImageOriginalColor: Swift.Bool {
+    get
+  }
+  @objc public var animationImage: PECore.AnimatedImageView? {
+    get
+  }
+  public func populateButton(button: PECore.CoreButton)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class LiveActivityManager {
+  public static var instance: MyChart.LiveActivityManager {
+    get
+  }
+  public var controllers: [any MyChart.ILiveActivityController] {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPShowSubjectsForH2GOrgViewController : MyChart.WPPopupViewController {
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(subjectIds: [Swift.String], forOrg: any PECore.PEOrganizationInfoProtocol)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(title popupString: Swift.String!, cancelLabel cancelString: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(attributedTitle popupString: Foundation.NSAttributedString!, cancelLabel cancelString: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPWebSessionManagerMyChartHelper : ObjectiveC.NSObject {
+  @objc public class func setUpSession(_ patientIndex: Swift.Int)
+  @objc public class func onPatientContextChanged(_ patientIndex: Swift.Int)
+  @objc public class func updateCurrentSession(_ patientIndex: Swift.Int)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChart.WPActivity {
+  public func shouldPresentModally(deepLinkUrl: Swift.String) -> Swift.Bool
+}
+@objc public enum WPAuthenticationStatus : Swift.Int {
+  case notAuthenticated = 0
+  case limitedAuthentication = 1
+  case fullyAuthenticated = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class WPUser : Authentication.MyChartUser, MyChartGlobals.IWPUser {
+  @objc public static let nppIndex: Swift.Int
+  @objc public static var loggedInUser: MyChart.WPUser?
+  @objc public var wpPatientData: [MyChart.WPPatient] {
+    @objc get
+  }
+  @objc public var loggedInUsingSAML: Swift.Bool
+  @objc public var isFullyAuthenticated: Swift.Bool
+  @objc public var isInProxySubjectContext: Swift.Bool {
+    @objc get
+  }
+  @objc public var currentPatient: MyChart.WPPatient? {
+    @objc get
+  }
+  @objc public static var authenticationStatus: MyChart.WPAuthenticationStatus {
+    @objc get
+  }
+  @objc(getPatient:) public func getPatient(atIndex patientIndex: Swift.Int) -> MyChart.WPPatient?
+  @objc public func switchPatient(_ index: Swift.Int, andNotifyWeb notify: Swift.Bool = true, isLoginProcess: Swift.Bool = false)
+  @objc public static var currentPersonIndex: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public static var currentPatient: MyChart.WPPatient? {
+    @objc get
+    @objc set
+  }
+  @objc public static var currentPerson: Authentication.MyChartPerson? {
+    @objc get
+    @objc set
+  }
+  @objc public static func getCurrentPatientContext() -> PECore.PEPatientContext?
+  @objc public static func getCurrentUserContext() -> PECore.PEUserContext?
+  @objc public static func getContextFromPatient(_ patient: MyChart.WPPatient) -> PECore.PEPatientContext?
+  @objc public static func getPatientContext(atIndex patientIndex: Swift.Int) -> PECore.PEPatientContext?
+  @objc public static func getFeatureLoadStatus(forId accountID: Swift.String) -> PECore.FeatureLoadStatus
+  @objc public static func isMobileOptimizedFeatureAvailable(_ checkNPP: Swift.Bool) -> Swift.Bool
+  @objc override dynamic public func getPhoto(onImageLoaded: ((any PECore.PEPersonProtocol, UIKit.UIImage?) -> Swift.Void)?) -> UIKit.UIImage?
+  @objc override dynamic public func getPhoto(useFallback: Swift.Bool, onImageLoaded: ((any PECore.PEPersonProtocol, UIKit.UIImage?) -> Swift.Void)?) -> UIKit.UIImage?
+  @objc public func getPhoto(_ useFallback: Swift.Bool, onImageLoaded: MyChartGlobals.PersonImageCallback? = nil) -> UIKit.UIImage?
+  @objc public func hasAlerts() -> Swift.Bool
+  @objc override dynamic public init()
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+extension MyChart.WPUser {
+  @objc override dynamic public func getCommandLocaleString() -> Swift.String
+  @objc override dynamic public func isTimeout() -> Swift.Bool
+  @objc override dynamic public func getDeviceID() -> Swift.String
+  @objc override dynamic public func setToken(_ token: Swift.String, forType tokenType: PECore.TokenType)
+  @objc override dynamic public func getColor() -> UIKit.UIColor
+  @objc override dynamic public func getTextColor() -> UIKit.UIColor
+  @objc override dynamic public func update(photo: UIKit.UIImage?)
+  @objc override dynamic public func getFeatureLoadStatus() -> PECore.FeatureLoadStatus
+}
+extension MyChart.WPUser {
+  @objc dynamic public var isProxySubject: Swift.Bool {
+    @objc get
+  }
+  @objc dynamic public func asUser() -> (any MyChartGlobals.IWPUser)?
+  @objc dynamic public func asPatient() -> (any MyChartGlobals.IWPPatient)?
+}
+@_inheritsConvenienceInitializers @objc public class WPQuickScheduleWebViewControllerManager : MyChart.WPSchedulingWebViewControllerManager {
+  @objc override public class func springboardItem() -> MyChart.WPSpringboardInfo!
+  @objc public static func getOnDemandVideoVisitViewController(_ parameters: [PECore.MyChartWebParameter]?) -> MyChart.WPComponentContainerViewController
+  @objc override public init(mode: MyChart.WPMyChartWebViewMode)
+  @objc override public init(mode: MyChart.WPMyChartWebViewMode, csn: Swift.String?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPBannerViewModel {
+  public func update(populator: MyChart.WPFutureDetailsSectionViewModelPopulator)
+  public func update(appointment: MyChart.WPAppointment)
+  public func setSectionDelegate(_ delegate: Any?)
+  public func tappedActionButton()
+  public func setObservables()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPLoginUtilities : ObjectiveC.NSObject {
+  @objc public static func getSavedUsername(forOrganization organization: MyChart.WPServer) -> Swift.String
+  @objc public static func setSavedUsername(forOrganization organization: MyChart.WPServer, userName: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChart.WPShareViewController {
+  @_Concurrency.MainActor @preconcurrency public static func displayShareDialog(itemsToShare items: [Any], inPresenter presenter: MyChart.WPViewController?, fromBarButtonItem barButtonItem: UIKit.UIBarButtonItem, didShow: @escaping () -> Swift.Void, didCancel: (() -> Swift.Void)? = nil)
+}
+@_inheritsConvenienceInitializers @objc public class PersonalInformationWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func onViewWillDisappear(_ controller: PECore.MyChartWebViewController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentDetailView : UIKit.UIView, PECore.PEObserver {
+  @objc @_Concurrency.MainActor @preconcurrency public func buttonTapped()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var accessibilityElements: [Any]? {
+    @objc get
+    @objc set
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class AppointmentLiveActivityHelper {
+  @objc public static func requestAppointmentLiveActivityCreation()
+  @objc public static func handleCanceledAppointments(_ appointments: [MyChart.WPAppointment])
+  @objc public static func handleRescheduledAppointment(csn: Swift.String)
+  @objc deinit
+}
+public protocol FutureAppointmentsLoaderDelegate : AnyObject {
+  func shouldLoadAppointments(for patient: MyChart.WPPatient) -> Swift.Bool
+  func didFinishLoadingAppointments(with appointments: [MyChart.WPAppointment])
+}
+extension MyChart.FutureAppointmentsLoaderDelegate {
+  public func shouldLoadAppointments(for patient: MyChart.WPPatient) -> Swift.Bool
+}
+public protocol IAppointmentLiveActivityController : MyChart.ILiveActivityController {
+  associatedtype Attributes : ActivityKit.ActivityAttributes
+  var enforceSingleLiveActivity: Swift.Bool { get }
+  func supportsLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) -> Swift.Bool
+  func shouldCreateLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) -> Swift.Bool
+  func createLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) throws
+  func updateLiveActivity(patient: MyChart.WPPatient, appointment: MyChart.WPAppointment) throws
+  func handleCancelation(csn: Swift.String)
+  func handleReschedule(csn: Swift.String)
+  func endLiveActivityImmediately(csn: Swift.String)
+  func getFirstLiveActivityAttributes() -> (any LiveActivities.AppointmentActivityAttributes)?
+  func getAllLiveActivityAttributes() -> [any LiveActivities.AppointmentActivityAttributes]
+  func hasLiveActivity(csn: Swift.String) -> Swift.Bool
+  func hasLiveActivity(appointment: MyChart.WPAppointment) -> Swift.Bool
+  func hasLiveActivity(from data: MyChart.AppointmentLiveActivityData) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class EFGraphDataView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var showMetadata: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var dataColor: UIKit.UIColor?
+  @objc @_Concurrency.MainActor @preconcurrency public var abnormalDataColor: UIKit.UIColor?
+  @objc @_Concurrency.MainActor @preconcurrency public var shadingColor: UIKit.UIColor?
+  @objc @_Concurrency.MainActor @preconcurrency public var labelColor: UIKit.UIColor?
+  @objc @_Concurrency.MainActor @preconcurrency public var showBasal: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var showBolus: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var rectOfGraph: CoreFoundation.CGRect {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var graphType: MyChart.EFGraphType {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var dataSet: MyChart.EFDataSet? {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var bounds: CoreFoundation.CGRect {
+    @objc get
+    @objc set(newBounds)
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public func calculateCoordinatesForData()
+  @objc @_Concurrency.MainActor @preconcurrency public func set(dataSet: MyChart.EFDataSet?, graphType: MyChart.EFGraphType)
+  @objc deinit
+}
+@objc public protocol SavePersonalNotesCallback {
+  @objc func onSaveNotesSuccess(response: MyChart.WPSavePersonalNotesServiceResponse?)
+  @objc func onSaveNotesFailure(error: PECore.WebServiceFailedError?)
+}
+@objc public class WPSavePersonalNotesServiceAPI : ObjectiveC.NSObject {
+  @objc public init(callingContext: any MyChart.SavePersonalNotesCallback)
+  @objc public func savePersonalNotes(patientContext: PECore.PEPatientContext, noteInfo: MyChart.WPPersonalNotesInfo)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentPatientInstructionsView : UIKit.UIView, PECore.PEObserver {
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var rootView: MyChart.WPCardView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var stackView: UIKit.UIStackView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var headerLabel: UIKit.UILabel!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var trailingPaddingConstraint: UIKit.NSLayoutConstraint!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var bottomPaddingConstraint: UIKit.NSLayoutConstraint!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var topPaddingConstraint: UIKit.NSLayoutConstraint!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var leadingPaddingConstraint: UIKit.NSLayoutConstraint!
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor @preconcurrency public func setNavigationDelegate(_ delegate: (any MyChart.WPViewContainingWebViewDelegate)?)
+  @objc @_Concurrency.MainActor @preconcurrency public func populate(withContent content: Swift.String, isHtml: Swift.Bool, includeHeader: Swift.Bool = true)
+  @objc deinit
+}
+extension MyChart.WPFutureAppointmentPatientInstructionsView : MyChart.WPViewContainingWebViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func navigateToAllowedHost(for request: Foundation.URLRequest?, allowedHosts: [Any]?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func openUrl(inExternalBrowser url: Foundation.URL?)
+}
+@_inheritsConvenienceInitializers @objc public class WPOnMyWayWebViewControllerManager : PECore.MyChartWebViewControllerManager, MyChart.WPSpringboardManager {
+  @objc public static func getViewController(parameters: [Swift.String : Swift.String]) -> MyChart.WPComponentContainerViewController?
+  @objc public static func springboardItem() -> MyChart.WPSpringboardInfo!
+  override public func onViewWillDisappear(_ controller: PECore.MyChartWebViewController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPAppointmentArrivalEventTracker : ObjectiveC.NSObject, Swift.Codable {
+  @objc public enum ArrivalEventType : Swift.Int, Swift.Codable {
+    case VisitTracked = 10
+    case VisitNotified = 11
+    case VisitPrompt = 12
+    case VisitSnoozed = 13
+    case VisitDeclined = 14
+    case Unknown = 99
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public class func auditStoredArrivalEvent(orgId: Swift.String)
+  @objc public class func auditArrivalEvent(event: MyChart.WPAppointmentArrivalEventTracker.ArrivalEventType, csn: Swift.String, patientIndex: Swift.Int, selfArrivalMechanism: Swift.Int)
+  @objc public class func storeArrivalEvent(arrivalEventType: MyChart.WPAppointmentArrivalEventTracker.ArrivalEventType, orgId: Swift.String?, csn: Swift.String?, patientIndex: Swift.Int, isBeacon: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPPersonalPreferencesCollectionViewCell : UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func preferredLayoutAttributesFitting(_ layoutAttributes: UIKit.UICollectionViewLayoutAttributes) -> UIKit.UICollectionViewLayoutAttributes
+  @_Concurrency.MainActor @preconcurrency public func setPersonalPreferences(_ personalPreferences: MyChart.WPPersonalPreferences, _ userContext: PECore.PEUserContext)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MyChart.WPPersonalPreferencesCollectionViewCell : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPAppointmentArrivalPermissionsViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var userContext: PECore.PEUserContext?
+  @_Concurrency.MainActor @preconcurrency public var completionHandler: ((_ appointmentArrivalEnabled: Swift.Bool) -> Swift.Void)?
+  @objc @_Concurrency.MainActor @preconcurrency public static func getInstance(withUserContext userContext: PECore.PEUserContext, completionHandler: ((Swift.Bool) -> Swift.Void)?) -> MyChart.WPAppointmentArrivalPermissionsViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @objc deinit
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension MyChart.WPAppointmentArrivalPermissionsViewController : PECore.PEHostableComponentViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setComponentHost(_ componentHost: any PECore.PEComponentHostProtocol)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func shouldShowComponentHostUserInfoInNavBar() -> Swift.Bool
+}
+extension MyChart.WPAppointmentArrivalPermissionsViewController : MyChartGlobals.IWPPushNotificationsDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setPushNotificationsReturned(with status: MyChartGlobals.WPAPISetPushNotificationsStatusResult)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pushNotificationsReturned(with status: MyChartGlobals.WPAPIPushNotificationsStatus)
+}
+@objc public protocol WPScreeningWorkflowEntryDelegate {
+  @objc func enterScreeningWorkflow(type: Swift.Int, templateID: Swift.String?)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPScreeningTableViewCell : UIKit.UITableViewCell {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any MyChart.WPScreeningWorkflowEntryDelegate)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
+  @objc @_Concurrency.MainActor @preconcurrency public func setup(screening: MyChart.WPScreening)
+  @available(iOS 3.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class MyChartUserSettingsMonitor {
+  public init(monitoredSettings: [Swift.String])
+  public func pollChanges()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPAppointmentAvsWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  @objc public static func getViewController(orgInfo: MyChart.WPOrganizationInfo, appointment: MyChart.WPAppointment, isPastAdmission: Swift.Bool) -> MyChart.WPComponentContainerViewController?
+  @objc public static func getDXRViewController(referenceID: Swift.String, dxoID: Swift.String) -> MyChart.WPComponentContainerViewController?
+  @objc public static func getNotesViewController(orgInfo: MyChart.WPOrganizationInfo, csn: Swift.String?, hideTabs: Swift.Bool, isPastAdmission: Swift.Bool) -> MyChart.WPComponentContainerViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPGetPersonalNotesServiceResponse : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var personalNotes: MyChart.WPPersonalNotesInfo!
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentVideoVisitView : MyChart.WPFutureAppointmentSectionView, PECore.PEObserver {
+  @_Concurrency.MainActor @preconcurrency public func set(with viewModel: any MyChart.WPFutureAppointmentDetailsSectionViewModel)
+  @objc deinit
+}
+extension MyChart.SessionManager {
+  public enum Function : Swift.String {
+    case linkToOrg
+    case unlinkExistingOrg
+    case cancelLinkToOrg
+    case invalidateFeed
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func linkAppleWatchToOrg(context: PECore.PEUserContext, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func unlinkAppleWatches(with uuid: Swift.String, context: PECore.PEUserContext, completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc dynamic public func invalidateWatchFeed()
+  public func cancelLinkToOrg()
+  @objc(receiveUnlinkCurrentWatch::) dynamic public func receiveUnlinkCurrentWatch(params: [Swift.String : Any], replyHandler: Any!)
+}
+@objc @_inheritsConvenienceInitializers public class DeviceListWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  override public func onViewWillDisappear(_ controller: PECore.MyChartWebViewController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class FDIWebViewController : MyChart.WPWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(request: Foundation.URLRequest!, andPresentationStyle style: MyChart.WPViewPresentationStyle)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(request: Foundation.URLRequest!, allowedHosts allowHosts: [Any]!, andPresentationStyle style: MyChart.WPViewPresentationStyle)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPTestResultDetailsViewController : MyChart.WPViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public static func createViewController(withTestDat dat: Swift.String, andExternalOrgId externalOrgId: Swift.String?, andEncounterContext encounterContext: PECore.PEEncounterContext) -> MyChart.WPTestResultDetailsViewController?
+  @objc @_Concurrency.MainActor @preconcurrency public static func createViewController(withTestDat dat: Swift.String, andExternalOrgId externalOrgId: Swift.String?, andLabName labName: Swift.String, andEncounterContext encounterContext: PECore.PEEncounterContext) -> MyChart.WPTestResultDetailsViewController?
+  @objc @_Concurrency.MainActor @preconcurrency public static func createViewController(withTestOrder orderId: Swift.String, andExternalOrgId externalOrgId: Swift.String?, andEncounterContext encounterContext: PECore.PEEncounterContext) -> MyChart.WPTestResultDetailsViewController?
+  @objc @_Concurrency.MainActor @preconcurrency public static func createViewController(withTestOrder orderId: Swift.String, andExternalOrgId externalOrgId: Swift.String?, isOrderIdEncrypted: Swift.Bool, andEncounterContext encounterContext: PECore.PEEncounterContext) -> MyChart.WPTestResultDetailsViewController?
+  @objc @_Concurrency.MainActor @preconcurrency public static func createViewController(withPETestResult result: any PECore.PETestResult, overrideUri: Swift.String, componentHost: any PECore.PEComponentHostProtocol, patientContext: PECore.PEPatientContext, encounterContext: PECore.PEEncounterContext?, logEncounterCSN: Swift.Bool) -> MyChart.WPTestResultDetailsViewController?
+  @objc @_Concurrency.MainActor @preconcurrency public static func createViewController(withTestResult result: MyChart.WPTestResult) -> MyChart.WPTestResultDetailsViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MyChart.WPTestResultDetailsViewController : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+extension MyChart.WPTestResultDetailsViewController : MyChart.WPViewContainingWebViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func navigateToAllowedHost(for request: Foundation.URLRequest?, allowedHosts: [Any]?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func openUrl(inExternalBrowser url: Foundation.URL?)
+}
+extension MyChart.WPTestResultDetailsViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+}
+extension MyChart.WPTestResultDetailsViewController : PECore.PEHostableComponentViewController {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func setComponentHost(_ componentHost: any PECore.PEComponentHostProtocol)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class CommunityWebServiceAPI : ObjectiveC.NSObject {
+  @objc public class func getInstance() -> MyChart.CommunityWebServiceAPI
+  @objc public func setIsCommunityUpdateStatusRunning(isRunning: Swift.Int)
+  @objc public func setFeatureIsCurrentlyCheckingStatus(featureBit: Swift.String)
+  @objc public func beginBackgroundUpdateTask()
+  @objc public func endBackgroundUpdateTask()
+  @objc public static func launchCommunityLoadingStatusRequest()
+  @objc public func getCommunityUpdateStatusAPI()
+  @objc deinit
+}
+@objc extension MyChart.WPActivityWebViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func getNavController() -> UIKit.UINavigationController?
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func tryExecute(deepLink: Swift.String?, in navigationController: UIKit.UINavigationController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
+}
+extension MyChart.WPActivityWebViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var supportsH2GLaunchContext: Swift.Bool {
+    @objc get
+  }
+}
+@_inheritsConvenienceInitializers public class WPJustScheduledBannerViewModel : MyChart.WPBannerViewModel, MyChart.WPFutureAppointmentDetailsSectionViewModel, MyChart.WPAppointmentsListRowViewModel {
+  required public init(populator: MyChart.WPFutureDetailsSectionViewModelPopulator)
+  public static func shouldDisplaySection(populator: MyChart.WPFutureDetailsSectionViewModelPopulator) -> Swift.Bool
+  public static func shouldDisplaySection(appointment: MyChart.WPAppointment) -> Swift.Bool
+  override public func update(appointment: MyChart.WPAppointment)
+  public func setBannerConfiguration()
+  override public func tappedActionButton()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPTiffLauncherViewController : MyChart.WPViewController, MyChart.WPShareDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(withDcsID dcsID: Swift.String, andDcsExtension dcsExtension: Swift.String?, andOrgID orgID: Swift.String?, useSourceEncryption: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency public func downloadTiff()
+  @_Concurrency.MainActor @preconcurrency public func previewTiff()
+  @objc @_Concurrency.MainActor @preconcurrency public func didGetDocument(response: MyChart.WPGetDocumentResponse)
+  @_Concurrency.MainActor @preconcurrency public func handleAttachment(attachment: MyChart.WPAttachment, response: MyChart.WPGetDocumentResponse)
+  @_Concurrency.MainActor @preconcurrency public func onDownloadFailed()
+  @_Concurrency.MainActor @preconcurrency @objc public func didShowShareDialog()
+  @_Concurrency.MainActor @preconcurrency @objc public func didCancelShareDialog()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPUtilMiscComponentAPI : ObjectiveC.NSObject, PECore.PEUtilMiscComponentAPIProtocol {
+  @objc public func getSetting(withName name: Swift.String) -> Swift.AnyObject?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPViewContainingWebView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var webView: MyChart.WPWebView!
+  @objc @_Concurrency.MainActor @preconcurrency public func loadWithHtml(_ html: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+extension MyChart.WPViewContainingWebView : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
+}
+extension MyChart.WPViewContainingWebView : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewWillBeginZooming(_ scrollView: UIKit.UIScrollView, with view: UIKit.UIView?)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func viewForZooming(in scrollView: UIKit.UIScrollView) -> UIKit.UIView?
+}
+@_inheritsConvenienceInitializers @objc public class WPNoImmunizationsNotice : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class WPPersonalNotesInfo : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var personalNoteList: [Swift.String]?
+  @objc public var type: MyChart.PersonalNoteType
+  @objc public var updateDate: Swift.String?
+  @objc public init(type: MyChart.PersonalNoteType, personalNoteList: [Swift.String]?)
+  @objc public init(info: MyChart.WPPersonalNotesInfo)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public enum PersonalNoteType : Swift.Int, Swift.Codable {
+  case Allergy = 1
+  case Medication = 2
+  case HealthIssue = 3
+  case Immunization = 4
+  case Reminder = 5
+  case MedicalHistory = 6
+  case SocialHistory = 7
+  case SurgicalHistory = 8
+  case FamilyHistory = 9
+  case FamilyStatus = 10
+  case PatientGoals = 11
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class WPScreeningWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func onViewWillDisappear(_ controller: PECore.MyChartWebViewController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension MyChart.WPNavigationTitleView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func setTitleAccessibilityLabel(title: Swift.String, patientIndex: Swift.Int)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public class func createPatientImageView(patientIndex: Swift.Int) -> UIKit.UIImageView
+}
+public class RemoteUnverifiedProxyValidation : Swift.Decodable {
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@objc extension MyChart.WPActivityManager {
+  @objc public static func getH2GUnsupportedAlertController(withOrgName orgName: Swift.String?) -> UIKit.UIAlertController
+  @objc public static func isH2GSupported(viewController: UIKit.UIViewController?, andActivity activity: MyChart.WPActivity) -> Swift.Bool
+  @objc public static func getBillingMode(forActivity activity: MyChart.WPActivity) -> PECore.PEBillingMode
+  @objc public static func getEstimateMode(forActivity activity: MyChart.WPActivity) -> PECore.PEEstimatesMode
+  @objc public static func launchConsentAlertforDrivingDirections(_ urlString: Swift.String, in navigationController: UIKit.UINavigationController)
+  @objc public static func passwordIdentifier2() -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class GenericDeepLinkAlertProvider : PECore.PEDeepLinkAlertProviderProtocol {
+  public func getMismatchedOrgAlertController(deepLink: any PECore.PEDeepLinkProtocol) -> UIKit.UIAlertController
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class GetPersonalPreferencesResponse : ObjectiveC.NSObject, Swift.Codable {
+  public var personalPreferences: [MyChart.WPUpdatedPreferences]?
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public protocol ScreeningsCallback {
+  @objc func onSuccess(response: MyChart.WPScreeningsServiceResponse?)
+  @objc func onFailure(error: PECore.WebServiceFailedError?)
+}
+@objc public class WPScreeningsWebServiceAPI : ObjectiveC.NSObject {
+  @objc public init(callingContext: any MyChart.ScreeningsCallback)
+  @objc public func requestScreenings(patientContext: PECore.PEPatientContext)
+  @objc deinit
+}
+@objc extension MyChart.WPUtil_Misc {
+  @objc public static func isUrl(_ url: Swift.String, supportedByHosts allowedHosts: [Swift.String]) -> Swift.Bool
+  @objc public static func auditDocumentViewed(dcsId: Swift.String?)
+  @objc public static func auditDocumentDownload(dcsId: Swift.String?)
+  @objc public static func setPushNotificationsStatus(delegate: any MyChartGlobals.IWPPushNotificationsDelegate, enable: Swift.Bool)
+  @objc public static func getPushNotificationsStatus(delegate: any MyChartGlobals.IWPPushNotificationsDelegate)
+  @objc public static func isUpdateContactInformationAvailable() -> Swift.Bool
+  @objc public static func isCommunicationPreferencesAvailable() -> Swift.Bool
+  @objc public static func prepareAddressForApple(address: Swift.String) -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class WPInitializeVideoService {
+  @objc deinit
+}
+@objc public protocol GetPersonalNotesCallback {
+  @objc func onGetNotesSuccess(response: MyChart.WPGetPersonalNotesServiceResponse?)
+  @objc func onGetNotesFailure(error: PECore.WebServiceFailedError?)
+}
+@objc public class WPGetPersonalNotesServiceAPI : ObjectiveC.NSObject {
+  @objc public init(callingContext: any MyChart.GetPersonalNotesCallback)
+  @objc public func getPersonalNotes(patientContext: PECore.PEPatientContext, noteType: MyChart.PersonalNoteType)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class WPUpdatedPreferences : ObjectiveC.NSObject, Swift.Codable {
+  public var accountID: Swift.String?
+  public var colorIndex: Swift.Int?
+  public var displayName: Swift.String?
+  public static func applyUpdates(updatedPreferences: [MyChart.WPUpdatedPreferences]?, people: [any PECore.PEPersonProtocol]?) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension MyChart.WPCancelAppointmentViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func handleRescheduleInLiveActivities(_ appointmentsToCancel: [MyChart.WPAppointment]?)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class WPMyChartRefComponentAPI : ObjectiveC.NSObject, PECore.PEMyChartRefComponentAPIProtocol {
+  @objc final public let appleWatch: any PECore.PEAppleWatchAPIs
+  @objc public func getApplicationKeys() -> [Swift.String]
+  @objc public func setDefaultPersonWprId(for userId: Swift.String, newDefaultWprId: Swift.String?)
+  @objc public func getDefaultPersonWprId(for userId: Swift.String, forHomepageLaunch: Swift.Bool) -> Swift.String?
+  @objc public func getAvailableSecondaryLoginMethodsToSetUpRawValue(_ phonebook: (any PECore.PEPhonebookEntryProtocol)?) -> Swift.Int
+  @objc public func setPreventSecondaryLoginAlert(preventAlert: Swift.Bool)
+  @objc public func getPreventSecondaryLoginAlert() -> Swift.Bool
+  @objc public func getMonitoredAppointmentCSN() -> Swift.String
+  @objc public func incrementLoginCounter()
+  @objc public func setAppReviewCardDismiss(dismissed: Swift.Bool)
+  @objc public func shouldDisplayAppReviewCard() -> Swift.Bool
+  @objc public func setBackgroundAppRefreshCardDismissalFlag(isDismissed: Swift.Bool)
+  @objc public func getBackgroundAppRefreshCardDismissalFlag() -> Swift.Bool
+  @objc public func hasUserViewedSecondaryLogin() -> Swift.Bool
+  @objc public func setSecondaryLoginViewed()
+  @objc public func saveNotificationPreferences(email: Swift.String, phone: Swift.String)
+  @objc public func isDeepLinkComingFromHandOff() -> Swift.Bool
+  @objc public func isDeepLinkComingFromPushNotification() -> Swift.Bool
+  @objc public func isSecondaryLoginEnabledForOtherUser() -> Swift.Bool
+  @discardableResult
+  @objc public func removeSecondaryLogin(orgId: Swift.String? = nil) async -> Swift.Bool
+  @objc public func hasPreloginCovidStatusToken() -> Swift.Bool
+  @objc public func isSelfSubmittedCustomerUsingHomepage() -> Swift.Bool
+  @objc public func shouldHideEpicLogoInNavBar() -> Swift.Bool
+  @objc public func getCachedPhonebookEntries() -> [any PECore.PEPhonebookEntryProtocol]?
+  @objc public func getTestLibraryExpiryMessage() -> Swift.String?
+  @objc public func getEulaString() -> Swift.String?
+  @objc public func getPrivacyPolicyURL() -> Swift.String?
+  @objc public func setEulaAccepted()
+  @objc public func hasUserViewedNotificationsOnboarding() -> Swift.Bool
+  @objc public func setNotificationsOnboardingViewed()
+  @objc public func hasUserViewedLocationOnboarding() -> Swift.Bool
+  @objc public func setLocationOnboardingViewed()
+  @objc public func hasUserViewedPreLoginOnboarding() -> Swift.Bool
+  @objc public func makeLocationAuthorizationRequest()
+  @objc public func makeLocationWhileUsingAuthorizationRequest()
+  @objc public func getLocationAuthorizationStatus() -> CoreLocation.CLAuthorizationStatus
+  @objc public func supportsPushNotifications() -> Swift.Bool
+  @objc public func setUserDeclinedOrgTermsConditions()
+  @objc public func getPasscodeWorkflow() -> UIKit.UIViewController?
+  @objc public func setBiometrics()
+  @objc public func getBiometrics() -> Swift.Bool
+  @objc public func isAnimatedBackgroundDisabled() -> Swift.Bool
+  @objc public func getUserInfoStringForBiometricsOnboarding() -> Swift.String
+  @discardableResult
+  @objc public func clearCachedFiles() -> Swift.Bool
+  @objc public func getAppDisplayName() -> Swift.String
+  @objc public func removeWebServerFromPreferred(orgId: Swift.String)
+  @objc public func setNavControllerOnboardingOverride(_ status: Swift.Bool)
+  @objc public func isLanguagePickerAvailable() -> Swift.Bool
+  @objc public func launchSettingsLanguagePicker(vc: UIKit.UIViewController, orgName: Swift.String)
+  @objc public func displayShareDialogWithItems(items: [Any], presenter: UIKit.UIViewController, fromBarButtonItem: UIKit.UIBarButtonItem, didShow: @escaping (() -> Swift.Void), didCancel: (() -> Swift.Void)?)
+  @objc public func hasDynamicPatientAccessList() -> Swift.Bool
+  @objc public func getWebCSSColorKeys(color: PECore.PEBrandedColor) -> [Swift.String]?
+  @objc public func getMyChartTheme(language: Swift.String, colorProvider: any PECore.BrandedColorProviderProtocol, assetsProvider: any PECore.BrandedAssetsProviderProtocol, cardStyle: any PECore.CardStyleProtocol, interactiveCardStyle: any PECore.CardStyleProtocol, textStyles: [any PECore.TextStyleProtocol]) -> any PECore.PEThemeProtocol
+  @objc public func shouldShowShareWarning() -> Swift.Bool
+  @objc public func disableShareWarning()
+  @objc public var isUserAuthenticationStatusNotAuthenticated: Swift.Bool {
+    @objc get
+  }
+  @objc public var shouldHideEulaCheckbox: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChart.WPMyChartRefComponentAPI : MyChart.IWPGenerateAuthTokenDelegate {
+  @objc dynamic public func didCompleteGenerateAuthTokenRequest(with response: MyChart.WPGenerateAuthTokenResponse)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPLettersWebViewController : MyChart.WPActivityWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public class func springboardItem() -> MyChart.WPSpringboardInfo
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func shouldShowBackNavigation() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func closePressed(_ sender: Any!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(stringMode modeString: Swift.String!, parameters params: [Swift.String : Swift.String]!, andPresentationStyle style: MyChart.WPViewPresentationStyle, patientIndex: Swift.Int, isExternal: Swift.Bool, orgID: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class LocaleBrandingAPIReader : PECore.ServerLocaleSourceReader {
+  public init(defaultLocale: PECore.PELocale, allowedLocales: [PECore.PELocale])
+  public func readLocales() -> [PECore.PELocale]
+  public func readDefaultLocale() -> PECore.PELocale
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public actor LogoutActor {
+  public var logoutTask: _Concurrency.Task<Swift.Void, Swift.Never>? {
+    get
+  }
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class WPCoreAuthenticationHelper : ObjectiveC.NSObject {
+  weak public static var apiLogoutDelegate: (any MyChartGlobals.IWPOnLogoutDelegate)?
+  public static let logoutActor: MyChart.LogoutActor
+  public static func setUpSessionWithAuthResponse(authResponse: Authentication.AuthenticateResponse, phonebookEntry: any PECore.PEPhonebookEntryProtocol, authType: PECore.PEAuthType)
+  public static func launchHomepage(with deepLink: (any PECore.PEDeepLinkProtocol)?)
+  public static func setUpSessionWithPatientAccesses(patients: [Authentication.MyChartPatient])
+  @_Concurrency.MainActor public static func updateSessionWithPatientAccesses(patients: [Authentication.MyChartPatient]) async
+  @objc public static func onLoginCompleted()
+  @objc public static func pendPostSignupDeepLink(_ deepLinkUrl: Swift.String)
+  @objc public static func performLoadingBrandingTasks(onCompletion: @escaping () -> Swift.Void)
+  @objc public static func performAsyncLoginTasks(onCompletion completionHandler: @escaping (_ success: Swift.Bool) -> Swift.Void)
+  @objc public static func tryPasscodeLogin(passcode: Swift.String, phonebookEntry: any PECore.PEPhonebookEntryProtocol, onCompletion: @escaping (_ token: Swift.String, _ username: Swift.String, _ errorCode: Swift.Int) -> Swift.Void)
+  @objc(isPasscodeSet:) public static func isPasscodeSet(server: MyChart.WPServer) -> Swift.Bool
+  @objc(isBiometricAuthenticationSet:) public static func isBiometricAuthenticationSet(server: MyChart.WPServer) -> Swift.Bool
+  @objc public static func getTokenForBiometric(phonebookEntry: any PECore.PEPhonebookEntryProtocol, onCompletion: @escaping (_ token: Swift.String, _ username: Swift.String) -> Swift.Void)
+  @objc public static func canLaunchUsernameRecovery(phonebookEntry: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc public static func launchUsernameRecovery(phonebookEntry: any PECore.PEPhonebookEntryProtocol, mainVc: UIKit.UIViewController, theme: (any PECore.PEThemeProtocol)?)
+  @objc public static func canLaunchPasswordRecovery(phonebookEntry: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc public static func launchPasswordRecovery(phonebookEntry: any PECore.PEPhonebookEntryProtocol, mainVc: UIKit.UIViewController, theme: (any PECore.PEThemeProtocol)?)
+  @objc public static func canLaunchSignUpWorkflow(phonebookEntry: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc public static func launchSignUpWorkflow(phonebookEntry: any PECore.PEPhonebookEntryProtocol, mainVc: UIKit.UIViewController, theme: (any PECore.PEThemeProtocol)?)
+  @objc public static func canLaunchPasswordResetWorkflow(phonebookEntry: any PECore.PEPhonebookEntryProtocol) -> Swift.Bool
+  @objc public static func launchPasswordResetWorkflow(phonebookEntry: any PECore.PEPhonebookEntryProtocol, mainVc: UIKit.UIViewController, theme: (any PECore.PEThemeProtocol)?)
+  @objc public static func logoutForIdleTimeout()
+  @objc public static func logout()
+  public static func logout() async
+  public static func logout(withDeepLinkUrl logoutUrl: Swift.String) async
+  public static func clearClientState()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPMyChartBrandingConfiguration : ObjectiveC.NSObject {
+  public var cacheString: Swift.String?
+  @objc override dynamic public init()
+  @objc public func hasConfiguration() -> Swift.Bool
+  @objc public func getColorIfBranded(for brandedColor: PECore.PEBrandedColor) -> UIKit.UIColor?
+  @objc public func getColor(for brandedColor: PECore.PEBrandedColor) -> UIKit.UIColor
+  @objc public func getHeaderBackgroundImageUrl() -> Swift.String?
+  @objc public func getBaseImageUrl() -> Swift.String?
+  @objc public func hasAcordexLicense() -> Swift.Bool
+  @objc public func getColorsForPeople() -> [UIKit.UIColor]
+  @objc public func getTextColorsForPeople() -> [UIKit.UIColor]
+  @objc public func getColorForPerson(atColorIndex colorIndex: Swift.Int) -> UIKit.UIColor?
+  @objc public func getTextColorForPerson(atColorIndex colorIndex: Swift.Int) -> UIKit.UIColor?
+  @objc public func getDefaultColorForPerson(_ person: any PECore.PEPersonProtocol) -> UIKit.UIColor
+  @objc public func getDefaultTextColorForPerson(_ person: any PECore.PEPersonProtocol) -> UIKit.UIColor
+  @objc public func getColorIndexForPersonColor(_ color: UIKit.UIColor?) -> Swift.Int
+  @objc deinit
+}
+extension MyChart.WPMyChartBrandingConfiguration : PECore.PEThemeProtocol {
+  @objc dynamic public func getBrandedColor(_ color: PECore.PEBrandedColor) -> UIKit.UIColor
+  @objc dynamic public func shouldUseTitleCaseForTestResults() -> Swift.Bool
+  @objc dynamic public func shouldTurnOffToDoTheme() -> Swift.Bool
+  @objc dynamic public func shouldSuppressHomepageOnboarding() -> Swift.Bool
+  @objc dynamic public func getBackgroundImageUrl() -> Swift.String?
+  @objc dynamic public func getImageForKeyFromLocal(key: Swift.String?) -> UIKit.UIImage?
+  @objc dynamic public func getImageForKey(key: Swift.String?, success: @escaping (UIKit.UIImage) -> Swift.Void, failure: @escaping () -> Swift.Void)
+  @objc dynamic public func getCardStyle() -> any PECore.CardStyleProtocol
+  @objc dynamic public func getInteractiveCardStyle() -> any PECore.CardStyleProtocol
+  @objc dynamic public func getTextStyle(fontRamp: PECore.FontRamp) -> any PECore.TextStyleProtocol
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPBillingDocumentLauncherViewController : MyChart.WPViewController {
+  @objc @_Concurrency.MainActor @preconcurrency required public init(withBlobKey blobKey: Swift.String, andDocType docType: Swift.String, andDocId docId: Swift.String, andBillSys billSys: Swift.String, andEarId earId: Swift.String, andPesId pesId: Swift.String?, andDisplayName displayName: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+public struct GetUnverifiedProxyUrlResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class WPPreviewFeaturesServiceAPI : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension LiveActivities.VideoVisitAttributes {
+  public init(from appointment: MyChart.WPAppointment, for patient: MyChart.WPPatient) throws
+  public init(csn: Swift.String, dat: Swift.String, date: Foundation.Date, duration: Swift.Double, visitDetailsDeepLink: Foundation.URL?, joinVisitDeepLink: Foundation.URL?, specificVideoVisitTitle: Swift.String, organizationName: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers public class WPAppointmentRequestService : ObjectiveC.NSObject {
+  public static func getAppointmentRequests(userContext: PECore.PEUserContext, successHandler: @escaping (MyChart.WPAppointmentRequestResponse) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension MyChart.WPUtil_AppDelegate {
+  @discardableResult
+  @objc dynamic public class func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]? = nil) -> Swift.Bool
+  @objc dynamic public class func willContinueUserActivity(activityType: Swift.String) -> Swift.Bool
+  @discardableResult
+  @objc dynamic public class func continueUserActivity(_ userActivity: Foundation.NSUserActivity, restorationHandler: (([any UIKit.UIUserActivityRestoring]?) -> Swift.Void)? = nil) -> Swift.Bool
+  @objc public static func registerDeepLinkComponentAPI()
+  @objc public static func handlePushNotification(withUserInfo userInfo: [Swift.AnyHashable : Any])
+  @objc public static func handleExternalDeepLink(forUrl url: Swift.String?, orgId: Swift.String?, wprId: Swift.String?)
+  @objc public static func createAppleHealthPDFDeepLink(fileUrl: Foundation.URL) -> Swift.String
+  @objc public static func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: ((UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)!)
+  @objc public static func hasPushNotificationPermissions() -> Swift.Bool
+}
+extension MyChart.WPUtil_AppDelegate {
+  public static func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter!, willPresent notification: UserNotifications.UNNotification!, withCompletionHandler completionHandler: ((UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)?, deepLinkInfoIfAvailable deepLinkCallback: (((any MyChartGlobals.IWPDeepLink)?) -> Swift.Void)?)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPAppointmentArrivalCheckInViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public static func getInstance(withUserContext userContext: PECore.PEUserContext, forCSN csn: Swift.String, appointmentTime displayTime: Foundation.Date, andPatientIndex index: ObjectiveC.NSInteger, andInitiatedWithBeacons initiatedWithBeacons: Swift.Bool, andEnableSnooze enableSnooze: Swift.Bool, andInitiatedFromSnooze initiatedFromSnooze: Swift.Bool, andInitiatedFromUser userInitiated: Swift.Bool, andOrgID arrivedApptOrganizationID: Swift.String, andFirstUserID firstUserID: Swift.String, andArrivalWindowEndTime arrivalWindowEndTime: Foundation.Date?) -> MyChart.WPAppointmentArrivalCheckInViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public enum PasscodeSettingType {
+  case New, Update
+  public static func == (a: MyChart.PasscodeSettingType, b: MyChart.PasscodeSettingType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PasscodeCapturedWorkflowView : PECore.SwiftUIViewComponent<MyChart.PassscodeWorkflowView> {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public static func getInstance(passcodeSetting: MyChart.PasscodeSettingType, onUpdate: @escaping (Swift.Bool) -> Swift.Void) -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct PassscodeWorkflowView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7MyChart21PassscodeWorkflowViewV4bodyQrvp", 0) __
+}
+@_inheritsConvenienceInitializers @objc public class WPSavePersonalNotesServiceResponse : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var success: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class WPHealthSummaryWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func onViewWillAppear(_ controller: PECore.MyChartWebViewController)
+  override public func onEpicHttpRequest(_ viewController: PECore.MyChartWebViewController, deepLink: any PECore.PEDeepLinkProtocol, forOrganization: PECore.PEOrganizationInfo?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPPersonPhotoManager : ObjectiveC.NSObject {
+  @objc(invalidateImageCacheForPerson:) public static func invalidateImageCache(forPerson person: any PECore.PEPersonProtocol)
+  @objc(getPersonForPatientIndex:) public static func getPersonForPatientIndex(patientIndex: Swift.Int) -> (any PECore.PEPersonProtocol)?
+  public static func getProfileImageForPerson(person: any PECore.PEPersonProtocol, useLetterImageBackup: Swift.Bool, onImageLoaded: ((any PECore.PEPersonProtocol, UIKit.UIImage?) -> Swift.Void)?) -> UIKit.UIImage?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChart.WPEncounterViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func ensureAllPDFDataIsLoaded(appt: MyChart.WPEncounter)
+}
+@_inheritsConvenienceInitializers @objc public class WPPatientEstimatesSpringboardManager : ObjectiveC.NSObject, MyChart.WPSpringboardManager {
+  @objc public static func springboardItem() -> MyChart.WPSpringboardInfo!
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentCaseProcedureView : UIKit.UIView {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPAppointmentsFeatureManager : ObjectiveC.NSObject {
+  @objc public static var panelAppointments2019Available: Swift.Bool {
+    @objc get
+  }
+  @objc public static var pastAppointmentSummaryAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc public static var pastAdmissionSummaryAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc public static var appointmentDetailsAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc public static var crossOrganizationTelehealthAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc public static var pastAdmissionsAvailable: Swift.Bool {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias WPFutureAppointmentSectionView = UIKit.UIView & MyChart.WPFutureAppointmentSectionViewProtocol
+public protocol WPFutureAppointmentSectionViewProtocol {
+  init()
+  func set(with viewModel: any MyChart.WPFutureAppointmentDetailsSectionViewModel)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPProxyConfirmationWebViewController : MyChart.WPActivityWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func getWebViewPatientIndex() -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func shouldShowBackNavigation() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func closePressed(_ sender: Any!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(stringMode modeString: Swift.String!, parameters params: [Swift.String : Swift.String]!, andPresentationStyle style: MyChart.WPViewPresentationStyle, patientIndex: Swift.Int, isExternal: Swift.Bool, orgID: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public class WPScreening : ObjectiveC.NSObject, Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc @objcMembers public class WPPatient : Authentication.MyChartPatient {
+  @objc public var alerts: [any PECore.PEAlertProtocol]
+  @objc public var hasWebAlerts: Swift.Bool
+  @objc public var numberOfWebAlerts: Swift.Int
+  @objc public var uniqueID: Swift.String
+  @objc public var isProxySubject: Swift.Bool {
+    @objc get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc public func isEqual(to patient: MyChart.WPPatient) -> Swift.Bool
+  @objc override dynamic public var hash: Swift.Int {
+    @objc get
+  }
+  @objc override public var accountId: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public func getProxyExpirationDate() -> Swift.String
+  @objc public func isRefusalPatient() -> Swift.Bool
+  @objc public func getFeatureLoadStatus(getRawValue: Swift.Bool) -> PECore.FeatureLoadStatus
+  @objc deinit
+}
+extension MyChart.WPPatient : MyChartGlobals.IWPPatient {
+  @objc dynamic public func getPhoto(_ useFallback: Swift.Bool, onImageLoaded: MyChartGlobals.PersonImageCallback? = nil) -> UIKit.UIImage?
+  @objc dynamic public func asUser() -> (any MyChartGlobals.IWPUser)?
+  @objc dynamic public func asPatient() -> (any MyChartGlobals.IWPPatient)?
+}
+extension MyChart.WPPatient {
+  @objc override dynamic public func getFeatureLoadStatus() -> PECore.FeatureLoadStatus
+  @objc override dynamic public func getColor() -> UIKit.UIColor
+  @objc override dynamic public func getTextColor() -> UIKit.UIColor
+  @objc override dynamic open func update(nickname: Swift.String?)
+  @objc override dynamic open func update(colorIndex: Swift.Int)
+  @objc override dynamic public func update(photo: UIKit.UIImage?)
+  @objc override dynamic public func getAlerts() -> [any PECore.PEAlertProtocol]
+  @objc override dynamic public func getPhoto(onImageLoaded: ((any PECore.PEPersonProtocol, UIKit.UIImage?) -> Swift.Void)?) -> UIKit.UIImage?
+  @objc override dynamic public func getPhoto(useFallback: Swift.Bool, onImageLoaded: ((any PECore.PEPersonProtocol, UIKit.UIImage?) -> Swift.Void)?) -> UIKit.UIImage?
+}
+extension MyChart.WPPatient : PECore.PEPatientIndexProtocol {
+  @objc dynamic public func getPatientIndex() -> Swift.Int
+}
+extension MyChart.WPPatient : ToDo.PEToDoPatientProtocol {
+  @objc dynamic public func getIsCareCompanionEnrolled() -> Swift.Bool
+}
+@_inheritsConvenienceInitializers public class ECheckInBannerViewModel : MyChart.WPBannerViewModel, MyChart.WPFutureAppointmentDetailsSectionViewModel {
+  required public init(populator: MyChart.WPFutureDetailsSectionViewModelPopulator)
+  override public func update(appointment: MyChart.WPAppointment)
+  public static func shouldDisplaySection(populator: MyChart.WPFutureDetailsSectionViewModelPopulator) -> Swift.Bool
+  public static func shouldDisplaySection(appointment: MyChart.WPAppointment) -> Swift.Bool
+  public func setBannerConfiguration()
+  public func eCheckInConfiguration()
+  override public func tappedActionButton()
+  @objc deinit
+}
+@objc public class WPSchedulingWebViewControllerManager : PECore.MyChartWebViewControllerManager, MyChart.WPSpringboardManager {
+  @objc public init(mode: MyChart.WPMyChartWebViewMode)
+  @objc public init(mode: MyChart.WPMyChartWebViewMode, csn: Swift.String?)
+  @objc public class func springboardItem() -> MyChart.WPSpringboardInfo!
+  @objc public static func getSchedulingViewController(withMode schedulingMode: MyChart.WPMyChartWebViewMode, parameters: [PECore.MyChartWebParameter]?, orgInfo: MyChart.WPOrganizationInfo?) -> MyChart.WPComponentContainerViewController
+  @objc public static func getSchedulingViewController(withMode schedulingMode: MyChart.WPMyChartWebViewMode, parameters: [PECore.MyChartWebParameter]?, csn: Swift.String?, orgInfo: MyChart.WPOrganizationInfo?) -> MyChart.WPComponentContainerViewController
+  @objc public static func getSchedulingQueryParams(_ parameters: [Swift.String : Swift.String]) -> [PECore.MyChartWebParameter]
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onWebViewWillClose(_ viewController: PECore.MyChartWebViewController, callback: @escaping (() -> ()))
+  public static func addSchedulingWebParams(parameters: [PECore.MyChartWebParameter]?) -> [PECore.MyChartWebParameter]
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPFutureAppointmentDisplayManager : ObjectiveC.NSObject {
+  public enum FutureAppointmentSection {
+    case UpcomingAppointmentsSection
+    case FutureAppointmentsSection
+    public static func == (a: MyChart.WPFutureAppointmentDisplayManager.FutureAppointmentSection, b: MyChart.WPFutureAppointmentDisplayManager.FutureAppointmentSection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc public static func getJustScheduledAlertInfo(justScheduledDetails: MyChart.WPJustScheduledDetails, apptDetailsAvailable: Swift.Bool) -> MyChart.WPGenericAlertInfo
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentProviderView : UIKit.UIView, PECore.PEObserver, MyChart.WPFutureAppointmentSectionViewProtocol {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init()
+  @_Concurrency.MainActor @preconcurrency public func set(with viewModel: any MyChart.WPFutureAppointmentDetailsSectionViewModel)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class CommunityUtil : ObjectiveC.NSObject {
+  @objc public static let NOTIFICATION_H2GPP_ASYN_WPRID: Swift.String
+  @objc public static let NOTIFICATION_H2GPP_ASYN_DEEPLINKURL: Swift.String
+  @objc public static let NOTIFICATION_H2GPP_ASYN_ORGID: Swift.String
+  @objc public static let FEATURE_NO_SPECIFY: Swift.String
+  @objc public static func setUpdatingStatus(isUpdating: Swift.Bool, externalOrgId: Swift.String, deepLinkURL: Swift.String)
+  @objc public static func getCommunityUpdatingPrefsKey() -> Swift.String
+  @objc public static func getListOfUpdatingOrgs() -> [Swift.String]
+  @objc public static func fireUpdateCompleteNotification(successOrgNames: Swift.String, errorOrgNames: Swift.String, focusWPR: Swift.String, deepLinkURL: Swift.String)
+  @objc public static func fireUpdateCompleteToast(successOrgNames: Swift.String, errorOrgNames: Swift.String)
+  public static func CommunityDataUpdated(response: MyChart.WPGetCommunityUpdateStatusResponse?, status: Swift.Bool)
+  @objc public static func constructAsynLoadingDeepLinkURL(updateContext: Swift.String, wprId: Swift.String, orgId: Swift.String) -> Swift.String
+  @objc public static func getCommunityNotificationResponsefoKey() -> Swift.String
+  @objc public static func getCommunityNotificationStatusKey() -> Swift.String
+  @objc public static func getCommunityNotificationRefreshBannerUpdateKey() -> Swift.String
+  @objc public static func getUpdateContextURL(context: PECore.CommunityUpdateContext) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPCustomerServiceSettingsResponse : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var topics: [MyChart.WPCustomerServiceSettingsTopic]!
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPBlobScanLauncherViewController : MyChart.WPViewController {
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(withBlobKey blobKey: Swift.String, andOrdId ordId: Swift.String, andDisplayName displayName: Swift.String?, andExternalOrgId h2gOrgId: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+extension MyChart.WPBlobScanLauncherViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+}
+@objc extension MyChart.WPTrackMyHealthUtils {
+  @objc public static func launchHealthLinks()
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPPremiumBillingWebViewController : MyChart.WPActivityWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(submode: Swift.String, accountId: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override public static func springboardItem() -> MyChart.WPSpringboardInfo
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func closePressed(_ sender: Any!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction) async -> WebKit.WKNavigationActionPolicy
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(stringMode modeString: Swift.String!, parameters params: [Swift.String : Swift.String]!, andPresentationStyle style: MyChart.WPViewPresentationStyle, patientIndex: Swift.Int, isExternal: Swift.Bool, orgID: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPCustomerServiceSettingsTopic : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var ID: Swift.String?
+  @objc public var name: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPLoadingTableViewCell : UIKit.UITableViewCell, MyChart.WPAppointmentsListRow {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc public func set(with viewModel: any MyChart.WPAppointmentsListRowViewModel)
+  @objc deinit
+}
+@objc extension MyChart.WPMessageViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func execute(deepLink: Swift.String, in navigationController: UIKit.UINavigationController) -> MyChartGlobals.WPAPIDeepLinkExecuteResult
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func getErrorMessageFor(result: MyChartGlobals.WPAPIDeepLinkExecuteResult) -> Swift.String?
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPDocumentLauncherViewController : MyChart.WPViewController, MyChart.WPShareDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(withDcsID dcsID: Swift.String, andDcsExtension dcsExtension: Swift.String?, andOrgID orgID: Swift.String?, useSourceEncryption: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(forDownloadwithDcsID dcsID: Swift.String, andDcsExtension dcsExtension: Swift.String?, andOrgID orgID: Swift.String?, useSourceEncryption: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc @_Concurrency.MainActor @preconcurrency public func didGetDocument(response: MyChart.WPGetDocumentResponse)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func didShowShareDialog()
+  @_Concurrency.MainActor @preconcurrency @objc public func didCancelShareDialog()
+  @objc deinit
+}
+@objc public class EFInsulinDataSet : MyChart.EFDataSet {
+  @objc public var basalAccumulatedDataSet: MyChart.EFDataSet?
+  @objc public var bolusAccumulatedDataSet: MyChart.EFDataSet?
+  @objc public var accumulationPeriod: MyChart.WPAccumulationPeriod {
+    @objc get
+  }
+  @objc public init?(basalDataSet: MyChart.EFDataSet?, bolusDataSet: MyChart.EFDataSet?)
+  @objc override dynamic public func setExplicitInstantLow(_ instantLow: Foundation.Date!, explicitInstantHigh instantHigh: Foundation.Date!)
+  @objc override dynamic public func setExplicitInstantLow(_ instantLow: Foundation.Date!, explicitInstantHigh instantHigh: Foundation.Date!, autoExpand: Swift.Bool)
+  @objc override dynamic public func getLatestDataPoint() -> MyChart.EFDataPoint?
+  @objc deinit
+}
+@objc @objcMembers public class WPPersonalPreferences : ObjectiveC.NSObject, Swift.Encodable {
+  @objc public init(forPerson person: any PECore.PEPersonProtocol)
+  @objc public func hasUpdates() -> Swift.Bool
+  @objc public func update(nickname: Swift.String)
+  @objc public func update(colorIndex: Swift.Int)
+  @objc public func update(photo: UIKit.UIImage)
+  @objc public func deletePhoto()
+  @objc public func commitUpdates()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class BillingDocumentWebService {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPCommunityUpdateMyAccountsWebViewController : MyChart.WPCommunityManageMyAccountsWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc convenience override dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(_ parameters: Foundation.NSMutableDictionary!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(forLinking: ())
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(stringMode modeString: Swift.String!, parameters params: [Swift.String : Swift.String]!, andPresentationStyle style: MyChart.WPViewPresentationStyle, patientIndex: Swift.Int, isExternal: Swift.Bool, orgID: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPMedicationsComponentBridgingAPI : ObjectiveC.NSObject, PECore.PEMedicationsComponentBridgingAPIProtocol {
+  @objc public func getMedicationsViewController(rxID: Swift.String?, eorgID: Swift.String?) -> UIKit.UIViewController?
+  @objc public func getMedicationsViewControllerForRefill(rxID: Swift.String?) -> UIKit.UIViewController?
+  @objc public func getMedicationsViewControllerForMCNOutPatient(parentDelegate: (any PECore.PEComponentHostParentDelegate)?) -> UIKit.UIViewController?
+  @objc public func getMedicationsViewController(rxId: Swift.String?, isMCNOutPatientContext: Swift.Bool, isRefillContext: Swift.Bool, parentDelegate: (any PECore.PEComponentHostParentDelegate)?, eorgID: Swift.String?) -> UIKit.UIViewController?
+  @objc public func shouldDisableOutpatientMeds() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPJustScheduledDetails : ObjectiveC.NSObject {
+  @objc public enum WPScheduleWebViewMode : Swift.Int, Swift.Codable {
+    case unknown = 0
+    case schedule = 1
+    case reschedule = 2
+    case apptRequest = 3
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public static func instantiate(justScheduled: Swift.Bool, mode: MyChart.WPJustScheduledDetails.WPScheduleWebViewMode, numAppts: Swift.Int) -> MyChart.WPJustScheduledDetails
+  @objc public static func instantiate(userInfo: Foundation.NSDictionary?) -> MyChart.WPJustScheduledDetails
+  @objc public func toUserInfo() -> Foundation.NSDictionary
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol WPHSPatientUpdateProtocol {
+  @objc var status: MyChart.WPHSUpdateStatus { get }
+}
+@objc public enum WPHSUpdateStatus : Swift.Int {
+  case reconciled = 0
+  case added = 1
+  case removed = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class WPMedsPopoutViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GetUnverifiedProxyUrlWebServiceAPI {
+  public static func openUnverifiedProxyAccessUrl(context: PECore.PEPatientContext, requestParameters: MyChart.GetUnverifiedProxyUrlParameters, endLoading: @escaping (() -> Swift.Void))
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class WPDeepLinkWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  @objc convenience public init(deepLinkUrl: Swift.String?)
+  override public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  override public var launchesH2GContextLocally: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPSymptomCheckerWebViewControllerManager : PECore.MyChartWebViewControllerManager, MyChart.WPSpringboardManager {
+  @objc convenience public init(launchedWithTree: Swift.Bool)
+  @objc public static func springboardItem() -> MyChart.WPSpringboardInfo!
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onWebViewWillClose(_ viewController: PECore.MyChartWebViewController, callback: @escaping (() -> ()))
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPPhonebookService : ObjectiveC.NSObject {
+  @objc public enum WPGetPhonebookStatus : Swift.Int {
+    case Success
+    case CustomPhonebookErrorLoading
+    case ErrorLoading
+    case ErrorURLDomainLoading
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public typealias GetPhonebookCallback = (MyChart.WPPhonebookService.WPGetPhonebookStatus, [MyChart.WPServer]?, Swift.String, Swift.Bool) -> ()
+  @objc public static func cachePreferredOrgs(orgArray: [MyChart.WPServer])
+  public static func cachePreferredOrgs(orgIdArray: [Swift.String])
+  @objc public class func getCachedPreferredOrgs() -> [MyChart.WPServer]
+  @objc public class func getPhonebook(getPhonebookCallback: @escaping MyChart.WPPhonebookService.GetPhonebookCallback)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChart.WPMessagesTabBarController : PECore.PERemoteOrganizationSupportProtocol {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var supportsH2GLaunchContext: Swift.Bool {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var launchesH2GContextLocally: Swift.Bool {
+    @objc get
+  }
+}
+@_hasMissingDesignatedInitializers public class WPHandoffDeepLinkAlertProvider : PECore.PEDeepLinkAlertProviderProtocol {
+  public func getMismatchedOrgAlertController(deepLink: any PECore.PEDeepLinkProtocol) -> UIKit.UIAlertController
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPDefaultTheme : ObjectiveC.NSObject, PECore.PEThemeProtocol {
+  @objc public func getBackgroundImageUrl() -> Swift.String?
+  @objc public class func getTheme() -> MyChart.WPDefaultTheme
+  @objc public func getBrandedColor(_ color: PECore.PEBrandedColor) -> UIKit.UIColor
+  @objc public func shouldUseTitleCaseForTestResults() -> Swift.Bool
+  @objc public func shouldTurnOffToDoTheme() -> Swift.Bool
+  @objc public func shouldSuppressHomepageOnboarding() -> Swift.Bool
+  @objc public func getImageForKeyFromLocal(key: Swift.String?) -> UIKit.UIImage?
+  @objc public func getImageForKey(key: Swift.String?, success: @escaping (UIKit.UIImage) -> Swift.Void, failure: @escaping () -> Swift.Void)
+  @objc public func getCardStyle() -> any PECore.CardStyleProtocol
+  @objc public func getInteractiveCardStyle() -> any PECore.CardStyleProtocol
+  @objc public func getTextStyle(fontRamp: PECore.FontRamp) -> any PECore.TextStyleProtocol
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol WPFutureAppointmentDetailsSectionViewModel {
+  init(populator: MyChart.WPFutureDetailsSectionViewModelPopulator)
+  func update(populator: MyChart.WPFutureDetailsSectionViewModelPopulator)
+  func setSectionDelegate(_ delegate: Any?)
+  static func shouldDisplaySection(populator: MyChart.WPFutureDetailsSectionViewModelPopulator) -> Swift.Bool
+}
+public struct WPFutureDetailsSectionViewModelPopulator {
+}
+@_inheritsConvenienceInitializers @objc public class WPTrackMyHealthWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  @objc public static let DevicePlatformKey: Swift.String
+  public static let ConnectionListWorkflow: Swift.String
+  override public func onPageStarted(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL)
+  override public func getNotificationsToObserve() -> [Foundation.Notification]?
+  override public func onReceiveNotifications(_ viewController: PECore.MyChartWebViewController, notificationName: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension MyChart.WPMessageAttachmentListViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func mediaTypeIsImage(_ typeString: Swift.String) -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func mediaTypeIsVideo(_ typeString: Swift.String) -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func getImagePicker(sourceType: UIKit.UIImagePickerController.SourceType, allowImages: Swift.Bool, allowVideos: Swift.Bool) -> UIKit.UIImagePickerController
+}
+@_inheritsConvenienceInitializers @objc public class WPECheckInAdditionalStepsWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_Concurrency.MainActor @preconcurrency public class WPSVGLibraryViewerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+extension MyChart.WPSVGLibraryViewerViewController : UIKit.UICollectionViewDataSource {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+}
+@_hasMissingDesignatedInitializers @objc public class EFHourlyTrendGrapher : MyChart.EFGrapher {
+  @objc override dynamic public func graphDataSet(withinFrame frame: CoreFoundation.CGRect)
+  @objc deinit
+}
+public struct WPPreviewFeaturesSetResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@objc public protocol CustomerServiceCallback {
+  @objc func onSuccess(response: MyChart.WPCustomerServiceSettingsResponse?)
+  @objc func onFailure(error: PECore.WebServiceFailedError?)
+}
+@objc public class WPCustomerServiceWebServiceAPI : ObjectiveC.NSObject {
+  @objc public init(callingContext: any MyChart.CustomerServiceCallback)
+  @objc public func getSettings(patientContext: PECore.PEPatientContext, encMsgInfo: Swift.String, orgInfo: MyChart.WPOrganizationInfo)
+  @objc deinit
+}
+public class WPAppointmentRequest : Swift.Decodable {
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPMedicationsWebViewControllerManager : PECore.MyChartWebViewControllerManager, MyChart.WPSpringboardManager {
+  @objc public static func springboardItem() -> MyChart.WPSpringboardInfo!
+  override public func getNotificationsToObserve() -> [Foundation.Notification]?
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onMyChartRequestsClose(_ viewController: PECore.MyChartWebViewController)
+  override public func onWorkflowCompleteAndClose(_ viewController: PECore.MyChartWebViewController, launching deepLinkUrl: Swift.String?)
+  override public var launchesH2GContextLocally: Swift.Bool {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPWebViewUtil : ObjectiveC.NSObject {
+  @objc public static func getAttribute(_ attribute: Swift.String?, forLink: Swift.String?, inWKWebView: WebKit.WKWebView?, completion: ((Swift.String?) -> ())?)
+  @objc public static func getProperty(_ aProperty: Swift.String?, forLink: Swift.String?, inWKWebView: WebKit.WKWebView?, completion: ((Swift.String?) -> ())?)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPMessagesUtil : ObjectiveC.NSObject {
+  @objc public static func getDisplayableMessageViewersForDetails(viewers: [MyChart.WPMessageViewer], showViewersSetting: MyChart.WPMessageViewersSetting, userWPR: Foundation.NSString, patientWPR: Foundation.NSString) -> Foundation.NSArray
+  @objc public static func getDisplayableMessageViewersForComposeReply(viewers: [MyChart.WPMessageViewer], showViewersSetting: MyChart.WPMessageViewersSetting, confidentialMessagingSetting: MyChart.WPConfidentialitySetting, userWPR: Foundation.NSString, patientWPR: Foundation.NSString) -> Foundation.NSArray
+  @objc public static func reconstructSelectedFromGenericViewers(selectedViewers: [MyChart.WPMessageViewer], defaultViewers: [MyChart.WPMessageViewer], userWPR: Swift.String, patientWPR: Swift.String) -> [MyChart.WPMessageViewer]
+  @objc public static func openAttachment(_ attachment: MyChart.WPAttachment, fromViewController viewController: UIKit.UIViewController, usingSourceView sourceView: UIKit.UIView, completion: (() -> Swift.Void)? = nil)
+  @objc public static func getAttachmentViewerRootNavigationController(attachment: MyChart.WPAttachment) -> MyChart.WPRootNavigationController?
+  @objc public static func shareAttachment(_ attachment: MyChart.WPAttachment, fromViewController viewController: MyChart.WPViewController?, usingSourceView sourceView: UIKit.UIView?)
+  @objc public static func getAttachmentFromAppleFileURL(url: Foundation.URL) -> MyChart.WPAttachment?
+  public static func parseFileName(fromAppleFileURL fileUrl: Foundation.URL) -> Swift.String
+  @objc public static func isValidAppleHealthPDF(_ fileUrl: Foundation.URL) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension MyChart.WPComponentContainerViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var launchesH2GContextLocally: Swift.Bool {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func setDeepLinkLaunchParametersInternal(_ params: [Swift.String : Swift.String])
+}
+@_inheritsConvenienceInitializers @objc public class WPDrivingDirections : ObjectiveC.NSObject {
+  @objc public static func launchMaps(address: Swift.String)
+  @objc public static func launchMaps(address: Swift.String, latitude: Swift.Float, longitude: Swift.Float)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPUtil_Locales : ObjectiveC.NSObject {
+  public static let internalSettingsKeyAllowAllLocales: Swift.String
+  public static var currentLocaleOverride: PECore.PELocale?
+  public static var formatterLocaleOverride: PECore.PELocale?
+  public static var previousBundles: [Swift.String : Foundation.Bundle]
+  @objc public static var currentPELocale: PECore.PELocale {
+    @objc get
+  }
+  @objc public static var currentLocale: Foundation.Locale {
+    @objc get
+  }
+  @objc public static var defaultLocale: PECore.PELocale {
+    @objc get
+  }
+  @objc public static var commandLocale: PECore.PELocale {
+    @objc get
+  }
+  @objc public static var formatterLocale: PECore.PELocale {
+    @objc get
+  }
+  @objc public static var currencyFormatterLocale: PECore.PELocale {
+    @objc get
+  }
+  public static func isLanguagePickerAvailable() -> Swift.Bool
+  @objc public static func launchSettingsLanguagePicker(vc: UIKit.UIViewController, orgName: Swift.String)
+  public static func getCurrentLocaleSettingsForDebug() -> PECore.LocaleSettings?
+  public static func handleTextDirectionUpdate(forLocale locale: PECore.PELocale)
+  public static func resetTextDirection()
+  @objc public static var shortDateFormat: Swift.String {
+    @objc get
+  }
+  @objc public static var mediumDateFormat: Swift.String {
+    @objc get
+  }
+  @objc public static func findMYCStringBundle() -> Foundation.Bundle
+  @objc public static func findMYCStringBundle(forBundle bundle: Foundation.Bundle) -> Foundation.Bundle
+  @objc public static func findMYCStringBundle(forLocale locale: PECore.PELocale) -> Foundation.Bundle
+  @objc public static func findMYCStringBundle(forLocale locale: PECore.PELocale, forBundle bundle: Foundation.Bundle) -> Foundation.Bundle
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPBillingWebViewControllerManager : PECore.MyChartWebViewControllerManager, MyChart.WPSpringboardManager {
+  @objc public static func springboardItem() -> MyChart.WPSpringboardInfo!
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override open var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPFamilyAccessWebViewController : MyChart.WPActivityWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func getWebViewPatientIndex() -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func shouldShowBackNavigation() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func closePressed(_ sender: Any!)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init!(stringMode modeString: Swift.String!, parameters params: [Swift.String : Swift.String]!, andPresentationStyle style: MyChart.WPViewPresentationStyle, patientIndex: Swift.Int, isExternal: Swift.Bool, orgID: Swift.String!)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class EFGraphHorizontalAxis : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency public var graphType: MyChart.EFGraphType
+  @objc @_Concurrency.MainActor @preconcurrency public var labelColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor @preconcurrency public func setRange(from start: Foundation.Date, to end: Foundation.Date)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @objc deinit
+}
+public struct WPGetPhonebookResponse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class WPBillingComponentAPI : ObjectiveC.NSObject, PECore.PEBillingComponentAPIProtocol {
+  @objc public static let MOPaperlessSettingsFeatureIdentifier: Swift.String
+  @objc public func hasAccessForBilling(withPatient patientContext: PECore.PEPatientContext?) -> PECore.PEComponentAccessResult
+  @objc public func getBillingViewController(forMode mode: PECore.PEBillingMode, withParams params: [Swift.String : Any]?) -> UIKit.UIViewController?
+  @objc public func hasAccessForEstimates(withPatient patientContext: PECore.PEPatientContext?) -> PECore.PEComponentAccessResult
+  @objc public func getEstimatesViewController(forMode mode: PECore.PEEstimatesMode, withParams params: [Swift.String : Any]?) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MyChartSceneDelegate : ObjectiveC.NSObject, UIKit.UIWindowSceneDelegate, Combine.ObservableObject {
+  @_Concurrency.MainActor @preconcurrency public static let isCoverVisiblePublisherKey: Swift.String
+  @_Concurrency.MainActor @preconcurrency @objc public var window: UIKit.UIWindow?
+  @_Concurrency.MainActor @preconcurrency @objc public func scene(_ scene: UIKit.UIScene, willConnectTo session: UIKit.UISceneSession, options connectionOptions: UIKit.UIScene.ConnectionOptions)
+  @_Concurrency.MainActor @preconcurrency @objc public func scene(_ scene: UIKit.UIScene, continue userActivity: Foundation.NSUserActivity)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class WPWelcomeWizardWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  @objc convenience public init(shouldLogoutOnClose: Swift.Bool)
+  override public func shouldOverrideAllowedPageLoad(_ viewController: PECore.MyChartWebViewController, url: Foundation.URL, isMyChartWebsite: Swift.Bool) -> Swift.Bool
+  override public func onViewWillDisappear(_ controller: PECore.MyChartWebViewController)
+  override public func shouldAllowNavigation(url: Foundation.URL) -> Swift.Bool
+  override public func onWebViewStateChanged(_ viewController: PECore.MyChartWebViewController, stateMessage: Swift.String)
+  override public func onWebViewWillClose(_ viewController: PECore.MyChartWebViewController, callback: @escaping (() -> ()))
+  override public var shouldSuppressOnboarding: Swift.Bool {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MyChartManager : ObjectiveC.NSObject {
+  @discardableResult
+  @objc public static func onOpenUrl(_ url: Foundation.URL) -> Swift.Bool
+  public static func handleUniversalLink(url: Foundation.URL)
+  public static func resetIdleTimer(on event: UIKit.UIEvent)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class ContactVerificationWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  override public func onEpicHttpRequest(_ viewController: PECore.MyChartWebViewController, deepLink: any PECore.PEDeepLinkProtocol, forOrganization: PECore.PEOrganizationInfo?)
+  override public func onViewWillDisappear(_ controller: PECore.MyChartWebViewController)
+  override public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension MyChart.WPCustomAppManager {
+  @objc public static func performDeepLinkForCustomFeature(in navigationController: UIKit.UINavigationController, withDeepLink deepLink: Swift.String?)
+}
+@_hasMissingDesignatedInitializers public class WPGetProviderStatusService {
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class WPFutureAppointmentHeaderView : UIKit.UIStackView, PECore.PEObserver {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MyChart.WPFutureAppointmentHeaderView : MyChart.WPFutureAppointmentSectionViewProtocol {
+  @_Concurrency.MainActor @preconcurrency public func set(with viewModel: any MyChart.WPFutureAppointmentDetailsSectionViewModel)
+}
+extension MyChart.WPFutureAppointmentHeaderView : PECore.ImageLoaderDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didLoadImage(_ image: UIKit.UIImage, forSource: any PECore.ImageDataSource)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func didFailToLoadImage(forSource: any PECore.ImageDataSource)
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class AccountSettingsViewControllerHelper : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public static func getInstance() -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AccountSettingsViewController : PECore.SwiftUIViewComponent<MyChart.AccountSettingsView> {
+  @_Concurrency.MainActor @preconcurrency public static func getInstance() -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override public func shouldShowComponentHostUserInfoInNavBar() -> Swift.Bool
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct AccountSettingsView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7MyChart19AccountSettingsViewV4bodyQrvp", 0) __
+}
+@_inheritsConvenienceInitializers @objc public class WPAffiliateBrandingWebServiceAPI : ObjectiveC.NSObject {
+  @objc public func setAffiliateBrandingWebsiteInSession(patientContext: PECore.PEPatientContext, websiteName: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc extension MyChart.WPUtil_Library {
+  @objc public static func getUniversalLinkDomain() -> Swift.String
+  @objc public static func getExternalUniversalLinkDomain() -> Swift.String
+}
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class DefaultPersonSelectionView : PECore.SwiftUIViewComponent<MyChart.PersonSelectionView> {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency public static func getInstance(onUpdate: @escaping () -> Swift.Void) -> UIKit.UIViewController?
+  @_Concurrency.MainActor @preconcurrency @objc override public func shouldShowComponentHostUserInfoInNavBar() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override public func getLeftBarButtonItem() -> UIKit.UIBarButtonItem?
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public struct PersonSelectionView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7MyChart19PersonSelectionViewV4bodyQrvp", 0) __
+}
+@objc extension MyChart.WPHomeTabBarViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func popViewControllerToLoginAnimated(_ animated: Swift.Bool)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class SessionManager : ObjectiveC.NSObject {
+  @objc public var currentLinkedWatch: MyChart.LinkedWatchDetails? {
+    @objc get
+  }
+  @objc public static let instance: MyChart.SessionManager
+  @objc deinit
+}
+extension MyChart.SessionManager : WatchConnectivity.WCSessionDelegate {
+  @objc dynamic public func sessionDidBecomeInactive(_ session: WatchConnectivity.WCSession)
+  @objc dynamic public func sessionDidDeactivate(_ session: WatchConnectivity.WCSession)
+  @objc dynamic public func session(_ session: WatchConnectivity.WCSession, activationDidCompleteWith activationState: WatchConnectivity.WCSessionActivationState, error: (any Swift.Error)?)
+  @objc dynamic public func session(_ session: WatchConnectivity.WCSession, didReceiveApplicationContext applicationContext: [Swift.String : Any])
+  @objc dynamic public func sessionReachabilityDidChange(_ session: WatchConnectivity.WCSession)
+  @objc dynamic public func session(_ session: WatchConnectivity.WCSession, didReceiveMessage message: [Swift.String : Any], replyHandler: @escaping ([Swift.String : Any]) -> Swift.Void)
+}
+@objc extension Foundation.Bundle {
+  @objc public static var myChart: Foundation.Bundle {
+    @objc get
+  }
+}
+extension MyChart.WPReceivedMessageViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class WPWebView : WebKit.WKWebView, WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_Concurrency.MainActor @preconcurrency public class WPFDILauncherViewController : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public static let relayKey: Swift.String
+  @objc @_Concurrency.MainActor @preconcurrency required public init(fdiId: Swift.String, deepLinkURL: Swift.String, h2gOrgId: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor @preconcurrency public func didEnterBackground()
+  @objc @_Concurrency.MainActor @preconcurrency public class func parseFdiFromEpichttp(_ url: Swift.String) -> Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public class func parseUrlFromEpichttp(_ url: Swift.String) -> Swift.String?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension MyChart.WPFDILauncherViewController : MyChart.WPCustomFeatureLaunchListener {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func showExternalLinkPrompt() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onLaunchSuccess()
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func onLaunchFailure(_ showWebViewSupportError: Swift.Bool)
+}
+extension MyChart.WPFDILauncherViewController : PECore.PERemoteOrganizationSupportProtocol {
+  @_Concurrency.MainActor @preconcurrency public var supportsH2GLaunchContext: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var launchesH2GContextLocally: Swift.Bool {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class WPDeepLinkHomeViewController : MyChart.WPViewController {
+  @_Concurrency.MainActor @preconcurrency public static func getHomepageController(backgroundController: UIKit.UIViewController? = nil, manageNavbarVisibility: Swift.Bool = true, deepLink: (any MyChartGlobals.IWPDeepLink)? = nil) -> UIKit.UIViewController
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class WPBannerView : MyChart.WPFutureAppointmentSectionView, PECore.PEObserver {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init()
+  @_Concurrency.MainActor @preconcurrency public func set(with viewModel: any MyChart.WPFutureAppointmentDetailsSectionViewModel)
+  @objc deinit
+}
+@objc @_Concurrency.MainActor @preconcurrency public class WPAppointmentArrivalNavigationController : MyChart.WPRootNavigationController {
+  @objc @_Concurrency.MainActor @preconcurrency public init(withUserContext userContext: PECore.PEUserContext, rootViewController: UIKit.UIViewController)
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(withUserContext userContext: PECore.PEUserContext, completionHandler: ((Swift.Bool) -> Swift.Void)?)
+  @objc @_Concurrency.MainActor @preconcurrency public init(withUserContext userContext: PECore.PEUserContext, forCSN csn: Swift.String, andIsCSNEncrypted isCSNEncrypted: Swift.Bool, appointmentTime displayTime: Foundation.Date?, andPatientIndex index: ObjectiveC.NSInteger, andSelfArrivalMechanism selfArrivalMechanism: MyChartGlobals.WPAPIAppointmentSelfArrivalMechanism, andEnableSnooze enableSnooze: Swift.Bool, andInitiatedFromSnooze initiatedFromSnooze: Swift.Bool, andOrgID arrivedApptOrganizationID: Swift.String, andFirstUserID firstUserID: Swift.String, andArrivalWindowEndTime arrivalWindowEndTime: Foundation.Date?, ticklerMethod: Swift.String?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class WPPushNotification : ObjectiveC.NSObject, Swift.Codable {
+  public var pushNotificationID: Swift.String?
+  public var deepLinkURL: Swift.String?
+  public var focusWPR: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+extension MyChart.DisableAppointmentArrivalCapturedView : Swift.Sendable {}
+extension MyChart.DeviceListView : Swift.Sendable {}
+extension MyChart.UnlinkWatchView : Swift.Sendable {}
+extension MyChart.MyChartContentView : Swift.Sendable {}
+extension MyChart.WPServer.WPCachedImageType : Swift.Equatable {}
+extension MyChart.WPServer.WPCachedImageType : Swift.Hashable {}
+extension MyChart.WPServer.WPCachedImageType : Swift.RawRepresentable {}
+extension MyChart.WPAuthenticationStatus : Swift.Equatable {}
+extension MyChart.WPAuthenticationStatus : Swift.Hashable {}
+extension MyChart.WPAuthenticationStatus : Swift.RawRepresentable {}
+extension MyChart.WPAppointmentArrivalEventTracker.ArrivalEventType : Swift.Equatable {}
+extension MyChart.WPAppointmentArrivalEventTracker.ArrivalEventType : Swift.Hashable {}
+extension MyChart.WPAppointmentArrivalEventTracker.ArrivalEventType : Swift.RawRepresentable {}
+extension MyChart.SessionManager.Function : Swift.Equatable {}
+extension MyChart.SessionManager.Function : Swift.Hashable {}
+extension MyChart.SessionManager.Function : Swift.RawRepresentable {}
+extension MyChart.PersonalNoteType : Swift.Equatable {}
+extension MyChart.PersonalNoteType : Swift.Hashable {}
+extension MyChart.PersonalNoteType : Swift.RawRepresentable {}
+extension MyChart.PasscodeSettingType : Swift.Equatable {}
+extension MyChart.PasscodeSettingType : Swift.Hashable {}
+extension MyChart.PassscodeWorkflowView : Swift.Sendable {}
+extension MyChart.WPFutureAppointmentDisplayManager.FutureAppointmentSection : Swift.Equatable {}
+extension MyChart.WPFutureAppointmentDisplayManager.FutureAppointmentSection : Swift.Hashable {}
+extension MyChart.WPJustScheduledDetails.WPScheduleWebViewMode : Swift.Equatable {}
+extension MyChart.WPJustScheduledDetails.WPScheduleWebViewMode : Swift.Hashable {}
+extension MyChart.WPJustScheduledDetails.WPScheduleWebViewMode : Swift.RawRepresentable {}
+extension MyChart.WPHSUpdateStatus : Swift.Equatable {}
+extension MyChart.WPHSUpdateStatus : Swift.Hashable {}
+extension MyChart.WPHSUpdateStatus : Swift.RawRepresentable {}
+extension MyChart.WPPhonebookService.WPGetPhonebookStatus : Swift.Equatable {}
+extension MyChart.WPPhonebookService.WPGetPhonebookStatus : Swift.Hashable {}
+extension MyChart.WPPhonebookService.WPGetPhonebookStatus : Swift.RawRepresentable {}
+extension MyChart.MyChartSceneDelegate : Swift.Sendable {}
+extension MyChart.AccountSettingsView : Swift.Sendable {}
+extension MyChart.PersonSelectionView : Swift.Sendable {}

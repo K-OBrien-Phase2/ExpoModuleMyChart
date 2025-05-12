@@ -1,0 +1,2593 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HappeningSoon",
+    "printedName": "HappeningSoon",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TimePrecision",
+        "printedName": "TimePrecision",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "exact",
+            "printedName": "exact",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.TimePrecision.Type) -> HappeningSoon.TimePrecision",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimePrecision",
+                    "printedName": "HappeningSoon.TimePrecision",
+                    "usr": "s:13HappeningSoon13TimePrecisionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.TimePrecision.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimePrecision",
+                        "printedName": "HappeningSoon.TimePrecision",
+                        "usr": "s:13HappeningSoon13TimePrecisionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon13TimePrecisionO5exactyA2CmF",
+            "mangledName": "$s13HappeningSoon13TimePrecisionO5exactyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "nearby",
+            "printedName": "nearby",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.TimePrecision.Type) -> HappeningSoon.TimePrecision",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimePrecision",
+                    "printedName": "HappeningSoon.TimePrecision",
+                    "usr": "s:13HappeningSoon13TimePrecisionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.TimePrecision.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimePrecision",
+                        "printedName": "HappeningSoon.TimePrecision",
+                        "usr": "s:13HappeningSoon13TimePrecisionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon13TimePrecisionO6nearbyyA2CmF",
+            "mangledName": "$s13HappeningSoon13TimePrecisionO6nearbyyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "timeOfDay",
+            "printedName": "timeOfDay",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.TimePrecision.Type) -> HappeningSoon.TimePrecision",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimePrecision",
+                    "printedName": "HappeningSoon.TimePrecision",
+                    "usr": "s:13HappeningSoon13TimePrecisionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.TimePrecision.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimePrecision",
+                        "printedName": "HappeningSoon.TimePrecision",
+                        "usr": "s:13HappeningSoon13TimePrecisionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon13TimePrecisionO9timeOfDayyA2CmF",
+            "mangledName": "$s13HappeningSoon13TimePrecisionO9timeOfDayyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "dayOnly",
+            "printedName": "dayOnly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.TimePrecision.Type) -> HappeningSoon.TimePrecision",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimePrecision",
+                    "printedName": "HappeningSoon.TimePrecision",
+                    "usr": "s:13HappeningSoon13TimePrecisionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.TimePrecision.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TimePrecision",
+                        "printedName": "HappeningSoon.TimePrecision",
+                        "usr": "s:13HappeningSoon13TimePrecisionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon13TimePrecisionO7dayOnlyyA2CmF",
+            "mangledName": "$s13HappeningSoon13TimePrecisionO7dayOnlyyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HappeningSoon.TimePrecision?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TimePrecision",
+                    "printedName": "HappeningSoon.TimePrecision",
+                    "usr": "s:13HappeningSoon13TimePrecisionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13HappeningSoon13TimePrecisionO8rawValueACSgSi_tcfc",
+            "mangledName": "$s13HappeningSoon13TimePrecisionO8rawValueACSgSi_tcfc",
+            "moduleName": "HappeningSoon",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13HappeningSoon13TimePrecisionO8rawValueSivp",
+            "mangledName": "$s13HappeningSoon13TimePrecisionO8rawValueSivp",
+            "moduleName": "HappeningSoon",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13HappeningSoon13TimePrecisionO8rawValueSivg",
+                "mangledName": "$s13HappeningSoon13TimePrecisionO8rawValueSivg",
+                "moduleName": "HappeningSoon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13HappeningSoon13TimePrecisionO",
+        "mangledName": "$s13HappeningSoon13TimePrecisionO",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InpatientEventType",
+        "printedName": "InpatientEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userEvent",
+            "printedName": "userEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.InpatientEventType.Type) -> HappeningSoon.InpatientEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InpatientEventType",
+                    "printedName": "HappeningSoon.InpatientEventType",
+                    "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.InpatientEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InpatientEventType",
+                        "printedName": "HappeningSoon.InpatientEventType",
+                        "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO04userD0yA2CmF",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO04userD0yA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "medicationAdministration",
+            "printedName": "medicationAdministration",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.InpatientEventType.Type) -> HappeningSoon.InpatientEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InpatientEventType",
+                    "printedName": "HappeningSoon.InpatientEventType",
+                    "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.InpatientEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InpatientEventType",
+                        "printedName": "HappeningSoon.InpatientEventType",
+                        "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO24medicationAdministrationyA2CmF",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO24medicationAdministrationyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "nursingTask",
+            "printedName": "nursingTask",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.InpatientEventType.Type) -> HappeningSoon.InpatientEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InpatientEventType",
+                    "printedName": "HappeningSoon.InpatientEventType",
+                    "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.InpatientEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InpatientEventType",
+                        "printedName": "HappeningSoon.InpatientEventType",
+                        "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO11nursingTaskyA2CmF",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO11nursingTaskyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "surgery",
+            "printedName": "surgery",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.InpatientEventType.Type) -> HappeningSoon.InpatientEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InpatientEventType",
+                    "printedName": "HappeningSoon.InpatientEventType",
+                    "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.InpatientEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InpatientEventType",
+                        "printedName": "HappeningSoon.InpatientEventType",
+                        "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO7surgeryyA2CmF",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO7surgeryyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "appointment",
+            "printedName": "appointment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.InpatientEventType.Type) -> HappeningSoon.InpatientEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InpatientEventType",
+                    "printedName": "HappeningSoon.InpatientEventType",
+                    "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.InpatientEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InpatientEventType",
+                        "printedName": "HappeningSoon.InpatientEventType",
+                        "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO11appointmentyA2CmF",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO11appointmentyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Var",
+            "name": "HOVAppointment",
+            "printedName": "HOVAppointment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HappeningSoon.InpatientEventType.Type) -> HappeningSoon.InpatientEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InpatientEventType",
+                    "printedName": "HappeningSoon.InpatientEventType",
+                    "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HappeningSoon.InpatientEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InpatientEventType",
+                        "printedName": "HappeningSoon.InpatientEventType",
+                        "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO14HOVAppointmentyA2CmF",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO14HOVAppointmentyA2CmF",
+            "moduleName": "HappeningSoon"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HappeningSoon.InpatientEventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InpatientEventType",
+                    "printedName": "HappeningSoon.InpatientEventType",
+                    "usr": "s:13HappeningSoon18InpatientEventTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "HappeningSoon",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13HappeningSoon18InpatientEventTypeO8rawValueSivp",
+            "mangledName": "$s13HappeningSoon18InpatientEventTypeO8rawValueSivp",
+            "moduleName": "HappeningSoon",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13HappeningSoon18InpatientEventTypeO8rawValueSivg",
+                "mangledName": "$s13HappeningSoon18InpatientEventTypeO8rawValueSivg",
+                "moduleName": "HappeningSoon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13HappeningSoon18InpatientEventTypeO",
+        "mangledName": "$s13HappeningSoon18InpatientEventTypeO",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEHappeningSoonComponentAPI",
+        "printedName": "PEHappeningSoonComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForHappeningSoon",
+            "printedName": "hasAccessForHappeningSoon(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HappeningSoon@objc(cs)PEHappeningSoonComponentAPI(im)hasAccessForHappeningSoon:",
+            "mangledName": "$s13HappeningSoon011PEHappeningB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE18PEEncounterContextCF",
+            "moduleName": "HappeningSoon",
+            "objc_name": "hasAccessForHappeningSoon:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHappeningSoonTimelineWidgetteViewController",
+            "printedName": "getHappeningSoonTimelineWidgetteViewController(_:componentHost:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentHostProtocol",
+                "printedName": "any PECore.PEComponentHostProtocol",
+                "usr": "c:@M@PECore@objc(pl)PEComponentHostProtocol"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HappeningSoon@objc(cs)PEHappeningSoonComponentAPI(im)getHappeningSoonTimelineWidgetteViewController:componentHost:",
+            "mangledName": "$s13HappeningSoon011PEHappeningB12ComponentAPIC03getaB30TimelineWidgetteViewController_13componentHostSo06UIViewJ0CSg6PECore18PEEncounterContextC_AI011PEComponentL8Protocol_ptF",
+            "moduleName": "HappeningSoon",
+            "objc_name": "getHappeningSoonTimelineWidgetteViewController:componentHost:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEHappeningSoonComponentAPI",
+                "printedName": "HappeningSoon.PEHappeningSoonComponentAPI",
+                "usr": "c:@M@HappeningSoon@objc(cs)PEHappeningSoonComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HappeningSoon@objc(cs)PEHappeningSoonComponentAPI(im)init",
+            "mangledName": "$s13HappeningSoon011PEHappeningB12ComponentAPICACycfc",
+            "moduleName": "HappeningSoon",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HappeningSoon@objc(cs)PEHappeningSoonComponentAPI",
+        "mangledName": "$s13HappeningSoon011PEHappeningB12ComponentAPIC",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEHappeningSoonComponentAPIProtocol",
+            "printedName": "PEHappeningSoonComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEHappeningSoonComponentAPIProtocol",
+            "mangledName": "$s6PECore35PEHappeningSoonComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "HappeningSoon"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Views\/TimelineSectionFooterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/MedInstanceTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 26,
+      "value": "\"MedInstanceTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Views\/EventDetailsHeaderTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 33,
+      "value": "\"EventDetailsHeaderTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Models\/TimePrecision.swift",
+      "kind": "IntegerLiteral",
+      "offset": 247,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Models\/TimePrecision.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Models\/TimePrecision.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Models\/TimePrecision.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Views\/TimelineSectionHeaderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Views\/TimelineSectionHeaderView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientSchedule.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 8,
+      "value": "\"Events\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsSurgicalProcedure.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsSurgicalProcedure.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 13,
+      "value": "\"ProcedureID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsSurgicalProcedure.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 20,
+      "value": "\"HasEducationSource\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/ViewControllers\/MedAdminEventDetailsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 22,
+      "value": "\"MedAdminEventDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/ViewControllers\/MedAdminEventDetailsViewController.swift",
+      "kind": "Array",
+      "offset": 1278,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 776,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 866,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 16,
+      "value": "\"OrganizationID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 12,
+      "value": "\"IsExternal\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 18,
+      "value": "\"OrganizationName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1207,
+      "length": 9,
+      "value": "\"LogoUrl\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 9,
+      "value": "\"orgInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1578,
+      "length": 12,
+      "value": "\"ProviderID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1611,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 10,
+      "value": "\"PhotoURL\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1683,
+      "length": 16,
+      "value": "\"HasPhotoOnBlob\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/ViewControllers\/TaskEventDetailsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 18,
+      "value": "\"TaskEventDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 319,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 340,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 365,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Views\/TimelineEventCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Views\/TimelineEventCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5753,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5784,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5813,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5843,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5868,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 5966,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 5997,
+      "length": 6,
+      "value": "\"Dose\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6032,
+      "length": 10,
+      "value": "\"DoseUnit\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6072,
+      "length": 11,
+      "value": "\"Frequency\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6109,
+      "length": 7,
+      "value": "\"Route\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6153,
+      "length": 18,
+      "value": "\"OrderingProvider\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6202,
+      "length": 12,
+      "value": "\"ActionName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6246,
+      "length": 13,
+      "value": "\"AdminStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6294,
+      "length": 16,
+      "value": "\"ReasonNotGiven\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6341,
+      "length": 12,
+      "value": "\"InstantDue\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6386,
+      "length": 14,
+      "value": "\"InstantTaken\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6434,
+      "length": 15,
+      "value": "\"InstantDueISO\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6485,
+      "length": 17,
+      "value": "\"InstantTakenISO\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6544,
+      "length": 23,
+      "value": "\"AdministeringProvider\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6606,
+      "length": 20,
+      "value": "\"HasEducationSource\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6654,
+      "length": 9,
+      "value": "\"OrderID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6703,
+      "length": 21,
+      "value": "\"IsHiddenFromProxies\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6759,
+      "length": 16,
+      "value": "\"IsDiscontinued\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7692,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7716,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7741,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 8280,
+      "length": 15,
+      "value": "\"OrderLinkType\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 8327,
+      "length": 13,
+      "value": "\"Medications\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 8438,
+      "length": 13,
+      "value": "\"Medications\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 8485,
+      "length": 19,
+      "value": "\"LinkedMedications\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 8538,
+      "length": 19,
+      "value": "\"HighlightConfMeds\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientMedAdminEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 8602,
+      "length": 30,
+      "value": "\"ProxiesWhoCantAccessConfMeds\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/AppointmentProviderTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 34,
+      "value": "\"AppointmentProviderTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/ViewControllers\/UserEventDetailsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 18,
+      "value": "\"UserEventDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientAppointmentEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1723,
+      "length": 14,
+      "value": "\"PatientNotes\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientAppointmentEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1766,
+      "length": 23,
+      "value": "\"InstructionsPlainText\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientAppointmentEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1822,
+      "length": 18,
+      "value": "\"InstructionsHTML\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientAppointmentEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1871,
+      "length": 16,
+      "value": "\"VisitTypeNames\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientAppointmentEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 12,
+      "value": "\"Procedures\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientAppointmentEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 11,
+      "value": "\"Providers\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientUserEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 10,
+      "value": "\"Comments\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 9,
+      "value": "\"EventId\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 812,
+      "length": 13,
+      "value": "\"DisplayName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 14,
+      "value": "\"StartInstant\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 881,
+      "length": 12,
+      "value": "\"EndInstant\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 922,
+      "length": 14,
+      "value": "\"StartISOTime\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 963,
+      "length": 12,
+      "value": "\"EndISOTime\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 11,
+      "value": "\"Precision\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 6,
+      "value": "\"Type\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 14,
+      "value": "\"CreatingUser\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 18,
+      "value": "\"CreatingUserName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 17,
+      "value": "\"IsPtEditedEvent\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/ViewControllers\/AppointmentEventDetailsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 25,
+      "value": "\"AppointmentEventDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/ViewControllers\/AppointmentEventDetailsViewController.swift",
+      "kind": "Array",
+      "offset": 1679,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/HappeningSoonWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 10,
+      "value": "\"Schedule\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/HappeningSoonWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 7811,
+      "length": 14,
+      "value": "\"EventDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/ViewControllers\/TimelineWidgetViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 23,
+      "value": "\"TimelineSectionHeader\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/ViewControllers\/TimelineWidgetViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 23,
+      "value": "\"TimelineSectionFooter\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/ViewControllers\/TimelineWidgetViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 15,
+      "value": "\"TimelineEvent\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/ViewControllers\/TimelineWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/ViewControllers\/TimelineWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 683,
+      "length": 3,
+      "value": "170"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/ViewControllers\/TimelineWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1230,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/ViewControllers\/TimelineWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1271,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/TaskEventDetailsTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 31,
+      "value": "\"TaskEventDetailsTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/TaskEventDetailsHeaderTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 37,
+      "value": "\"TaskEventDetailsHeaderTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/InpatientTimelineDelegate.swift",
+      "kind": "Array",
+      "offset": 330,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 448,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "BooleanLiteral",
+      "offset": 565,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 10,
+      "value": "\"Comments\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2220,
+      "length": 11,
+      "value": "\"Frequency\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2254,
+      "length": 8,
+      "value": "\"Status\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2289,
+      "length": 12,
+      "value": "\"IsComplete\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2329,
+      "length": 18,
+      "value": "\"CompletedInstant\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2383,
+      "length": 21,
+      "value": "\"CompletedInstantISO\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientTaskEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 2440,
+      "length": 21,
+      "value": "\"CompletedByProvider\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/UserEventDetailsTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 31,
+      "value": "\"UserEventDetailsTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/AppointmentInstructionsTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 38,
+      "value": "\"AppointmentInstructionsTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientSurgeryEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 23,
+      "value": "\"InstructionsPlainText\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientSurgeryEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 18,
+      "value": "\"InstructionsHTML\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientSurgeryEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 12,
+      "value": "\"Procedures\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientSurgeryEventDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1509,
+      "length": 11,
+      "value": "\"Providers\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsAppointmentProcedure.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsAppointmentProcedure.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 13,
+      "value": "\"ProcedureID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Models\/InpatientEventDetailsAppointmentProcedure.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 20,
+      "value": "\"HasEducationSource\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/MedAdminHiddenTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 29,
+      "value": "\"MedAdminHiddenTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/HappeningSoon\/HappeningSoon\/Classes\/Inpatient\/Views\/AppointmentProcedureTableViewCell.swift",
+      "kind": "StringLiteral",
+      "offset": 312,
+      "length": 35,
+      "value": "\"AppointmentProcedureTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 13,
+      "value": "\"Appointment\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 19,
+      "value": "\"CompleteTaskOrMed\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 12,
+      "value": "\"DashedLine\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 17,
+      "value": "\"DisclosureArrow\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1358,
+      "length": 21,
+      "value": "\"IncompleteTaskOrMed\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1509,
+      "length": 12,
+      "value": "\"Medication\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1653,
+      "length": 13,
+      "value": "\"NursingTask\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1790,
+      "length": 9,
+      "value": "\"Surgery\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/HappeningSoon.build\/Release-iphonesimulator\/HappeningSoon.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1953,
+      "length": 25,
+      "value": "\"medications_hidden_icon\""
+    }
+  ]
+}

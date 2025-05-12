@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2019-2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_medications_activity_title" context="The title for the medications activity, displayed in the navigation bar at the top of the view">药物</string>
+  <string name="wp_medications_encounterspecific_medication_detail_label" context="Details label for an encounter specific medication. Not all parameters may be populated, especially the brand name. %1$@ - The medication dose, in digits, %2$@ - The dose units, %3$@ - The medication route. E.g. by mouth, %4$@ - The medication frequency. E.g. 3 times daily">%1$@ %2$@ %3$@ %4$@</string>
+  <string name="wp_medications_encounterspecific_linked_medication_or_label" context="Label shown above a linked medication group that has an OR relationship between the meds. See https://wiki.epic.com/main/Orders/Composer_%26_Validation/Linked_Orders">以下其中一个</string>
+  <string name="wp_medications_encounterspecific_linked_medication_and_label" context="Label shown above a linked medication group that has an AND relationship between the meds. See https://wiki.epic.com/main/Orders/Composer_%26_Validation/Linked_Orders">以下所有</string>
+  <string name="wp_medications_encounterspecific_prn_only_header_label" context="Label shown in the hospital medications activity in the section header for PRN medications, if there are no standard medications">如果需要……</string>
+  <string name="wp_medications_encounterspecific_prn_header_label" context="Label shown in the hospital medications activity in the section header for PRN medications. There is a leading 'and' because this displays in the section header after standard medications. Not a part of a compound string.">并且，如果需要……</string>
+  <string name="wp_medications_filter_meds_label" context="Warning that appears in the medications activity, if some of the medications may have been filtered from the activity">出于隐私原因，某些药物可能没有在此显示。无论是否有被隐藏的药物，该消息都会出现。</string>
+  <string name="wp_medications_encounterspecific_no_meds_label" context="Label that displays in the hospital medications activity if there are no medications to show">您没有任何药物记录。</string>
+  <string name="wp_medications_encounterspecific_no_meds_label_proxy" context="Label that displays in the hospital medications activity if there are no medications to show, if viewing as a proxy">%1$@没有任何药物记录。</string>
+  <string name="wp_medications_encounterspecific_administer_warning_label" context="Label that displays in the bottom banner of the hospital medications activity, warning the user not to self-administer medications">您的护理团队将会提供这些药物。</string>
+  <string name="wp_medications_encounterspecific_administer_warning_label_proxy" context="Label that displays in the bottom banner of the hospital medications activity, warning the user not to administer the proxy's medications">%1$@的护理团队将会提供这些药物。</string>
+  <string name="wp_medications_encounterspecific_confidential_meds_all" context="Header that indicates that a medication is hidden from all proxies">对家庭成和朋友隐藏</string>
+  <string name="wp_medications_encounterspecific_confidential_meds_hidden_from_one_proxy" context="Label that indicates that medications are hidden from 1 proxy.             %1$@ = proxy's name.">对%1$@隐藏。</string>
+  <string name="wp_medications_encounterspecific_confidential_meds_hidden_from_two_proxies" context="Label that indicates that medications are hidden from 2 proxies.             %1$@ = proxy 1's name.             %2$@ = proxy 2's name.">对%1$@和%2$@隐藏。</string>
+  <string name="wp_medications_encounterspecific_confidential_meds_hidden_from_more_than_two_proxies" context="Label that indicates that medications are hidden from more than 2 proxies.             %1$@ = proxy 1's name.             %2$@ = the number of proxies who cannot view hidden test results less one.">对%1$@和其他%2$@位隐藏。</string>
+  <string name="wp_medications_encounterspecific_confidential_meds_dialog_header" context="Header for the list of proxies that the medications may be hidden from">对以下隐藏</string>
+  <string name="wp_medications_encounterspecific_confidential_meds_hidden" context="Accessibility label that will be applied when a medication is hidden">已隐藏</string>
+  <string name="wp_medications_encounterspecific_linked_medication_accessibility" context="Accessibility content that indicates that medication is in the list of linked medication.             %1$@ = the current medication position in the list.             %2$@ = the total number of linked medication.">共%2$@个药物位于中第%1$@位的药物</string>
+  <string name="wp_medications_upcoming_meds_header" context="Header for the list of medications that are upcoming and scheduled (not as needed)">即将到来</string>
+  <string name="wp_medications_as_needed_meds_header" context="Header for the list of medications that may be given as needed (PRN)">按需服用</string>
+  <string name="wp_medications_given_meds_header" context="Header for the list of medications that have been given">已给药</string>
+  <string name="wp_medications_additional_given_meds_button_title" context="Title for the button to expand or collapse the given medications section.             %1$@ = the number of meds that will be shown or hidden upon tapping the button.">其他药物（%1$@）</string>
+  <string name="wp_medications_encounterspecific_no_upcoming_meds" context="Text that will appear under the upcoming header if we have some PRN or given medications, but no medications in the upcoming section">没有即将到来的定时药物</string>
+</resources>

@@ -1,0 +1,51 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SVGRasterizer
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+@_exported import SVGRasterizer
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class PathParserResult {
+  final public let error: Swift.String?
+  @objc deinit
+}
+public class PathParser {
+  public init(d: Swift.String)
+  public func parse(_ path: SVGRasterizer.CGMutablePathWrapper) -> SVGRasterizer.PathParserResult
+  @objc deinit
+}
+public class SVGFile {
+  public var symbolDefinitions: [Swift.String : SVGRasterizer.SVGDefinition]
+  public var url: Swift.String
+  public init(rawFile: Swift.String)
+  public func getUIImageForKey(key: Swift.String) -> SVGRasterizer.SVGRasterizerResponse
+  @objc deinit
+}
+open class CGMutablePathWrapper {
+  final public let path: CoreGraphics.CGMutablePath
+  public init()
+  open func move(to: CoreFoundation.CGPoint)
+  open func addLine(to: CoreFoundation.CGPoint)
+  open func closeSubpath()
+  open func arcTo(lastX: Swift.Float, lastY: Swift.Float, rxIn: Swift.Float, ryIn: Swift.Float, xAxisRotation: Swift.Float, largeArcFlag: Swift.Float, sweepFlag: Swift.Float, x: Swift.Float, y: Swift.Float)
+  open func addCurve(to: CoreFoundation.CGPoint, control1: CoreFoundation.CGPoint, control2: CoreFoundation.CGPoint)
+  open func addQuadCurve(to: CoreFoundation.CGPoint, control: CoreFoundation.CGPoint)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SVGRasterizerUtil {
+  public static func isSVGRasterizerEnabled() -> Swift.Bool
+  @objc deinit
+}
+public class SVGRasterizerResponse {
+  final public let key: Swift.String?
+  final public let bitmap: UIKit.UIImage?
+  final public let errors: [Swift.String]
+  public init(key: Swift.String?, bitmap: UIKit.UIImage?, errors: [Swift.String])
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SVGDefinition {
+  @objc deinit
+}

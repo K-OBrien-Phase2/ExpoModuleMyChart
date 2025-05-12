@@ -1,0 +1,500 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PreventiveCare",
+    "printedName": "PreventiveCare",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PreventiveCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "PreventiveCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PreventiveCareWebViewControllerManager",
+        "printedName": "PreventiveCareWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "jsRefreshHMRList",
+            "printedName": "jsRefreshHMRList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14PreventiveCare0aB24WebViewControllerManagerC16jsRefreshHMRListSSvp",
+            "mangledName": "$s14PreventiveCare0aB24WebViewControllerManagerC16jsRefreshHMRListSSvp",
+            "moduleName": "PreventiveCare",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14PreventiveCare0aB24WebViewControllerManagerC16jsRefreshHMRListSSvg",
+                "mangledName": "$s14PreventiveCare0aB24WebViewControllerManagerC16jsRefreshHMRListSSvg",
+                "moduleName": "PreventiveCare",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "onViewWillAppear",
+            "printedName": "onViewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PreventiveCare0aB24WebViewControllerManagerC02onD10WillAppearyy6PECore07MyChartcdE0CF",
+            "mangledName": "$s14PreventiveCare0aB24WebViewControllerManagerC02onD10WillAppearyy6PECore07MyChartcdE0CF",
+            "moduleName": "PreventiveCare",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldOverrideAllowedPageLoad",
+            "printedName": "shouldOverrideAllowedPageLoad(_:url:isMyChartWebsite:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PreventiveCare0aB24WebViewControllerManagerC29shouldOverrideAllowedPageLoad_3url16isMyChartWebsiteSb6PECore0nocdE0C_10Foundation3URLVSbtF",
+            "mangledName": "$s14PreventiveCare0aB24WebViewControllerManagerC29shouldOverrideAllowedPageLoad_3url16isMyChartWebsiteSb6PECore0nocdE0C_10Foundation3URLVSbtF",
+            "moduleName": "PreventiveCare",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PreventiveCare@objc(cs)PreventiveCareWebViewControllerManager",
+        "mangledName": "$s14PreventiveCare0aB24WebViewControllerManagerC",
+        "moduleName": "PreventiveCare",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@PECore@objc(cs)MyChartWebViewControllerManager",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PreventiveCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "PreventiveCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEPreventiveCareComponentAPI",
+        "printedName": "PEPreventiveCareComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForPreventiveCare",
+            "printedName": "hasAccessForPreventiveCare(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PreventiveCare@objc(cs)PEPreventiveCareComponentAPI(im)hasAccessForPreventiveCare:",
+            "mangledName": "$s14PreventiveCare012PEPreventiveB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "PreventiveCare",
+            "objc_name": "hasAccessForPreventiveCare:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPreventiveCareViewController",
+            "printedName": "getPreventiveCareViewController(userContext:patientContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.MyChartWebViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyChartWebViewController",
+                    "printedName": "PECore.MyChartWebViewController",
+                    "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEUserContext",
+                "printedName": "PECore.PEUserContext",
+                "usr": "c:@M@PECore@objc(cs)PEUserContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PreventiveCare@objc(cs)PEPreventiveCareComponentAPI(im)getPreventiveCareViewControllerWithUserContext:patientContext:",
+            "mangledName": "$s14PreventiveCare012PEPreventiveB12ComponentAPIC03getaB14ViewController11userContext07patientJ06PECore010MyChartWebgH0CSgAG06PEUserJ0C_AG09PEPatientJ0CtF",
+            "moduleName": "PreventiveCare",
+            "objc_name": "getPreventiveCareViewControllerWithUserContext:patientContext:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEPreventiveCareComponentAPI",
+                "printedName": "PreventiveCare.PEPreventiveCareComponentAPI",
+                "usr": "c:@M@PreventiveCare@objc(cs)PEPreventiveCareComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PreventiveCare@objc(cs)PEPreventiveCareComponentAPI(im)init",
+            "mangledName": "$s14PreventiveCare012PEPreventiveB12ComponentAPICACycfc",
+            "moduleName": "PreventiveCare",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PreventiveCare@objc(cs)PEPreventiveCareComponentAPI",
+        "mangledName": "$s14PreventiveCare012PEPreventiveB12ComponentAPIC",
+        "moduleName": "PreventiveCare",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEPreventiveCareComponentAPIProtocol",
+            "printedName": "PEPreventiveCareComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEPreventiveCareComponentAPIProtocol",
+            "mangledName": "$s6PECore36PEPreventiveCareComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/PreventiveCare\/PreventiveCare\/Classes\/PreventiveCareWebViewControllerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 12,
+      "value": "\"scheduling\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/PreventiveCare\/PreventiveCare\/Classes\/PreventiveCareWebViewControllerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 12,
+      "value": "\"mobilekeep\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/PreventiveCare\/PreventiveCare\/Classes\/PreventiveCareWebViewControllerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 121,
+      "value": "\"_ = new Epic.PatientAccess.HealthAdvisories.HealthAdvisoriesController($afe.select(\"#hm-list-activity\"), \"\", true);\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/PreventiveCare\/PreventiveCare\/Classes\/PreventiveCareWebViewControllerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 828,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/PreventiveCare\/PreventiveCare\/Classes\/PreventiveCareWebViewControllerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1131,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/PreventiveCare\/PreventiveCare\/Classes\/PEPreventiveCareComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 16,
+      "value": "\"preventivecare\""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">Anfragen</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">Mit %%REQUESTS können Sie Ihrem Betreuungsteam Anfragen senden, die nicht dringend sind.</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">Mit %%REQUESTS können Sie Anfragen an das Betreuungsteam von %%PATNAME senden, die nicht dringend sind.</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">Spitalmitarbeiter werden Ihre Anfrage erhalten und Ihnen helfen. Bei dringenden Anfragen bitte die Ruftaste verwenden.</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">Wenn Sie eine bereits gesendete Anfrage stornieren möchten, tippen Sie bitte zunächst auf das angeforderte Element und anschliessend auf „Abbrechen“. Wenn Sie nach unten scrollen, sehen Sie weitere Optionen.</string>
+</resources>

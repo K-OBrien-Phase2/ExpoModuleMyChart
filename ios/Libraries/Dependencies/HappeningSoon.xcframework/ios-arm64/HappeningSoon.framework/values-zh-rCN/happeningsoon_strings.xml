@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2018-2023 Epic Systems Corporation
+  -->
+<resources>
+  <!-- Event types -->
+  <string name="wp_happening_soon_medications" context="Used as the name for a medication administration event on a patient's schedule">药物</string>
+  <!-- Labels for timeline sections -->
+  <string name="wp_happening_soon_section_name_yesterday" context="Used as a 'section' label for the portion patient's schedule that happened yesterday. Any translation over ~14 characters may be truncated">昨天</string>
+  <string name="wp_happening_soon_section_name_earlier_today" context="Used as a 'section' label for the portion patient's schedule that happened earlier today. Any translation over ~14 characters may be truncated">今日早些时候</string>
+  <string name="wp_happening_soon_section_name_later_today" context="Used as a 'section' label for the portion patient's schedule that will still happen today. Any translation over ~14 characters may be truncated">今日晚些时候</string>
+  <string name="wp_happening_soon_section_name_tomorrow" context="Used as a 'section' label for the portion patient's schedule that will happen tomorrow. Any translation over ~14 characters may be truncated">明天</string>
+  <!-- Strings for displaying event times -->
+  <string name="wp_happening_soon_time_exact" context="Displays for an event that starts at an exact time and has no available end time. %1$@ is the time the event starts, like '10:00 a.m.'">于%1$@</string>
+  <string name="wp_happening_soon_time_nearby_12hr" context="Displays when using 12-hour time for an event that starts at an approximate time and has no available end time. %1$@ is the rough time the event starts, like '3 p.m.' in 12-hour time.">%1$@左右</string>
+  <string name="wp_happening_soon_time_nearby_24hr" context="Displays when using 24-hour time for an event that starts at an approximate time and has no available end time. %1$@ is the rough time the event starts, like '15' in 24-hour time.">%1$@时左右</string>
+  <string name="wp_happening_soon_time_morning" context="Used to describe when an event occurred, if it occurred or will occur in the morning and we're only allowed to share the time of day">上午</string>
+  <string name="wp_happening_soon_time_afternoon" context="Used to describe when an event occurred, if it occurred or will occur in the afternoon and we're only allowed to share the time of day">下午</string>
+  <string name="wp_happening_soon_time_evening" context="Used to describe when an event occurred, if it occurred or will occur in the evening and we're only allowed to share the time of day">晚上</string>
+  <string name="wp_happening_soon_time_night" context="Used to describe when an event occurred, if it occurred or will occur at night and we're only allowed to share the time of day">深夜</string>
+  <string name="wp_happening_soon_time_yesterday" context="Used to describe when an event occurred, if it occurred yesterday and we're only allowed to share the day">昨天</string>
+  <string name="wp_happening_soon_time_today" context="Used to describe when an event occurred, if it occurred or will occur today and we're only allowed to share the day">今天</string>
+  <string name="wp_happening_soon_time_tomorrow" context="Used to describe when an event occurred, if it will occur tomorrow and we're only allowed to share the day">明天</string>
+  <!-- Time span strings -->
+  <string name="wp_happening_soon_timespan_exact" context="Formats an event's start and end times when we want to show exactly when the event starts and ends. %1$@ is the event's exact start time, and %2$@ is the event's exact end time, both formatted like '10:15 AM'">%1$@至%2$@</string>
+  <plurals name="wp_happening_soon_timespan_nearby_hours_12hr" context="Formats an event's approximate start time and approximate duration when using 12-hour time, where the duration is expressed in hours. The plural key is the number of hours. %1$@ is the approximate start time (like '3 p.m.' in 12-hour time), and %2$@ is the number of hours.">
+    <item quantity="one">%1$@左右开始，持续大约一小时。</item>
+    <item quantity="other">%1$@左右开始，持续大约%2$@小时。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_nearby_hours_24hr" context="Formats an event's approximate start time and approximate duration when using 24-hour time, where the duration is expressed in hours. The plural key is the number of hours. %1$@ is the approximate start time (like '15' in 24-hour time), and %2$@ is the number of hours.">
+    <item quantity="one">%1$@时左右开始，持续大约一小时。</item>
+    <item quantity="other">%1$@时左右开始，持续大约%2$@小时。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_nearby_minutes_12hr" context="Formats an event's approximate start time and approximate duration when using 12-hour time, where the duration is expressed in minutes. The plural key is the number of minutes. %1$@ is the approximate start time (like '3 p.m.' in 12-hour time), and %2$@ is the number of minutes.">
+    <item quantity="one">%1$@左右开始，持续大约一分钟。</item>
+    <item quantity="other">%1$@左右开始，持续大约%2$@分钟。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_nearby_minutes_24hr" context="Formats an event's approximate start time and approximate duration when using 24-hour time, where the duration is expressed in minutes. The plural key is the number of minutes. %1$@ is the approximate start time (like '15' in 24-hour time), and %2$@ is the number of minutes.">
+    <item quantity="one">%1$@时左右开始，持续大约一分钟。</item>
+    <item quantity="other">%1$@时左右开始，持续大约%2$@分钟。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_morning_hours" context="Formats an event's time of day and approximate duration, when the event takes place in the morning and the duration is expressed in hours. The plural key is the number of hours. %1$@ is the number of hours.">
+    <item quantity="one">在上午，持续一小时左右。</item>
+    <item quantity="other">在上午，持续%1$@小时左右。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_afternoon_hours" context="Formats an event's time of day and approximate duration, when the event takes place in the afternoon and the duration is expressed in hours. The plural key is the number of hours. %1$@ is the number of hours.">
+    <item quantity="one">在下午，持续一小时左右。</item>
+    <item quantity="other">在下午，持续%1$@小时左右。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_evening_hours" context="Formats an event's time of day and approximate duration, when the event takes place in the evening and the duration is expressed in hours. The plural key is the number of hours. %1$@ is the number of hours.">
+    <item quantity="one">在晚上，持续一小时左右。</item>
+    <item quantity="other">在晚上，持续%1$@小时左右。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_night_hours" context="Formats an event's time of day and approximate duration, when the event takes place at night and the duration is expressed in hours. The plural key is the number of hours. %1$@ is the number of hours.">
+    <item quantity="one">在深夜，持续一小时左右。</item>
+    <item quantity="other">在深夜，持续%1$@小时左右。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_morning_minutes" context="Formats an event's time of day and approximate duration, when the event takes place in the morning and the duration is expressed in minutes. The plural key is the number of minutes. %1$@ is the number of minutes.">
+    <item quantity="one">在上午，持续一分钟左右。</item>
+    <item quantity="other">在上午，持续%1$@分钟左右。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_afternoon_minutes" context="Formats an event's time of day and approximate duration, when the event takes place in the afternoon and the duration is expressed in minutes. The plural key is the number of minutes. %1$@ is the number of minutes.">
+    <item quantity="one">在下午，持续一分钟左右。</item>
+    <item quantity="other">在下午，持续%1$@分钟左右。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_evening_minutes" context="Formats an event's time of day and approximate duration, when the event takes place in the evening and the duration is expressed in minutes. The plural key is the number of minutes. %1$@ is the number of minutes.">
+    <item quantity="one">在晚上，持续一分钟左右。</item>
+    <item quantity="other">在晚上，持续%1$@分钟左右。</item>
+  </plurals>
+  <plurals name="wp_happening_soon_timespan_timeofday_night_minutes" context="Formats an event's time of day and approximate duration, when the event takes place at night and the duration is expressed in minutes. The plural key is the number of minutes. %1$@ is the number of minutes.">
+    <item quantity="one">在深夜，持续一分钟左右。</item>
+    <item quantity="other">在深夜，持续%1$@分钟左右。</item>
+  </plurals>
+  <!-- Details view strings -->
+  <string name="wp_happening_soon_details_view_title" context="Title of the activity that displays when the user clicks on an event from the timeline.">事件详情</string>
+  <!-- Tasks -->
+  <string name="wp_happening_soon_task_details_documented_by" context="Label for the provider who documented this task. %1$@ will be replaced with the provider's name">由%1$@记录</string>
+  <string name="wp_happening_soon_task_details_completed" context="Status for a nursing task that has been completed. %1$@ is the time it was completed.">于%1$@完成</string>
+  <string name="wp_happening_soon_task_details_skipped" context="Status for a nursing task that has been skipped.">已跳过</string>
+  <string name="wp_happening_soon_task_details_canceled" context="Status for a nursing task that has been canceled.">已取消</string>
+  <string name="wp_happening_soon_task_details_frequency" context="Tells the user how often a task is repeated. %1$@ is the frequency (from the server), like 'once' or 'every 2 hours' or '4 times a day'. It works great in English as 'This Event occurs ___.', but you can switch it to 'Frequency: ___' in another language if the grammar doesn't work out.">频率：%1$@。</string>
+  <!-- User Event -->
+  <string name="wp_happening_soon_user_event_created_by_current_user" context="Label informs that the user event is created by current user">由您创建</string>
+  <string name="wp_happening_soon_user_event_created_by_other_user" context="Label informs that the user event is created by other user. %1$@ will be replaced with other user name">由%1$@创建</string>
+  <string name="wp_happening_soon_user_event_last_modified_by_current_user" context="Label informs that the user event is last modified by current user">由您上次修改</string>
+  <string name="wp_happening_soon_user_event_last_modified_by_other_user" context="Label informs that the user event is last modified by other user. %1$@ will be replaced with other user name">由%1$@上次修改</string>
+  <!-- Appointments/surgeries -->
+  <string name="wp_happening_soon_appointment_details_procedures" context="Displayed above a list of procedures that make up an inpatient appointment or surgery">将会发生什么？</string>
+  <string name="wp_happening_soon_appointment_details_providers" context="Displayed above a list of providers who will be involved in an inpatient appointment or surgery">和谁？</string>
+  <string name="wp_happening_soon_appointment_details_instructions" context="Displayed above patient instructions for an inpatient appointment or surgery">我需要知道什么？</string>
+  <!-- Medication administrations -->
+  <string name="wp_happening_soon_medications_ordered_by" context="Label for the provider that ordered this medication. %1$@ will be replaced with the provider's name">由%1$@下医嘱</string>
+  <string name="wp_happening_soon_acc_medication_status" context="Accessibility label for the status of a medication. %1$@ will be replaced with the current status of a medication administration, like Due or Complete">状态：%1$@</string>
+  <string name="wp_happening_soon_medication_status_set_by" context="Accessibility label for the provider who set the current status of a medication. %1$@ will be replaced with the provider's name">由%1$@设置状态</string>
+  <string name="wp_happening_soon_medication_discontinued" context="Tells the user that the medication has been discontinued">已停止</string>
+  <string name="wp_happening_soon_medication_completed" context="Tells the user when a medication was given. %1$@ = the completing action. Could be 'given', 'new bag', 'restarted', etc. %2$@ = the time the med was given">%1$@ %2$@</string>
+  <string name="wp_happening_soon_medication_completed_with_day" context="Tells the user when a medication was given, if it was given on a day that wasn't the day it was due. %1$@ = the completing action. Could be 'given', 'new bag', 'restarted', etc. %2$@ = the time the med was given. %3$@ = the day it was given. Could be 'today', 'tomorrow', '11/12/2018', etc.">%1$@于%2$@%3$@</string>
+  <string name="wp_happening_soon_medication_not_given_with_reason" context="Tells the user that a medication was not given. %1$@ = how the med was not given - 'Skipped', 'Held', etc. %2$@ = the reason the med was not given - 'Patient refused', 'Patient asleep', etc.">%1$@（%2$@）</string>
+  <string name="wp_happening_soon_medications_linked_and" context="Labels a group of linked medications using the 'and' linkage type - i.e., all of them will be given together">以下所有</string>
+  <string name="wp_happening_soon_medications_linked_or" context="Labels a group of linked medications using the 'or' linkage type - i.e., only one of them will be given">以下其中一个</string>
+  <string name="wp_happening_soon_medications_hidden_all" context="Header that indicates that medications are hidden from all proxies">一些药物将对家庭成员和朋友隐藏。</string>
+  <string name="wp_happening_soon_medications_hidden_all_accessibility" context="Accessibility value indicating that medication is hidden from all proxies">对家庭成员和朋友隐藏。</string>
+  <string name="wp_happening_soon_medication_hidden_from_one_proxy" context="Header that indicates that medications are hidden from 1 proxy.         %1$@ = proxy's name.">一些药物将对%1$@隐藏。</string>
+  <string name="wp_happening_soon_medication_hidden_from_two_proxies" context="Header that indicates that medications are hidden from 2 proxies.         %1$@ = proxy 1's name.         %2$@ = proxy 2's name.">一些药物将对%1$@和%2$@隐藏。</string>
+  <string name="wp_happening_soon_medication_hidden_from_more_than_two_proxies" context="Header that indicates that medications are hidden from more than 2 proxies.         %1$@ = proxy 1's name.         %2$@ = the number of proxies who cannot view hidden test results less one.">一些药物将对%1$@和其他%2$@位隐藏。</string>
+  <string name="wp_happening_soon_medication_hidden_from_one_proxy_accessibility" context="Accessibility value indicating that the medication is hidden from 1 proxy.         %1$@ = proxy's name">对%1$@隐藏。</string>
+  <string name="wp_happening_soon_medication_hidden_from_two_proxies_accessibility" context="Accessibility value indicating that the medication is hidden from 2 proxies.         %1$@ = proxy 1's name.         %2$@ = proxy 2's name.">对%1$@和%2$@隐藏。</string>
+  <string name="wp_happening_soon_medication_hidden_from_more_than_two_proxies_accessibility" context="Accessibility value indicating that the medication is hidden from more than 2 proxies.         %1$@ = proxy 1's name.         %2$@ = the number of proxies who cannot view hidden test results less one.">对%1$@和其他%2$@位隐藏。</string>
+  <string name="wp_happening_soon_medications_hidden_header" context="Header for the list of proxies that the medications may be hidden from">对以下隐藏</string>
+  <string name="wp_happening_soon_medications_hidden_accessibility_label" context="Appended to accessibility label for hidden medications">已隐藏</string>
+  <!-- Miscellaneous -->
+  <string name="wp_happening_soon_empty_schedule" context="Displayed to the user when there's nothing to display on the patient's schedule">当前没有计划的事件可显示。</string>
+  <string name="wp_happening_soon_error_message" context="Displayed to the user when we fail at displaying the patient's schedule.">加载预约时发生了错误。</string>
+</resources>

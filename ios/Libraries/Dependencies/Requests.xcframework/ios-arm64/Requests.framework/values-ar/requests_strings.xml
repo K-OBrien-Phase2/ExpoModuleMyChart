@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">طلبات</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">يمكنك استخدام %%REQUESTS لإرسال طلبات غير عاجلة إلى فريق الرعاية الخاص بك.</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">يمكنك استخدام ٪٪REQUESTS لإرسال طلبات غير عاجلة إلى فريق رعاية %%PATNAME.</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">سيتلقى موظفو المستشفى طلبك ويساعدونك. إذا كان لديك طلب عاجل، استخدم زر استدعاء الممرضة.</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">لإلغاء طلب قمت بإرساله، انقر فوق العنصر الذي طلبته، ثم انقر فوق إلغاء. يمكنك التمرير لأسفل لرؤية المزيد من خيارات الطلب.</string>
+</resources>

@@ -1,0 +1,1849 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Onboarding",
+    "printedName": "Onboarding",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEOnboardingComponentAPI",
+        "printedName": "PEOnboardingComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getPreLoginViewController",
+            "printedName": "getPreLoginViewController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getPreLoginViewController",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC25getPreLoginViewControllerSo06UIViewI0CyF",
+            "moduleName": "Onboarding",
+            "objc_name": "getPreLoginViewController",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHomePageOnboardingViewController",
+            "printedName": "getHomePageOnboardingViewController(context:onboardingDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEUserContext",
+                "printedName": "PECore.PEUserContext",
+                "usr": "c:@M@PECore@objc(cs)PEUserContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IOnboardingDelegate",
+                "printedName": "any PECore.IOnboardingDelegate",
+                "usr": "c:@M@PECore@objc(pl)IOnboardingDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getHomePageOnboardingViewControllerWithContext:onboardingDelegate:",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC011getHomePageA14ViewController7context18onboardingDelegateSo06UIViewI0C6PECore13PEUserContextC_AI011IOnboardingL0_ptF",
+            "moduleName": "Onboarding",
+            "objc_name": "getHomePageOnboardingViewControllerWithContext:onboardingDelegate:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTwoFactorEnrollmentOptionalViewController",
+            "printedName": "getTwoFactorEnrollmentOptionalViewController(linkAction:positiveAction:negativeAction:debugText:debugLinkAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getTwoFactorEnrollmentOptionalViewControllerWithLinkAction:positiveAction:negativeAction:debugText:debugLinkAction:",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC44getTwoFactorEnrollmentOptionalViewController10linkAction08positiveM008negativeM09debugText0p4LinkM0So06UIViewK0Cyyc_yycyycSSSgyycSgtF",
+            "moduleName": "Onboarding",
+            "objc_name": "getTwoFactorEnrollmentOptionalViewControllerWithLinkAction:positiveAction:negativeAction:debugText:debugLinkAction:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTwoFactorEnrollmentRequiredViewController",
+            "printedName": "getTwoFactorEnrollmentRequiredViewController(linkAction:positiveAction:negativeAction:debugText:debugLinkAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getTwoFactorEnrollmentRequiredViewControllerWithLinkAction:positiveAction:negativeAction:debugText:debugLinkAction:",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC44getTwoFactorEnrollmentRequiredViewController10linkAction08positiveM008negativeM09debugText0p4LinkM0So06UIViewK0Cyyc_yycyycSSSgyycSgtF",
+            "moduleName": "Onboarding",
+            "objc_name": "getTwoFactorEnrollmentRequiredViewControllerWithLinkAction:positiveAction:negativeAction:debugText:debugLinkAction:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOrgTermsConditionsViewController",
+            "printedName": "getOrgTermsConditionsViewController(_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPhonebookEntryProtocol",
+                "printedName": "any PECore.PEPhonebookEntryProtocol",
+                "usr": "c:@M@PECore@objc(pl)PEPhonebookEntryProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEPatientProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEPatientProtocol",
+                    "printedName": "any PECore.PEPatientProtocol",
+                    "usr": "c:@M@PECore@objc(pl)PEPatientProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any PECore.PEPatientProtocol]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any PECore.PEPatientProtocol]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PEPatientProtocol",
+                        "printedName": "any PECore.PEPatientProtocol",
+                        "usr": "c:@M@PECore@objc(pl)PEPatientProtocol"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getOrgTermsConditionsViewController::::",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC35getOrgTermsConditionsViewControllerySo06UIViewJ0CSg6PECore24PEPhonebookEntryProtocol_p_AH09PEPatientO0_pSgSayAhJ_pGSgySbctF",
+            "moduleName": "Onboarding",
+            "objc_name": "getOrgTermsConditionsViewController::::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSecondaryLoginSetupViewController",
+            "printedName": "getSecondaryLoginSetupViewController(onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.Bool)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getSecondaryLoginSetupViewControllerOnCompletion:",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC36getSecondaryLoginSetupViewController12onCompletionSo06UIViewJ0CSgySb_Sbtc_tF",
+            "moduleName": "Onboarding",
+            "objc_name": "getSecondaryLoginSetupViewControllerOnCompletion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPushNotificationSetupViewController",
+            "printedName": "getPushNotificationSetupViewController(onCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getPushNotificationSetupViewControllerOnCompletion:",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC38getPushNotificationSetupViewController12onCompletionSo06UIViewJ0CSgyyc_tF",
+            "moduleName": "Onboarding",
+            "objc_name": "getPushNotificationSetupViewControllerOnCompletion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addStepToMidLoginOnboardingWorkflow",
+            "printedName": "addStepToMidLoginOnboardingWorkflow(step:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MidLoginOnboardingStep",
+                "printedName": "PECore.MidLoginOnboardingStep",
+                "usr": "c:@M@PECore@E@MidLoginOnboardingStep"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)addStepToMidLoginOnboardingWorkflowWithStep:",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC017addStepToMidLoginA8Workflow4stepy6PECore0hiaF0O_tF",
+            "moduleName": "Onboarding",
+            "objc_name": "addStepToMidLoginOnboardingWorkflowWithStep:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearStepsInMidLoginOnboardingWorkflow",
+            "printedName": "clearStepsInMidLoginOnboardingWorkflow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)clearStepsInMidLoginOnboardingWorkflow",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC020clearStepsInMidLoginA8WorkflowyyF",
+            "moduleName": "Onboarding",
+            "objc_name": "clearStepsInMidLoginOnboardingWorkflow",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMidLoginOnboardingWorkflow",
+            "printedName": "getMidLoginOnboardingWorkflow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)getMidLoginOnboardingWorkflow",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC011getMidLoginA8WorkflowSaySiGyF",
+            "moduleName": "Onboarding",
+            "objc_name": "getMidLoginOnboardingWorkflow",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEOnboardingComponentAPI",
+                "printedName": "Onboarding.PEOnboardingComponentAPI",
+                "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI(im)init",
+            "mangledName": "$s10Onboarding24PEOnboardingComponentAPICACycfc",
+            "moduleName": "Onboarding",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Onboarding@objc(cs)PEOnboardingComponentAPI",
+        "mangledName": "$s10Onboarding24PEOnboardingComponentAPIC",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEOnboardingComponentAPIProtocol",
+            "printedName": "PEOnboardingComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEOnboardingComponentAPIProtocol",
+            "mangledName": "$s6PECore32PEOnboardingComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Onboarding"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onboarding",
+            "printedName": "onboarding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC10OnboardingE10onboardingABvpZ",
+            "mangledName": "$sSo8NSBundleC10OnboardingE10onboardingABvpZ",
+            "moduleName": "Onboarding",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC10OnboardingE10onboardingABvgZ",
+                "mangledName": "$sSo8NSBundleC10OnboardingE10onboardingABvgZ",
+                "moduleName": "Onboarding",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9105,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9129,
+      "length": 9,
+      "value": "\"MyChart\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9161,
+      "length": 16,
+      "value": "\"globe_with_pin\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9200,
+      "length": 21,
+      "value": "\"Welcome to MyChart!\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9244,
+      "length": 111,
+      "value": "\"This is a good reason why you should use MyChart. Really!! Try it out by tapping on one of the buttons below.\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9385,
+      "length": 9,
+      "value": "\"Turn on\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9424,
+      "length": 9,
+      "value": "\"Not now\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9534,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "Array",
+      "offset": 9610,
+      "length": 7,
+      "value": "[0, 1, 2]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9715,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9739,
+      "length": 9,
+      "value": "\"MyChart\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9771,
+      "length": 16,
+      "value": "\"globe_with_pin\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9810,
+      "length": 22,
+      "value": "\"Home Page Onboarding\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9855,
+      "length": 80,
+      "value": "\"Here's a long explanation about a feature of the Home Page that's cool to use.\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 9965,
+      "length": 6,
+      "value": "\"Next\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "StringLiteral",
+      "offset": 10001,
+      "length": 6,
+      "value": "\"Back\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10108,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWorkflowStepView.swift",
+      "kind": "Array",
+      "offset": 10185,
+      "length": 7,
+      "value": "[0, 1, 2]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 686,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1140,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1337,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1394,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 1555,
+      "length": 17,
+      "value": "\"com.epic.PECore\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 1745,
+      "length": 25,
+      "value": "\"wp_onboarding_eula_name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 1823,
+      "length": 28,
+      "value": "\"wp_onboarding_privacy_name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 21,
+      "value": "\"com.epic.Onboarding\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 10095,
+      "length": 27,
+      "value": "\"com.epic.MyChartFramework\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 10170,
+      "length": 21,
+      "value": "\"com.epic.Onboarding\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10227,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 12967,
+      "length": 27,
+      "value": "\"com.epic.MyChartFramework\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingWelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 13042,
+      "length": 21,
+      "value": "\"com.epic.Onboarding\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 788,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 898,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 994,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1083,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1163,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12107,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 14415,
+      "length": 34,
+      "value": "\"wp_onboarding_secondary_passcode\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 14501,
+      "length": 17,
+      "value": "\"phone_with_lock\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 14702,
+      "length": 40,
+      "value": "\"wp_onboarding_secondary_passcode_title\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 14795,
+      "length": 42,
+      "value": "\"wp_onboarding_secondary_passcode_content\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "Array",
+      "offset": 14838,
+      "length": 9,
+      "value": "[\"MyChart\"]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 14907,
+      "length": 50,
+      "value": "\"wp_onboarding_secondary_passcode_positive_button\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "StringLiteral",
+      "offset": 15017,
+      "length": 27,
+      "value": "\"wp_onboarding_skip_button\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15146,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/SecondaryLoginSetupView.swift",
+      "kind": "Array",
+      "offset": 15222,
+      "length": 9,
+      "value": "[0, 1, 2, 3]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 22,
+      "value": "\"HPOnboardingComplete\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 903,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 943,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5924,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "Array",
+      "offset": 8173,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Controllers\/HomePageOnboardingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11070,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/PushNotificationSetupView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 591,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingEulaContentsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2424,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Models\/OnboardingDetails.swift",
+      "kind": "Array",
+      "offset": 753,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Models\/OnboardingDetails.swift",
+      "kind": "BooleanLiteral",
+      "offset": 840,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Models\/OnboardingDetails.swift",
+      "kind": "BooleanLiteral",
+      "offset": 942,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Models\/OnboardingDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Models\/OnboardingDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Models\/OnboardingDetails.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2069,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Models\/OnboardingDetails.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/PEOnboardingComponentAPI.swift",
+      "kind": "Array",
+      "offset": 365,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OnboardingLinkButtonView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 611,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/PreLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 670,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/PreLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 710,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/PreLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/PreLoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8611,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "Array",
+      "offset": 629,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 914,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13113,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14234,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14289,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16150,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Onboarding\/Onboarding\/Classes\/Views\/OrgTermsConditionsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21018,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 30,
+      "value": "\"computer_and_phone_with_lock\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 930,
+      "length": 16,
+      "value": "\"face_scan_on_b\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 18,
+      "value": "\"fingerprint_on_b\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1240,
+      "length": 16,
+      "value": "\"globe_with_pin\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
+      "length": 31,
+      "value": "\"onboarding_welcome_background\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1591,
+      "length": 17,
+      "value": "\"pause_in_circle\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1746,
+      "length": 17,
+      "value": "\"phone_with_bell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 17,
+      "value": "\"phone_with_lock\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2054,
+      "length": 16,
+      "value": "\"play_in_circle\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2216,
+      "length": 21,
+      "value": "\"welcome_screen_logo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2388,
+      "length": 24,
+      "value": "\"welcome_screen_logo_ar\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2563,
+      "length": 24,
+      "value": "\"welcome_screen_logo_da\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2738,
+      "length": 24,
+      "value": "\"welcome_screen_logo_de\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2913,
+      "length": 24,
+      "value": "\"welcome_screen_logo_es\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3088,
+      "length": 24,
+      "value": "\"welcome_screen_logo_fi\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3263,
+      "length": 24,
+      "value": "\"welcome_screen_logo_fr\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3438,
+      "length": 24,
+      "value": "\"welcome_screen_logo_nb\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3613,
+      "length": 24,
+      "value": "\"welcome_screen_logo_nl\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3788,
+      "length": 24,
+      "value": "\"welcome_screen_logo_pt\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3963,
+      "length": 24,
+      "value": "\"welcome_screen_logo_sv\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/Onboarding.build\/Release-iphoneos\/Onboarding.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4147,
+      "length": 29,
+      "value": "\"welcome_screen_logo_zh_Hans\""
+    }
+  ]
+}

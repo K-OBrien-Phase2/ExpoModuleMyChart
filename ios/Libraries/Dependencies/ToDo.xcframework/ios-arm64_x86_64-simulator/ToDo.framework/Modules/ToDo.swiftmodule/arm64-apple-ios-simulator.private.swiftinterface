@@ -1,0 +1,139 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ToDo
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import DeveloperToolsSupport
+import Foundation
+import PECore
+import Swift
+import SwiftUI
+@_exported import ToDo
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum TaskContentType : Swift.Int {
+  case overall
+  case generic
+  case medication
+  case flowsheet
+  case education
+  case questionnaire
+  case appointment
+  case link
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class PEToDoComponentAPI : ObjectiveC.NSObject, PECore.PEToDoComponentAPIProtocol {
+  public static let bundle: Foundation.Bundle
+  @objc public func hasAccessForToDo(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func getToDoViewController(_ patientContext: PECore.PEPatientContext, ltkID: Swift.String = "", ltkInst: Swift.String = "", showSuggestedTasks: Swift.Bool = false) -> UIKit.UIViewController?
+  @objc public func getToDoOverdueViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getToDoManageRemindersViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getToDoProgressViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func hasAccessForToDoChanges(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForToDoChangeDetails(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForToDoLinkTask(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForToDoManageReminders(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func hasAccessForToDoProgress(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func getToDoChangesViewController(_ patientContext: PECore.PEPatientContext) -> UIKit.UIViewController?
+  @objc public func getToDoChangeDetailsWebViewController(_ patientContext: PECore.PEPatientContext, changeId: Swift.String, changeDAT: Swift.String, isEncrypted: Swift.Bool = false) -> UIKit.UIViewController?
+  @objc public func markChangeAsViewed(_ patientContext: PECore.PEPatientContext, changeId: Swift.String, changeDAT: Swift.String, isEncrypted: Swift.Bool = false)
+  @objc public func getLinkTaskDetailWebViewController(_ patientContext: PECore.PEPatientContext, ltkId: Swift.String, ltkInstant: Swift.String, delegate taskCompletionDelegate: (any PECore.PELinkTaskCompletionDelegate)?) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ThemeUtil {
+  public class func getTheme() -> ToDo.ThemeUtil
+  public class func updateTheme()
+  public class func setOrganizationInfo(_ org: (any PECore.PEOrganizationProtocol)!)
+  public func boldColor() -> UIKit.UIColor
+  public func softColor() -> UIKit.UIColor
+  public func backgroundColor() -> UIKit.UIColor
+  public func headerBaseAnimation() -> Swift.String
+  public func headerFeatureAnimation() -> Swift.String
+  public func footerImage() -> UIKit.UIImage?
+  public func footerFeatureAnimation() -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class EVisit : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var hasUnreadResponse: Swift.Bool
+  @objc public var hasResponsibleProvider: Swift.Bool
+  @objc public var hasAnyResponse: Swift.Bool
+  @objc public var reasonForVisit: Swift.String
+  @objc public var reasonForVisitId: Swift.String
+  @objc public var hasDeletedResponse: Swift.Bool
+  @objc public var isProviderInitiated: Swift.Bool
+  @objc public func GetEVisitStatus(isECheckInComplete: Swift.Bool) -> ToDo.EVisitStatus
+  @objc(setXMLValue:forKey:) public func setXMLValue(value: Any, forKey: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc public enum EVisitStatus : Swift.Int, Swift.Codable {
+  case NEW_MESSAGE = 0
+  case UNDER_REVIEW = 1
+  case NOT_YET_SUBMITTED = 2
+  case SUBMITTED = 3
+  case READ_MESSAGE = 4
+  case DELETED_RESPONSE = 5
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol PEToDoPatientProtocol {
+  @objc func getIsCareCompanionEnrolled() -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers public class ToDoUtil : ObjectiveC.NSObject {
+  public static func getImage(named name: Swift.String) -> UIKit.UIImage?
+  public static func getDisplayNameForTimeZone(_ timezone: Foundation.TimeZone) -> Swift.String
+  public static func getWatermarkImage(contentType: ToDo.TaskContentType) -> UIKit.UIImage?
+  public static func hasSecurityToEditOwnReminderSettings(_ patientContext: PECore.PEPatientContext) -> Swift.Bool
+  public static func parseUtcDateToString(_ date: Foundation.Date) -> Swift.String
+  public static func parseStringToUtcDate(_ dateString: Swift.String) -> Foundation.Date
+  public static func stripTime(fromDate: Foundation.Date, fromCalendar: Foundation.Calendar?) -> Foundation.Date
+  public static func getFlowsheetDeepLinkingURLPrefix() -> Swift.String
+  public static func hasAccessToPersistentQuestionnaires(_ patientContext: PECore.PEPatientContext) -> Swift.Bool
+  public static func hasSecurityToViewPatientCreatedTasks(_ patientContext: PECore.PEPatientContext) -> Swift.Bool
+  public static func hasSecurityToActOnPatientCreatedTasks(_ patientContext: PECore.PEPatientContext) -> Swift.Bool
+  public static func hasSecurityToManagePatientCreatedTasks(_ patientContext: PECore.PEPatientContext) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.Dictionary where Value == [Swift.String] {
+  public mutating func addToArrayValue(_ arrayElement: Swift.String, forArrayKey key: Swift.Dictionary<Key, Value>.Key)
+}
+extension Swift.KeyedDecodingContainer {
+  public func decodeIntoArray<ArrayItem>(forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [ArrayItem] where ArrayItem : Swift.Decodable
+}
+extension UIKit.UISwitch {
+  @_Concurrency.MainActor @preconcurrency public func toggleSwitchValue()
+}
+extension ObjectiveC.NSObject {
+  public func addAccessibilityTrait(_ trait: UIKit.UIAccessibilityTraits)
+  public func removeAccessibilityTrait(_ trait: UIKit.UIAccessibilityTraits)
+}
+extension CoreFoundation.CGFloat {
+  public static func areFloatsDifferent(_ value1: CoreFoundation.CGFloat, _ value2: CoreFoundation.CGFloat, tolerance: CoreFoundation.CGFloat) -> Swift.Bool
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func calculateNewHeight() -> CoreFoundation.CGFloat?
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor @preconcurrency public func resizeHeaderView()
+}
+extension PECore.PEPatientContext {
+  public func getProxyPatientName() -> Swift.String?
+}
+extension ToDo.TaskContentType : Swift.Equatable {}
+extension ToDo.TaskContentType : Swift.Hashable {}
+extension ToDo.TaskContentType : Swift.RawRepresentable {}
+extension ToDo.EVisitStatus : Swift.Equatable {}
+extension ToDo.EVisitStatus : Swift.Hashable {}
+extension ToDo.EVisitStatus : Swift.RawRepresentable {}

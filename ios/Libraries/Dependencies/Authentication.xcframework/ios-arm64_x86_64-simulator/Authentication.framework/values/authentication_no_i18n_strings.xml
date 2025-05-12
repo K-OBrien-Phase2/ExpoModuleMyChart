@@ -1,0 +1,10 @@
+<!--
+ ~ Copyright © 2021-2023 Epic Systems Corporation
+ -->
+<resources>
+    <!-- Support Features -->
+    <string name="wp_login_email_help_subject" context="Subject for emails from the email support button. %1$@ is the MyChart branded name." translatable="false">%1$@ Technical Support</string>
+    <string name="wp_login_email_help_favorite_orgs_label" context="Label for a list of favorite organizations, used in emails to Epic support. %1$@ is the list of favorite organizations" translatable="false">Favorite Organizations: %1$@</string>
+    <string name="wp_login_email_help_no_favorite_orgs" context="Text used when the user has no favorite organizations" translatable="false">No Favorite Organizations</string>
+    <string name="wp_login_server_error_email_subject" context="Title of connection error support emails." translatable="false">Connection Error</string>
+</resources>

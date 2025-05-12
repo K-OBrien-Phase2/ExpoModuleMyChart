@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_mydocuments_activity_title" context="Title for the My Documents activity">Mes documents</string>
+  <string name="wp_mydocuments_tutorial_overview" context="Tutorial text introducing the my documents activity to the patient. %%MYDOCUMENTS is replaced with the name of the activity.">%%MYDOCUMENTS vous permet de signer de nouveaux formulaires et de voir ceux que vous avez déjà signés.</string>
+  <string name="wp_mydocuments_tutorial_overview_2" context="Tutorial text explaining to the patient the section of forms that have to be signed by the patient.">Les formulaires en haut de la page sont prêts à être remplis. Une fois que vous aurez envoyé un formulaire, votre équipe soignante l\'examinera avant de l\'enregistrer dans votre dossier.</string>
+  <string name="wp_mydocuments_tutorial_overview_2_proxy" context="Tutorial text explaining to the proxy the section of forms that have to be signed by the patient.">Les formulaires en haut de la page sont prêts à être remplis. Une fois le formulaire envoyé, l\'équipe soignante de %%PATNAME l\'examinera avant de l\'enregistrer dans le dossier de %%PATNAME.</string>
+  <string name="wp_mydocuments_tutorial_overview_3" context="Tutorial text explaining the section of completed forms that are available to be viewed by the patient.">Vous trouverez ci-dessous les formulaires que vous avez déjà remplis. Appuyer sur un formulaire pour le consulter.</string>
+</resources>

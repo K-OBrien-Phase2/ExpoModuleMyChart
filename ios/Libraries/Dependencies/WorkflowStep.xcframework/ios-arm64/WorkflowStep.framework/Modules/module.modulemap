@@ -1,0 +1,11 @@
+framework module WorkflowStep {
+  umbrella header "WorkflowStep.h"
+  export *
+
+  module * { export * }
+}
+
+module WorkflowStep.Swift {
+  header "WorkflowStep-Swift.h"
+  requires objc
+}

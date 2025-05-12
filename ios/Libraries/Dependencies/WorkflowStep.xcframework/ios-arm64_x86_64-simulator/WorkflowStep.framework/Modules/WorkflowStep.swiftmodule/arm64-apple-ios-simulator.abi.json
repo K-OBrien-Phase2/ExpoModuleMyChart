@@ -1,0 +1,1143 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "WorkflowStep",
+    "printedName": "WorkflowStep",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEWorkflowStepComponentAPI",
+        "printedName": "PEWorkflowStepComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForWorkflowStep",
+            "printedName": "hasAccessForWorkflowStep(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WorkflowStep@objc(cs)PEWorkflowStepComponentAPI(im)hasAccessForWorkflowStep:",
+            "mangledName": "$s12WorkflowStep010PEWorkflowB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE18PEEncounterContextCF",
+            "moduleName": "WorkflowStep",
+            "objc_name": "hasAccessForWorkflowStep:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWorkflowStepWidget",
+            "printedName": "getWorkflowStepWidget(_:componentHost:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentHostProtocol",
+                "printedName": "any PECore.PEComponentHostProtocol",
+                "usr": "c:@M@PECore@objc(pl)PEComponentHostProtocol"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WorkflowStep@objc(cs)PEWorkflowStepComponentAPI(im)getWorkflowStepWidget:componentHost:",
+            "mangledName": "$s12WorkflowStep010PEWorkflowB12ComponentAPIC03getaB6Widget_13componentHostSo16UIViewControllerCSg6PECore18PEEncounterContextC_AI011PEComponentI8Protocol_ptF",
+            "moduleName": "WorkflowStep",
+            "objc_name": "getWorkflowStepWidget:componentHost:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEWorkflowStepComponentAPI",
+                "printedName": "WorkflowStep.PEWorkflowStepComponentAPI",
+                "usr": "c:@M@WorkflowStep@objc(cs)PEWorkflowStepComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WorkflowStep@objc(cs)PEWorkflowStepComponentAPI(im)init",
+            "mangledName": "$s12WorkflowStep010PEWorkflowB12ComponentAPICACycfc",
+            "moduleName": "WorkflowStep",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WorkflowStep@objc(cs)PEWorkflowStepComponentAPI",
+        "mangledName": "$s12WorkflowStep010PEWorkflowB12ComponentAPIC",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEWorkflowStepComponentAPIProtocol",
+            "printedName": "PEWorkflowStepComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEWorkflowStepComponentAPIProtocol",
+            "mangledName": "$s6PECore34PEWorkflowStepComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WaitTimeLearnMoreViewController",
+        "printedName": "WaitTimeLearnMoreViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadView",
+            "printedName": "loadView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WorkflowStep@objc(cs)WaitTimeLearnMoreViewController(im)loadView",
+            "mangledName": "$s12WorkflowStep31WaitTimeLearnMoreViewControllerC04loadG0yyF",
+            "moduleName": "WorkflowStep",
+            "overriding": true,
+            "objc_name": "loadView",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WaitTimeLearnMoreViewController",
+                "printedName": "WorkflowStep.WaitTimeLearnMoreViewController",
+                "usr": "c:@M@WorkflowStep@objc(cs)WaitTimeLearnMoreViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WorkflowStep@objc(cs)WaitTimeLearnMoreViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s12WorkflowStep31WaitTimeLearnMoreViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "WorkflowStep",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WorkflowStep@objc(cs)WaitTimeLearnMoreViewController",
+        "mangledName": "$s12WorkflowStep31WaitTimeLearnMoreViewControllerC",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WaitTimeLearnMoreView",
+        "printedName": "WaitTimeLearnMoreView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WaitTimeLearnMoreView",
+                "printedName": "WorkflowStep.WaitTimeLearnMoreView",
+                "usr": "c:@M@WorkflowStep@objc(cs)WaitTimeLearnMoreView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WorkflowStep@objc(cs)WaitTimeLearnMoreView(im)initWithFrame:",
+            "mangledName": "$s12WorkflowStep21WaitTimeLearnMoreViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "WorkflowStep",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WorkflowStep@objc(cs)WaitTimeLearnMoreView",
+        "mangledName": "$s12WorkflowStep21WaitTimeLearnMoreViewC",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WorkflowStep",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Views\/EDSelfRegWidgetView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 270,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Views\/EDSelfRegWidgetView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 313,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentWorkflowStepDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 13,
+      "value": "\"CurrentStep\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentWorkflowStepDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1028,
+      "length": 18,
+      "value": "\"SelfRegistration\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentWorkflowStepDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1082,
+      "length": 21,
+      "value": "\"WorkflowStepWidgets\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentWorkflowStepDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 14,
+      "value": "\"WaitTimeData\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/WorkflowStepWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 528,
+      "length": 28,
+      "value": "\"CurrentWorkflowStepDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 19,
+      "value": "\"StepCategoryValue\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 938,
+      "length": 11,
+      "value": "\"TitleText\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 13,
+      "value": "\"DetailsText\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1074,
+      "length": 4,
+      "value": "\"10\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 4,
+      "value": "\"20\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 4,
+      "value": "\"25\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 4,
+      "value": "\"30\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1214,
+      "length": 4,
+      "value": "\"40\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 4,
+      "value": "\"50\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 4,
+      "value": "\"60\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1327,
+      "length": 4,
+      "value": "\"70\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 4,
+      "value": "\"80\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1406,
+      "length": 4,
+      "value": "\"85\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1440,
+      "length": 4,
+      "value": "\"90\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 4,
+      "value": "\"95\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/CurrentStep.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 5,
+      "value": "\"100\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WaitTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1667,
+      "length": 15,
+      "value": "\"WaitTimeRange\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WaitTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1716,
+      "length": 19,
+      "value": "\"WaitTimeLabelText\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WaitTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1764,
+      "length": 14,
+      "value": "\"DelayMessage\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WaitTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1811,
+      "length": 18,
+      "value": "\"DelayMessageSeen\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WaitTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1860,
+      "length": 16,
+      "value": "\"LastUpdateTime\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WaitTimeData.swift",
+      "kind": "StringLiteral",
+      "offset": 1908,
+      "length": 26,
+      "value": "\"StepLearnMoreExplanation\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Views\/WaitTimeSectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Views\/WorkflowStepWidgetView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Views\/WorkflowStepWidgetView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WorkflowStepWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 18,
+      "value": "\"WidgetDescriptor\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WorkflowStepWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 979,
+      "length": 13,
+      "value": "\"NewDataText\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WorkflowStepWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 1020,
+      "length": 13,
+      "value": "\"DetailsText\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WorkflowStepWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 1121,
+      "length": 21,
+      "value": "\"TEST_RESULTS_WIDGET\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/WorkflowStepWidget.swift",
+      "kind": "StringLiteral",
+      "offset": 1176,
+      "length": 20,
+      "value": "\"MEDICATIONS_WIDGET\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/ViewControllers\/WorkflowStepViewController.swift",
+      "kind": "Dictionary",
+      "offset": 1882,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/ViewControllers\/WorkflowStepViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/ViewControllers\/WorkflowStepViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2033,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/ViewControllers\/WorkflowStepViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2075,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/ViewControllers\/WorkflowStepViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2123,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/ViewControllers\/WorkflowStepViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/ViewControllers\/WorkflowStepViewController.swift",
+      "kind": "Array",
+      "offset": 2223,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/EDSelfReg.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 12,
+      "value": "\"InProgress\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/EDSelfReg.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/WorkflowStep\/WorkflowStep\/Classes\/Models\/EDSelfReg.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 5,
+      "value": "\"URL\""
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview" context="Tutorial text introducing the patient to the updates activity. %%FRIENDSANDFAMILYUPDATES is replaced with the name of the activity.">%%FRIENDSANDFAMILYUPDATES可帮助您与您的家人和朋友保持联系。您可以给他们发送关于您的就诊的更新信息，让他们随时了解情况，他们也可以在您就诊期间给您发送电子贺卡以表示祝福。</string>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the updates activity %%FRIENDSANDFAMILYUPDATES is replaced with the name of the activity.">%%FRIENDSANDFAMILYUPDATES可帮助您与%%PATNAME在其就诊时保持联系。%%PATNAME可以发送关于其就诊的更新信息，让您随时了解情况，您也可以在其就诊期间发送电子贺卡以表示祝福。</string>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview_2" context="Tutorial text explaining to the patient who can see the updates in this activity">您的护理团队不会看到这些更新和电子贺卡。只有您邀请的有访问权限的人才能查看。</string>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview_proxy_2" context="Tutorial text explaining to the patient proxy who can see the updates in this activity">%%PATNAME的护理团队不会看到这些更新和电子贺卡。只有%%PATNAME邀请的有访问权限的人才能查看。</string>
+</resources>

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "handoff_targettoast@2xLTR.png",
+      "idiom" : "watch",
+      "language-direction" : "left-to-right"
+    },
+    {
+      "filename" : "handoff_targettoast@2xRTL.png",
+      "idiom" : "watch",
+      "language-direction" : "right-to-left"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}

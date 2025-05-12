@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020-2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_messages_component_title" constraints="2 lines, 17 characters per line" context="Default title for the Messages activity">消息中心</string>
+  <string name="wp_messages_tutorial_overview" context="Tutorial text introducing the patient to the messages activity.">如果您想提问或与您的护理团队分享一些信息，请从这里向他们发送消息。对于任何紧急情况，请务必使用护士呼叫按钮！</string>
+  <string name="wp_messages_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the messages activity. %%PATNAME is replaced with the name of the patient">如果您想提问或与%%PATNAME的护理团队分享一些信息，请从这里向他们发送消息。对于任何紧急情况，请务必使用护士呼叫按钮！</string>
+  <string name="wp_messages_tutorial_overview_2" context="Tutorial text explaining further details about messages to the patient.">您的护理团队的任何一个人都可能回复您的消息。如果您的问题或评论是给某位特定人员，请在消息中指明。</string>
+  <string name="wp_messages_tutorial_overview_2_proxy" context="Tutorial text explaining further details about messages to the patient proxy. %%PATNAME is replaced with the name of the patient">%%PATNAME的护理团队的任何一个人都可能回复您的消息。如果您的问题或评论是给某位特定人员，请在消息中指明。</string>
+</resources>

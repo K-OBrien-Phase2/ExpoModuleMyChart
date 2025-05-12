@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2017-2024 Epic Systems Corporation
+  -->
+<!--@formatter:off-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <!-- Generic Strings -->
+  <string name="wp_generic_servererror" context="Alert appears when a server error makes completing a required webservice call impossible.">Det oppstod en feil på serveren. Prøv igjen senere.</string>
+  <string name="wp_generic_ok" context="Button used widely and generally. Closes a dialog when no action is possible" length="30 characters">OK</string>
+  <string name="wp_generic_cancel" context="Button closes a dialog without taking any action. Can be found by attempting to cancel an appointment without canceling security if the department has a phone number">Avbryt</string>
+  <string name="wp_generic_dismiss" context="Button closes a dialog or workflow without taking any action.">Avvis</string>
+  <string name="wp_core_generic_continue" context="Button closes a dialog and continues with the activity">Fortsett</string>
+  <string name="wp_loadingdialog_general" context="Appears in a variety of places on the app when information is being loaded" length="32 characters">Laster inn</string>
+  <string name="wp_generic_error" context="Error dialog title" length="30 characters">Feil</string>
+  <string name="wp_generic_missingapplicationbrowser" context="used when MyChart wants to open a link to the browser but can't find a browser installed on the user's device">Vi prøvde å åpne denne koblingen, men fant ingen applikasjon som kunne åpne den.</string>
+  <string name="wp_generic_show_more" context="String used to indicate there is more content or text to be displayed">Vis mer</string>
+  <string name="wp_generic_go_to_settings" context="Button used to jump to settings to enable permissions or to change settings">Gå til Innstillinger</string>
+  <string name="wp_generic_save" context="Button used to save something">Lagre</string>
+  <string name="wp_generic_networkerror" context="Alert message when the app detects a lack of network connection while trying to complete a task">Kontroller at du har en nettverkstilkobling, og prøv på nytt.</string>
+  <string name="wp_generic_networkerrortitle" context="Alert title appears when the app detects a lack of network connection while trying to complete a task" length="20 characters">Tilkoblingsfeil</string>
+  <string name="wp_generic_more_info" context="More information" length="20 characters">Mer info</string>
+  <string name="wp_generic_more_info_ax_hint" context="The accessibility hint for an info button to tell AX users how to interact with the image">Dobbelttrykk for mer informasjon.</string>
+  <string name="wp_core_generic_no" context="Button used widely and generally. Cancel a dialog and stop a workflow" length="15 characters">Nei</string>
+  <string name="wp_core_generic_yes" context="Button used widely and generally. Accepts a workflow and closes the dialog" length="15 characters">Ja</string>
+  <string name="wp_core_generic_warning" context="Generic warning string to be used in popups and warning banners. Used in less severe warning cases where the warning is informative and cautionary rather than something more severe.">Advarsel</string>
+  <string name="wp_generic_h2g_info_for" context="Alert title appears when we are showing the patient which organization the info is for.">Informasjon fra:</string>
+  <!-- CoreBarMenu Strings -->
+  <string name="wp_core_bar_menu_app_preferences" context="Dropdown menu item title for menu item that takes the user to the app preferences screen">Preferanser for app</string>
+  <string name="wp_core_bar_menu_switch_organizations" context="Dropdown menu item title for menu item that logs the user out and takes them to organization selection screen">Bytt organisasjoner</string>
+  <string name="wp_core_bar_menu_log_out" context="Dropdown menu item title for menu item that logs the user out and takes them to the login screen">Logg ut</string>
+  <!-- Web View Strings -->
+  <string name="wp_webview_not_supported" context="Alert appears when the user tries to launch a web view activity that is not supported on mobile">Gå til nettstedet for å vise denne aktiviteten.</string>
+  <!-- Web View Printing Strings -->
+  <string name="wp_webview_print_job_name" context="The file/job name for pages printed inside a MyChart webview. %1$@ is the MyChart brand name. %2$@ is the activity name. Ex: 'MyChart - Medications'">%1$@ – %2$@</string>
+  <string name="wp_webview_print_error" context="Error message shown when printing fails">Det oppstod et utskriftsproblem. Prøv igjen senere.</string>
+  <string name="wp_menu_print_option" context="Label for Print option in menu">Skriv ut</string>
+  <string name="wp_print_onboarding_title" context="Title text for the onboarding page that teaches the user where to find the print option.">Introduksjon til utskrift</string>
+  <string name="wp_print_onboarding_description" context="Description text for the onboarding page that teaches the user where to find the print option. $1$s is the name of the 'Print' option in the menu">Utskrift er nå tilgjengelig for bestemte sider i appen. For å komme i gang kan du se etter %1$@-alternativet i menyen (tre prikker) øverst på skjermen.</string>
+  <string name="wp_print_onboarding_confirm_text" context="Confirm button text for the onboarding page that teaches the user where to find the print option.">Skjønner</string>
+  <!-- Header Menu -->
+  <string name="wp_header_menu_accessibility_label" context="Accessibility text read out to describe the options menu located in the application header when focused on">Flere alternativer</string>
+  <string name="wp_header_menu_accessibility_hint" context="Accessibility hint read out to describe the options menu located in the application header. Read out at the end of the accessibility readout to describe what action occurs when pressing the element.">Trykk for flere alternativer</string>
+  <string name="wp_header_menu_error_toast" context="Error toast shown in the unexpected situation where the user has selected the menu, but there are no actions available">Ingen menyalternativer tilgjengelig</string>
+  <string name="wp_header_accessibility_mychart_epic_logo" context="Accessibility label for Epic MyChart logo that shows up in the home page header, which opens fun facts about Epic and spins when tapped">MyChart fra Epic, artige fakta om Epic, spinneffekt</string>
+  <string name="wp_header_accessibility_mychart_epic_logo_close" context="Accessibility label for Epic MyChart logo that shows up in the home page header, which hides the fun facts about Epic and spins when tapped">MyChart fra Epic, lukker artige fakta om Epic, spinneffekt</string>
+  <string name="wp_header_accessibility_mychart_epic_logo_spin" context="Accessibility label for Epic MyChart logo that shows up in the home page header, which spins when tapped">MyChart fra Epic, spinneffekt</string>
+  <!-- Date Strings -->
+  <string name="wp_today" context="Appears in a variety of places to indicate today">I dag</string>
+  <string name="wp_tomorrow" context="Appears in a variety of places to indicate today">I morgen</string>
+  <!-- H2G Refresh Strings -->
+  <string name="wp_community_organization_last_refresh_date" context="The previous/last date the user updated the organization's community link. %1$@ is the date of the last update.">Oppdatert %1$@</string>
+  <string name="wp_community_organization_out_of_date_missing" context="Text displayed when a DXR organization is missing its access/refresh date.">Oppdateringsinformasjon ikke tilgjengelig</string>
+  <string name="wp_community_organization_up_to_date" context="For organizations with live links (External MyChart/Fhir), we show the refresh date as 'Up-to-date'">Oppdatert</string>
+  <string name="wp_community_organization_dxr_warning" context="Text warning users that some of their data may not be loaded. Tells user to visit their DXR organization's patient portal for the complete information. %1$@ is the name of the external organization">Vi kan kanskje ikke vise alle detaljer. Ring til %1$@ eller gå til deres pasientportal for å få mer informasjon.</string>
+  <string name="wp_community_update_banner_standard_title" context="Appears in the Happy Together refresh banner when the user has an organization that requires manual updates. %1$@ is the organization name.">%1$@ krever manuelle oppdateringer</string>
+  <string name="wp_community_update_banner_standard_title_plural" context="Appears in the Happy Together refresh banner when the user has organizations that require manual updates. %1$@ is the number of organizations.">%1$@ organisasjoner krever manuelle oppdateringer</string>
+  <string name="wp_community_update_banner_standard_title_no_org_names" context="Appears in the Happy Together refresh banner when the user has organizations that require manual updates.">Noen organisasjoner krever manuelle oppdateringer</string>
+  <string name="wp_community_update_banner_standard_body" context="Happy Together refresh banner explanation text to prompt the user to update.">For å få oppdatert informasjon bruker du Oppdater-knappen.</string>
+  <string name="wp_community_update_banner_error_title" context="Appears in the Happy Together refresh banner when the user has an organization that had an error while updating. %1$@ is the organization name.">Det oppstod en feil ved oppdatering av %1$@</string>
+  <string name="wp_community_update_banner_error_title_plural" context="Appears in the Happy Together refresh banner when the user has organizations that had errors while updating. %1$@ is the number of organizations.">Det oppstod feil under oppdatering av %1$@ organisasjoner</string>
+  <string name="wp_community_update_banner_error_body" context="Happy Together refresh banner explanation text to prompt the user to update after an error has occurred.">Bruk Oppdater-knappen for å prøve igjen.</string>
+  <string name="wp_community_update_banner_error_body_other_orgs" context="Happy Together refresh banner explanation text when the user has an organization that requires manual update while others have encountered an error while updating. %1$@ is the name of the organization that requires manual update.">En annen organisasjon, %1$@, krever manuelle oppdateringer. Bruk Oppdater-knappen for å prøve igjen.</string>
+  <string name="wp_community_update_banner_error_body_other_orgs_plural" context="Happy Together refresh banner explanation text when the user has organizations that requires manual update while others have encountered an error while updating. %1$@ is number of organizations that require manual update.">%1$@ organisasjoner til krever manuelle oppdateringer. Bruk Oppdater-knappen for å prøve igjen.</string>
+  <string name="wp_community_update_banner_loading_title" context="Appears in the Happy Together refresh banner when the user has an organization that is loading. %1$@ is the organization name.">Laster inn informasjonen din fra %1$@</string>
+  <string name="wp_community_update_banner_loading_title_plural" context="Appears in the Happy Together refresh banner when the user has organizations that are loading. %1$@ is the number of organizations.">Laster inn informasjonen din fra %1$@ organisasjoner</string>
+  <string name="wp_community_update_banner_loading_title_no_org_names" context="Appears in the Happy Together refresh banner when the user has organizations that are loading.">Laster inn informasjonen din for øyeblikket</string>
+  <string name="wp_community_update_banner_update_button" context="Update button in the Happy Together refresh banner. Allows users to update their date from other organizations.">Oppdater</string>
+  <string name="wp_community_update_banner_dismiss_button" context="Dismiss button in the Happy Together refresh banner. Dismisses the banner.">Avvis</string>
+  <!-- H2G Error Strings -->
+  <string name="wp_community_generic_connection_error" context="Text displayed in the H2G error popup which is shown when we fail to retrieve outside data from any of the organizations that the patient is connected to due to generic connection issues. %1$@ is the organization name.">Vi har problemer med å hente data fra %1$@ for øyeblikket.</string>
+  <string name="wp_community_inactive_account_error" context="Text displayed in the H2G error popup which is shown when we fail to retrieve outside data from any of the organizations that the patient is connected to due to missing active MyChart account. %1$@ is the organization name.">Du må registrere deg for en konto hos %1$@.</string>
+  <string name="wp_community_dismiss_error" context="Accessibility label for the X button used to dismiss the H2G error popup">Avvis denne meldingen</string>
+  <string name="wp_community_tap_for_details_message" context="Tap for details message for h2g error banner. We separate this from the original text because of accessibility issue.">Trykk for detaljer.</string>
+  <string name="wp_community_deeplink_error_message" context="Error message that shows up when an epichttp link from a remote H2G organization fails to launch. %1$@ is the MyChart brand name of the current organization, %2$@ is the MyChart brand name of the remote organization.">Denne koblingen kan ikke åpnes mens du er innlogget i %1$@. Logg inn i %2$@ for å åpne denne koblingen.</string>
+  <string name="wp_community_deeplink_error_message_no_org_name" context="Error message that shows up when an epichttp link from a remote H2G organization fails to launch. %1$@ is the MyChart brand name of the current organization where the link was attempted to be opened for a remote organization (but where do not have any name information for that remote organization)">Denne koblingen kan ikke åpnes mens du er logget inn på %1$@.</string>
+  <!-- H2G Strings -->
+  <string name="wp_community_outside_organization_label" context="Accessibility text for the tappable CE icon">Eksterne organisasjoner</string>
+  <string name="wp_community_outside_organization_name_label" context="Accessibility text for the tappable CE icon. %1$@ is the org name">Denne informasjonen er fra %1$@.</string>
+  <string name="wp_community_information_for_title_single" context="Title for the popup that shows which account has data for this organization.  This is the single account version.  %1$@ is the name of the remote organization.">Følgende person har en koblet konto på %1$@:</string>
+  <string name="wp_community_information_for_title" context="Title for the popup that shows which accounts (patients) have data for this organization. This is the plural accounts version.  %1$@ is the name of the remote organization.">Følgende personer har koblede kontoer på %1$@:</string>
+  <!-- HTML Strings -->
+  <string name="wp_core_imagecouldnotberetrieved" context="Alert text when an image could not be loaded">Kunne ikke laste inn bilde</string>
+  <!-- MyChart Web View Strings -->
+  <string name="wp_core_mychartweb_opennewapp" context="message appears when a user clicks on a link in a webview activity that would lead to a new app. Param 1 is the link being opened.">Vil du åpne denne koblingen i en annen app? %1$@</string>
+  <string name="wp_core_mychartweb_opennewapp_yes" context="alert button that opens a link in an external app">Fortsett</string>
+  <string name="wp_core_mychartweb_opennewapp_no" context="alert button closes an alert without opening a link in an external app">Bli her</string>
+  <string name="wp_core_mychartweb_noapp" context="message appears when a user clicks on a link in a webview activity that would lead to a new app and the app failed to load.">Kunne ikke starte den andre appen.</string>
+  <string name="wp_core_mychartweb_download" context="message appears when a user clicks on a link in a webview activity that would download a file.">Vil du laste ned denne filen til enheten din?</string>
+  <string name="wp_core_mychartweb_download_yes" context="alert button that downloads a file">Ja</string>
+  <string name="wp_core_mychartweb_download_no" context="alert button closes an alert without downloading a file">Nei</string>
+  <string name="wp_core_mychartweb_download_description" context="The description for a file downloaded">Last ned fra %1$@</string>
+  <string name="wp_core_mychartweb_download_toast" context="Toast message after user started downloading a file from MyChart">Laster ned fil …</string>
+  <string name="wp_core_mychartweb_close" context="alt-text for the 'close' button in a MyChart Web-based workflow">Lukk</string>
+  <string name="wp_core_mychartweb_back" context="Text for the 'Back' button in a MyChart Web-based workflow">Tilbake</string>
+  <string name="wp_mychart_feature_to_browser_title" context="A title shown to the user if the feature is not supported in the app">Bruk denne funksjonen utenfor appen</string>
+  <string name="wp_mychart_feature_to_browser_message" context="A message shown to tell the patient they can launch this feature outside the app">Denne funksjonen må startes utenfor appen.  Vil du fortsette?</string>
+  <string name="wp_mychart_feature_to_browser_yes" context="Option to agree to launch a feature outside the application.  But only this time.">Ja, bare denne gangen</string>
+  <string name="wp_mychart_feature_to_browser_yes_always" context="Option to agree to launch a feature outside the application.  And to do this every time.">Ja, start alltid utenfor app</string>
+  <string name="wp_mychart_feature_to_browser_no" context="Option to not agree to launch outside the application and instead stay in the app">Nei, bli her</string>
+  <string name="wp_mychart_custom_feature_external_launch_title" context="A title shown to the user when they are launching a feature that is about to take them out of the app">Du blir ført utenfor appen.</string>
+  <string name="wp_mychart_custom_feature_external_launch_yes" context="Option to agree to launch a feature outside the application to open the browser.">Ja, fortsett</string>
+  <string name="wp_mychart_custom_feature_external_launch_no" context="Option to not agree to launch outside the application to open the feature and instead stay in the app">Nei, bli her</string>
+  <!-- Care Companion -->
+  <string name="wp_todo_education_question_subject" context="Subject text for a message sent to provider when patient has a question about an education task.%1$@ is the title of the education task">Spørsmål angående «%1$@»</string>
+  <!-- File Chooser Strings -->
+  <string name="wp_core_filechooser_attachmenttitle" context="menu title for a dialog that allows the user to choose a file">Velg en fil</string>
+  <string name="wp_core_filechooser_takenewphoto" context="menu option that lets the user take a photo with the device camera">Ta nytt foto</string>
+  <string name="wp_core_filechooser_choosephoto" context="menu option that lets the user choose an existing photo from the device">Velg eksisterende foto</string>
+  <string name="wp_core_filechooser_takenewvideo" context="menu option that lets the user take a video with the device camera">Spill inn ny video</string>
+  <string name="wp_core_filechooser_choosevideo" context="menu option that lets the user choose an existing video from the device">Velg eksisterende video</string>
+  <string name="wp_core_filechooser_choosefile" context="menu option that lets the user choose an existing file from the device">Velg eksisterende dokument</string>
+  <string name="wp_core_filechooser_attachmenterror" context="Toast shown when there was an error uploading a document">Opplastingen kunne ikke fullføres på dette tidspunktet. Prøv igjen senere.</string>
+  <!-- Permissions Strings -->
+  <string name="wp_core_permissions_error_title" context="The error title when the user rejects the proper permissions to do something in the app.">Uff da!</string>
+  <string name="wp_core_permissions_photo_take_error_message" context="The error message when the user rejects the proper permissions to take a photo.">For å ta foto må du gi denne appen tillatelse til å bruke kameraet.</string>
+  <string name="wp_core_permissions_photo_select_error_message" context="The error message when the user rejects the proper permissions to access storage when selecting a photo.">For å velge et foto må du gi denne appen tilgang til lagringsplassen din.</string>
+  <string name="wp_core_permissions_video_take_error_message" context="The error message when the user rejects the proper permissions to take a video.">For å ta opp video må du gi denne appen tillatelse til å bruke kameraet og lagringsplassen.</string>
+  <string name="wp_core_permissions_video_select_error_message" context="The error message when the user rejects the proper permissions to access storage when selecting a video.">For å velge en video må du gi denne appen tilgang til lagringsplassen din.</string>
+  <string name="wp_core_permissions_file_select_error_message" context="The error message when the user rejects the proper permissions to access storage when selecting a file.">For å velge et dokument må du gi denne appen tilgang til lagringsplassen din.</string>
+  <string name="wp_core_permissions_set_permissions_button" context="The default yes button for requesting permissions.">Angi tillatelser</string>
+  <string name="wp_core_permissions_nevermind_button" context="The default no button for requesting permissions.">Glem det</string>
+  <!-- Unit Testing Strings -->
+  <string name="wp_test_string_with_params" context="This is a test string for unit testing.  Do not worry about translation.">%1$@\" and \"%2$@</string>
+  <plurals name="wp_test_string_with_plurals" context="This is a test string for unit testing.  Do not worry about translation.">
+    <item quantity="one">one(%1$@, %2$@)</item>
+    <item quantity="other">other(%1$@, %2$@)</item>
+  </plurals>
+  <plurals name="wp_test_plural_testing" context="These strings are for plural testing and do not need to be translated">
+    <item quantity="zero">null</item>
+    <item quantity="one">én</item>
+    <item quantity="two">to</item>
+    <item quantity="few">få</item>
+    <item quantity="many">mange</item>
+    <item quantity="other">annet</item>
+  </plurals>
+  <plurals name="wp_test_plural_testing_fallback" context="These strings are for plural testing and do not need to be translated">
+    <item quantity="one">én</item>
+    <item quantity="other">annet</item>
+  </plurals>
+  <!-- Inline Education Strings -->
+  <string name="wp_inline_education_view_diagnosis" context="Accessibility text for the Inline Education Infobutton">Mer informasjon om denne diagnosen.</string>
+  <string name="wp_inline_education_view_medication" context="Accessibility text for the Inline Education Infobutton">Mer informasjon om dette legemiddelet.</string>
+  <string name="wp_inline_education_view_test_result" context="Accessibility text for the Inline Education Infobutton">Mer informasjon om dette prøveresultatet.</string>
+  <string name="wp_inline_education_view_procedure" context="Accessibility text for the Inline Education Infobutton">Mer informasjon om denne prosedyren.</string>
+  <string name="wp_inline_education_view_allergy" context="Accessibility text for the Inline Education Infobutton">Mer informasjon om denne allergien.</string>
+  <string name="wp_inline_education_view_immunization" context="Accessibility text for the Inline Education Infobutton">Mer informasjon om denne vaksinasjonen.</string>
+  <!-- Onboarding Strings -->
+  <string name="wp_core_onboarding_skip" context="Button label to dismiss onboarding">Hopp over</string>
+  <string name="wp_core_onboarding_next" context="Button label to move to the next slide in the Onboarding workflow">Neste</string>
+  <string name="wp_core_onboarding_back" context="Button label to move to the previous slide in the Onboarding workflow">Tilbake</string>
+  <string name="wp_core_onboarding_complete" context="Button label to complete the Onboarding workflow">Ferdig</string>
+  <string name="wp_core_onboarding_how_to_video" context="This is the text of a button that the user can select to play an education video.">Se video</string>
+  <string name="wp_core_accessibility_onboarding_page_control" context="Accessibility label telling the user what page on onboarding they are currently on. %1$@ is the current page index. $2$s is the total number of pages.">Side %1$@ av %2$@.</string>
+  <!-- Tutorials Strings -->
+  <string name="wp_core_tutorial_title" context="text for the tutorial pane title">Veiledning</string>
+  <string name="wp_core_tutorials_close_content_description" context="text for the button that a user will tap to exit tutorials, this will be read by TalkBack when the user reaches the button">Lukk</string>
+  <string name="wp_core_tutorials_close" context="text for the button that a user will tap to exit tutorials">Ferdig</string>
+  <string name="wp_core_tutorials_more_help" context="Text for a button in tutorials that is used to continue receiving tutorial info">Fortell meg mer</string>
+  <string name="wp_core_tutorials_back" context="Text for a button in tutorials that is used to go back a step">Tilbake</string>
+  <string name="wp_core_tutorials_done_button_accessibility_label" context="Accessibility label for the 'done' button in a tutorial. This will be read by VoiceOver when the user reaches the button">Ferdig</string>
+  <string name="wp_core_tutorials_done_button_accessibility_hint" context="Accessibility hint for the 'done' button in a tutorial. This explains what will happen when the button is tapped and will be read by VoiceOver after the accessibility label">Lukker opplæringen</string>
+  <string name="wp_core_tutorials_next_button_accessibility_label" context="Accessibility label for the 'next' button in a tutorial. This will be read by VoiceOver when the user reaches the button">Neste side</string>
+  <string name="wp_core_tutorials_next_button_accessibility_hint" context="Accessibility hint for the 'next' button in a tutorial. This explains what will happen when the button is tapped and will be read by VoiceOver after the accessibility label">Fortsetter til neste side av opplæringen</string>
+  <string name="wp_core_tutorials_previous_button_accessibility_label" context="Accessibility label for the 'previous' button in a tutorial. This will be read by VoiceOver when the user reaches the button">Forrige side</string>
+  <string name="wp_core_tutorials_previous_button_accessibility_hint" context="Accessibility hint for the 'previous' button in a tutorial. This explains what will happen when the button is tapped and will be read by VoiceOver after the accessibility label">Går tilbake til forrige side av opplæringen</string>
+  <string name="wp_core_tutorials_progress_accessibility_label" context="Accessibility label for the control that indicates the current page">Side %1$@ av %2$@</string>
+  <!-- Camera Permission Strings -->
+  <string name="wp_core_camera_missing_permissions_title" context="Title for an alert that explains to the user that the application lacks sufficient permission to access the device's camera.">Ingen tilgang til kamera</string>
+  <string name="wp_core_camera_missing_permissions_message_ios" context="Alert message that hat explains to the user that the application lacks sufficient permission to access the device's camera. %1$@ is the application name (i.e. MyChart).">%1$@ har ikke tillatelse til å bruke kameraet ditt. For å gi %1$@ tillatelse, gir du tilgang til kameraet ditt i Innstillinger &gt; %1$@.</string>
+  <!-- Validation Strings -->
+  <string name="wp_core_validation_specialcharacters_title" context="Title for an alert that explains to the user that special characters cannot be entered as input.">Spesialtegn er ikke tillatt</string>
+  <string name="wp_core_validation_specialcharacters_message" context="Alert message that explains to the user that special characters cannot be entered as input.">Du kan ikke angi spesialtegn her, heller ikke tegn fra enkelte språk eller emojier.</string>
+  <string name="wp_h2g_dismiss_content_description" context="Accessibility content description for a dismiss icon button">Avvis</string>
+  <!-- PDF Download Strings -->
+  <string name="wp_pdf_download_title" context="Error title on pop up when the user can not view the PDF in the app.">Kan ikke vise PDF i appen</string>
+  <string name="wp_pdf_download_message" context="Error message on pop up when the user can not view the PDF in the app.  %1$@ is the application name">Vil du laste ned PDF-filen for å vise med en ekstern applikasjon? Når du har lastet ned denne filen, vil den ikke lenger være sikret av %1$@. Andre apper på enheten din kan ha tilgang til denne filen.</string>
+  <string name="wp_pdf_yes_download" context="Button to download the file">Ja, last ned</string>
+  <string name="wp_pdf_no_permission" context="User did not give permissions to download the file">Kan ikke laste ned filen. Dette krever filtillatelse.</string>
+  <string name="wp_pdf_download_success" context="The PDF was downloaded successfully">PDF lastet ned</string>
+  <string name="wp_pdf_download_error" context="The PDF was not downloaded due to an error">Feil ved nedlasting av PDF</string>
+  <string name="wp_file_download_saved" context="The PDF was saved successfully">Fil lagret.</string>
+  <string name="wp_file_download_failed" context="Appears when the user's file download has failed">Det oppstod et problem ved nedlasting av filen. Gå til nettstedet for å få tilgang til filen.</string>
+  <!-- How To Videos -->
+  <string name="wp_how_to_video_header" context="Title used on the header of How To video cards">Se for å finne ut mer</string>
+  <string name="wp_how_to_video_share_everywhere_title" context="Title of the How To video for Share Everywhere, which appears in a card on the Share Everywhere page">Share Everywhere</string>
+  <string name="wp_how_to_video_share_everywhere_description" context="Description of the How To video for Share Everywhere, which appears in a card on the Share Everywhere page">Finn ut hvordan du deler journalen din med en behandler som ikke allerede har tilgang.</string>
+  <string name="wp_how_to_video_video_visit_title" context="Title of the How To video for Video Visits, which appears in a card in appointment details for a video visit">Videobesøk</string>
+  <string name="wp_how_to_video_video_visit_description" context="Description of the How To video for Video Visits, which appears in a card in appointment details for a video visit">Finn ut hvordan du fullfører innsjekking og starter videobesøket ditt.</string>
+  <string name="wp_how_to_vaccination_credential_access_video_title" context="Header text displayed under a vaccination credential education video describing the purpose of the video">Få tilgang til vaksinasjons- og testlegitimasjonen din i MyChart</string>
+  <string name="wp_how_to_vaccination_credential_access_video_description" context="Label text displayed under a vaccination credential education video describing the purpose of the video in more detail">Finn ut hvordan du raskt, enkelt og sikkert kan dele test- og vaksinasjonsinformasjonen din for covid-19 direkte fra MyChart.</string>
+  <string name="wp_how_to_video_thumbnail_accessibility" context="Description of the video thumbnail that will be read by screen readers">Klikk for å spille av videoen</string>
+  <string name="wp_how_to_learning_topics_label" context="Text for the button to expand or collapse the How To video card">Opplæringstemaer</string>
+  <string name="wp_how_to_watch_more" context="Text for the link to watch more videos in the video library">Se flere videoer</string>
+  <!-- Biometrics -->
+  <string name="wp_core_biometrics_label" context="Name used for describing the android biometric login method. Used in a sentences like 'A passcode or biometrics has already been enabled at this organization.'">biometri</string>
+  <!-- Prominent Disclosures -->
+  <string name="wp_permissions_prominent_disclosures_location" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Location.  It also contains a description of why we use this permission.  %1$@ is the application name.">Posisjon: %1$@ kan bruke posisjonsdataene dine til å varsle resepsjonen når du ankommer for en time selv når appen er lukket eller når appen ikke er i bruk, eller for å foreslå behandlere som er i nærheten av deg mens appen er i bruk. %1$@ vil ikke lagre posisjonsdataene dine.</string>
+  <string name="wp_permissions_prominent_disclosures_camera" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Camera.  It also contains a description of why we use this permission.  %1$@ is the application name.">Kamera: %1$@ kan bruke kameraet ditt til å ta nye fotoer eller for å filme og oversende video for videobesøk. Du velger om du vil bruke fotoer til å tilpasse kontoen din eller sende dem som filvedlegg når du sender meldinger til behandlerne dine.</string>
+  <string name="wp_permissions_prominent_disclosures_microphone" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Microphone.  It also contains a description of why we use this permission.  %1$@ is the application name.">Mikrofon: %1$@ kan bruke mikrofonen din til å ta opp lyd for videobesøk og diktering. %1$@ vil ikke lagre lyddataene dine.</string>
+  <string name="wp_permissions_prominent_disclosures_storage" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Storage.  It also contains a description of why we use this permission.  %1$@ is the application name.">Lagring: %1$@ kan få tilgang til enhetens lagringsplass for å lese og skrive filer, bilder, videoer og lydklipp du velger å bruke i %1$@. Disse filene, bildene, videoene og lydklippene kan brukes som vedlegg som sendes til legen din, eller de kan opprettes fra vedlegg sendt til deg fra behandleren din.</string>
+  <string name="wp_permissions_prominent_disclosures_call_phone" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Call Phone.  It also contains a description of why we use this permission.  %1$@ is the application name.">Telefon: %1$@ kan bruke telefonen din til å ringe telefonnumre som vises i appen. %1$@ vil ikke lagre anropshistorikken din eller andre anropsdata.</string>
+  <string name="wp_permissions_prominent_disclosures_bluetooth" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Bluetooth.  It also contains a description of why we use this permission.  %1$@ is the application name.">Bluetooth: %1$@ kan få tilgang til enhetens Bluetooth for å oppdage andre enheter i nærheten. Denne informasjonen vil bli brukt til å varsle resepsjonen når du ankommer for en time. %1$@ vil ikke lagre Bluetooth-dataene dine.</string>
+  <string name="wp_permissions_prominent_disclosures_notifications" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Notifications.  It also contains a description of why we use this permission.  %1$@ is the application name.">Varsel: %1$@ kan sende varsler til enheten din. Disse varslene vil brukes til å varsle deg om oppdateringer fra appen.</string>
+  <string name="wp_permissions_prominent_disclosures_health_connect_background_access" context="When showing the user why we are requesting the permission this is the name of the permission we are requesting.  In this case Health Connect Background Access.  It also contains a description of why we use this permission.  %1$@ is the application name. %2$@ is the organization's branded name for MyChart">Bakgrunnstilgang: %1$@ har tilgang til Health Connect-data i bakgrunnen for å kunne lagre svar på %2$@-kontoen din når denne appen ikke er åpen.</string>
+  <plurals name="wp_permissions_prominent_disclosures_title" context="The title of the prominent disclosure pop up.  This is shown to the user to let them know we are able to request permission and why we are requesting them.  %1$@ is the app name.">
+    <item quantity="one">%1$@ trenger følgende tillatelse</item>
+    <item quantity="other">%1$@ trenger følgende tillatelser</item>
+  </plurals>
+  <string name="wp_permissions_prominent_disclosures_agree" context="The button of the prominent disclosure pop up.  This is shown to the user to let them know we are able to request permission and why we are requesting them.  When clicking, the app will ask the user for permissions.">Godta</string>
+  <string name="wp_permissions_prominent_disclosures_skip" context="The button of the prominent disclosure pop up.  This is shown to the user to let them know we are able to request permission and why we are requesting them.  When clicking, the app will not ask the user for permissions now.  But may in the future.">Ikke nå</string>
+  <string name="wp_permissions_prominent_disclosures_share_info" context="The info text of the prominent disclosure pop up.  This lets the user know we never share this information with third-parties.  %1$@ is the app name.">%1$@ vil aldri dele denne informasjonen med noen tredjepart.</string>
+  <!-- Buttons -->
+  <string name="wp_core_button_content_description" context="Accessibility content description to specify the input type is a button for a specific view. The comma is there so that the screen reader pauses before reading it.">, knapp</string>
+  <string name="wp_core_link_content_description" context="Accessibility content description to specify the input type is a link for a specific view. The comma is there so that the screen reader pauses before reading it.">, kobling</string>
+  <!-- Accessibility Strings -->
+  <string name="wp_core_ax_section_collapsed" context="Accessibility only message that indicates that a section is collapsed. This will be read by screen reader when the user reaches the button.">Skjult</string>
+  <string name="wp_core_ax_section_expanded" context="Accessibility only message that indicates that a section is expanded.This will be read by screen reader when the user reaches the button">Utvidet</string>
+  <!-- Org Selection -->
+  <string name="wp_org_selection_scan_qr_code" context="Text for a button that opens the camera to scan a QR code.">Skann QR-kode</string>
+  <!-- Reportable Issues -->
+  <string name="wp_reportable_issue_header_do_not_delete" context="Reportable Issue's header, instructing users to not delete any information">Ikke slett følgende informasjon:</string>
+  <string name="wp_reportable_issue_data_label_time" context="Label for the current time used in a Reportable Issue. %1$@ is the current time">Tidspunkt for problem: %1$@</string>
+  <string name="wp_reportable_issue_data_label_org_id" context="Label for the organization ID used in a Reportable Issue. %1$@ is the organization ID">Organisasjons-ID: %1$@</string>
+  <string name="wp_reportable_issue_data_label_org_name" context="Label for the organization name used in a Reportable Issue. %1$@ is the organization name">Navn på organisasjon: %1$@</string>
+  <string name="wp_reportable_issue_data_label_http_code" context="Label for the http code used in a Reportable Issue. %1$@ is the http code">HTTP-statuskode: %1$@</string>
+  <string name="wp_reportable_issue_data_label_device_model" context="Label for the device model used in a Reportable Issue. %1$@ is the device model">Utstyrsmodell: %1$@</string>
+  <string name="wp_reportable_issue_data_label_os_version" context="Label for the os version used in a Reportable Issue. %1$@ is the os version">OS-versjon: %1$@</string>
+  <string name="wp_reportable_issue_data_label_app_version" context="Label for the app version used in a Reportable Issue. %1$@ is the app version">Appversjon: %1$@</string>
+  <string name="wp_reportable_issue_data_label_app_id" context="Label for the app id used in a Reportable Issue. %1$@ is the app id">App-ID: %1$@</string>
+  <string name="wp_reportable_issue_data_label_url" context="Label for the url used in a Reportable Issue. %1$@ is the url">Nettadresse: %1$@</string>
+  <!-- Language Picker -->
+  <string name="wp_language_picker_button_text" context="Text for the button that opens an in-app language picker activity">Endre språk</string>
+  <string name="wp_language_picker_title" context="Title for the in-app language picker activity where users can change the app language">Endre språk</string>
+  <string name="wp_language_picker_description" context="Description for the in-app language picker activity where users can change the app language. %1$@ is the current organization name">Velg foretrukket språk for %1$@.</string>
+  <string name="wp_language_picker_system_default_row_primary_text" context="Primary text for the row allowing the user to select the system default language for their preferred in-app language">Standardspråk</string>
+  <string name="wp_language_picker_system_default_row_secondary_text" context="Secondary text for the row allowing the user to select the system default language for their preferred in-app language">Denne enhetens språkpreferanser</string>
+  <string name="wp_language_picker_custom_locale_disclaimer_dialog_title" context="Disclaimer title shown in a alert dialog style notification that notifies the user that switching to this language may not show complete translations. %1$@ is the MyChart app branded name. %2$@ is the new language being switched to.">Bruke %1$@ i %2$@?</string>
+  <string name="wp_language_picker_custom_locale_disclaimer_dialog_text" context="Disclaimer text shown in a alert dialog style notification that notifies the user that switching to this language may not show complete translations. %1$@ is the MyChart app branded name. %2$@ is the new language being switched to.">%1$@ har ikke fullstendig støtte for %2$@. Det kan hende du ser noe innhold på engelsk.</string>
+  <string name="wp_language_picker_custom_locale_disclaimer_dialog_confirm_button" context="Confirmation button for the alert dialog style notification that notifies the user that switching to this language may not show complete translations. %1$@ is the language being switched to in the current language.">Bytt til %1$@</string>
+  <string name="wp_language_picker_unsaved_changes_dialog_title" context="Title text for the alert dialog style notification that notifies the user that they have made a selection and have not yet saved.">Du har ulagrede endringer</string>
+  <string name="wp_language_picker_unsaved_changes_dialog_text" context="Description text for the alert dialog style notification that notifies the user that they have made a selection and have not yet saved. %1$@ is the language being switched to in the current language.">Vil du endre språket til %1$@ før du avslutter?</string>
+  <string name="wp_language_picker_unsaved_changes_dialog_text_default" context="Description text for the alert dialog style notification that notifies the user that they have made a selection for the devices default language preferences and have not yet saved.">Vil du bytte tilbake til enhetens standardspråk før du avslutter?</string>
+  <string name="wp_language_picker_unsaved_changes_dialog_negative_button" context="Negative button text for the alert dialog style notification that notifies the user that they have made a selection and have not yet saved.">Fortsett uten å lagre</string>
+  <string name="wp_language_picker_stored_locale_no_longer_allowed_notification" context="Notification shown to the user when they have previously selected a preferred language, but the selection is no longer allowed by the organization.">Ditt foretrukne språk støttes ikke lenger.</string>
+  <string name="wp_language_picker_jump_to_settings_alert_description" context="Alert description shown to the user when they opt to change their language in iOS. Notifies the user that they are being sent to iOS settings and educates the user on the allowed language options for the current organization. %1$@ is the current organization name">Gå videre til Innstillinger for å endre språket i appen. Selv om andre språk kan tilbys, vil kun de følgende språkene vises i %1$@.</string>
+  <!--  WebView  -->
+  <string name="wp_web_view_generic_crash_message" context="Message shown to users when a web view crashes after the app has closed the crashed web view.">Det oppstod en feil i denne aktiviteten. Prøv på nytt</string>
+  <string name="wp_generic_download_failed_message" context="Message shown to users when a download fails">Nedlasting mislyktes. Prøv igjen senere</string>
+  <!--  FileView  -->
+  <string name="wp_file_view_share" context="Text displayed on a button that the user taps to share or download content outside of the app">Del</string>
+  <string name="wp_file_view_share_error" context="Message shown to users when they tried to share a file, but an error occurred that prevents the file from being shared">Det oppstod en feil under forsøk på å dele denne filen. Prøv igjen senere</string>
+  <string name="wp_file_view_file_cannot_be_displayed_title" context="Message shown to users when a file in the file viewer cannot be displayed. This text is displayed above the string wp_file_view_file_cannot_be_displayed_detailed">Denne filen kan ikke vises.</string>
+  <string name="wp_file_view_file_cannot_be_displayed_detailed" context="Message shown to users explaining why a file in the file viewer cannot be displayed. %1$@ is the application's display name.">%1$@ støtter ikke visning av denne filtypen.</string>
+  <string name="wp_file_view_file_cannot_be_displayed_link" context="Message shown as a link for users to tap when they want to open a file that cannot be viewed in the file viewer in another app">Vis denne filen i en annen app</string>
+  <string name="wp_generic_file_share_warning" context="Message shown to users when they attempt to share a file outside of the app. %1$@ is the application name">Når du eksporterer denne filen, vil den ikke lenger være sikret av %1$@. Andre apper på enheten din kan ha tilgang til denne filen. Vil du fortsette?</string>
+  <string name="wp_generic_file_share_warning_yes_dont_ask_again" context="Button label for the button the user can tap to share a file outside of the app and not be shown a file share warning again">Ja, ikke spør igjen</string>
+  <!--  Captured Workflow  -->
+  <string name="wp_captured_workflow_progress_dots" context="Indicates the progress of the captured workflow, where %1$@ is the current task and %2$@ is the total number of tasks.">Oppgave %1$@ av %2$@</string>
+  <string name="wp_captured_workflow_cancel" context="The title of a button that will cancel the current state.">Avbryt</string>
+  <!-- View AX Strings -->
+  <string name="wp_secure_text_field_hide_text_entry" context="Accessibility label for a button that hides the text in a secure text field.">Skjul tekstoppføring</string>
+  <string name="wp_secure_text_field_show_text_entry" context="Accessibility label for a button that shows the text in a secure text field.">Vis tekstoppføring</string>
+</resources>
+<!--@formatter:on-->

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview" context="Tutorial text introducing the patient to the updates activity. %%FRIENDSANDFAMILYUPDATES is replaced with the name of the activity."> يساعد %%FRIENDSANDFAMILYUPDATES على البقاء على اتصال مع أصدقائك وعائلتك. يمكنك أن ترسل لهم تحديثات حول زيارتك لإبقائهم على اطلاع، ويمكنهم إرسال بطاقات إلكترونية إليك أثناء زيارتك لتمني التوفيق لك.</string>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the updates activity %%FRIENDSANDFAMILYUPDATES is replaced with the name of the activity.">يساعد %%FRIENDSANDFAMILYUPDATES على البقاء على اتصال مع %%PATNAME طوال وقت الزيارة. بإمكانية %%PATNAME إرسال تحديثات حول الزيارة لإبقائك على اطلاع، ويمكنك أن ترسل بطاقات إلكترونية أثناء الزيارة لتمني التوفيق.</string>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview_2" context="Tutorial text explaining to the patient who can see the updates in this activity">لن يرى فريق رعايتك هذه التحديثات أو البطاقات الإلكترونية. فقط الأشخاص الذين قمت بدعوتهم للوصول إلى سجلك يمكنهم عرض هذه التحديثات.</string>
+  <string name="wp_friendsandfamilyupdates_tutorial_overview_proxy_2" context="Tutorial text explaining to the patient proxy who can see the updates in this activity">لن يرى فريق رعاية %%PATNAME هذه التحديثات أو البطاقات الإلكترونية. فقط الأشخاص الذين قام %%PATNAME بدعوتهم  للوصول إلى السجل يمكنهم عرض هذه التحديثات.</string>
+</resources>

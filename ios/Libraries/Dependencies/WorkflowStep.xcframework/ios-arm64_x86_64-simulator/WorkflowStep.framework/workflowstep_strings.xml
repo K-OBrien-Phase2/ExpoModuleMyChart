@@ -1,0 +1,39 @@
+<resources>
+    <string name="wp_workflow_step_test_results_title"
+        context="Header text for the card that shows basic test results information, and allows jumping to the test results activity">Test Results</string>
+    <string name="wp_workflow_step_medications_title"
+        context="Header text for the card that shows basic medications information, and allows jumping to the medications activity">Medications</string>
+    <string name="wp_workflow_step_additional_information"
+        context="Text that appears in the button that shows and hides additional text for the step">Additional information</string>
+    <string name="wp_workflow_step_section_updated_announcement"
+        context="Text that will be read out by the screen reader when the Happening Now section auto-updates. Will be followed by the updates that occurred">Happening Now section updated.</string>
+    <string name="wp_workflow_step_button_added_announcement"
+        context="Text that will be read out by the screen reader when the test results or medications widget/button has been added. Will be followed by the content in that button. %1$s - the title of the widget that was added">%1$s button added.</string>
+    <string name="wp_workflow_step_button_updated_announcement"
+        context="Text that will be read out by the screen reader when the test results or medications widget/button updates. Will be followed by the updates that occurred. %1$s - the title of the widget that was updated">%1$s button updated.</string>
+    <string name="wp_workflow_step_care_progressed"
+        context="Text that will be read out by the screen reader when the current step of care progresses. %1$s - the new step of care">Care has progressed to %1$s.</string>
+    <string name="wp_workflow_step_in_progress" context="Text that appears when self registration is in progress">In progress</string>
+    <string name="wp_workflow_step_complete_registration" context="Text that appears inside the registration card, indicating the user should complete registration">Complete registration tasks</string>
+    <string name="wp_workflow_step_registration_go" context="Text that appears inside the button that leads to the registration activity, indicating the user will go to registration">Go</string>
+    <string name="wp_workflow_step_sef_reg_added_announcement"
+        context="Text that will be read out by the screen reader when the self registration section has been added.">Self registration added.</string>
+    <string name="wp_workflow_step_sef_reg_updated_announcement"
+        context="Text that will be read out by the screen reader when the self registration section updates.">Self registration updated.</string>
+    <string name="wp_workflow_step_waittime_added_announcement"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that will be read out by the screen reader when the wait time section has been added.">Wait time information added.</string>
+    <string name="wp_workflow_step_waittime_updated_announcement"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that will be read out by the screen reader when the wait time section auto-updates. Note that this does not necessarily mean that the update is that the estimated wait time itself has been updated">Wait time information updated.</string>
+    <string name="wp_workflow_step_waittime_learn_more"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that appears in a button that shows additional information about a wait time prediction. Also used as the header for the view displaying the additional information">Learn More</string>
+    <string name="wp_workflow_step_waittime_updated"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that appears under the wait time prediction when it gets updated. %1$s - the localized time that the wait time was updated (eg. 10:30 PM)">Updated at %1$s</string>
+    <string name="wp_workflow_step_waittime_generic_explanation_header"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Header text for explanation of the unpredictability of wait times">Disclaimer</string>
+    <string name="wp_workflow_step_waittime_generic_explanation"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text explaining the unpredictability of wait times in the emergency room">Please note that wait time predictions are estimates and can change quickly. We care for all patients who arrive and prioritize those with life-threatening conditions first. Factors like new critical patients, available staff, and complex treatments can make wait times longer. These estimates are automatically calculated by MyChart and do not involve direct input from your treatment team.</string>
+    <string name="wp_workflow_step_waittime_delay_header"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Header text for explanation of why a patient's wait time was updated. %1$s - the localized time that the wait time was updated (eg. 10:30 PM)">Your wait time estimate last updated at %1$s</string>
+    <string name="wp_workflow_step_waittime_step_explanation_header"
+        context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Header text for explanation of how wait times are calculated">How did we estimate this wait time?</string>
+</resources>

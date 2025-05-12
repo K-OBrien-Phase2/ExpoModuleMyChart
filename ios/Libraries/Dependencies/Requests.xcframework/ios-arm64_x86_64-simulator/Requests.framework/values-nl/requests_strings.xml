@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">Aanvragen</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">U kunt %%REQUESTS gebruiken om niet urgente aanvragen te verzenden aan uw zorgteam.</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">U kunt %%REQUESTS gebruiken om niet urgente aanvragen te verzenden aan het zorgteam van %%PATNAME.</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">Ziekenhuismedewerkers ontvangen uw aanvraag en zullen u verder helpen. Heeft u een urgente vraag? Druk dan op de knop bij uw bed.</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">Om een aanvraag te annuleren die u al heeft verzonden, tikt u op het aangevraagde item en vervolgens op Annuleren. U kunt omlaag scrollen om meer aanvraagopties te bekijken.</string>
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_problem_list_header_title_only_other_problems" context="The section header title in the problem list for when there is only a list of non-principal problems displayed">我们正在治疗……</string>
+  <string name="wp_problem_list_header_title_principal_problem" context="The section header title in the problem list for the principal problem">您到此为了……</string>
+  <string name="wp_problem_list_header_title_principal_problem_proxy" context="The section header title in the problem list for the principal problem. %1$@ is the patient's name">%1$@到此为了……</string>
+  <string name="wp_problem_list_header_title_other_problems" context="The section header title in the problem list for the other problems when there is also a principal problem shown">我们同时也在治疗……</string>
+  <string name="wp_problem_list_activity_title" context="The patient-friendly title for the hospital problem list, displayed in the navigation bar at the top of the view">健康问题</string>
+  <string name="wp_ed_problem_list_activity_title" context="The patient-friendly title for the ED problem list, displayed in the navigation bar at the top of the view">就诊原因</string>
+  <string name="wp_problem_list_no_problems_show_message" context="The patient-friendly message that is displayed when there are no problems">没有健康问题可显示</string>
+</resources>

@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ~ Copyright © 2018-2024 Epic Systems Corporation
+ -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <!-- General To Do Strings -->
+  <string name="wp_todo_tasks_title" context="Label on tab bar for the To Do list">事项</string>
+  <string name="wp_todo_changes_title" context="Label on tab bar for the To Do Changes list">变化</string>
+  <string name="wp_todo_error_loading" context="Label in To Do list saying your to do tasks failed to load">加载您的待办事项列表时遇到了错误。</string>
+  <string name="wp_todo_title" context="Title for To Do activity">待办事项</string>
+  <string name="wp_todo_empty" context="Message shown when user has nothing listed in To Do.">您的档案里没有新的信息</string>
+  <string name="wp_todo_service_puttask_failed" context="Toast message that is displayed when there are errors updating the status of a task.">哎呀，无法更新您的事项。</string>
+  <string name="wp_todo_error_loading_time_zone" context="Label in To Do list saying your time zone settings failed to load">加载您的时区设置时遇到了错误。</string>
+  <string name="wp_generic_done" context="Button used widely and generally. Select value and exit an activity or dialog" length="10 characters">完成</string>
+  <string name="wp_generic_cancel" context="Button closes a dialog without taking any action">取消</string>
+  <string name="wp_generic_cancel_task" context="VoiceOver text for canceling a task">取消%1$@</string>
+  <string name="wp_generic_confirm_task" context="VoiceOver text for confirming a task">确认%1$@</string>
+  <string name="wp_generic_undo_task" context="VoiceOver text for undoing a task">撤销%1$@</string>
+  <string name="wp_generic_not_actionable_accessibility" context="VoiceOver text indicate the current task is not actionable">事项不可操作。</string>
+  <string name="wp_todo_reload" context="Text to be displayed on button that forces a reload upon clicking">重新加载</string>
+  <!-- Admission Snackbar Strings -->
+  <string name="wp_todo_ed_banner" context="Snackbar (banner) shown to patient in To Do activity when patient is in ED." length="90 characters">您的事项可能不适用于急诊室。询问您的护理团队您今天是否应该完成这些事项。</string>
+  <string name="wp_todo_admission_banner" context="Snackbar (banner) shown to patient in To Do activity when patient is admitted." length="90 characters">您的护理团队布置的事项在您住院期间被取消了。如果您有疑问，咨询您的护理团队。</string>
+  <!-- Reminder Bucket Strings -->
+  <string name="wp_todo_reminder_group_morning" context="Title of the released category. This is the category for Morning tasks. It is displayed at many places like         activity title, tasks list and personalization activity.">上午</string>
+  <string name="wp_todo_reminder_group_midday" context="Title of the released category. This is the category for around Noon tasks. It is displayed at many places like activity title, tasks list and personalization activity.">中午</string>
+  <string name="wp_todo_reminder_group_afternoon" context="Title of the released category. This is the category for Afternoon tasks. It is displayed at many place like activity title, tasks list and personalization activity.">下午</string>
+  <string name="wp_todo_reminder_group_evening" context="Title of the released category. This is the category for Evening tasks. It is displayed at many places like         activity title, tasks list and personalization activity.">晚上</string>
+  <string name="wp_todo_reminder_group_bedtime" context="Title of the released category. This is the category for Bedtime tasks. It is displayed at many places like         activity title, tasks list and personalization activity.">睡前</string>
+  <string name="wp_todo_reminder_group_as_needed" context="Title of the released category. This is the category for As Needed tasks. It is displayed at many places like activity title, tasks list and personalization activity.">按需服用</string>
+  <string name="wp_todo_reminder_group_byendofday" context="Title of the released category. This is the category for Any Time tasks. It is displayed at many places like activity title, tasks list and personalization activity.">当天结束之前</string>
+  <string name="wp_todo_reminder_group_other" context="Title of the released category. This is the category for non specified time the day tasks. It is displayed at many places like activity title, tasks list and personalization activity.">其他</string>
+  <!-- Today Task List Header Strings -->
+  <string name="wp_todo_complete" context="Shows in today header under completion percentage for today">完成</string>
+  <string name="wp_todo_nice_work" context="Message shown when user has finished all tasks.">很不错！</string>
+  <string name="wp_todo_tasks_completed" context="Message shown when user has finished all tasks (details).">今天已完成所有事项。</string>
+  <string name="wp_todo_thanks" context="Message shown when user has finished all tasks, but skipped one.">谢谢！</string>
+  <string name="wp_todo_no_more_tasks" context="Message shown when user has finished all tasks, but skipped one (details).">今天没有其他事项了。</string>
+  <string name="wp_todo_no_tasks_today" context="Message shown when user has no tasks for today.">今天没有事项</string>
+  <string name="wp_todo_progressArc_accessibilityText" context="Accessibility text for the progress arc that shows the percentage of finished tasks due today.">已完成百分之%1$@</string>
+  <!-- Overdue/Future Tasks List Strings -->
+  <string name="wp_todo_overdue_task_list_header" context="Header text shown above a patients overdue task list.">以前的事项</string>
+  <string name="wp_todo_future_task_list_header" context="Header text shown above a patients future task list.">将来的事项</string>
+  <string name="wp_todo_overdue_task_list_link" context="Text link shown in to do jump a user to their overdue tasks list. In this case none of the overdue tasks in the list are actionable by the patient, eg. health maintenance, expired education, etc.">查阅以前的事项</string>
+  <string name="wp_todo_overdue_task_list_link_with_actionable_tasks" context="Text link shown in to do jump a user to their overdue tasks list. %1$@ is the number of tasks in the overdue task list that the patient can take action on, eg. mark education as review, immunization as complete, etc.">查阅以前的事项 (%1$@)</string>
+  <string name="wp_todo_future_task_list_link" context="Text link shown in to do jump a user to their future tasks list.">查阅将来的事项</string>
+  <!-- Education Task Strings -->
+  <string name="wp_todo_education_status_understanding" context="Indicated that the response to an education task was understanding of the material">标注“我明白”</string>
+  <string name="wp_todo_education_status_questions" context="Indicated that the response to an education task was questions about the material">标注“我有疑问”</string>
+  <!-- Medication Task Strings -->
+  <string name="wp_todo_meds_common_name" context="Medication description when the med has a common name. Shown on generic medication tasks as a subtitle. %1$@ is the meds common name">常用名：%1$@</string>
+  <string name="wp_todo_meds_generic_name" context="Medication description when the med has a generic name. Shown on generic medication tasks as a subtitle. %1$@ is the meds generic nameas.">通用名：%1$@</string>
+  <string name="wp_todo_meds_anticoag_order_instructions" context="A warning message for anticoagulation orders because the instructions may differ, %1$@ is the original instructions">按照抗凝诊所的医嘱服用。原医嘱：%1$@</string>
+  <string name="wp_todo_meds_empty_names_default_title" context="In the case of bad build, it is possible for a medication to arrive to the client with an empty name. In this case, we want to display a configuration warning as the title.">这个用药事项配置不正确</string>
+  <string name="wp_todo_meds_empty_default_description" context="In the case of bad or broken build, it is possible for a medication to arrive to the client with an empty description. In this case, we want to instruct the patient on how to rectify this.">请联系您的护理团队来移除或修正这个事项。</string>
+  <!-- Health Maintenance Task Strings -->
+  <string name="wp_todo_healthAdvisory_pending_update" context="Text shown after user marks a Health Advisory as completed, and the Health Advisory is currently pending">等待医疗人员复核</string>
+  <string name="wp_todo_healthAdvisory_not_due" context="The status text for a health advisory task that is not due">未到期</string>
+  <string name="wp_todo_healthAdvisory_not_due_until" context="The status text for a task that is not due until a date. %1$@ is the date the task is due.">%1$@到期</string>
+  <string name="wp_todo_healthAdvisory_not_due_yet" context="The status text for a health advisory task that is not yet due">还未到期</string>
+  <string name="wp_todo_healthAdvisory_last_done_on" context="The status text for a task that was completed in the past. %1$@ is the completion date (long format: En-US Nov 23, 1937) that the task was done.">上次于%1$@完成</string>
+  <string name="wp_todo_healthAdvisory_overdue_since" context="The status text for a task that is overdue since a date. %1$@ is the date the task became overdue.">自%1$@逾期</string>
+  <string name="wp_todo_healthAdvisory_due_since" context="The status text for a task that has been due since a date. %1$@ is the date the task became due.">自%1$@到期</string>
+  <string name="wp_todo_healthAdvisory_due_on" context="The status text for a task that is due on a date. %1$@ is the date the task is due (long format: En-US Nov 23, 1937).">于%1$@到期</string>
+  <string name="wp_todo_healthAdvisory_due_soon" context="The status text for a task that is due soon.">即将到期</string>
+  <string name="wp_todo_healthAdvisory_completed" context="The status text for a task that has been completed.">已完成</string>
+  <string name="wp_todo_healthAdvisory_completed_on" context="The status text for a task that has been completed on a date. %1$@ is the date (long format: En-US Nov 23, 1937) the task was completed.">于%1$@完成</string>
+  <string name="wp_todo_healthAdvisory_addressed" context="The status text for a task that has been addressed.">解决</string>
+  <string name="wp_todo_healthAdvisory_addressed_on" context="The status text for a task that has been addressed on a date. %1$@ is the date (long format: En-US Nov 23, 1937) the task was addressed.">于%1$@解决</string>
+  <string name="wp_todo_healthAdvisory_postponed" context="The status text for a task that has been postponed.">推迟</string>
+  <string name="wp_todo_healthAdvisory_postponed_until" context="The status text for a task that has been postponed until a date. %1$@ is the date the task was postponed to.">推迟至%1$@</string>
+  <string name="wp_todo_healthAdvisory_last_submitted" context="The status text for a pending health advisory task. %1$@ is the completion date that user submitted">上次提交：%1$@</string>
+  <string name="wp_todo_hm_schedule_appt_accessibility" context="Accessibility Text read by voiceover stating the button is a appointment scheduling button">预约</string>
+  <string name="wp_todo_healthAdvisory_schedule_button_title" context="The schedule button title string">预约</string>
+  <string name="wp_todo_healthAdvisory_mark_as_complete_button_title" context="The mark as complete button title string">完成</string>
+  <string name="wp_todo_contact_clinic_for_hm_request_appointment" context="Alert message to request an appointment for the health advisory tasks.">请联系您的诊所来请求一个预约。</string>
+  <string name="wp_todo_healthAdvisory_scheduled_appointment_for" context="The status text for a task that is scheduled for a date. %1$@ is the date for that appointment.">为%1$@预约</string>
+  <!-- To Do Changes Strings -->
+  <string name="wp_todo_changes_header" context="Label on top of To Do Changes list explaining the page">这个页面显示前几次的事项变化和值得注意的操作。</string>
+  <string name="wp_todo_no_changes" context="Label in To Do Changes list saying you have not changes">您的待办事项最近没有新的变化。</string>
+  <string name="wp_todo_error_loading_changes" context="Label in To Do Changes list saying your to do changes failed to load">加载您的待办事项时遇到了错误。</string>
+  <string name="wp_todo_change_task_added_title" context="Label for a Task Added item">已添加新的事项</string>
+  <string name="wp_todo_change_task_added_detail" context="Label for a Task Added detail item.  Bulleted item         Param 1 is the task name">• %1$@</string>
+  <string name="wp_todo_change_message_sent_title" context="Label for a message sent action item title when the message wasn't to a single recipient">已告知诊所</string>
+  <string name="wp_todo_change_message_sent_recipient_default_title" context="Default name for a provider type/role if one is not found in title">医疗人员</string>
+  <string name="wp_todo_change_message_sent_recipient_default_message" context="Default name for a provider type/role if one is not found in sentence">医疗人员</string>
+  <string name="wp_todo_change_message_sent_recipient_title" context="Label for a message sent action item title when the message was to a single recipient         Param 1 is the provider type/role">已告知%1$@</string>
+  <string name="wp_todo_change_message_sent_detail" context="Label for a message sent action detail item.  Bulleted item         Param 1 is the provider name">• %1$@</string>
+  <string name="wp_todo_changes_activity" context="Activity name for to do changes">待办事项改变</string>
+  <string name="wp_todo_changes_details_why_the_change" context="Why this change header in the todo change details activity">为什么这个改变？</string>
+  <string name="wp_todo_changes_details_next_steps" context="Next steps header in the todo change details activity">后续步骤</string>
+  <string name="wp_todo_changes_details_task_changes" context="Message header to listing changes to to do tasks">您的待办事项有以下更改：</string>
+  <string name="wp_todo_changes_details_message_sent_clinic" context="Message header letting the patient know this change info was sent to their clinic">我们已将此信息发送至您的诊所。如果有具体问题请联系您的诊所。</string>
+  <string name="wp_todo_changes_details_message_sent_recipient" context="Message header letting the patient know this change info was sent to a recipient         Param 1 is the recipient type/role">我们已将此信息发送至您的%1$@。如果有具体问题请联系您的诊所。</string>
+  <string name="wp_todo_change_provider_pcp" context="Appears as the provider type for general primary care providers in the care team details">家庭医生</string>
+  <string name="wp_todo_change_accessibility_unread" context="Accessiblity text for the unread icon">您还没有打开这个项目</string>
+  <string name="wp_todo_change_send_message" context="Button to send a message to the provider in the provider widget">发送一条信息</string>
+  <!-- Manage To Do Reminders Strings -->
+  <string name="wp_todo_reminders_help_text" context="Help text for To Do Reminders">这些时间用来控制您会何时收到提醒。</string>
+  <string name="wp_todo_manage_reminders" context="Text that is displayed to user to launch the manage reminders activity. This is available as menu option from To Do activity.">管理待办事项提醒</string>
+  <string name="wp_todo_manage_notification_groups_empty" context="This text is displayed to the user when he is in the personalize time activity for a group but there are no tasks         available for that group">您没有可以更改提醒的事项</string>
+  <string name="wp_todo_manage_notification_groups_no_access" context="Text which is displayed to the user if the user does not have security to view the patient's reminders.">您无法管理这个病人的待办事项提醒</string>
+  <string name="wp_todo_save_menu" context="Text on the button which when pressed would cause the data to save in that activity.">保存</string>
+  <string name="wp_todo_personalize_save_failed" context="Message in toast to tell the user that the personalization time could not be saved and that the user can try again.">保存更改时出现错误。请稍后再试。</string>
+  <string name="wp_todo_personalize_reminder_act_title" context="Title of the activity which configures To Do notification settings.">待办事项提醒</string>
+  <string name="wp_todo_personalize_reminder_schedule_act_title" context="Title of the activity which displays all the notification group.">提醒时间表</string>
+  <string name="wp_todo_personalize_service_load_notification_settings_failed" context="Toast message is displayed when there are errors in loading notification settings.">糟糕，无法获取您的设置</string>
+  <string name="wp_todo_personalize_service_save_notification_settings_failed" context="Toast message is displayed when there are errors in loading notification settings.">糟糕，无法保存您的设置</string>
+  <string name="wp_todo_personalize_onoff_unable_to_load_settings" context="Label message is displayed when there are errors in loading notification settings.">无法载入您的设置，请重试。</string>
+  <string name="wp_todo_personalize_onoff_no_security" context="Label message is displayed when user doesn't have security to modify notification settings.">您没有权限编辑这些设置。</string>
+  <string name="wp_todo_personalize_onoff_send_me_reminders" context="Row title for the setting to receive reminders.">给我发送事项提醒</string>
+  <string name="wp_todo_personalize_onoff_send_patient_reminders" context="Row title for the setting to receive reminders for a given patient.         Param 1: Patient Name">给我发送%1$@的事项提醒</string>
+  <string name="wp_todo_personalize_onoff_reminder_off_helptext" context="Description explaining that the user is currently not receiving task notifications.">您当前不会收到事项提醒。</string>
+  <string name="wp_todo_personalize_onoff_reminder_off_helptext_patient" context="Description explaining that the user is currently not receiving task notifications for a given patient.         Param 1: Patient Name">您当前不会收到%1$@的事项提醒。</string>
+  <string name="wp_todo_personalize_frequency_section_title" context="Section title for frequency related settings for reminders.">频率？</string>
+  <string name="wp_todo_personalize_frequency_when_my_tasks_due" context="Row title for the setting to receive reminders when tasks are due.">我的事项什么时候到期</string>
+  <string name="wp_todo_personalize_frequency_when_patient_tasks_due" context="Row title for the setting to receive reminders when tasks are due for a given patient.         Param 1: Patient Name">%1$@的事项什么时候到期</string>
+  <string name="wp_todo_personalize_frequency_once_daily" context="Row title for the setting to receive reminders once per day.">每天仅一次</string>
+  <string name="wp_todo_personalize_frequency_remind_me_at" context="Row title for the setting to set time when to receive daily reminder.">提醒我在</string>
+  <string name="wp_todo_personalize_task_type_section_title" context="Section title for task type related settings for reminders.">事项类型</string>
+  <string name="wp_todo_personalize_task_type_general" context="Row title for the setting to receive reminders for general task.">普通</string>
+  <string name="wp_todo_personalize_task_type_education" context="Row title for the setting to receive reminders for education task.">学习</string>
+  <string name="wp_todo_personalize_task_type_medications" context="Row title for the setting to receive reminders for medication task.">药物</string>
+  <string name="wp_todo_personalize_task_type_questionnaires" context="Row title for the setting to receive reminders for questionnaire task.">问卷</string>
+  <string name="wp_todo_personalize_task_type_flowsheet" context="Row title for the setting to receive reminders for flowsheet task.">健康追踪</string>
+  <string name="wp_todo_personalize_task_type_appointments" context="Row title for the setting to receive reminders for appointment task.">预约</string>
+  <string name="wp_todo_personalize_notification_settings_helptext" context="Description explaining that the notification settings only apply to user's own devices.">此设置只适用于您的移动设备上的通知。它不会影响其他可访问您账号的用户。</string>
+  <string name="wp_todo_personalize_notification_settings_helptext_patient" context="Description explaining that the notification settings only apply to user's own devices when viewing a patient's settings.         Param 1: Patient Name">此设置只适用于您的移动设备上的通知。它不会影响%1$@或其他可访问%1$@账号的用户。</string>
+  <string name="wp_todo_personalize_schedule_manage_my_schedule" context="Row title for the link to open manage reminder schedule activity.">管理提醒时间表</string>
+  <string name="wp_todo_personalize_schedule_manage_patient_schedule" context="Row title for the link to open manage reminder schedule activity of a given patient.         Param 1: Patient Name">管理%1$@的提醒时间表</string>
+  <string name="wp_todo_personalize_schedule_helptext" context="Description explaining what manage reminder schedule means.">更改何时发送提醒给您或其他可访问您账号的用户。</string>
+  <string name="wp_todo_personalize_schedule_helptext_patient" context="Description explaining what manage reminder schedule means.         Param 1: Patient Name">更改何时发送提醒给%1$@、您和其他可访问%1$@账号的用户。</string>
+  <plurals name="wp_todo_personalize_schedule_bucket_description" context="Description saying how many tasks a patient has in a given time of day (e.g., morning, evening, etc.).                 Param 1: Task Count">
+    <item quantity="one">在这时有%1$@个事项</item>
+    <item quantity="other">在这时有%1$@个事项</item>
+  </plurals>
+  <string name="wp_todo_personalize_timepicker_cancel" context="Button closes a dialog without taking any action.">取消</string>
+  <string name="wp_todo_alert_timezone_diff_header" context="Header message on the time zone difference pop up">更新时区？</string>
+  <string name="wp_todo_alert_timezone_diff" context="Alert text if user's time zone is different to the time zone set for scheduled reminders, Param 1 is the notification time zone name">您的设备正在使用“%1$@”。您想要更新您的提醒时间以使用这个时区吗？</string>
+  <string name="wp_todo_alert_timezone_diff_subject" context="Alert text if user's time zone is different to the time zone set for scheduled reminders, Param 1 is the notification time zone name, Param 2 is the patient's name">您的设备正在使用“%1$@”。您想要更新%2$@的提醒时间以使用这个时区吗？</string>
+  <string name="wp_todo_alert_timezone_diff_toast" context="Toast text if user's time zone is different to the time zone set for scheduled reminders and user have no security to change it. Param 1 is the mobile phone's current time zone name, Param 2 is the notification time zone">您的设备正在使用“%1$@”。您的事项截止时间仍然使用“%2$@”显示。</string>
+  <string name="wp_todo_alert_timezone_diff_toast_subject" context="Toast text if user's time zone is different to the time zone set for scheduled reminders and user have no security to change it. Param 1 is the mobile phone's current time zone name, Param 2 is the patient's name, Param 3 is the notification time zone">您的设备正在使用“%1$@”。%2$@的事项截止时间仍然使用“%3$@”显示。</string>
+  <string name="wp_todo_alert_timezone_diff_update" context="Button text to update the notification time zone. Param 1 is the time zone we are going to use">更新至%1$@</string>
+  <string name="wp_todo_alert_timezone_diff_dismiss" context="Button test to continue on current time zone. Param 1 is the current time zone we are using">继续使用%1$@</string>
+  <string name="wp_todo_service_puttimezone_failed" context="Toast message that is displayed when there are errors updating the time zone settings.">哎呀，发生了错误。我们无法更新您的时区设置。</string>
+  <string name="wp_todo_service_puttimezone_notification_succeed" context="Toast message that is displayed when updating the notification time zone settings succeed. Param 1 is the patient's notification time zone">事项提醒已被更新到使用当前时区%1$@。</string>
+  <string name="wp_todo_title_notificationtimezone" context="Title of a row with contains the notification time zone">时区</string>
+  <string name="wp_todo_toggle_alertwhentimezonediffers" context="Title of a row with a switch to turn on notifications for time zone changes.">当时区改变时发出警告</string>
+  <string name="wp_todo_toggle_alertwhentimezonediffers_subject" context="Title of a row with a switch to turn on notifications for a patient's time zone changes. %1$@ is patient's name.">当%1$@的时区改变时发出警告</string>
+  <string name="wp_todo_toggle_alertwhentimezonediffers_footer" context="Footer description for time zone alert onoff section.">如果您想在您的通知时区与您的设备的时区时不同时收到通知，可以打开这个设置。</string>
+  <string name="wp_todo_toggle_alertwhentimezonediffers_footer_subject" context="Footer description for time zone alert onoff section. %1$@ is patient's name.">如果您想在%1$@的通知时区与您的设备的时区时不同时收到通知，可以打开这个设置。</string>
+  <string name="wp_todo_settings_footer_servicefailed" context="Footer description for when notification settings fail to save.">无法保存您的设置。请稍后再试。</string>
+  <string name="wp_todo_timezoneselection_footer" context="Footer description for time zone selection section.">所有事项提醒会根据您所选择的时区发送。每日提醒会根据您当前的时区发送。</string>
+  <string name="wp_todo_timezonelist_searchbar_placeholder" context="Ghost text for search bar.">搜索</string>
+  <string name="wp_todo_timezonelist_header_current" context="Header message for the current time zone row">您所在位置的时区</string>
+  <string name="wp_todo_timezonelist_header_selected" context="Header message for the current selected time zone row">您选择的时区</string>
+  <string name="wp_todo_timezonelist_header_selected_subject" context="Header message for the current selected time zone row. %1$@ is patient's name.">%1$@选择的时区</string>
+  <string name="wp_todo_timezonelist_header_other" context="Header message for the section contains other available time zones">其他可用时区</string>
+  <string name="wp_todo_timezonelist_empty" context="Message shown when there are no available time zones to select from.">没有可以选择的时区。</string>
+  <string name="wp_todo_timezonelist_selected" context="Tooltip for check mark icon for a selected time zone.">已选择</string>
+  <string name="wp_todo_popup_close_accessibility" context="Accessibility label for the background button that is hidden behind a popup to allow the user to dismiss the pop-up">关闭弹出窗口</string>
+  <string name="wp_todo_popup_save" context="Text the button which confirms a user's selection">保存</string>
+  <!-- To Do List Options Strings -->
+  <string name="wp_todo_task_filter_options_finished" context="Checkbox option displayed to user to enable the visibility of finished tasks">显示已完成事项</string>
+  <string name="wp_todo_task_filter_options_finished_on_accessibilityText" context="Label read in voiceover mode describing setting to enable visibility of finished tasks when it is on">显示已完成事项，开。</string>
+  <string name="wp_todo_task_filter_options_finished_off_accessibilityText" context="Label read in voiceover mode describing setting to enable visibility of finished tasks when it is off">显示已完成事项，关。</string>
+  <string name="wp_todo_task_filter_option_menu" context="Menu option displayed to the user in To Do activity on top right">选项</string>
+  <!-- To Do Display Strings -->
+  <string name="wp_todo_overdue_label" context="Due date label for overdue task. %1$@ is for the due date, %2$@ is for the notification group, if any, if any">%1$@到期 %2$@</string>
+  <string name="wp_todo_overdue_label_yesterday" context="Label that indicates an overdue task was due yesterday. %1$@ is for the notification group, if any">昨日到期%1$@</string>
+  <string name="wp_todo_task_undo" context="Text for undo button for tasks in todo activity">撤销</string>
+  <string name="wp_todo_task_done" context="Text for done button for tasks in todo activity">完成</string>
+  <string name="wp_todo_task_not_done" context="Text for not done button for tasks in todo activity">未完成</string>
+  <string name="wp_todo_appointment_echeckin" context="Text for echeck-in button for appointments in todo activity">在线登记</string>
+  <string name="wp_todo_default_visit_string" context="The default title for a visit if the visit's name was otherwise blank">就诊</string>
+  <string name="wp_todo_appointment_panel_visit_title_two_component_appointments" context="The title displayed for a panel of appointments when the panel appointment itself does not have a display name. Instead, we construct the visit title name using the visit titles of the first two child visits in the panel. %1$@ is the visit title of the first child visit. %2$@ is the visit title of the second child visit.">%1$@和%2$@</string>
+  <string name="wp_todo_appointment_panel_visit_title_more_than_two_component_appointments" context="The title displayed for a panel of appointments when the panel appointment itself does not have a display name. Instead, we construct the visit title name using the visit title of the first child visit and then displaying how many other child visits there are. %1$@ is the visit title of the first child visit. %2$@ is the number of the remaining visits in the panel appointment.">%1$@和其他%2$@个预约</string>
+  <string name="wp_todo_task_flowsheet_threshold" context="Text displaying the flowsheet progress and threshold value in To Do list for a Flowsheet Threshold task. For example, if this is a step count flowsheet threshold task, then this string would appear as '325 / 5000', meaning patient has walked 325 steps out of 5000 steps so far. WARNING: The 2 placeholders MUST be present in translated string. %1$@ is a numeric value representing current progress. This value will always appear formatted differently (bigger font) than rest of the string. %2$@ is a numeric value representing threshold value. ">%1$@ / %2$@</string>
+  <string name="wp_todo_task_flowsheet_threshold_accessibility" context="Accessibility Text read by voiceover stating current progress value and threshold in To Do list for a Flowsheet Threshold task. %1$@ is the numeric progress value. %2$@ is numeric flowsheet threshold value.">当前进度%2$@分之%1$@</string>
+  <string name="wp_todo_task_flowsheet_nil_threshold_accessibility" context="Accessibility Text read by voiceover stating current progress or threshold value is nil or empty.">无</string>
+  <!-- Meds Coach Strings -->
+  <string name="wp_todo_medscoach_title" context="Title for Meds Coach Activity">药物提醒</string>
+  <string name="wp_todo_medscoach_medication_title" context="Title for the med grouping, %1$@ is the name of the notification group (e.g. morning)">%1$@</string>
+  <string name="wp_todo_medscoach_medication_subtitle_date" context="Subtitle text for the med grouping, used for by-end-of-day meds or meds with notification group without a time, %1$@ is for the date">%1$@</string>
+  <string name="wp_todo_medscoach_marknumtaken_button" context="Button text for the mark all as taken button, but show the actual number of meds that would be marked. %1$@ is the number of meds that will be marked">标记（%1$@）已服用</string>
+  <string name="wp_todo_medscoach_bucket_status_all_med_remains" context="Meds bucket status string for when no meds in the bucket is taken or skipped. %1$@ is the number of medications left">%1$@个剩余</string>
+  <string name="wp_todo_medscoach_bucket_status_no_med_taken" context="Meds bucket status string for when no meds were taken (all skipped)">未服用药物</string>
+  <string name="wp_todo_medscoach_bucket_status_all_med_taken" context="Meds bucket status string for when all meds were taken">已服用全部药物</string>
+  <string name="wp_todo_medscoach_bucket_status_all_meds_taken_and_nottaken" context="Meds bucket status string for when all meds are either taken or skipped. %1$@ is the number of medications taken, %2$@ is the number skipped">%1$@个已服用，%2$@个未服用</string>
+  <string name="wp_todo_medscoach_bucket_status_all_meds_taken_and_remaining" context="Meds bucket status string for when all meds are either taken or still remains. %1$@ is the number of medications taken, %2$@ is the number remaining">%1$@个已服用，%2$@个剩余</string>
+  <string name="wp_todo_medscoach_bucket_status_all_meds_nottaken_and_remaining" context="Meds bucket status string for when all meds are either not taken or still remains. %1$@ is the number of medications not taken, %2$@ is the number remaining">%1$@个未服用，%2$@个剩余</string>
+  <string name="wp_todo_medscoach_bucket_status_all_meds_taken_nottaken_and_remaining" context="Meds bucket status string for when all meds are taken, not taken, or remains. %1$@ is the number of medications taken, %2$@ is the number not taken, %3$@ is the number remaining">%1$@个已服用，%2$@个未服用，%3$@个剩余</string>
+  <string name="wp_todo_medscoach_medsbucket_title" context="Title for meds bucket task">服用药物</string>
+  <string name="wp_todo_medscoach_footer_warning" context="Meds bucket warning string about potential incomplete med list">您可能正在服用没有提醒的其他药物。如果您不确定要服用哪种药物，可以与您的医疗人员交流。</string>
+  <string name="wp_todo_medsgroup_instruction" context="The instruction for a meds group task">遵医嘱服用</string>
+  <string name="wp_todo_medsgroup_instruction_anticoag" context="The instruction for a meds group task when the task is for an anticoagulant order">遵抗凝诊所的医嘱服用</string>
+  <string name="wp_todo_medsgroup_title_reminder" context="The title for a group of med tasks that have different frequencies">您今天是否服用了%1$@？</string>
+  <string name="wp_futureappointment_time_ondemand" context="appears as the time of the appointment for an on-demand video visit">将来的视频就诊</string>
+  <string name="wp_futureappointment_time_tbd" context="appears as the time of the appointment when the time is not yet determined">时间待定</string>
+  <string name="wp_futureappointment_show_arrival_time" context="Arrive by string for appointments. %1$@ is the arrival time.">%1$@前到</string>
+  <string name="wp_futureappointment_show_start_time" context="Start by string for appointment. %1$@ is the start time.">%1$@开始</string>
+  <string name="wp_futureappointment_show_join_time" context="Join by string for a video visit. %1$@ is the start time of the video visit.">%1$@前加入</string>
+  <string name="wp_futureappointment_appointment_time_with_time_zone" context="Time string with time zone for appointments. %1$@ is the time. %2$@ is the time zone.">%1$@%2$@</string>
+  <string name="wp_past_medication_instructions" context="appears when the medication is overdue.">遵照您的医疗人员的指导，了解如果错过了一剂该如何服用这些药物。</string>
+  <!-- To Do E-Visit Strings -->
+  <string name="wp_futureappointment_evisit_name" context="Default name to use for E-Visits.">网络就诊</string>
+  <string name="wp_futureappointment_time_evisit" context="appears as the time of the appointment for an E-Visit. %1$@ is the name for E-Visits.">%1$@进行中</string>
+  <string name="wp_todo_evisit_unread_response" context="appears as the display name of the appointment for an E-Visit that has an unread response from a provider. %1$@ is the name for E-Visits. %2$@ is the reason for E-Visit.">浏览关于您的就诊原因%2$@的%1$@就诊的新消息</string>
+  <string name="wp_todo_evisit_submitted" context="appears as the display name of the appointment for an E-Visit that has been submitted. %1$@ is the reason for E-Visit. %1$@ is the name for E-Visits. %2$@ is the reason for E-Visit.">浏览关于您的就诊原因%2$@的%1$@的就诊详细内容</string>
+  <string name="wp_todo_evisit_not_submitted" context="appears as the display name of the appointment for an E-Visit that has not yet been submitted. %1$@ is the reason for E-Visit. %1$@ is the name for E-Visits. %2$@ is the reason for E-Visit.">完成您的就诊原因%2$@的%1$@就诊</string>
+  <string name="wp_todo_evisit_pinit" context="appears as the display name of the appointment for an E-Visit that was ordered by a provider and has not yet been viewed. %1$@ is the reason for E-Visit. %1$@ is the name for E-Visits. %2$@ is the reason for E-Visit.">就诊原因%2$@的%1$@就诊</string>
+  <!-- To Do Progress Strings -->
+  <string name="wp_todo_progress_title" context="Title for To Do Progress Activity">进度</string>
+  <string name="wp_todo_progress_range_last_week" context="Button to show to do progress over the last week">过去7天里</string>
+  <string name="wp_todo_progress_range_last_month" context="Button to show to do progress over the last month">过去30天里</string>
+  <string name="wp_todo_progress_range_last_three_months" context="Button to show to do progress over the last three months">过去90天里</string>
+  <string name="wp_todo_progress_title_category_overall" context="Title for overall progress in to do">总体上来说</string>
+  <string name="wp_todo_progress_title_category_general" context="Title for generic task progress in to do">普通</string>
+  <string name="wp_todo_progress_title_category_medications" context="Title for medication task progress in to do">药物</string>
+  <string name="wp_todo_progress_title_category_flowsheets" context="Title for flowsheet task progress in to do">健康追踪</string>
+  <string name="wp_todo_progress_title_category_education" context="Title for education task progress in to do">学习</string>
+  <string name="wp_todo_progress_title_category_questionnaires" context="Title for questionnaire task progress in to do">问卷</string>
+  <string name="wp_todo_progress_title_category_appointments" context="Title for appointment task progress in to do">预约</string>
+  <string name="wp_todo_progress_subtitle_no_tasks" context="Subtitle for a to do progress category with no tasks">没有事项</string>
+  <string name="wp_todo_progress_tasks_due_today" context="Label showing how many tasks in a particular category are due today. %1$@ is the number of tasks">%1$@今天到期</string>
+  <string name="wp_todo_progress_completion_accessibility_label" context="Label showing how many tasks have been completed out of the total number assigned. Formatted nicer for screen readers. %1$@ is the number of tasks completed, %2$@ is the total number assigned">%2$@分之%1$@</string>
+  <string name="wp_todo_progress_no_task_data_found" context="Toast message shown when no tasks data was loaded">没有发现事项信息</string>
+  <string name="wp_todo_progress_error_loading_task_data" context="Error message shown when task data could not be loaded">载入事项信息出错</string>
+  <!-- Patient-created Tasks Strings -->
+  <string name="wp_manage_todo_reminders_label_patientcreatedtasks" context="The label for the button to access management for patient created tasks">管理已创建事项</string>
+  <string name="wp_manage_todo_reminders_section_footer_patientcreatedtasks" context="Description for manage patient-created tasks activity">编辑或删除您创建的事项。您的护理团队能看到您的事项信息，但他们无法编辑您的事项。</string>
+  <string name="wp_todo_patientcreatedtasks" context="Title for patient-created tasks activity">已创建事项</string>
+  <string name="wp_todo_patientcreatedtasks_empty" context="Message for the patient-created tasks activity which shows when the patient has zero created tasks.">您还没有为自己创建任何事项。</string>
+  <string name="wp_todo_patientcreatedtask_nextduedate" context="Label for the next due date on a patient created task. %1$@ is the date (long format: En-US Nov 23, 1937) a task is next due">下次于%1$@到期</string>
+  <string name="wp_todo_patientcreatedtask_done" context="Label for the case when there is no instant for this task, in other words this task is finished or done.">完成</string>
+  <string name="wp_todo_patientcreatedtask_create" context="The label for a button which creates a task when pressed.">创建事项</string>
+  <string name="wp_todo_patientcreatedtask_delete_title" context="Delete alert message title">删除事项？</string>
+  <string name="wp_todo_patientcreatedtask_delete_body" context="Delete alert message body. Asks the user to confirm if they want to delete a task. %1$@ is the name of the task">“%1$@” 将会被删除。</string>
+  <string name="wp_todo_patientcreatedtask_delete_confirm" context="Delete alert option to confirming a task should be deleted when pressed">删除</string>
+  <string name="wp_todo_patientcreatedtask_delete_cancel" context="Delete alert option to cancel deleting a task when pressed">取消</string>
+  <string name="wp_todo_patientcreatedtask_create_success" context="Message which appears when a task is successfully created">事项已提交</string>
+  <string name="wp_todo_patientcreatedtask_delete_success" context="Message which appears when a task is successfully deleted">事项已删除</string>
+  <string name="wp_todo_patientcreatedtask_delete_fail" context="Message which appears when a task fails to delete">无法删除事项</string>
+  <string name="wp_todo_patientcreatedtask_create_header" context="Header label for the navigation bar">事项编辑器</string>
+  <string name="wp_todo_patientcreatedtask_create_name" context="Section label for entering a task name">名称</string>
+  <string name="wp_todo_patientcreatedtask_create_description" context="Section label for entering a task description">说明</string>
+  <string name="wp_todo_patientcreatedtask_create_when" context="Section label for entering what time a task will occur">什么时候？</string>
+  <string name="wp_todo_patientcreatedtask_create_recurrence" context="Section label for entering how much time will there be until a task repeats">频率？</string>
+  <string name="wp_todo_patientcreatedtask_create_time" context="Title label for selecting the task time">时间：</string>
+  <string name="wp_todo_patientcreatedtask_create_date" context="Title label for selecting the task date or start date">日期：</string>
+  <string name="wp_todo_patientcreatedtask_create_recurrence_label" context="Title label for selecting how long before the next task occurence">重复：</string>
+  <string name="wp_todo_patientcreatedtask_accessibility_edit" context="Accessibility text for the edit icon">编辑这个事项</string>
+  <string name="wp_todo_patientcreatedtask_accessibility_delete" context="Accessibility text for the delete icon">删除这个事项</string>
+  <string name="wp_todo_patientcreatedtask_accessibility_when" context="Accessibility text for the when to send reminder input">什么时候发送提醒？</string>
+  <string name="wp_todo_patientcreatedtask_create_no_recurrence" context="Title for the option to create a one off task. Such tasks dont repeat and can be also be seen as one time tasks.">从不</string>
+  <plurals name="wp_todo_patientcreatedtask_create_recurrence_days" context="Title for the option to define the amount of time before a task repeats in days">
+    <item quantity="one">天</item>
+    <item quantity="other">天</item>
+  </plurals>
+  <plurals name="wp_todo_patientcreatedtask_create_recurrence_weeks" context="Title for the option to define the amount of time before a task repeats in weeks">
+    <item quantity="one">周</item>
+    <item quantity="other">周</item>
+  </plurals>
+  <plurals name="wp_todo_patientcreatedtask_create_recurrence_selection_days" context="Complete phrase for the user's selection of time between task recurrence. %1$@ is the number of days         Param 1: Number of days">
+    <item quantity="one">每天</item>
+    <item quantity="other">每%1$@天</item>
+  </plurals>
+  <plurals name="wp_todo_patientcreatedtask_create_recurrence_selection_weeks" context="Complete phrase for the user's selection of time between task recurrence. %1$@ is the number of weeks         Param 1: Number of weeks">
+    <item quantity="one">每周</item>
+    <item quantity="other">每%1$@周</item>
+  </plurals>
+  <string name="wp_todo_patientcreatedtask_create_save" context="Label for indicating changes will be saved when selected">保存更改</string>
+  <string name="wp_todo_patientcreatedtask_create_submit" context="Title for the button to submit a task for creation">提交</string>
+  <string name="wp_todo_patientcreatedtask_create_submit_error_name" context="Error message body shown when the name is too long. %1$@ is the maximum number of characters a name may hold">名字不可以超过%1$@个字</string>
+  <string name="wp_todo_patientcreatedtask_create_submit_error_description" context="Error message body shown when the description is too long. %1$@ is the maximum number of characters a description may hold.">说明不可以超过%1$@个字</string>
+  <string name="wp_todo_patientcreatedtask_create_submit_fail" context="Error message shown when the task submission request fails">提交事项失败。请稍后再试。</string>
+  <!-- DateTime picker, shared with MyChartRef -->
+  <string name="wp_datetimepicker_buttonLeaveUnspecified" context="Button label that would clear out the current selection" length="20">保持不确定</string>
+  <!-- Empty/No Tasks Strings -->
+  <string name="wp_todo_empty_all_set" context="Text displayed to user when they do not have any tasks assigned to them/haven't created any of their own, letting them know they have nothing to complete">全部完成了！</string>
+  <string name="wp_todo_empty_no_tasks" context="Text displayed to user when they do not have any tasks assigned to them/haven't created any of their own">现在没有事项可查看</string>
+  <string name="wp_todo_empty_create_task" context="Message instructing user how to create a task when they have nothing listed in To Do">点击下方的更多按钮来创建您自己的事项</string>
+  <!-- More Tab/Bottom Sheet Strings -->
+  <string name="wp_todo_more_tab_title" context="Label for the More tab on the bottom navigation bar">更多</string>
+  <string name="wp_todo_bottomsheet_show_finished_tasks_header_text" context="Label of switch to toggle if finished tasks are visible/hidden">显示已完成事项</string>
+  <string name="wp_todo_bottomsheet_create_task_helper_text" context="Text to help a user understand the purpose of the Create Task link in the More menu">添加您自己的事项到您的待办事项列表。</string>
+  <string name="wp_todo_bottomsheet_manage_reminders_helper_text" context="Text to help a user understand the purpose of the Manage To Do Reminders link in the More menu">决定您获取事项提醒的时间及方式。</string>
+  <string name="wp_todo_bottomsheet_show_finished_tasks_helper_text" context="Text to help a user understand the purpose of the Show Finish Tasks switch in the More menu">查看您当日已完成的事项。</string>
+  <string name="wp_todo_bottom_sheet_hide_accessibility_text" context="Label read in VoiceOver mode describing a button that hides the More tab menu.">隐藏更多菜单</string>
+  <string name="wp_todo_bottom_sheet_toggle_accessibility_hint_text" context="Hint read in VoiceOver mode letting the user know they can double tap the screen to toggle a switch">双击来切换</string>
+  <string name="wp_todo_bottom_sheet_answer_questionnaire_header_text" context="Header text on a link in the More menu that takes the user to an activity where they can answer their general persistent questionnaires">回答一份问卷</string>
+  <string name="wp_todo_bottom_sheet_answer_questionnaire_helper_text" context="Text to help a user understand the purpose of the Answer a Questionnaire link the More menu">在任何时间完成您的普通问卷。</string>
+  <string name="wp_todo_bottom_sheet_record_symptom_header_text" context="Header text on a link in the More menu that takes the user to an activity where they can answer their symptom check-in persistent questionnaires">记录一个症状</string>
+  <string name="wp_todo_bottom_sheet_record_symptom_helper_text" context="Text to help a user understand the purpose of the Record a Symptom link the More menu">在任何时间完成您的症状调查问卷。</string>
+  <string name="wp_todo_questionnaire_submitted" context="Text that is displayed in a toast when the user completes a questionnaire through one of the ad hoc workflows from the More menu">问卷成功提交</string>
+  <!-- Questionnaires List Strings -->
+  <string name="wp_todo_questionnaires_list_activity_title" context="Title of the activity that displays a list of questionnaire tasks for a user to pick from">需要完成的问卷</string>
+  <string name="wp_todo_questionnaires_list_view_controller_title" context="Title of the view controller that displays a list of questionnaire tasks for a user to pick from">问卷</string>
+  <string name="wp_todo_questionnaires_list_empty_text" context="Message displayed to the user when there are no questionnaire tasks to display">现在没有需要完成的问卷</string>
+</resources>

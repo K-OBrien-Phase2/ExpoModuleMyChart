@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright © 2019-2023 Epic Systems Corporation
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="wp_home_menu_pull_to_dismiss" context="This is a message that slowly fades in when swiping down on a scrolling menu indicating that if the user scrolls down far enough, the menu will disappear and reveal the prior screen">Trekk for å avvise</string>
+  <string name="wp_home_menu_search_the_menu" context="This is a placeholder message in a search field (that disappears when entering the field) telling the user that the search can be used to filter down the list of menu options that are below the search box (as opposed to, say, searching everything about mychart)">Søk i menyen</string>
+  <string name="wp_home_menu_cancel_menu" context="This is displayed next to the search bar to cancel the search or close the menu">Lukk</string>
+  <string name="wp_home_feed_button_reload" context="This is displayed on the error card's button in order to reload the feed">Last inn på nytt</string>
+  <plurals name="wp_home_menu_search_results_found" context="This is displayed when the menu search has results. %1$@ is the number of results">
+    <item quantity="one">%1$@ resultat for søket ditt</item>
+    <item quantity="other">%1$@ resultater for søket ditt</item>
+  </plurals>
+  <string name="wp_home_menu_search_no_results_found" context="This is displayed if the search has no results for menu">Ingen resultater for søket ditt</string>
+  <string name="wp_home_menu" context="The button name for the menu">Meny</string>
+  <string name="wp_home_search_placeholder" context="Text displayed in the search bar that encourages the user to search">Søk</string>
+  <string name="wp_home_sayt_window_accessibility" context="Accessibility target for the iOS search window when showing search-as-you-type">Meny og søkevindu</string>
+  <string name="wp_home_search_window_accessibility" context="Accessibility target for the iOS search window when showing search results">Søkevindu</string>
+  <string name="wp_home_header_logout" context="See STR_SPRING_POPDOWN_LOGOUT_TITLE; This is displayed as a button or table row indicating that tapping will log the user out and return to the login screen">Logg ut</string>
+  <string name="wp_home_header_select_from_feature_options" context="This is displayed as a label above a table with rows of actionable menu options. These options can include Personalize, Settings, and Log out">Velg fra følgende alternativer:</string>
+  <string name="wp_home_header_select_an_account" context="This is displayed as a header label if the logged in user has no patient record, but does have access to patients as proxy subjects. The user's name/photo appears selectable alongside the other selectable proxy subject patients, so while we might otherwise typically say 'select a patient to view,' since the user herself isn't a patient, we use the word 'account' instead, referring to a mychart account">Velg en konto å vise:</string>
+  <string name="wp_home_header_select_a_patient" context="This is displayed as a header label if the logged in user is a patient and has proxy subjects as well. The user's name/photo appears selectable alongside the other selectable proxy subject patients, and this label indicates the user should chose among them">Velg en pasient å vise:</string>
+  <string name="wp_home_header_switch_accounts" length="about 25 characters" context="Similiar to wp_home_header_select_an_account, this is displayed as a header label if the logged if the logged in user has no patient record, but does have access to patients as proxy subjects. The user's name/photo appears selectable alongside the other selectable proxy subject patients in a miniature form factor, and this label indicates that if the user taps the photos, they will be given a screen where they may switch to a different account.">Bytt kontoer</string>
+  <string name="wp_home_header_switch_patients" length="about 25 characters" context="Similiar to wp_home_header_select_a_patient, this is displayed as a header label if the logged in user is a patient and has proxy subjects as well. The user's name/photo appears selectable alongside the other selectable proxy subject patients in a miniature form factor, and this label indicates that if the user taps the photos, they will be given a screen where they may switch to a different patient.">Bytt pasienter</string>
+  <string name="wp_home_header_welcome" context="Brief message welcoming the user, when we don't know their name">Velkommen!</string>
+  <string name="wp_home_header_welcome_with_name" context="Brief message welcoming the user, when we know their preferred name. %1$@ is the name of the user">Velkommen, %1$@!</string>
+  <string name="wp_home_header_welcome_with_proxy" context="Brief message welcoming the user and informing them which chart they're viewing. %1$@ is the name of the proxy subject">Velkommen! Du viser %1$@.</string>
+  <!-- Accessibility-->
+  <string name="wp_feed_view_pager_page_count" context="This text is read aloud before the voice over user begins swiping through the cards showing various cards. %1$@ is the number of cards that are in the carouesel">Liste over %1$@ elementer.</string>
+  <string name="wp_feed_organization_name_hint" context="This is after the contents of an alert to indicate the information is coming from another organization via happy together. %1$@ is the default accessibility string and %2$@ is the org name">%1$@. Denne informasjonen er fra %2$@.</string>
+  <string name="wp_home_header_switch_accounts_accessibility" context="This is the equivalent of wp_home_header_switch_accounts that is read aloud from screen readers instead.">Bytt kontoer eller velg fra andre kontoalternativer.</string>
+  <string name="wp_home_header_switch_patients_accessibility" context="This is the equivalent of wp_home_header_patients_accounts that is read aloud from screen readers instead. %1$@ will be either Switch Patients, Switch Persons, or similar action.">%1$@ eller velg fra andre kontoalternativer.</string>
+  <string name="wp_homepage_accessibility_welcome" context="Accessibility Message after login.  Where %1$@ is the name of the user.  And %2$@ is the brand name.  Example brand names would be MyChart, MyHealth, Org Patient Portal.">Velkommen %1$@. Innlogget på %2$@</string>
+  <string name="wp_homepage_accessibility_clear_search" context="Accessibility Message when focusing on the clear search button.">Tøm søk</string>
+  <string name="wp_homepage_accessibility_closed_menu" context="Accessibility Message after closing them menu pop up.">Meny lukket</string>
+  <string name="wp_homepage_accessibility_menu_group" context="Accessibility Message when focusing on a menu sub header.">%1$@, overskrift</string>
+  <string name="wp_homepage_accessibility_viewing_chart" context="Accessibility Message when focusing on a image showing whose chart you are viewing.">Viser journal for %1$@</string>
+  <string name="wp_homepage_accessibility_menu_opening" context="Accessibility Message while opening the menu pop up.">Åpner meny</string>
+  <string name="wp_homepage_accessibility_viewing_chart_single" context="Accessibility Message when focusing on a image showing whose chart you are viewing.  Tapping the image will show account options.  Only for a single patient with no proxy subjects. %1$@ is the name of the user.">Viser journal for %1$@. Kontoalternativer.</string>
+  <string name="wp_homepage_accessibility_select_patient_or_cancel" context="Accessibility Message instructing users to select from a list of patients or tap to go back to where they came from close the current window.  The text should closely resemble wp_home_header_select_patient">Velg en pasient å vise eller dobbelttrykk for å avbryte.</string>
+  <string name="wp_homepage_accessibility_select_account_or_cancel" context="Accessibility Message instructing users to select from a list of patients or tap to go back to where they came from close the current window.  The text should closely resemble wp_home_header_select_account">Velg en konto å vise, eller dobbelttrykk for å avbryte.</string>
+  <string name="wp_homepage_accessibility_select_option_or_cancel" context="Accessibility Message instructing users to select from a list of account features or tap to go back to where they came from close the current window.  The text should closely resemble wp_home_header_select_from_feature_options">Velg fra følgende alternativer eller dobbelttrykk for å avbryte.</string>
+  <string name="wp_homepage_accessibility_view_all_menu_options" context="Accessibility label for the main menu button, indicating that tapping will show every navigation option available. Used when the patient is viewing their own chart and they do not have any proxies">Meny</string>
+  <string name="wp_homepage_accessibility_view_all_menu_options_self_with_proxies" context="Accessibility label for the main menu button, indicating that tapping will show every navigation option available. Used when the patient is viewing their own chart, but they also have proxies">Din meny</string>
+  <string name="wp_homepage_accessibility_view_all_menu_options_proxy" context="Accessibility label for the main menu button, indicating that tapping will show every navigation option available for the currently selected patient. Used when the patient is viewing their proxy's chart. %1$@ - The proxy name">Menyen for %1$@</string>
+  <string name="wp_homepage_accessibility_open_search_activity" context="Accessibility label for the button that opens the search activity">Meny og søk</string>
+  <string name="wp_homepage_accessibility_close_search_activity" context="Accessibility label for the button that closes the search activity">Lukk</string>
+  <string name="wp_homepage_accessibility_feed_header_text_empty" context="Accessibility label for each a header section of the notifications table informing the user that the patient (named %1$@) associated with this heading has no notifications to follow that header.">%1$@ har ingen varsler</string>
+  <string name="wp_homepage_accessibility_feed_header_text_empty_self" context="Accessibility label for each a header section of the notifications table informing the user that they have no notifications to follow this header.">du har ingen varsler.</string>
+  <string name="wp_homepage_accessibility_myc3_progress_arc" context="Accessibility text for the progress arc that shows the percentage of finished MyChart Care Companion tasks due today.">%1$@ prosent fullført</string>
+  <plurals name="wp_homepage_accessibility_feed_header_text" context="Accessibility label for each header section of the notifications table informing the user that the patient (named %2$@) associated with this heading has %1$@ notifications in the rows that follow that header.">
+    <item quantity="one">Det er %1$@ varsel for %2$@</item>
+    <item quantity="other">Det er %1$@ varsler for %2$@</item>
+  </plurals>
+  <plurals name="wp_homepage_accessibility_feed_header_text_self" context="Accessibility label for the header section of the notifications table for users with no proxy subjects, informing the user they have %1$@ notifications in the rows that follow that header.">
+    <item quantity="one">Du har %1$@ varsel</item>
+    <item quantity="other">Du har %1$@ varsler</item>
+  </plurals>
+  <string name="wp_homepage_accessibility_proxy_selection_currently_selected" context="Accessibility label telling the user that the patient who has accessibility focus is the currently selected patient/chart. %1$@ is the patient's name">%1$@, for øyeblikket valgt.</string>
+  <string name="wp_homepage_accessibility_proxy_selection_connection_error" context="Accessibility label telling the user that the patient who has accessibility focus has no information available from connected organizations. %1$@ is the patient's name">%1$@. Advarsel: Vi kan ikke nå noen organisasjoner tilknyttet %1$@.</string>
+  <string name="wp_homepage_accessibility_proxy_selection_currently_selected_connection_error" context="Accessibility label telling the user that the patient who has accessibility focus is the currently selected patient/chart and has no information available from connected organizations. %1$@ is the patient's name">%1$@, for øyeblikket valgt. Advarsel: Vi kan ikke nå noen organisasjoner tilknyttet %1$@.</string>
+  <!-- Feed-->
+  <string name="wp_switch_organizations_feature" context="Text for the switch organization button that takes user to the list of their selected organizations" length="30 characters">Bytt organisasjoner</string>
+  <string name="wp_family_access_feature" context="Text for the Friends and Family Access button on the proxy drop down window">Tilgang for venner og familie</string>
+  <string name="wp_home_loading_text" context="This is the loading message for loading the users feed">Gjør informasjonen din klar</string>
+  <string name="wp_home_zero_state_title" context="This is the title message for the zero state card in the user feed">Ikke noe nytt å vise.</string>
+  <string name="wp_home_feed_error_title" context="This is the error title if the feed can not be loaded">Kan ikke laste inn informasjonen din</string>
+  <string name="wp_home_feed_h2g_toast_error" context="Error message shown at the bottom of the screen when the feed was unable to load data from a happy together organization.">Vi har problemer med å koble til de koblede kontoene dine. Prøv igjen senere.</string>
+  <plurals name="wp_home_feed_h2g_error_title" context="Error message shown at the bottom of the screen when the feed was unable to load data from a happy together organization">
+    <item quantity="one">Konto med tilkoblingsproblemer:</item>
+    <item quantity="other">Kontoer med tilkoblingsproblemer:</item>
+  </plurals>
+  <string name="wp_home_remember_my_choice" context="This is a message associated with a checkbox/switch that informs users that, if checked, MyChart will remember who they select and automatically make the same selection on subsequent logins.">Husk valget mitt</string>
+  <string name="wp_home_remember_my_choice_description" context="This is a description associated with the checkbox/switch that informs users that, if checked, MyChart will remember who they select and automatically make the same selection on subsequent logins. The description reminds users that they can change this selection later via Account Settings.">Du kan endre dette senere i Kontoinnstillinger.</string>
+  <string name="wp_home_select_patient_subheader" context="This is displayed below the header to select a patient or account to view.  This is a sub header explaining you can change later.  %1$@ is either 'Switch Patients' or 'Switch Account' based on your account type.">Bruk %1$@-knappen for å bytte når som helst.</string>
+  <string name="wp_home_choose_someone_to_begin" context="This is displayed when a user with proxy subjects logs in and immediately faced with a selection screen of patients/accounts to select from. It should be inviting, since it's the opening screen.">Velg noen:</string>
+  <string name="wp_homepage_todo_summary_completed" context="Used on the To Do Summary card above the completion percentage">Fullført</string>
+  <string name="wp_homepage_todo_changes_clinic_contacted" context="Used on the To Do Changes card for when the clinic was contacted due to an escalation">Klinikken din ble kontaktet</string>
+  <string name="wp_homepage_todo_changes_pcp_contacted" context="Used on the To Do Changes card for when the primary care provider was contacted due to an escalation">Legen din ble kontaktet</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_title" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the title text of that alert dialogue.">Stopp oppdateringer om svangerskap</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_msg" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the body text of that alert dialogue.">Denne endringen kan ikke angres. Er du sikker på at du vil slutte å motta oppdateringer om svangerskap på startsiden din og slutte å motta opplæringsinnhold om svangerskapet?</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_msg_nocareplan" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the body text of that alert dialogue.">Denne endringen kan ikke angres. Er du sikker på at du vil slutte å motta oppdateringer om svangerskap på startsiden din?</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_confirm" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the postive action button, which confirms the user's desire to stop updates.">Stopp oppdateringer</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_cancel" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the cancel button text, which will just close out of the alert.">Gå tilbake</string>
+  <plurals name="wp_home_feed_todo_genpattask_label" context="Label for general/patient-created tasks for the summary feed card">
+    <item quantity="one">%1$@ generell oppgave</item>
+    <item quantity="other">%1$@ generelle oppgaver</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_medicationtask_label" context="Label for medication tasks for the summary feed card">
+    <item quantity="one">%1$@ legemiddeloppgave</item>
+    <item quantity="other">%1$@ legemiddeloppgaver</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_questionnairetask_label" context="Label for questionnaire tasks for the summary feed card">
+    <item quantity="one">%1$@ spørreskjema</item>
+    <item quantity="other">%1$@ spørreskjemaer</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_educationtask_label" context="Label for education tasks for the summary feed card">
+    <item quantity="one">%1$@ opplæringsoppgave</item>
+    <item quantity="other">%1$@ opplæringsoppgaver</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_flowsheettask_label" context="Label for health-tracking tasks for the summary feed card">
+    <item quantity="one">%1$@ måling</item>
+    <item quantity="other">%1$@ målinger</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_appointmenttask_label" context="Label for appointment tasks for the summary feed card">
+    <item quantity="one">%1$@ timeoppgave</item>
+    <item quantity="other">%1$@ timeoppgaver</item>
+  </plurals>
+  <!-- Remote Proxy Access -->
+  <string name="wp_home_remote_proxies_lost_access_toast" context="Toast displayed when we have lost access a given person. %1$@ is the person's nickname.">Du har ikke lenger tilgang til %1$@.</string>
+  <string name="wp_home_remote_proxies_lost_access_popup_title" context="Title for popup displayed when we have lost proxy access a given person.">Mistet tilgang</string>
+  <string name="wp_home_remote_proxies_lost_access_popup_content" context="Content for popup displayed when we have lost proxy access a given person. %1$@ is the person's nickname.">Du har ikke lenger tilgang til %1$@ hos noen av de tilkoblede organisasjonene dine.</string>
+  <string name="wp_home_remote_proxies_connection_error" context="Toast displayed when we cannot reach any organizations providing information for a given person. %1$@ is the person's nickname.">Vi kan ikke nå noen organisasjoner tilknyttet %1$@.</string>
+  <string name="wp_home_remote_proxies_feature_error_card_title" context="Title for health feed error card that displays when we cannot reach any organizations providing information about a given person. %1$@ is the person's nickname.">Helsefeed for %1$@ er utilgjengelig akkurat nå.</string>
+  <!-- Onboarding -->
+  <string name="wp_home_onboarding_welcome_header" context="Header label for the welcome page of the Home Page onboarding. %1$@ is the organization name.">Velkommen til %1$@!</string>
+  <string name="wp_home_onboarding_welcome_title" context="This is the title of the onboarding welcome screen. %1$@ is the proxy subject's nickname">Velkommen, %1$@!</string>
+  <string name="wp_home_onboarding_welcome_description" context="This is the description text on the onboarding welcome screen.">La oss vise deg noen funksjoner som vil hjelpe deg med å finne det som er viktigst for deg.</string>
+  <!-- Shortcut Personalization -->
+  <string name="wp_shortcut_personalization_title_self" context="Title used for Shortcut Personalization activity when accessing yourself">Endre snarveiene dine</string>
+  <string name="wp_shortcut_personalization_title_proxy" context="Title used for Shortcut Personalization activity when accessing a proxy subject. %1$@ is the proxy subject's nickname">Endre snarveier for %1$@</string>
+  <string name="wp_home_feed_unspecified_error" context="Critical error message when something went wrong with the app attempting to do what the user intended">Vi har problemer med å behandle forespørselen din. Prøv på nytt senere.</string>
+  <string name="wp_home_information_from" context="Title for happy together pop up about where your item feed card is coming from.">Informasjon fra:</string>
+  <!--  Linked accounts -->
+  <string name="wp_switch_accounts_title" context="Title for switch organization section.  This sections shows different organizations the user can either directly jump to the remote org or go to the remote org's login screen.">Bytt organisasjon</string>
+  <string name="wp_switch_accounts_go_to_login" context="Button to go to the remote organization's login page.">Gå til innlogging</string>
+  <string name="wp_switch_accounts_go_to_self_account" context="Button to go to the remote organization's account within your context.">Gå til kontoen din</string>
+  <string name="wp_switch_accounts_go_to_sign_up" context="Button to go to the remote organization's signup page.">Registrer deg</string>
+  <string name="wp_switch_accounts_go_to_subject_account" context="Button to go to the remote organization's account for your subject.">Gå til konto</string>
+  <string name="wp_switch_accounts_failed_org_text" context="Text shown to user when a link has failed to get data from the remote organization.">Vi har dessverre for øyeblikket problemer med å hente data fra denne organisasjonen.</string>
+  <string name="wp_switch_accounts_ax_show_accounts_at_org" context="This is the accessibility text for the care everywhere logo.  When clicking this it will show what accounts are at the remote organization.">Vis kontoer hos organisasjonen</string>
+  <string name="wp_switch_accounts_ax_org_name_with_alerts" context="This is the accessibility text for the remote organization.  This will also indicate the org has alerts.  %1$@ is the remote org name.">%1$@.  Det finnes varsler hos denne organisasjonen.</string>
+  <string name="wp_switch_accounts_ax_org_name_failed_link" context="This is the accessibility text for the remote organization.  This will also indicate the org's link failed.  %1$@ is the remote org name.">%1$@.  Vi har for øyeblikket problemer med å hente data fra denne organisasjonen.</string>
+  <string name="wp_switch_accounts_ax_org_name_signup_needed" context="This is the accessibility text for the remote organization.  This will also indicate signup is needed at the org.  %1$@ is the remote org name.">%1$@. Registrering er nødvendig for denne organisasjonen.</string>
+  <string name="wp_switch_accounts_payer_only_org_text" context="Text shown to user when a linked org is a payer only organization.">Forsikringsselskap</string>
+  <!-- App Review -->
+  <string name="wp_app_review_warning_message_p1" context="A portion of a warning message to show to patients before submitting an app review to inform them of the publicity and behavior of app reviews. %1$@ is the name of the app store depending on platform (Google Play Store for Android and App Store for iOS).">Denne anmeldelsen vil være synlig for alle på %1$@. Del kun informasjonen du er komfortabel med å gjøre offentlig.</string>
+  <string name="wp_app_review_warning_message_p2" context="A portion of a warning message to show to patients before submitting an app review to inform them of the publicity and behavior of app reviews. %1$@ is the mobile apps branded name.">Anmeldelsen gjelder for kun %1$@-appen. Ta kontakt med behandleren din for å gi tilbakemelding om behandlingen din.</string>
+  <string name="wp_app_review_warning_message_p3" context="A portion of a warning message to show to patients before submitting an app review to inform them of the publicity and behavior of app reviews.">Du kan kun sende inn én anmeldelse. Hvis du allerede har skrevet en anmeldelse, vil du ikke kunne sende inn en annen.</string>
+  <string name="wp_app_review_ios_store_name" context="The name of the app store on iOS.">App Store</string>
+  <string name="wp_app_review_android_store_name" context="The name of the app store on Android.">Google Play Store</string>
+  <!-- Epic Fun Text Strings -->
+  <string name="wp_epicfun_mychart_hint" context="Prepends fun fact text segments that are hints and link to activities, (E.g.) MyChart Hint: MyChart is an ...">MyChart-tips:</string>
+  <string name="wp_epicfun_close" context="Close button text shown to close out of the fun fact view">Lukk</string>
+  <string name="wp_epicfun_mychart_developed_by_epic" context="Fun fact easter egg content that gives insight into what Epic is. Paried with an Epic Logo Sign Image.">MyChart er en app utviklet av et selskap som heter Epic, som også utvikler programvaren for den elektroniske helsejournalen som brukes av helsetjenesten din.</string>
+  <string name="wp_epicfun_electronic_health_record" context="Fun fact easter egg content that gives insight into your Electronic Health Record. Paired with an image of a clinician.">Den elektroniske helsejournalen din i Epic hjelper klinikere med å gi deg behandling basert på din unike helsehistorikk. Den gir deg også muligheten til å håndtere behandlingen din her i MyChart.</string>
+  <string name="wp_epicfun_epic_story" context="Fun fact easter egg content that compares Epic's EHR to epic tales. Paired with an Epic image.">«Epic» er engelsk for «epos», en strålende gjengivelse av en nasjons hendelser. I likhet med de kjente fortellingene om Iliaden og Odysseen, gir den elektroniske helsejournalen din i Epic en oversikt over helsetjenestene din over tid.</string>
+  <string name="wp_epicfun_millions_of_patients" context="Fun fact easter egg content that highlights the widespread use of MyChart. Paired with a heart image.">Nesten 190 millioner pasienter over hele verden bruker MyChart for å håndtere behandlingen sin.</string>
+  <string name="wp_epicfun_mychart_country" context="Fun fact easter egg content that compares MyChart's user base to the population of countries. Paired with a MyChart image.">Hvis MyChart var et land, ville det vært det 8. største i verden.</string>
+  <string name="wp_epicfun_share_everywhere" context="Fun fact easter egg content that explains Share Everywhere feature. Paired with a Share Everywhere image.">Du kan bruke Share Everywhere for å gi engangstilgang til helsejournalen din til enhver kliniker i verden.</string>
+  <string name="wp_epicfun_madison" context="Fun fact easter egg content that provides historical information about Epic. Paired with a capital image.">Epic ble grunnlagt i Madison, Wisconsin i 1979, og har siden den gang vært basert i Madison-området.</string>
+  <string name="wp_epicfun_basement" context="Fun fact easter egg content that shares the humble beginnings of Epic. Paired with an apartment image.">Epic startet med tre halvtidsansatte som jobbet i kjelleren i en bygård i Madison, Wisconsin.</string>
+  <string name="wp_epicfun_secure_data_sharing" context="Fun fact easter egg content that explains secure data sharing with Epic. Paired with an Epic Sign image.">Ved å bruke Epic kan helseorganisasjonen din dele helsedataene dine på en sikker måte når du mottar behandling hos en ny organisasjon.</string>
+  <string name="wp_epicfun_request_medical_record" context="Fun fact easter egg content that explains how to request medical records via MyChart. Paired with a request copy image.">Du kan bruke MyChart til å be om en kopi av journalen din og andre dokumenter, og laste dem ned når de er tilgjengelige.</string>
+  <string name="wp_epicfun_farm" context="Fun fact easter egg content that describes Epic's campus as a working farm. Paired with a cow and goat image.">Epics campus i Verona, Wisconsin, er også en fungerende gård. Omtrent en tredjedel av området brukes til avlinger, kyr og sauer.</string>
+  <string name="wp_epicfun_document_care_decisions" context="Fun fact easter egg content that explains how to document care decisions in MyChart. Paired with a decisions image.">Du kan bruke MyChart til å dokumentere beslutninger om behandlingen din hvis et familiemedlem, en lege eller en annen angitt person trenger å handle på dine vegne.</string>
+  <string name="wp_epicfun_wait_list" context="Fun fact easter egg content that explains the wait list feature in MyChart. Paired with a calendar image.">Må du vente på en time? Bli med i ventekøen og bli varslet når et tidligere tidspunkt blir tilgjengelig. I 2023 brukte organisasjoner MyChart for å se pasienter i ventekø 47 dager tidligere i gjennomsnitt.</string>
+  <string name="wp_epicfun_animals" context="Fun fact easter egg content that describes the animals on Epic's campus. Paired with a donkey image.">Epics campus, en fungerende gård, er hjem til mange dyr året rundt. Enkelte, som eselet avbildet her, blir populære blant ansatte og får et navn. Møt Ralph.</string>
+  <string name="wp_epicfun_midnight" context="Fun fact easter egg content that introduces Midnight the cow. Paired with a Midnight image.">For et par år siden ønsket kyrne som bor på Epics campus et nytt familiemedlem velkommen. Møt kua Midnight.</string>
+  <string name="wp_epicfun_cowbikes" context="Fun fact easter egg content that describes the cow bikes on Epic's campus. Paired with a cow bike image.">Det finnes «kusykler» på Epics campus for å hjelpe ansatte og besøkende med å komme seg raskt rundt. Dette er én av måtene vi omfavner våre Wisconsin-røtter på.</string>
+  <string name="wp_epicfun_ffa" context="Fun fact easter egg content that explains how to give family access to MyChart. Paired with a family access image.">Du kan gi omsorgspersonen din og familiemedlemmene dine tilgang til MyChart-kontoen din.</string>
+  <string name="wp_epicfun_slides" context="Fun fact easter egg content that describes the fun culture at Epic. Paired with a slide image.">Å ha det gøy er kjernen i Epics kultur. I tillegg til vanlige trapper, har campusen vår et par sklier som besøkende kan glede seg over.</string>
+  <string name="wp_epicfun_treehouse" context="Fun fact easter egg content that describes the treehouse on Epic's campus. Paired with a treehouse image.">Epics campus har en trehytte bygget av ansatte og elever fra en lokal videregående skole. Den er enkel – ingen varme, ingen telefoner, ingen bad.</string>
+  <string name="wp_epicfun_lma" context="Fun fact easter egg content that explains how to link MyChart accounts. Paired with a happy together image.">Hvis du har MyChart-kontoer hos forskjellige organisasjoner, kan du koble dem for å se informasjon som legemidler, besøk, prøveresultater og medlemmer av helsefaglig team i én enkelt visning.</string>
+  <string name="wp_epicfun_update_health_info" context="Fun fact easter egg content that explains how to update health information in MyChart. Paired with a clipboard update image.">Før en legetime kan du bruke MyChart til å oppdatere bestemt helseinformasjon, herunder dine allergier og gjeldende legemidler.</string>
+  <string name="wp_epicfun_global" context="Fun fact easter egg content that highlights the global use of Epic's software. Paired with a globe image.">Helsetjenester bruker Epics programvare i 16 land.</string>
+  <string name="wp_epicfun_biometrics" context="Fun fact easter egg content that explains biometric login methods for MyChart. Paired with a biometrics image.">Bruk biometriske innloggingsmetoder, som Face ID eller fingeravtrykket ditt, for enkelt å logge inn på MyChart. Du trenger ikke å angi brukernavn og passord.</string>
+  <string name="wp_epicfun_2fa" context="Fun fact easter egg content that explains two-factor authentication for MyChart. Paired with a 2FA image.">Du kan forbedre sikkerheten til MyChart-kontoen din med to-faktor-autentisering. På den måten er kontoen din trygg hvis noen får tak i brukernavnet og passordet ditt.</string>
+  <string name="wp_epicfun_geothermal" context="Fun fact easter egg content that describes the renewable energy sources at Epic's campus. Paired with a flower image.">Epics campus i Verona, Wisconsin, henter betydelige mengder av energien sin fra vind-, sol- og geotermisk kraft. Vårt geotermiske varme- og kjølesystem er et av de største i verden.</string>
+  <string name="wp_epicfun_employee_owned" context="Fun fact easter egg content that highlights Epic's employee-owned status. Paired with an employee-owned image.">Epic er, og vil alltid være, et uavhengig selskap eid av ansatte. På den måten kan fokuset vårt forbli på pasienter og helsevesenet, og ikke på aksjonærer.</string>
+  <string name="wp_epicfun_shortcuts" context="Fun fact easter egg content that explains how to update shortcuts in MyChart. Paired with a change shortcuts image.">Du kan oppdatere snarveisknappene på startsiden til å ta deg til ressursene du bruker oftest, som lab. eller bestilling av time.</string>
+  <string name="wp_epicfun_personalize" context="Fun fact easter egg content that explains how to personalize MyChart with an accent color. Paired with a personalize image.">Visste du at du kan velge din egen aksentfarge for MyChart-kontoen din?</string>
+  <string name="wp_epicfun_diversity" context="Fun fact easter egg content that highlights the diversity of Epic's staff. Paired with a diversity image.">Epic-ansatte kommer fra mer enn 60 land og representerer en rekke bakgrunner, identiteter og erfaringer.</string>
+  <!-- Epic Fun Link Strings -->
+  <string name="wp_epicfun_link_learn_how" context="Generic Link text for clicking to learn how to do an action.">Finn ut hvordan</string>
+  <string name="wp_epicfun_link_learn_more" context="Generic Link text for clicking to learn more about an action.">Finn ut mer</string>
+  <string name="wp_epicfun_link_sharing_hub" context="Link text for accessing the Sharing Hub Activity.">Delingshub</string>
+  <string name="wp_epicfun_link_plan_ahead" context="Link text for documenting care decisions in MyChart.">Legg planer for fremtiden</string>
+  <string name="wp_epicfun_link_ffa" context="Link text for accessing FFA.">Tilgang for venner og familie</string>
+  <string name="wp_epicfun_link_2fa" context="Link text for enabling two-factor authentication in MyChart.">Slå på to-faktor</string>
+  <string name="wp_epicfun_link_shortcuts" context="Link text for updating shortcuts in MyChart.">Endre snarveier</string>
+  <string name="wp_epicfun_link_personalize" context="Link text for personalizing MyChart with an accent color.">Tilpass kontoen din</string>
+  <!-- Epic Fun Image Alt Text -->
+  <string name="wp_epicfun_alt_text_apartment" context="Alt text for an image of an apartment pointing at the basement">En bygård i murstein med en pil som peker mot kjelleren</string>
+  <string name="wp_epicfun_alt_text_epic" context="Alt text for an image of a book opened on a table">En bok som er åpnet i biblioteket</string>
+  <string name="wp_epicfun_alt_text_midnight" context="Alt text for an image of a calf laying in a field">En kalv som ligger i gresset</string>
+  <string name="wp_epicfun_alt_text_cow_bike" context="Alt text for an image of a cow bike">En sykkel med en ramme dekket av kuflekker</string>
+  <string name="wp_epicfun_alt_text_clinician" context="Alt text for an image of a clinician holding up a cell phone">En kliniker som holder opp en mobiltelefon</string>
+  <string name="wp_epicfun_alt_text_employee_owned" context="Alt text for an image of an epic employee riding a bike with a dog">En Epic-ansatt som sykler lykkelig rundt med en hund i forfølgelse</string>
+  <string name="wp_epicfun_alt_text_donkey" context="Alt text for an image of a donkey">Et esel bak et husdyrgjerde</string>
+  <string name="wp_epicfun_alt_text_flower" context="Alt text for an image of Lavendar flowers">Lavendelblomster som vokser på et jorde</string>
+  <string name="wp_epicfun_alt_text_slide" context="Alt text for an image of the slide in Alice">Lysbilde av Epics campus, med et skilt ved siden av der det står «Denne vei kanin – hull»</string>
+  <string name="wp_epicfun_alt_text_treehouse" context="Alt text for an image of the Endor Tree house">Trehytte på Epics campus, i skogen</string>
+  <string name="wp_epicfun_alt_text_epic_sign" context="Alt text for an image of the epic logo in a sign form">Epic-logoskilt</string>
+  <string name="wp_epicfun_alt_text_capital" context="Alt text for an image of the capitol building">Capitol-bygningen i Wisconsin, som ligger i Madison</string>
+</resources>

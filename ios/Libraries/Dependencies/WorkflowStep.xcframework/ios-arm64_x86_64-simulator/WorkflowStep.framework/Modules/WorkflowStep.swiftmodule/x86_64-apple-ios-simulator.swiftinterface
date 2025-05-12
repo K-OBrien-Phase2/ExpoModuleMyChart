@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name WorkflowStep
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import PECore
+import Swift
+import SwiftUI
+import UIKit
+@_exported import WorkflowStep
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc public class PEWorkflowStepComponentAPI : ObjectiveC.NSObject, PECore.PEWorkflowStepComponentAPIProtocol {
+  @objc public func hasAccessForWorkflowStep(_ encounterContext: PECore.PEEncounterContext) -> PECore.PEComponentAccessResult
+  @objc public func getWorkflowStepWidget(_ encounterContext: PECore.PEEncounterContext, componentHost: any PECore.PEComponentHostProtocol) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class WaitTimeLearnMoreViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func loadView()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class WaitTimeLearnMoreView : UIKit.UIScrollView {
+  @objc deinit
+}

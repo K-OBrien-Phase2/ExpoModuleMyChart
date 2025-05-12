@@ -1,0 +1,463 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ProblemList",
+    "printedName": "ProblemList",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ProblemList"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ProblemList"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ProblemList"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ProblemList"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ProblemList"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEProblemListComponentAPI",
+        "printedName": "PEProblemListComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForEncounterSpecificProblemList",
+            "printedName": "hasAccessForEncounterSpecificProblemList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProblemList@objc(cs)PEProblemListComponentAPI(im)hasAccessForEncounterSpecificProblemList:",
+            "mangledName": "$s11ProblemList09PEProblemB12ComponentAPIC029hasAccessForEncounterSpecificaB0y6PECore011PEComponentG6ResultOAE18PEEncounterContextCF",
+            "moduleName": "ProblemList",
+            "objc_name": "hasAccessForEncounterSpecificProblemList:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForOutpatientProblemList",
+            "printedName": "hasAccessForOutpatientProblemList(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProblemList@objc(cs)PEProblemListComponentAPI(im)hasAccessForOutpatientProblemList:",
+            "mangledName": "$s11ProblemList09PEProblemB12ComponentAPIC022hasAccessForOutpatientaB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "ProblemList",
+            "objc_name": "hasAccessForOutpatientProblemList:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProblemListViewController",
+            "printedName": "getProblemListViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ProblemList@objc(cs)PEProblemListComponentAPI(im)getProblemListViewController:viewControllerTitle:",
+            "mangledName": "$s11ProblemList09PEProblemB12ComponentAPIC03getaB14ViewController_04viewH5TitleSo06UIViewH0CSg6PECore18PEEncounterContextC_SSSgtF",
+            "moduleName": "ProblemList",
+            "objc_name": "getProblemListViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEProblemListComponentAPI",
+                "printedName": "ProblemList.PEProblemListComponentAPI",
+                "usr": "c:@M@ProblemList@objc(cs)PEProblemListComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ProblemList@objc(cs)PEProblemListComponentAPI(im)init",
+            "mangledName": "$s11ProblemList09PEProblemB12ComponentAPICACycfc",
+            "moduleName": "ProblemList",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ProblemList@objc(cs)PEProblemListComponentAPI",
+        "mangledName": "$s11ProblemList09PEProblemB12ComponentAPIC",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEProblemListComponentAPIProtocol",
+            "printedName": "PEProblemListComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEProblemListComponentAPIProtocol",
+            "mangledName": "$s6PECore33PEProblemListComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ProblemList"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ProblemList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ProblemList"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ViewControllers\/EDProblemListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 455,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ViewControllers\/EDProblemListViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 493,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ViewControllers\/EDProblemListViewController.swift",
+      "kind": "Array",
+      "offset": 759,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ViewControllers\/EDProblemListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 30,
+      "value": "\"ProblemListTableViewCellCard\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ViewControllers\/EncounterSpecificProblemListViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ViewControllers\/EncounterSpecificProblemListViewController.swift",
+      "kind": "Array",
+      "offset": 1164,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ViewControllers\/EncounterSpecificProblemListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1230,
+      "length": 30,
+      "value": "\"ProblemListTableViewCellCard\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/ProblemListWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 446,
+      "length": 13,
+      "value": "\"ProblemList\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/Models\/EncounterSpecificProblem.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/Models\/EncounterSpecificProblem.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/Models\/EncounterSpecificProblem.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 13,
+      "value": "\"IsPrincipal\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/Models\/EncounterSpecificProblem.swift",
+      "kind": "StringLiteral",
+      "offset": 588,
+      "length": 12,
+      "value": "\"IsResolved\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/Models\/EncounterSpecificProblem.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 14,
+      "value": "\"EducationKey\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ProblemList\/ProblemList\/Classes\/Models\/EncounterSpecificProblem.swift",
+      "kind": "StringLiteral",
+      "offset": 678,
+      "length": 20,
+      "value": "\"HasEducationSource\""
+    }
+  ]
+}

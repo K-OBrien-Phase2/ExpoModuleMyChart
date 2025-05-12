@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_continuingcare_activity_title" context="Title for the Continuing Care activity">持续护理</string>
+  <string name="wp_continuingcare_tutorial_overview" context="Tutorial text introducing the continuing care activity to the patient. %%CONTINUINGCARE is replaced with the name of the activity.">%%CONTINUINGCARE允许您查看出院后提供医疗服务的医疗人员并选择您的首选医疗人员。</string>
+  <string name="wp_continuingcare_tutorial_overview_proxy" context="Tutorial text introducing the continuing care activity to the patient proxy. %%CONTINUINGCARE is replaced with the name of the activity. %%PATNAME is replaced with the name of the patient">%%CONTINUINGCARE允许您查看出院后提供医疗服务的医疗人员并选择%%PATNAME的首选医疗人员。</string>
+  <string name="wp_continuingcare_tutorial_overview_2" context="Tutorial text explaining more about the workings of continuing care to the patient.">查看这些医疗保健选项并标记您的选择。如果查看过程中遇到问题，请联系您的病例管理人。</string>
+  <string name="wp_continuingcare_tutorial_overview_2_proxy" context="Tutorial text explaining more about the workings of continuing care to the patient proxy. %%PATNAME is replaced with the name of the patient">查看这些医疗保健选项并标记%%PATNAME的选择。如果查看过程中遇到问题，请联系%%PATNAME的病例管理人。</string>
+</resources>

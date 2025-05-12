@@ -1,0 +1,1225 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Messaging",
+    "printedName": "Messaging",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Messaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Messaging"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEMessagingComponentAPI",
+        "printedName": "PEMessagingComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForSendingMedicalAdviceMessage",
+            "printedName": "hasAccessForSendingMedicalAdviceMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)hasAccessForSendingMedicalAdviceMessage:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC39hasAccessForSendingMedicalAdviceMessagey6PECore011PEComponentF6ResultOAE16PEPatientContextCF",
+            "moduleName": "Messaging",
+            "objc_name": "hasAccessForSendingMedicalAdviceMessage:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForMOMessages",
+            "printedName": "hasAccessForMOMessages(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)hasAccessForMOMessages:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC22hasAccessForMOMessagesy6PECore011PEComponentF6ResultOAE16PEPatientContextCF",
+            "moduleName": "Messaging",
+            "objc_name": "hasAccessForMOMessages:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForInpatientMessages",
+            "printedName": "hasAccessForInpatientMessages(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)hasAccessForInpatientMessages:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC29hasAccessForInpatientMessagesy6PECore011PEComponentF6ResultOAE18PEEncounterContextCF",
+            "moduleName": "Messaging",
+            "objc_name": "hasAccessForInpatientMessages:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessageListViewController",
+            "printedName": "getMessageListViewController(_:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getMessageListViewController:params:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC28getMessageListViewController_6paramsSo06UIViewI0CSg6PECore16PEPatientContextC_SDyS2SGtF",
+            "moduleName": "Messaging",
+            "objc_name": "getMessageListViewController:params:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInpatientMessageListViewController",
+            "printedName": "getInpatientMessageListViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getInpatientMessageListViewController:viewControllerTitle:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC37getInpatientMessageListViewController_04viewJ5TitleSo06UIViewJ0CSg6PECore18PEEncounterContextC_SSSgtF",
+            "moduleName": "Messaging",
+            "objc_name": "getInpatientMessageListViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessageDetailViewController",
+            "printedName": "getMessageDetailViewController(_:forMessage:myChartWebMessageIDKey:andIsEncrypted:forOrganization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getMessageDetailViewController:forMessage:myChartWebMessageIDKey:andIsEncrypted:forOrganization:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC30getMessageDetailViewController_03forF0010myChartWebF5IDKey14andIsEncrypted0J12OrganizationSo06UIViewI0CSg6PECore16PEPatientContextC_S2SSbSStF",
+            "moduleName": "Messaging",
+            "objc_name": "getMessageDetailViewController:forMessage:myChartWebMessageIDKey:andIsEncrypted:forOrganization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposeViewController",
+            "printedName": "getComposeViewController(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposeViewController:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC24getComposeViewControllerySo06UIViewH0CSg6PECore16PEPatientContextCF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposeViewController:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposeMedicalAdviceViewController",
+            "printedName": "getComposeMedicalAdviceViewController(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposeMedicalAdviceViewController:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC37getComposeMedicalAdviceViewControllerySo06UIViewJ0CSg6PECore16PEPatientContextCF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposeMedicalAdviceViewController:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposeCustomerServiceViewController",
+            "printedName": "getComposeCustomerServiceViewController(_:isExternal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposeCustomerServiceViewController:isExternal:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC39getComposeCustomerServiceViewController_10isExternalSo06UIViewJ0CSg6PECore16PEPatientContextC_SbtF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposeCustomerServiceViewController:isExternal:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposeBillingCustomerServiceViewController",
+            "printedName": "getComposeBillingCustomerServiceViewController(_:forAccount:withType:isExternal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposeBillingCustomerServiceViewController:forAccount:withType:isExternal:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC46getComposeBillingCustomerServiceViewController_10forAccount8withType10isExternalSo06UIViewK0CSg6PECore16PEPatientContextC_S2SSbtF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposeBillingCustomerServiceViewController:forAccount:withType:isExternal:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProviderMessageViewController",
+            "printedName": "getProviderMessageViewController(_:forProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEMessageProvider",
+                "printedName": "any PECore.PEMessageProvider",
+                "usr": "c:@M@PECore@objc(pl)PEMessageProvider"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getProviderMessageViewController:forProvider:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC32getProviderMessageViewController_03forF0So06UIViewI0CSg6PECore16PEPatientContextC_AI09PEMessageF0_ptF",
+            "moduleName": "Messaging",
+            "objc_name": "getProviderMessageViewController:forProvider:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposeMedicalAdviceWithSubjectOrOrgViewController",
+            "printedName": "getComposeMedicalAdviceWithSubjectOrOrgViewController(_:withSubject:forOrganization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposeMedicalAdviceWithSubjectOrOrgViewController:withSubject:forOrganization:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC53getComposeMedicalAdviceWithSubjectOrOrgViewController_04withJ015forOrganizationSo06UIViewN0CSg6PECore16PEPatientContextC_S2StF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposeMedicalAdviceWithSubjectOrOrgViewController:withSubject:forOrganization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposeMedicalAdviceWithDCSIDViewController",
+            "printedName": "getComposeMedicalAdviceWithDCSIDViewController(_:withDCSID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposeMedicalAdviceWithDCSIDViewController:withDCSID:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC46getComposeMedicalAdviceWithDCSIDViewController_9withDCSIDSo06UIViewK0CSg6PECore16PEPatientContextC_SStF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposeMedicalAdviceWithDCSIDViewController:withDCSID:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposeEduQuestionWithLTKIDViewController",
+            "printedName": "getComposeEduQuestionWithLTKIDViewController(_:withLTKID:isExternal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposeEduQuestionWithLTKIDViewController:withLTKID:isExternal:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC44getComposeEduQuestionWithLTKIDViewController_9withLTKID10isExternalSo06UIViewK0CSg6PECore16PEPatientContextC_SSSbtF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposeEduQuestionWithLTKIDViewController:withLTKID:isExternal:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getComposePrescriptionMessageViewController",
+            "printedName": "getComposePrescriptionMessageViewController(_:withMedication:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)getComposePrescriptionMessageViewController:withMedication:",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPIC43getComposePrescriptionMessageViewController_14withMedicationSo06UIViewJ0CSg6PECore16PEPatientContextC_SStF",
+            "moduleName": "Messaging",
+            "objc_name": "getComposePrescriptionMessageViewController:withMedication:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEMessagingComponentAPI",
+                "printedName": "Messaging.PEMessagingComponentAPI",
+                "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI(im)init",
+            "mangledName": "$s9Messaging23PEMessagingComponentAPICACycfc",
+            "moduleName": "Messaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Messaging@objc(cs)PEMessagingComponentAPI",
+        "mangledName": "$s9Messaging23PEMessagingComponentAPIC",
+        "moduleName": "Messaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEMessagingComponentAPIProtocol",
+            "printedName": "PEMessagingComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEMessagingComponentAPIProtocol",
+            "mangledName": "$s6PECore31PEMessagingComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Messaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Messaging"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InpatientConversationWebViewControllerManager",
+        "printedName": "InpatientConversationWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encounterContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InpatientConversationWebViewControllerManager",
+                "printedName": "Messaging.InpatientConversationWebViewControllerManager",
+                "usr": "c:@M@Messaging@objc(cs)InpatientConversationWebViewControllerManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PEEncounterContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEEncounterContext",
+                    "printedName": "PECore.PEEncounterContext",
+                    "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9Messaging45InpatientConversationWebViewControllerManagerC16encounterContextAC6PECore011PEEncounterI0CSg_tcfc",
+            "mangledName": "$s9Messaging45InpatientConversationWebViewControllerManagerC16encounterContextAC6PECore011PEEncounterI0CSg_tcfc",
+            "moduleName": "Messaging",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewWillDisappear",
+            "printedName": "onViewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Messaging45InpatientConversationWebViewControllerManagerC02onE13WillDisappearyy6PECore07MyChartdeF0CF",
+            "mangledName": "$s9Messaging45InpatientConversationWebViewControllerManagerC02onE13WillDisappearyy6PECore07MyChartdeF0CF",
+            "moduleName": "Messaging",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewDidAppear",
+            "printedName": "onViewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Messaging45InpatientConversationWebViewControllerManagerC02onE9DidAppearyy6PECore07MyChartdeF0CF",
+            "mangledName": "$s9Messaging45InpatientConversationWebViewControllerManagerC02onE9DidAppearyy6PECore07MyChartdeF0CF",
+            "moduleName": "Messaging",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowLaunchOutsideApp",
+            "printedName": "allowLaunchOutsideApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Messaging45InpatientConversationWebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "mangledName": "$s9Messaging45InpatientConversationWebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "moduleName": "Messaging",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InpatientConversationWebViewControllerManager",
+                "printedName": "Messaging.InpatientConversationWebViewControllerManager",
+                "usr": "c:@M@Messaging@objc(cs)InpatientConversationWebViewControllerManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Messaging@objc(cs)InpatientConversationWebViewControllerManager(im)init",
+            "mangledName": "$s9Messaging45InpatientConversationWebViewControllerManagerCACycfc",
+            "moduleName": "Messaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Messaging@objc(cs)InpatientConversationWebViewControllerManager",
+        "mangledName": "$s9Messaging45InpatientConversationWebViewControllerManagerC",
+        "moduleName": "Messaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@PECore@objc(cs)MyChartWebViewControllerManager",
+        "superclassNames": [
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Messaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 13,
+      "value": "\"isencrypted\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 9,
+      "value": "\"account\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 11,
+      "value": "\"provRecip\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 17,
+      "value": "\"isProvEncrypted\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 9,
+      "value": "\"subject\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 5,
+      "value": "\"org\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 5,
+      "value": "\"doc\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 8,
+      "value": "\"folder\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 18,
+      "value": "\"isLtkIdEncrypted\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 795,
+      "length": 12,
+      "value": "\"medication\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/PEMessagingComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 852,
+      "length": 23,
+      "value": "\"isMedicationEncrypted\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 12,
+      "value": "\"commcenter\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 14,
+      "value": "\"conversation\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 13,
+      "value": "\"askquestion\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 15,
+      "value": "\"medicaladvice\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 17,
+      "value": "\"customerservice\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 16,
+      "value": "\"billingcustsvc\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 19,
+      "value": "\"educationquestion\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/MessagingMode.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 21,
+      "value": "\"prescriptionmessage\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/InpatientConversationWebViewControllerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 13,
+      "value": "\"WB_MESSAGES\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Messaging\/Messaging\/Classes\/OutpatientConversationWebViewControllerManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 411,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

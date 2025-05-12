@@ -1,0 +1,11 @@
+framework module FriendsAndFamilyUpdates {
+  umbrella header "FriendsAndFamilyUpdates.h"
+  export *
+
+  module * { export * }
+}
+
+module FriendsAndFamilyUpdates.Swift {
+  header "FriendsAndFamilyUpdates-Swift.h"
+  requires objc
+}

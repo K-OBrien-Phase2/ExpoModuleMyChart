@@ -1,0 +1,105 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name LiveActivities
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import ActivityKit
+import DeveloperToolsSupport
+import Foundation
+@_exported import LiveActivities
+import Swift
+import SwiftUI
+import UIKit
+import WidgetKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol AppointmentActivityAttributes : ActivityKit.ActivityAttributes {
+  var csn: Swift.String { get set }
+  var dat: Swift.String { get set }
+  var startInstant: Foundation.Date { get set }
+}
+extension ActivityKit.Activity {
+  public func onStateChange(_ stateChangeHandler: @escaping (ActivityKit.Activity<Attributes>, ActivityKit.ActivityState) -> Swift.Void)
+  public func onContentChange(_ contentChangeHandler: @escaping (ActivityKit.Activity<Attributes>, ActivityKit.ActivityContent<ActivityKit.Activity<Attributes>.ContentState>) -> Swift.Void)
+  public func onPushTokenChange(_ pushTokenChangeHandler: @escaping (ActivityKit.Activity<Attributes>, Foundation.Data) -> Swift.Void)
+}
+@_hasMissingDesignatedInitializers public class LiveActivityUtil {
+  public static var areLiveActivitiesAvailable: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+@_Concurrency.MainActor @preconcurrency public class VideoVisitLiveActivityWidget : SwiftUI.Widget {
+  @_Concurrency.MainActor @preconcurrency required public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUI.WidgetConfiguration {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s14LiveActivities010VideoVisitA14ActivityWidgetC4bodyQrvp", 0) __
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WPAPILiveActivityWidgets {
+  public static func getVideoVisitLiveActivityWidget() -> some SwiftUI.Widget
+  
+  @objc deinit
+}
+extension ActivityKit.Activity {
+  public var isActive: Swift.Bool {
+    get
+  }
+  public var hasEnded: Swift.Bool {
+    get
+  }
+  public var isStale: Swift.Bool {
+    get
+  }
+}
+public enum LiveActivityErrors : Swift.Error {
+  case missingRequiredData(info: Swift.String)
+}
+public struct VideoVisitAttributes : LiveActivities.AppointmentActivityAttributes, Swift.Hashable {
+  public var isExpired: Swift.Bool {
+    get
+  }
+  public var csn: Swift.String
+  public var dat: Swift.String
+  public var startInstant: Foundation.Date
+  public var duration: Swift.Double
+  public var expirationInstant: Foundation.Date {
+    get
+  }
+  public var visitDetailsDeepLink: Foundation.URL?
+  public var joinVisitDeepLink: Foundation.URL?
+  public var startsAt: Swift.String
+  public var startsAtTime: Swift.String
+  public var genericVideoVisitTitle: Swift.String
+  public var specificVideoVisitTitle: Swift.String
+  public var tapToViewDetails: Swift.String
+  public var tapToJoin: Swift.String
+  public var generalAxLabel: Swift.String
+  public var detailedAxLabel: Swift.String
+  public var tapToViewDetailsAxHint: Swift.String
+  public var tapToJoinAxHint: Swift.String
+  public init(csn: Swift.String, dat: Swift.String, date: Foundation.Date, duration: Swift.Double, visitDetailsDeepLink: Foundation.URL? = nil, joinVisitDeepLink: Foundation.URL? = nil, startsAt: Swift.String, startsAtTime: Swift.String, genericVideoVisitTitle: Swift.String, specificVideoVisitTitle: Swift.String, tapToViewDetails: Swift.String, tapToJoin: Swift.String, generalAxLabel: Swift.String, detailedAxLabel: Swift.String, tapToViewDetailsAxHint: Swift.String, tapToJoinAxHint: Swift.String)
+  public struct ContentState : Swift.Codable, Swift.Hashable {
+    public var useTapToJoin: Swift.Bool
+    public init(useTapToJoin: Swift.Bool = false)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: LiveActivities.VideoVisitAttributes.ContentState, b: LiveActivities.VideoVisitAttributes.ContentState) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public var hashValue: Swift.Int {
+      get
+    }
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: LiveActivities.VideoVisitAttributes, b: LiveActivities.VideoVisitAttributes) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CoreFoundation.CGFloat {
+  public static let dynamicIslandCornerRadius: CoreFoundation.CGFloat
+}
+extension LiveActivities.VideoVisitLiveActivityWidget : Swift.Sendable {}

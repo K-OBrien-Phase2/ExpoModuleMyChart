@@ -1,0 +1,807 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ContinuingCare",
+    "printedName": "ContinuingCare",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ContinuingCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ContinuingCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContinuingCareListWebViewControllerManager",
+        "printedName": "ContinuingCareListWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onWorkflowCompleteAndClose",
+            "printedName": "onWorkflowCompleteAndClose(_:launching:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ContinuingCare0aB28ListWebViewControllerManagerC26onWorkflowCompleteAndClose_9launchingy6PECore07MyChartdeF0C_SSSgtF",
+            "mangledName": "$s14ContinuingCare0aB28ListWebViewControllerManagerC26onWorkflowCompleteAndClose_9launchingy6PECore07MyChartdeF0C_SSSgtF",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onMyChartRequestsClose",
+            "printedName": "onMyChartRequestsClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ContinuingCare0aB28ListWebViewControllerManagerC22onMyChartRequestsCloseyy6PECore0ijdeF0CF",
+            "mangledName": "$s14ContinuingCare0aB28ListWebViewControllerManagerC22onMyChartRequestsCloseyy6PECore0ijdeF0CF",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowLaunchOutsideApp",
+            "printedName": "allowLaunchOutsideApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ContinuingCare0aB28ListWebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "mangledName": "$s14ContinuingCare0aB28ListWebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContinuingCareListWebViewControllerManager",
+                "printedName": "ContinuingCare.ContinuingCareListWebViewControllerManager",
+                "usr": "c:@M@ContinuingCare@objc(cs)ContinuingCareListWebViewControllerManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ContinuingCare@objc(cs)ContinuingCareListWebViewControllerManager(im)init",
+            "mangledName": "$s14ContinuingCare0aB28ListWebViewControllerManagerCACycfc",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ContinuingCare@objc(cs)ContinuingCareListWebViewControllerManager",
+        "mangledName": "$s14ContinuingCare0aB28ListWebViewControllerManagerC",
+        "moduleName": "ContinuingCare",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@PECore@objc(cs)MyChartWebViewControllerManager",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ContinuingCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ContinuingCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContinuingCareWebViewControllerManager",
+        "printedName": "ContinuingCareWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encounterContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContinuingCareWebViewControllerManager",
+                "printedName": "ContinuingCare.ContinuingCareWebViewControllerManager",
+                "usr": "c:@M@ContinuingCare@objc(cs)ContinuingCareWebViewControllerManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PEEncounterContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEEncounterContext",
+                    "printedName": "PECore.PEEncounterContext",
+                    "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ContinuingCare0aB24WebViewControllerManagerC16encounterContextAC6PECore011PEEncounterH0CSg_tcfc",
+            "mangledName": "$s14ContinuingCare0aB24WebViewControllerManagerC16encounterContextAC6PECore011PEEncounterH0CSg_tcfc",
+            "moduleName": "ContinuingCare",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onPageFinished",
+            "printedName": "onPageFinished(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ContinuingCare0aB24WebViewControllerManagerC14onPageFinishedyy6PECore07MyChartcdE0CF",
+            "mangledName": "$s14ContinuingCare0aB24WebViewControllerManagerC14onPageFinishedyy6PECore07MyChartcdE0CF",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewWillDisappear",
+            "printedName": "onViewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ContinuingCare0aB24WebViewControllerManagerC02onD13WillDisappearyy6PECore07MyChartcdE0CF",
+            "mangledName": "$s14ContinuingCare0aB24WebViewControllerManagerC02onD13WillDisappearyy6PECore07MyChartcdE0CF",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onViewDidAppear",
+            "printedName": "onViewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ContinuingCare0aB24WebViewControllerManagerC02onD9DidAppearyy6PECore07MyChartcdE0CF",
+            "mangledName": "$s14ContinuingCare0aB24WebViewControllerManagerC02onD9DidAppearyy6PECore07MyChartcdE0CF",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allowLaunchOutsideApp",
+            "printedName": "allowLaunchOutsideApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ContinuingCare0aB24WebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "mangledName": "$s14ContinuingCare0aB24WebViewControllerManagerC21allowLaunchOutsideAppSbyF",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContinuingCareWebViewControllerManager",
+                "printedName": "ContinuingCare.ContinuingCareWebViewControllerManager",
+                "usr": "c:@M@ContinuingCare@objc(cs)ContinuingCareWebViewControllerManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ContinuingCare@objc(cs)ContinuingCareWebViewControllerManager(im)init",
+            "mangledName": "$s14ContinuingCare0aB24WebViewControllerManagerCACycfc",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ContinuingCare@objc(cs)ContinuingCareWebViewControllerManager",
+        "mangledName": "$s14ContinuingCare0aB24WebViewControllerManagerC",
+        "moduleName": "ContinuingCare",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@PECore@objc(cs)MyChartWebViewControllerManager",
+        "superclassNames": [
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ContinuingCare",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "ContinuingCare"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEContinuingCareComponentAPI",
+        "printedName": "PEContinuingCareComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForContinuingCare",
+            "printedName": "hasAccessForContinuingCare(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ContinuingCare@objc(cs)PEContinuingCareComponentAPI(im)hasAccessForContinuingCare:",
+            "mangledName": "$s14ContinuingCare012PEContinuingB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE18PEEncounterContextCF",
+            "moduleName": "ContinuingCare",
+            "objc_name": "hasAccessForContinuingCare:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getContinuingCareViewController",
+            "printedName": "getContinuingCareViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ContinuingCare@objc(cs)PEContinuingCareComponentAPI(im)getContinuingCareViewController:viewControllerTitle:",
+            "mangledName": "$s14ContinuingCare012PEContinuingB12ComponentAPIC03getaB14ViewController_04viewH5TitleSo06UIViewH0CSg6PECore18PEEncounterContextC_SSSgtF",
+            "moduleName": "ContinuingCare",
+            "objc_name": "getContinuingCareViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getOpenListViewController",
+            "printedName": "getOpenListViewController(_:epicHttpLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ContinuingCare@objc(cs)PEContinuingCareComponentAPI(im)getOpenListViewController:epicHttpLink:",
+            "mangledName": "$s14ContinuingCare012PEContinuingB12ComponentAPIC25getOpenListViewController_12epicHttpLinkSo06UIViewJ0CSg6PECore18PEEncounterContextC_SStF",
+            "moduleName": "ContinuingCare",
+            "objc_name": "getOpenListViewController:epicHttpLink:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEContinuingCareComponentAPI",
+                "printedName": "ContinuingCare.PEContinuingCareComponentAPI",
+                "usr": "c:@M@ContinuingCare@objc(cs)PEContinuingCareComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ContinuingCare@objc(cs)PEContinuingCareComponentAPI(im)init",
+            "mangledName": "$s14ContinuingCare012PEContinuingB12ComponentAPICACycfc",
+            "moduleName": "ContinuingCare",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ContinuingCare@objc(cs)PEContinuingCareComponentAPI",
+        "mangledName": "$s14ContinuingCare012PEContinuingB12ComponentAPIC",
+        "moduleName": "ContinuingCare",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEContinuingCareComponentAPIProtocol",
+            "printedName": "PEContinuingCareComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEContinuingCareComponentAPIProtocol",
+            "mangledName": "$s6PECore36PEContinuingCareComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ContinuingCare\/ContinuingCare\/Classes\/PEContinuingCareComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 16,
+      "value": "\"continuingcare\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ContinuingCare\/ContinuingCare\/Classes\/PEContinuingCareComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 16,
+      "value": "\"handleepichttp\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/ContinuingCare\/ContinuingCare\/Classes\/PEContinuingCareComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 19,
+      "value": "\"WB_CONTINUINGCARE\""
+    }
+  ]
+}

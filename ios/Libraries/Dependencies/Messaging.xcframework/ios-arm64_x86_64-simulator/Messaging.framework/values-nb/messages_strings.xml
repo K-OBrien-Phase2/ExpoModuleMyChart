@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2020-2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_messages_component_title" constraints="2 lines, 17 characters per line" context="Default title for the Messages activity">Meldingssenter</string>
+  <string name="wp_messages_tutorial_overview" context="Tutorial text introducing the patient to the messages activity.">Hvis du vil stille et spørsmål eller dele noe med ditt helsefaglige team, kan du sende dem en melding herfra. Hvis det er noe som haster, skal du bruke ringeknappen for sykepleier.</string>
+  <string name="wp_messages_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the messages activity. %%PATNAME is replaced with the name of the patient">Hvis du vil stille et spørsmål eller dele noe med det helsefaglige teamet til %%PATNAME, kan du sende dem en melding herfra. Hvis det er noe som haster, skal du bruke ringeknappen for sykepleier.</string>
+  <string name="wp_messages_tutorial_overview_2" context="Tutorial text explaining further details about messages to the patient.">Alle på ditt helsefaglige team kan svare på meldingene dine. Hvis du har et spørsmål eller en kommentar til en bestemt person, nevner du vedkommende i meldingen.</string>
+  <string name="wp_messages_tutorial_overview_2_proxy" context="Tutorial text explaining further details about messages to the patient proxy. %%PATNAME is replaced with the name of the patient">Alle på det helsefaglige teamet til %%PATNAME kan svare på meldingene dine. Hvis du har et spørsmål eller en kommentar til en bestemt person, nevner du vedkommende i meldingen.</string>
+</resources>

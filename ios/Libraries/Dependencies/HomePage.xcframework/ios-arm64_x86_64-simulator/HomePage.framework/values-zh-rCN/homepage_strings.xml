@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright © 2019-2023 Epic Systems Corporation
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="wp_home_menu_pull_to_dismiss" context="This is a message that slowly fades in when swiping down on a scrolling menu indicating that if the user scrolls down far enough, the menu will disappear and reveal the prior screen">拉动来取消</string>
+  <string name="wp_home_menu_search_the_menu" context="This is a placeholder message in a search field (that disappears when entering the field) telling the user that the search can be used to filter down the list of menu options that are below the search box (as opposed to, say, searching everything about mychart)">搜索菜单</string>
+  <string name="wp_home_menu_cancel_menu" context="This is displayed next to the search bar to cancel the search or close the menu">关闭</string>
+  <string name="wp_home_feed_button_reload" context="This is displayed on the error card's button in order to reload the feed">重新加载</string>
+  <plurals name="wp_home_menu_search_results_found" context="This is displayed when the menu search has results. %1$@ is the number of results">
+    <item quantity="one">您的查找有%1$@个结果</item>
+    <item quantity="other">您的查找有%1$@个结果</item>
+  </plurals>
+  <string name="wp_home_menu_search_no_results_found" context="This is displayed if the search has no results for menu">您的查找没有结果</string>
+  <string name="wp_home_menu" context="The button name for the menu">菜单</string>
+  <string name="wp_home_search_placeholder" context="Text displayed in the search bar that encourages the user to search">搜索</string>
+  <string name="wp_home_sayt_window_accessibility" context="Accessibility target for the iOS search window when showing search-as-you-type">菜单和搜索窗口</string>
+  <string name="wp_home_search_window_accessibility" context="Accessibility target for the iOS search window when showing search results">搜索窗口</string>
+  <string name="wp_home_header_logout" context="See STR_SPRING_POPDOWN_LOGOUT_TITLE; This is displayed as a button or table row indicating that tapping will log the user out and return to the login screen">登出</string>
+  <string name="wp_home_header_select_from_feature_options" context="This is displayed as a label above a table with rows of actionable menu options. These options can include Personalize, Settings, and Log out">从以下选项中选择：</string>
+  <string name="wp_home_header_select_an_account" context="This is displayed as a header label if the logged in user has no patient record, but does have access to patients as proxy subjects. The user's name/photo appears selectable alongside the other selectable proxy subject patients, so while we might otherwise typically say 'select a patient to view,' since the user herself isn't a patient, we use the word 'account' instead, referring to a mychart account">选择要查看的账号：</string>
+  <string name="wp_home_header_select_a_patient" context="This is displayed as a header label if the logged in user is a patient and has proxy subjects as well. The user's name/photo appears selectable alongside the other selectable proxy subject patients, and this label indicates the user should chose among them">选择要查看的病人：</string>
+  <string name="wp_home_header_switch_accounts" length="about 25 characters" context="Similiar to wp_home_header_select_an_account, this is displayed as a header label if the logged if the logged in user has no patient record, but does have access to patients as proxy subjects. The user's name/photo appears selectable alongside the other selectable proxy subject patients in a miniature form factor, and this label indicates that if the user taps the photos, they will be given a screen where they may switch to a different account.">切换账号</string>
+  <string name="wp_home_header_switch_patients" length="about 25 characters" context="Similiar to wp_home_header_select_a_patient, this is displayed as a header label if the logged in user is a patient and has proxy subjects as well. The user's name/photo appears selectable alongside the other selectable proxy subject patients in a miniature form factor, and this label indicates that if the user taps the photos, they will be given a screen where they may switch to a different patient.">切换病人</string>
+  <string name="wp_home_header_welcome" context="Brief message welcoming the user, when we don't know their name">欢迎！</string>
+  <string name="wp_home_header_welcome_with_name" context="Brief message welcoming the user, when we know their preferred name. %1$@ is the name of the user">欢迎，%1$@！</string>
+  <string name="wp_home_header_welcome_with_proxy" context="Brief message welcoming the user and informing them which chart they're viewing. %1$@ is the name of the proxy subject">欢迎！您正在查看%1$@。</string>
+  <!-- Accessibility-->
+  <string name="wp_feed_view_pager_page_count" context="This text is read aloud before the voice over user begins swiping through the cards showing various cards. %1$@ is the number of cards that are in the carouesel">列表中有%1$@个选项。</string>
+  <string name="wp_feed_organization_name_hint" context="This is after the contents of an alert to indicate the information is coming from another organization via happy together. %1$@ is the default accessibility string and %2$@ is the org name">%1$@。该信息来自%2$@。</string>
+  <string name="wp_home_header_switch_accounts_accessibility" context="This is the equivalent of wp_home_header_switch_accounts that is read aloud from screen readers instead.">切换账号或选择其他账号选项。</string>
+  <string name="wp_home_header_switch_patients_accessibility" context="This is the equivalent of wp_home_header_patients_accounts that is read aloud from screen readers instead. %1$@ will be either Switch Patients, Switch Persons, or similar action.">%1$@或选择其他账号选项。</string>
+  <string name="wp_homepage_accessibility_welcome" context="Accessibility Message after login.  Where %1$@ is the name of the user.  And %2$@ is the brand name.  Example brand names would be MyChart, MyHealth, Org Patient Portal.">欢迎%1$@。已登录到%2$@</string>
+  <string name="wp_homepage_accessibility_clear_search" context="Accessibility Message when focusing on the clear search button.">清除搜索</string>
+  <string name="wp_homepage_accessibility_closed_menu" context="Accessibility Message after closing them menu pop up.">菜单已关闭</string>
+  <string name="wp_homepage_accessibility_menu_group" context="Accessibility Message when focusing on a menu sub header.">%1$@，标题</string>
+  <string name="wp_homepage_accessibility_viewing_chart" context="Accessibility Message when focusing on a image showing whose chart you are viewing.">正在浏览%1$@的图表</string>
+  <string name="wp_homepage_accessibility_menu_opening" context="Accessibility Message while opening the menu pop up.">正在打开菜单</string>
+  <string name="wp_homepage_accessibility_viewing_chart_single" context="Accessibility Message when focusing on a image showing whose chart you are viewing.  Tapping the image will show account options.  Only for a single patient with no proxy subjects. %1$@ is the name of the user.">查看%1$@的档案。账号选项。</string>
+  <string name="wp_homepage_accessibility_select_patient_or_cancel" context="Accessibility Message instructing users to select from a list of patients or tap to go back to where they came from close the current window.  The text should closely resemble wp_home_header_select_patient">选择要查看的病人或双击取消。</string>
+  <string name="wp_homepage_accessibility_select_account_or_cancel" context="Accessibility Message instructing users to select from a list of patients or tap to go back to where they came from close the current window.  The text should closely resemble wp_home_header_select_account">选择要查看的账号或双击取消。</string>
+  <string name="wp_homepage_accessibility_select_option_or_cancel" context="Accessibility Message instructing users to select from a list of account features or tap to go back to where they came from close the current window.  The text should closely resemble wp_home_header_select_from_feature_options">从以下选项中选择或双击取消。</string>
+  <string name="wp_homepage_accessibility_view_all_menu_options" context="Accessibility label for the main menu button, indicating that tapping will show every navigation option available. Used when the patient is viewing their own chart and they do not have any proxies">菜单</string>
+  <string name="wp_homepage_accessibility_view_all_menu_options_self_with_proxies" context="Accessibility label for the main menu button, indicating that tapping will show every navigation option available. Used when the patient is viewing their own chart, but they also have proxies">您的菜单</string>
+  <string name="wp_homepage_accessibility_view_all_menu_options_proxy" context="Accessibility label for the main menu button, indicating that tapping will show every navigation option available for the currently selected patient. Used when the patient is viewing their proxy's chart. %1$@ - The proxy name">%1$@的菜单</string>
+  <string name="wp_homepage_accessibility_open_search_activity" context="Accessibility label for the button that opens the search activity">菜单和搜索</string>
+  <string name="wp_homepage_accessibility_close_search_activity" context="Accessibility label for the button that closes the search activity">关闭</string>
+  <string name="wp_homepage_accessibility_feed_header_text_empty" context="Accessibility label for each a header section of the notifications table informing the user that the patient (named %1$@) associated with this heading has no notifications to follow that header.">%1$@没有通知</string>
+  <string name="wp_homepage_accessibility_feed_header_text_empty_self" context="Accessibility label for each a header section of the notifications table informing the user that they have no notifications to follow this header.">您没有通知。</string>
+  <string name="wp_homepage_accessibility_myc3_progress_arc" context="Accessibility text for the progress arc that shows the percentage of finished MyChart Care Companion tasks due today.">已完成百分之%1$@</string>
+  <plurals name="wp_homepage_accessibility_feed_header_text" context="Accessibility label for each header section of the notifications table informing the user that the patient (named %2$@) associated with this heading has %1$@ notifications in the rows that follow that header.">
+    <item quantity="one">%1$@有%2$@个通知</item>
+    <item quantity="other">%1$@有%2$@个通知</item>
+  </plurals>
+  <plurals name="wp_homepage_accessibility_feed_header_text_self" context="Accessibility label for the header section of the notifications table for users with no proxy subjects, informing the user they have %1$@ notifications in the rows that follow that header.">
+    <item quantity="one">您有%1$@个通知</item>
+    <item quantity="other">您有%1$@个通知</item>
+  </plurals>
+  <string name="wp_homepage_accessibility_proxy_selection_currently_selected" context="Accessibility label telling the user that the patient who has accessibility focus is the currently selected patient/chart. %1$@ is the patient's name">%1$@，当前被选择。</string>
+  <string name="wp_homepage_accessibility_proxy_selection_connection_error" context="Accessibility label telling the user that the patient who has accessibility focus has no information available from connected organizations. %1$@ is the patient's name">%1$@。注意：我们无法访问%1$@关联的任何机构。</string>
+  <string name="wp_homepage_accessibility_proxy_selection_currently_selected_connection_error" context="Accessibility label telling the user that the patient who has accessibility focus is the currently selected patient/chart and has no information available from connected organizations. %1$@ is the patient's name">%1$@，当前选定。注意：我们无法访问%1$@关联的任何机构。</string>
+  <!-- Feed-->
+  <string name="wp_switch_organizations_feature" context="Text for the switch organization button that takes user to the list of their selected organizations" length="30 characters">切换机构</string>
+  <string name="wp_family_access_feature" context="Text for the Friends and Family Access button on the proxy drop down window">亲友访问权限</string>
+  <string name="wp_home_loading_text" context="This is the loading message for loading the users feed">正在准备您的信息</string>
+  <string name="wp_home_zero_state_title" context="This is the title message for the zero state card in the user feed">没有新的信息可以展示。</string>
+  <string name="wp_home_feed_error_title" context="This is the error title if the feed can not be loaded">无法加载您的信息</string>
+  <string name="wp_home_feed_h2g_toast_error" context="Error message shown at the bottom of the screen when the feed was unable to load data from a happy together organization.">我们在连接您的关联账号时遇到困难。请稍后再试。</string>
+  <plurals name="wp_home_feed_h2g_error_title" context="Error message shown at the bottom of the screen when the feed was unable to load data from a happy together organization">
+    <item quantity="one">有连接问题的账号：</item>
+    <item quantity="other">有连接问题的账号：</item>
+  </plurals>
+  <string name="wp_home_remember_my_choice" context="This is a message associated with a checkbox/switch that informs users that, if checked, MyChart will remember who they select and automatically make the same selection on subsequent logins.">记住我的选择</string>
+  <string name="wp_home_remember_my_choice_description" context="This is a description associated with the checkbox/switch that informs users that, if checked, MyChart will remember who they select and automatically make the same selection on subsequent logins. The description reminds users that they can change this selection later via Account Settings.">您可以稍后在账号设置中更改此设置。</string>
+  <string name="wp_home_select_patient_subheader" context="This is displayed below the header to select a patient or account to view.  This is a sub header explaining you can change later.  %1$@ is either 'Switch Patients' or 'Switch Account' based on your account type.">用按钮%1$@随时切换。</string>
+  <string name="wp_home_choose_someone_to_begin" context="This is displayed when a user with proxy subjects logs in and immediately faced with a selection screen of patients/accounts to select from. It should be inviting, since it's the opening screen.">选择一个人：</string>
+  <string name="wp_homepage_todo_summary_completed" context="Used on the To Do Summary card above the completion percentage">已完成</string>
+  <string name="wp_homepage_todo_changes_clinic_contacted" context="Used on the To Do Changes card for when the clinic was contacted due to an escalation">已联系您的诊所</string>
+  <string name="wp_homepage_todo_changes_pcp_contacted" context="Used on the To Do Changes card for when the primary care provider was contacted due to an escalation">已联系您的护理人员</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_title" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the title text of that alert dialogue.">停止怀孕信息更新</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_msg" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the body text of that alert dialogue.">这个更改不能撤销。您确定您要在主页上停止接收怀孕信息的更新，并且停止接收关于怀孕的学习信息吗？</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_msg_nocareplan" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the body text of that alert dialogue.">这个更改不能撤销，您确定您要在主页上停止接收怀孕信息的更新吗？</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_confirm" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the postive action button, which confirms the user's desire to stop updates.">停止更新</string>
+  <string name="wp_home_feed_pregnancyhub_stopalert_cancel" context="This text appears in an alert pop-up which appears when the user selects a button on the pregnancy progress update card which is intended for stopping updates. This is the cancel button text, which will just close out of the alert.">返回</string>
+  <plurals name="wp_home_feed_todo_genpattask_label" context="Label for general/patient-created tasks for the summary feed card">
+    <item quantity="one">%1$@个普通事项</item>
+    <item quantity="other">%1$@个普通事项</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_medicationtask_label" context="Label for medication tasks for the summary feed card">
+    <item quantity="one">%1$@个用药事项</item>
+    <item quantity="other">%1$@个用药事项</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_questionnairetask_label" context="Label for questionnaire tasks for the summary feed card">
+    <item quantity="one">%1$@个问卷事项</item>
+    <item quantity="other">%1$@个问卷事项</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_educationtask_label" context="Label for education tasks for the summary feed card">
+    <item quantity="one">%1$@个学习事项</item>
+    <item quantity="other">%1$@个学习事项</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_flowsheettask_label" context="Label for health-tracking tasks for the summary feed card">
+    <item quantity="one">%1$@个健康追踪事项</item>
+    <item quantity="other">%1$@个健康追踪事项</item>
+  </plurals>
+  <plurals name="wp_home_feed_todo_appointmenttask_label" context="Label for appointment tasks for the summary feed card">
+    <item quantity="one">%1$@个预约事项</item>
+    <item quantity="other">%1$@个预约事项</item>
+  </plurals>
+  <!-- Remote Proxy Access -->
+  <string name="wp_home_remote_proxies_lost_access_toast" context="Toast displayed when we have lost access a given person. %1$@ is the person's nickname.">您不再拥有%1$@的访问权限。</string>
+  <string name="wp_home_remote_proxies_lost_access_popup_title" context="Title for popup displayed when we have lost proxy access a given person.">已失去访问权限</string>
+  <string name="wp_home_remote_proxies_lost_access_popup_content" context="Content for popup displayed when we have lost proxy access a given person. %1$@ is the person's nickname.">您在所有与您关联的机构都以不再拥有%1$@的访问权限。</string>
+  <string name="wp_home_remote_proxies_connection_error" context="Toast displayed when we cannot reach any organizations providing information for a given person. %1$@ is the person's nickname.">我们无法访问%1$@关联的任何机构。</string>
+  <string name="wp_home_remote_proxies_feature_error_card_title" context="Title for health feed error card that displays when we cannot reach any organizations providing information about a given person. %1$@ is the person's nickname.">%1$@的健康信息流现在不可用。</string>
+  <!-- Onboarding -->
+  <string name="wp_home_onboarding_welcome_header" context="Header label for the welcome page of the Home Page onboarding. %1$@ is the organization name.">欢迎来到%1$@</string>
+  <string name="wp_home_onboarding_welcome_title" context="This is the title of the onboarding welcome screen. %1$@ is the proxy subject's nickname">欢迎，%1$@！</string>
+  <string name="wp_home_onboarding_welcome_description" context="This is the description text on the onboarding welcome screen.">让我们向您展示一些可以帮您找到对您最重要的信息的功能。</string>
+  <!-- Shortcut Personalization -->
+  <string name="wp_shortcut_personalization_title_self" context="Title used for Shortcut Personalization activity when accessing yourself">改变您的快捷键</string>
+  <string name="wp_shortcut_personalization_title_proxy" context="Title used for Shortcut Personalization activity when accessing a proxy subject. %1$@ is the proxy subject's nickname">为%1$@改变快捷键</string>
+  <string name="wp_home_feed_unspecified_error" context="Critical error message when something went wrong with the app attempting to do what the user intended">我们在处理您的请求时遇到问题。 请稍后再试。</string>
+  <string name="wp_home_information_from" context="Title for happy together pop up about where your item feed card is coming from.">信息来自：</string>
+  <!--  Linked accounts -->
+  <string name="wp_switch_accounts_title" context="Title for switch organization section.  This sections shows different organizations the user can either directly jump to the remote org or go to the remote org's login screen.">切换机构</string>
+  <string name="wp_switch_accounts_go_to_login" context="Button to go to the remote organization's login page.">前往登录</string>
+  <string name="wp_switch_accounts_go_to_self_account" context="Button to go to the remote organization's account within your context.">前往您的账号</string>
+  <string name="wp_switch_accounts_go_to_sign_up" context="Button to go to the remote organization's signup page.">注册</string>
+  <string name="wp_switch_accounts_go_to_subject_account" context="Button to go to the remote organization's account for your subject.">跳到账号</string>
+  <string name="wp_switch_accounts_failed_org_text" context="Text shown to user when a link has failed to get data from the remote organization.">对不起，我们此时无法从该机构获取数据。</string>
+  <string name="wp_switch_accounts_ax_show_accounts_at_org" context="This is the accessibility text for the care everywhere logo.  When clicking this it will show what accounts are at the remote organization.">查看机构的账号</string>
+  <string name="wp_switch_accounts_ax_org_name_with_alerts" context="This is the accessibility text for the remote organization.  This will also indicate the org has alerts.  %1$@ is the remote org name.">%1$@。此机构有提醒。</string>
+  <string name="wp_switch_accounts_ax_org_name_failed_link" context="This is the accessibility text for the remote organization.  This will also indicate the org's link failed.  %1$@ is the remote org name.">%1$@。我们此时无法从该机构获取数据。</string>
+  <string name="wp_switch_accounts_ax_org_name_signup_needed" context="This is the accessibility text for the remote organization.  This will also indicate signup is needed at the org.  %1$@ is the remote org name.">%1$@。这个机构需要您注册。</string>
+  <string name="wp_switch_accounts_payer_only_org_text" context="Text shown to user when a linked org is a payer only organization.">保险供应商</string>
+  <!-- App Review -->
+  <string name="wp_app_review_warning_message_p1" context="A portion of a warning message to show to patients before submitting an app review to inform them of the publicity and behavior of app reviews. %1$@ is the name of the app store depending on platform (Google Play Store for Android and App Store for iOS).">任何人都将在%1$@中可以看到此评价。请您仅分享可公开的信息。</string>
+  <string name="wp_app_review_warning_message_p2" context="A portion of a warning message to show to patients before submitting an app review to inform them of the publicity and behavior of app reviews. %1$@ is the mobile apps branded name.">此评价仅针对%1$@软件。若要对您的医疗提出反馈，请联系您的医疗人员。</string>
+  <string name="wp_app_review_warning_message_p3" context="A portion of a warning message to show to patients before submitting an app review to inform them of the publicity and behavior of app reviews.">您只能提交一条评价。若您已提交过，您无法提交更多。</string>
+  <string name="wp_app_review_ios_store_name" context="The name of the app store on iOS.">App Store</string>
+  <string name="wp_app_review_android_store_name" context="The name of the app store on Android.">Google Play商店</string>
+  <!-- Epic Fun Text Strings -->
+  <string name="wp_epicfun_mychart_hint" context="Prepends fun fact text segments that are hints and link to activities, (E.g.) MyChart Hint: MyChart is an ...">MyChart提示：</string>
+  <string name="wp_epicfun_close" context="Close button text shown to close out of the fun fact view">关闭</string>
+  <string name="wp_epicfun_mychart_developed_by_epic" context="Fun fact easter egg content that gives insight into what Epic is. Paried with an Epic Logo Sign Image.">MyChart是一家名叫Epic的公司开发的应用程序，您的医疗人员使用的电子健康记录软件也同样是这家公司开发的。</string>
+  <string name="wp_epicfun_electronic_health_record" context="Fun fact easter egg content that gives insight into your Electronic Health Record. Paired with an image of a clinician.">您在Epic软件中的电子健康记录可以帮助医疗人员根据您独特的健康史为您提供护理。同时，您还能够在MyChart中管理您的护理。</string>
+  <string name="wp_epicfun_epic_story" context="Fun fact easter egg content that compares Epic's EHR to epic tales. Paired with an Epic image.">“epic”（史诗）是对一个国家事件的光荣叙述。和著名的故事《伊利亚特》和《奥德赛》一样，您在Epic中的电子健康记录记下了您随着时间变化的医疗护理。</string>
+  <string name="wp_epicfun_millions_of_patients" context="Fun fact easter egg content that highlights the widespread use of MyChart. Paired with a heart image.">全球近1亿9千万病人使用MyChart来管理他们的护理。</string>
+  <string name="wp_epicfun_mychart_country" context="Fun fact easter egg content that compares MyChart's user base to the population of countries. Paired with a MyChart image.">如果MyChart是一个国家，它会是世界第8大。</string>
+  <string name="wp_epicfun_share_everywhere" context="Fun fact easter egg content that explains Share Everywhere feature. Paired with a Share Everywhere image.">您可以使用Share Everywhere给与全世界任何医疗人员一次性访问您医疗记录的权限。</string>
+  <string name="wp_epicfun_madison" context="Fun fact easter egg content that provides historical information about Epic. Paired with a capital image.">Epic于1979年在威斯康星州麦迪逊市成立。从那以后，它一直以来以大麦迪逊地区为家。</string>
+  <string name="wp_epicfun_basement" context="Fun fact easter egg content that shares the humble beginnings of Epic. Paired with an apartment image.">Epic最初只有三名半职员工，在威斯康星州麦迪逊市的一栋公寓楼的地下室工作。</string>
+  <string name="wp_epicfun_secure_data_sharing" context="Fun fact easter egg content that explains secure data sharing with Epic. Paired with an Epic Sign image.">当您在新的机构接受护理时，您的医疗机构可以使用Epic安全地共享您的医疗数据。</string>
+  <string name="wp_epicfun_request_medical_record" context="Fun fact easter egg content that explains how to request medical records via MyChart. Paired with a request copy image.">您可以使用MyChart来请求您的医疗记录和其他文件的副本，并在可用时下载。</string>
+  <string name="wp_epicfun_farm" context="Fun fact easter egg content that describes Epic's campus as a working farm. Paired with a cow and goat image.">Epic位于威斯康星州维罗纳市的园区也是一个正在运营的农场。大约三分之一的土地用于种植庄稼、养牛和养羊。</string>
+  <string name="wp_epicfun_document_care_decisions" context="Fun fact easter egg content that explains how to document care decisions in MyChart. Paired with a decisions image.">您可以使用MyChart来记录关于您对护理的决定，可用在家庭成员、医生或其他指定的人需要代表您行事的情况下。</string>
+  <string name="wp_epicfun_wait_list" context="Fun fact easter egg content that explains the wait list feature in MyChart. Paired with a calendar image.">需要等待预约？加入等候名单，并在有更早的时间可用时收到通知。2023年，使用MyChart的机构将等候名单上的病人就诊的时间平均提前47天。</string>
+  <string name="wp_epicfun_animals" context="Fun fact easter egg content that describes the animals on Epic's campus. Paired with a donkey image.">Epic的园区（一个正在运营的农场）全年都是许多动物的家。有些动物，比如照片中的这头驴，会成为工作人员的最爱，并获得名字。来认识一下Ralph。</string>
+  <string name="wp_epicfun_midnight" context="Fun fact easter egg content that introduces Midnight the cow. Paired with a Midnight image.">几年前，生活在Epic园区的奶牛们的家庭迎来了一位新成员。来认识一下母牛Midnight。</string>
+  <string name="wp_epicfun_cowbikes" context="Fun fact easter egg content that describes the cow bikes on Epic's campus. Paired with a cow bike image.">Epic的园区里有“奶牛自行车”，可以帮助员工和客人快速出行。这是我们体验威斯康星州根基的一种方式。</string>
+  <string name="wp_epicfun_ffa" context="Fun fact easter egg content that explains how to give family access to MyChart. Paired with a family access image.">您可以授权您的看护人和家庭成员访问您的MyChart账号。</string>
+  <string name="wp_epicfun_slides" context="Fun fact easter egg content that describes the fun culture at Epic. Paired with a slide image.">玩得开心是Epic文化的核心。除了普通的楼梯外，我们的园区还有一些滑梯供游客享受。</string>
+  <string name="wp_epicfun_treehouse" context="Fun fact easter egg content that describes the treehouse on Epic's campus. Paired with a treehouse image.">Epic的园区有一个由员工和当地高中生建造的树屋。一切都很精简：没有暖气，没有电话，没有卫生间。</string>
+  <string name="wp_epicfun_lma" context="Fun fact easter egg content that explains how to link MyChart accounts. Paired with a happy together image.">如果您在不同的机构有多个MyChart账号，您可以将它们关联起来，以在单个视图中查看药物、就诊、检测结果和护理团队成员等信息。</string>
+  <string name="wp_epicfun_update_health_info" context="Fun fact easter egg content that explains how to update health information in MyChart. Paired with a clipboard update image.">在医生预约之前，您可以使用MyChart更新某些健康信息，比如您的过敏史和当前药物。</string>
+  <string name="wp_epicfun_global" context="Fun fact easter egg content that highlights the global use of Epic's software. Paired with a globe image.">16个国家的医疗人员在使用Epic的软件。</string>
+  <string name="wp_epicfun_biometrics" context="Fun fact easter egg content that explains biometric login methods for MyChart. Paired with a biometrics image.">使用生物识别登录方式，例如面部识别或指纹，使登录MyChart变得轻而易举。无需输入您的用户名和密码。</string>
+  <string name="wp_epicfun_2fa" context="Fun fact easter egg content that explains two-factor authentication for MyChart. Paired with a 2FA image.">您可以通过两步验证来提高您的MyChart账号的安全性。这样，即使有人得到了您的用户名和密码，您的账号也是安全的。</string>
+  <string name="wp_epicfun_geothermal" context="Fun fact easter egg content that describes the renewable energy sources at Epic's campus. Paired with a flower image.">Epic位于威斯康星州维罗纳市的园区很大一部分能源来自风能、太阳能和地热能。我们的地热供暖供冷系统是世界上最大的系统之一。</string>
+  <string name="wp_epicfun_employee_owned" context="Fun fact easter egg content that highlights Epic's employee-owned status. Paired with an employee-owned image.">Epic现在是而将永远是一家独立的员工持股公司。这样，我们的焦点可以继续放在病人和医疗界，而不是股东。</string>
+  <string name="wp_epicfun_shortcuts" context="Fun fact easter egg content that explains how to update shortcuts in MyChart. Paired with a change shortcuts image.">您可以更新主页上的快捷键以带您前往您最常使用的资源，比如化验或安排预约。</string>
+  <string name="wp_epicfun_personalize" context="Fun fact easter egg content that explains how to personalize MyChart with an accent color. Paired with a personalize image.">您知道您可以为您的MyChart账号选择自己的重点色吗？</string>
+  <string name="wp_epicfun_diversity" context="Fun fact easter egg content that highlights the diversity of Epic's staff. Paired with a diversity image.">Epic员工来自60多个国家，代表了好多不同的背景、身份和经历。</string>
+  <!-- Epic Fun Link Strings -->
+  <string name="wp_epicfun_link_learn_how" context="Generic Link text for clicking to learn how to do an action.">了解如何做到</string>
+  <string name="wp_epicfun_link_learn_more" context="Generic Link text for clicking to learn more about an action.">了解更多</string>
+  <string name="wp_epicfun_link_sharing_hub" context="Link text for accessing the Sharing Hub Activity.">共享中心</string>
+  <string name="wp_epicfun_link_plan_ahead" context="Link text for documenting care decisions in MyChart.">提前计划</string>
+  <string name="wp_epicfun_link_ffa" context="Link text for accessing FFA.">亲友访问权限</string>
+  <string name="wp_epicfun_link_2fa" context="Link text for enabling two-factor authentication in MyChart.">开启两步验证</string>
+  <string name="wp_epicfun_link_shortcuts" context="Link text for updating shortcuts in MyChart.">改变快捷键</string>
+  <string name="wp_epicfun_link_personalize" context="Link text for personalizing MyChart with an accent color.">个性化您的账号</string>
+  <!-- Epic Fun Image Alt Text -->
+  <string name="wp_epicfun_alt_text_apartment" context="Alt text for an image of an apartment pointing at the basement">带有一个箭头指向地下室的砖砌公寓</string>
+  <string name="wp_epicfun_alt_text_epic" context="Alt text for an image of a book opened on a table">一本在图书馆里打开的书</string>
+  <string name="wp_epicfun_alt_text_midnight" context="Alt text for an image of a calf laying in a field">一头小牛躺在一些草丛中</string>
+  <string name="wp_epicfun_alt_text_cow_bike" context="Alt text for an image of a cow bike">车架上布满了牛斑的自行车</string>
+  <string name="wp_epicfun_alt_text_clinician" context="Alt text for an image of a clinician holding up a cell phone">举起手机的医疗人员</string>
+  <string name="wp_epicfun_alt_text_employee_owned" context="Alt text for an image of an epic employee riding a bike with a dog">一位Epic员工幸福地骑着自行车，和一只追赶的狗</string>
+  <string name="wp_epicfun_alt_text_donkey" context="Alt text for an image of a donkey">在家畜围墙后的一头驴</string>
+  <string name="wp_epicfun_alt_text_flower" context="Alt text for an image of Lavendar flowers">生长在花田中的薰衣草花</string>
+  <string name="wp_epicfun_alt_text_slide" context="Alt text for an image of the slide in Alice">Epic园区的滑梯，有一个牌子指着它，写着“兔子洞这边”</string>
+  <string name="wp_epicfun_alt_text_treehouse" context="Alt text for an image of the Endor Tree house">Epic园区的树屋，位于森林</string>
+  <string name="wp_epicfun_alt_text_epic_sign" context="Alt text for an image of the epic logo in a sign form">Epic商标牌子</string>
+  <string name="wp_epicfun_alt_text_capital" context="Alt text for an image of the capitol building">威斯康星州的州议会大厦，位于麦迪逊市</string>
+</resources>

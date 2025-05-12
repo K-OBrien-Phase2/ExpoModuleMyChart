@@ -1,0 +1,2379 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CareTeam",
+    "printedName": "CareTeam",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PECareTeamComponentAPI",
+        "printedName": "PECareTeamComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hasAccessForCareTeam",
+            "printedName": "hasAccessForCareTeam(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)hasAccessForCareTeam:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC012hasAccessForaB0y6PECore011PEComponentG6ResultOAE16PEPatientContextCF",
+            "moduleName": "CareTeam",
+            "objc_name": "hasAccessForCareTeam:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCareTeamViewController",
+            "printedName": "getCareTeamViewController(_:isPrimaryStandalone:withDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PECareTeamComponentDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PECareTeamComponentDelegate",
+                    "printedName": "any PECore.PECareTeamComponentDelegate",
+                    "usr": "c:@M@PECore@objc(pl)PECareTeamComponentDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)getCareTeamViewController:isPrimaryStandalone:withDelegate:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC03getaB14ViewController_19isPrimaryStandalone12withDelegatey6PECore16PEPatientContextC_SbAG0cbdM0_pSgtF",
+            "moduleName": "CareTeam",
+            "objc_name": "getCareTeamViewController:isPrimaryStandalone:withDelegate:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForTreatmentTeam",
+            "printedName": "hasAccessForTreatmentTeam(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)hasAccessForTreatmentTeam:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC021hasAccessForTreatmentB0y6PECore011PEComponentG6ResultOAE18PEEncounterContextCF",
+            "moduleName": "CareTeam",
+            "objc_name": "hasAccessForTreatmentTeam:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTreatmentTeamViewController",
+            "printedName": "getTreatmentTeamViewController(_:componentHost:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentHostProtocol",
+                "printedName": "any PECore.PEComponentHostProtocol",
+                "usr": "c:@M@PECore@objc(pl)PEComponentHostProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)getTreatmentTeamViewController:componentHost:viewControllerTitle:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC012getTreatmentB14ViewController_13componentHost04viewI5TitleSo06UIViewI0CSg6PECore18PEEncounterContextC_AJ011PEComponentK8Protocol_pSSSgtF",
+            "moduleName": "CareTeam",
+            "objc_name": "getTreatmentTeamViewController:componentHost:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFullscreenCareTeamViewController",
+            "printedName": "getFullscreenCareTeamViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)getFullscreenCareTeamViewController:viewControllerTitle:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC013getFullscreenaB14ViewController_04viewI5TitleSo06UIViewI0CSg6PECore16PEPatientContextC_SSSgtF",
+            "moduleName": "CareTeam",
+            "objc_name": "getFullscreenCareTeamViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTreatmentTeamListViewController",
+            "printedName": "getTreatmentTeamListViewController(_:componentHost:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentHostProtocol",
+                "printedName": "any PECore.PEComponentHostProtocol",
+                "usr": "c:@M@PECore@objc(pl)PEComponentHostProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)getTreatmentTeamListViewController:componentHost:viewControllerTitle:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC012getTreatmentB18ListViewController_13componentHost04viewJ5TitleSo06UIViewJ0CSg6PECore18PEEncounterContextC_AJ011PEComponentL8Protocol_pSSSgtF",
+            "moduleName": "CareTeam",
+            "objc_name": "getTreatmentTeamListViewController:componentHost:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForProviderBio",
+            "printedName": "hasAccessForProviderBio(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)hasAccessForProviderBio:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC23hasAccessForProviderBioy6PECore011PEComponentG6ResultOAE18PEEncounterContextCF",
+            "moduleName": "CareTeam",
+            "objc_name": "hasAccessForProviderBio:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProviderBioViewController",
+            "printedName": "getProviderBioViewController(_:providerID:providerName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)getProviderBioViewController:providerID:providerName:",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPIC28getProviderBioViewController_10providerID0K4NameSo06UIViewJ0CSg6PECore18PEEncounterContextC_S2StF",
+            "moduleName": "CareTeam",
+            "objc_name": "getProviderBioViewController:providerID:providerName:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PECareTeamComponentAPI",
+                "printedName": "CareTeam.PECareTeamComponentAPI",
+                "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI(im)init",
+            "mangledName": "$s8CareTeam06PECareB12ComponentAPICACycfc",
+            "moduleName": "CareTeam",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CareTeam@objc(cs)PECareTeamComponentAPI",
+        "mangledName": "$s8CareTeam06PECareB12ComponentAPIC",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PECareTeamComponentAPIProtocol",
+            "printedName": "PECareTeamComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PECareTeamComponentAPIProtocol",
+            "mangledName": "$s6PECore30PECareTeamComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PinImageView",
+        "printedName": "PinImageView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PinImageView",
+                "printedName": "CareTeam.PinImageView",
+                "usr": "c:@M@CareTeam@objc(cs)PinImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CareTeam@objc(cs)PinImageView(im)initWithImage:",
+            "mangledName": "$s8CareTeam12PinImageViewC5imageACSo7UIImageCSg_tcfc",
+            "moduleName": "CareTeam",
+            "overriding": true,
+            "objc_name": "initWithImage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CareTeam.PinImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PinImageView",
+                    "printedName": "CareTeam.PinImageView",
+                    "usr": "c:@M@CareTeam@objc(cs)PinImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CareTeam@objc(cs)PinImageView(im)initWithCoder:",
+            "mangledName": "$s8CareTeam12PinImageViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "CareTeam",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:highlightedImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PinImageView",
+                "printedName": "CareTeam.PinImageView",
+                "usr": "c:@M@CareTeam@objc(cs)PinImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CareTeam@objc(cs)PinImageView(im)initWithImage:highlightedImage:",
+            "mangledName": "$s8CareTeam12PinImageViewC5image011highlightedD0ACSo7UIImageCSg_AHtcfc",
+            "moduleName": "CareTeam",
+            "overriding": true,
+            "objc_name": "initWithImage:highlightedImage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CareTeam@objc(cs)PinImageView(im)layoutSubviews",
+            "mangledName": "$s8CareTeam12PinImageViewC14layoutSubviewsyyF",
+            "moduleName": "CareTeam",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CareTeam@objc(cs)PinImageView",
+        "mangledName": "$s8CareTeam12PinImageViewC",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIImageView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIImageView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CareTeam"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 327,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 567,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1688,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2068,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2766,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3330,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3691,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "StringLiteral",
+      "offset": 3958,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/ProviderList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4019,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/EncounterSpecificProviderWidgetCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1295,
+      "length": 2,
+      "value": "75"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/EncounterSpecificProviderWidgetCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1341,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/EncounterSpecificProviderWidgetCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/OutpatientProviderWidgetViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4329,
+      "length": 30,
+      "value": "\"OutpatientProviderWidgetCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/OutpatientProviderWidgetViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/OutpatientProviderWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4484,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBioDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 5896,
+      "length": 10,
+      "value": "\"Question\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBioDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 5933,
+      "length": 8,
+      "value": "\"Answer\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBioDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6037,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBioDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 6130,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBioDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 7445,
+      "length": 18,
+      "value": "\"AboutMeStatement\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBioDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 7495,
+      "length": 17,
+      "value": "\"RoleDescription\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBioDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 7545,
+      "length": 18,
+      "value": "\"AboutMeQuestions\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider2018.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider2018.swift",
+      "kind": "StringLiteral",
+      "offset": 655,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider2018.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 18,
+      "value": "\"AboutMeStatement\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider2018.swift",
+      "kind": "StringLiteral",
+      "offset": 1338,
+      "length": 17,
+      "value": "\"RoleDescription\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider2018.swift",
+      "kind": "StringLiteral",
+      "offset": 1388,
+      "length": 18,
+      "value": "\"AboutMeQuestions\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ProviderWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 11,
+      "value": "\"Providers\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ProviderWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 11,
+      "value": "\"Providers\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ProviderWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2689,
+      "length": 11,
+      "value": "\"Providers\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ProviderWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 3761,
+      "length": 10,
+      "value": "\"Provider\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ProviderWebServiceAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 5759,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 476,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3987,
+      "length": 51,
+      "value": "\"wp_care_team_sorting_most_recently_visited_option\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4213,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4517,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6209,
+      "length": 12,
+      "value": "\"IsFeatured\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6253,
+      "length": 17,
+      "value": "\"FeaturePriority\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6296,
+      "length": 12,
+      "value": "\"IsThereNow\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificListableProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 6340,
+      "length": 17,
+      "value": "\"WasAddedViaRTLS\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/EncounterSpecificProviderWidgetViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4502,
+      "length": 37,
+      "value": "\"EncounterSpecificProviderWidgetCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/EncounterSpecificProviderWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4593,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/EncounterSpecificProviderWidgetViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4669,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/EncounterSpecificProviderWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4712,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/EncounterSpecificProviderWidgetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4758,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderBioViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 379,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 632,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2788,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2813,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2837,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 2908,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3123,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3159,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4600,
+      "length": 10,
+      "value": "\"ObjectID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4631,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4662,
+      "length": 10,
+      "value": "\"PhotoURL\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4703,
+      "length": 16,
+      "value": "\"HasPhotoOnBlob\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4749,
+      "length": 9,
+      "value": "\"orgInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4790,
+      "length": 17,
+      "value": "\"BackgroundColor\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4829,
+      "length": 7,
+      "value": "\"Roles\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4864,
+      "length": 13,
+      "value": "\"IsAdmitting\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4905,
+      "length": 13,
+      "value": "\"IsAttending\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4944,
+      "length": 11,
+      "value": "\"TimeFrame\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 4984,
+      "length": 14,
+      "value": "\"StartInstant\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/EncounterSpecificProviderBase.swift",
+      "kind": "StringLiteral",
+      "offset": 5032,
+      "length": 12,
+      "value": "\"LastInRoom\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Enums\/ProviderCareTeamStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 312,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Enums\/ProviderCareTeamStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/OutpatientProviderWidgetCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 2,
+      "value": "58"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/OutpatientProviderWidgetCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1553,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 852,
+      "length": 16,
+      "value": "\"OrganizationID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 12,
+      "value": "\"IsExternal\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 18,
+      "value": "\"OrganizationName\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OrganizationInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 9,
+      "value": "\"LogoUrl\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderPopupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 824,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderPopupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2034,
+      "length": 4,
+      "value": "40.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderPopupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2083,
+      "length": 4,
+      "value": "36.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderPopupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2133,
+      "length": 5,
+      "value": "500.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderPopupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2178,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderPopupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 15569,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderPopupViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 15616,
+      "length": 26,
+      "value": "\"PopupButtonTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/ProviderCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5401,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/ProviderCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5450,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/ProviderCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5498,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/ProviderCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5567,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Views\/ProviderCollectionViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5593,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11451,
+      "length": 28,
+      "value": "\"ProviderCollectionViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11548,
+      "length": 41,
+      "value": "\"ProviderCollectionViewSupplementaryView\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11632,
+      "length": 23,
+      "value": "\"ProviderTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11732,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11902,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListOptionsPopdownViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 24,
+      "value": "\"OptionsPopdownCellView\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListOptionsPopdownViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 952,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/ViewControllers\/ProviderListOptionsPopdownViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7522,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 585,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 611,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 663,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 690,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 767,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 932,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1993,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9506,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9538,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9730,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9762,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9952,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 9984,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10211,
+      "length": 4,
+      "value": "\"ID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10240,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10276,
+      "length": 11,
+      "value": "\"Specialty\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10538,
+      "length": 14,
+      "value": "\"Relationship\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10580,
+      "length": 9,
+      "value": "\"PCPType\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10619,
+      "length": 11,
+      "value": "\"Specialty\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10916,
+      "length": 9,
+      "value": "\"orgInfo\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10944,
+      "length": 10,
+      "value": "\"ObjectID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10975,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11012,
+      "length": 16,
+      "value": "\"HasPhotoOnBlob\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11053,
+      "length": 10,
+      "value": "\"PhotoURL\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11085,
+      "length": 15,
+      "value": "\"ProviderRoles\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11128,
+      "length": 13,
+      "value": "\"Specialties\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11169,
+      "length": 13,
+      "value": "\"Departments\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11210,
+      "length": 12,
+      "value": "\"WebPageUrl\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11249,
+      "length": 12,
+      "value": "\"CanMessage\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11299,
+      "length": 23,
+      "value": "\"CanRequestAppointment\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11361,
+      "length": 24,
+      "value": "\"IsNewSchedulingEnabled\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11422,
+      "length": 21,
+      "value": "\"HasNoProviderRecord\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11477,
+      "length": 19,
+      "value": "\"CanDirectSchedule\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11536,
+      "length": 24,
+      "value": "\"CanViewProviderDetails\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11592,
+      "length": 17,
+      "value": "\"CanHideProvider\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11648,
+      "length": 24,
+      "value": "\"ProviderCareTeamStatus\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11711,
+      "length": 23,
+      "value": "\"HasAccessToCommCenter\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11773,
+      "length": 24,
+      "value": "\"MessageOrgsWithProvIDs\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11843,
+      "length": 31,
+      "value": "\"DirectScheduleOrgsWithProvIDs\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11924,
+      "length": 35,
+      "value": "\"RequestAppointmentOrgsWithProvIDs\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 14247,
+      "length": 5,
+      "value": "\"Key\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/CareTeam\/CareTeam\/Classes\/Models\/OutpatientProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 14275,
+      "length": 7,
+      "value": "\"Value\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/CareTeam.build\/Release-iphonesimulator\/CareTeam.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 23,
+      "value": "\"featured_provider_pin\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/CareTeam.build\/Release-iphonesimulator\/CareTeam.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 22,
+      "value": "\"icon_forward_chevron\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/CareTeam.build\/Release-iphonesimulator\/CareTeam.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 28,
+      "value": "\"last_in_room_location_icon\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/CareTeam.build\/Release-iphonesimulator\/CareTeam.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1291,
+      "length": 28,
+      "value": "\"provider_filter_bar_button\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/MyChartMobile\/build\/Build\/Intermediates.noindex\/CareTeam.build\/Release-iphonesimulator\/CareTeam.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1474,
+      "length": 26,
+      "value": "\"see_all_providers_button\""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_requests_activity_title" context="Title for the Requests activity">Anmodninger</string>
+  <string name="wp_requests_tutorial_overview" context="Tutorial text introducing the patient to the requests activity. %%REQUESTS is replaced with the name of the activity.">Du kan bruge %%REQUESTS til at sende ikke-akutte anmodninger til dit sundhedsfaglige team.</string>
+  <string name="wp_requests_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the requests activity %%REQUESTS is replaced with the name of the activity.">Du kan bruge %%REQUESTS til at sende ikke-akutte anmodninger til %%PATNAMEs sundhedsfaglige team.</string>
+  <string name="wp_requests_tutorial_overview_2" context="Tutorial text that details what will happen when you make a request and sets expectations for urgent requests.">Hospitalspersonale vil modtage din anmodning og hjælpe dig. Hvis du har en akut anmodning, så brug opkaldsknappen for at tilkalde en sygeplejerske.</string>
+  <string name="wp_requests_tutorial_controls" context="Tutorial text explaining how to scroll down the page for more options.">For at annullere en anmodning, du allerede har sendt, tryk på det element, du anmodede om, og tryk herefter på Annuller. Du kan rulle ned for at se flere muligheder ifm. anmodninger.</string>
+</resources>

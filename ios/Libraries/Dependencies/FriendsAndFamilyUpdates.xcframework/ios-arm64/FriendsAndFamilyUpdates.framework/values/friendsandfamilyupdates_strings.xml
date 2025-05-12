@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wp_friendsandfamilyupdates_tutorial_overview"
+        context="Tutorial text introducing the patient to the updates activity. %%FRIENDSANDFAMILYUPDATES is replaced with the name of the activity.">%%FRIENDSANDFAMILYUPDATES helps you stay connected with your friends and family. You can send them updates about your visit to keep them informed, and they can send you e-cards during your visit to wish you well.</string>
+    <string name="wp_friendsandfamilyupdates_tutorial_overview_proxy"
+        context="Tutorial text introducing the patient proxy to the updates activity %%FRIENDSANDFAMILYUPDATES is replaced with the name of the activity.">%%FRIENDSANDFAMILYUPDATES helps you stay connected with %%PATNAME throughout their visit. %%PATNAME can send updates about their visit to keep you informed, and you can send e-cards during their visit to wish them well.</string>
+    <string name="wp_friendsandfamilyupdates_tutorial_overview_2"
+        context="Tutorial text explaining to the patient who can see the updates in this activity">Your care team will not see these updates or e-cards. Only people who you have invited to have access to your chart can view these.</string>
+    <string name="wp_friendsandfamilyupdates_tutorial_overview_proxy_2"
+        context="Tutorial text explaining to the patient proxy who can see the updates in this activity">%%PATNAME\'s care team will not see these updates or e-cards. Only people who %%PATNAME has invited to have access to their chart can view these.</string>
+</resources>

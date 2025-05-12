@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="wp_workflow_step_test_results_title" context="Header text for the card that shows basic test results information, and allows jumping to the test results activity">检测结果</string>
+  <string name="wp_workflow_step_medications_title" context="Header text for the card that shows basic medications information, and allows jumping to the medications activity">药物</string>
+  <string name="wp_workflow_step_additional_information" context="Text that appears in the button that shows and hides additional text for the step">其他信息</string>
+  <string name="wp_workflow_step_section_updated_announcement" context="Text that will be read out by the screen reader when the Happening Now section auto-updates. Will be followed by the updates that occurred">近期事项章节已更新。</string>
+  <string name="wp_workflow_step_button_added_announcement" context="Text that will be read out by the screen reader when the test results or medications widget/button has been added. Will be followed by the content in that button. %1$@ - the title of the widget that was added">已以添加%1$@按钮。</string>
+  <string name="wp_workflow_step_button_updated_announcement" context="Text that will be read out by the screen reader when the test results or medications widget/button updates. Will be followed by the updates that occurred. %1$@ - the title of the widget that was updated">已更新%1$@按钮。</string>
+  <string name="wp_workflow_step_care_progressed" context="Text that will be read out by the screen reader when the current step of care progresses. %1$@ - the new step of care">护理已进展到%1$@。</string>
+  <string name="wp_workflow_step_in_progress" context="Text that appears when self registration is in progress">进行中</string>
+  <string name="wp_workflow_step_complete_registration" context="Text that appears inside the registration card, indicating the user should complete registration">完成登记事项</string>
+  <string name="wp_workflow_step_registration_go" context="Text that appears inside the button that leads to the registration activity, indicating the user will go to registration">前往</string>
+  <string name="wp_workflow_step_sef_reg_added_announcement" context="Text that will be read out by the screen reader when the self registration section has been added.">自助登记已添加。</string>
+  <string name="wp_workflow_step_sef_reg_updated_announcement" context="Text that will be read out by the screen reader when the self registration section updates.">自助登记已更新。</string>
+  <string name="wp_workflow_step_waittime_added_announcement" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that will be read out by the screen reader when the wait time section has been added.">添加等候时间信息。</string>
+  <string name="wp_workflow_step_waittime_updated_announcement" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that will be read out by the screen reader when the wait time section auto-updates. Note that this does not necessarily mean that the update is that the estimated wait time itself has been updated">更新等候时间信息。</string>
+  <string name="wp_workflow_step_waittime_learn_more" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that appears in a button that shows additional information about a wait time prediction. Also used as the header for the view displaying the additional information">了解更多</string>
+  <string name="wp_workflow_step_waittime_updated" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text that appears under the wait time prediction when it gets updated. %1$@ - the localized time that the wait time was updated (eg. 10:30 PM)">更新时间: %1$@</string>
+  <string name="wp_workflow_step_waittime_generic_explanation_header" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Header text for explanation of the unpredictability of wait times">免责声明</string>
+  <string name="wp_workflow_step_waittime_generic_explanation" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Text explaining the unpredictability of wait times in the emergency room">请注意，等候时间预测仅为估计值，并且可能会很快发生变化。我们会照顾所有到达的病人，并优先考虑有生命危险的病人。新的危重病人、可用的工作人员和复杂的治疗等因素可能会延长等候时间。这些预估时间由MyChart自动计算而非您的治疗团队直接输入。</string>
+  <string name="wp_workflow_step_waittime_delay_header" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Header text for explanation of why a patient's wait time was updated. %1$@ - the localized time that the wait time was updated (eg. 10:30 PM)">您的等候时间最后更新于%1$@</string>
+  <string name="wp_workflow_step_waittime_step_explanation_header" context="(DO NOT TRANSLATE, FEATURE NOT ON AND LIKELY TO CHANGE)Header text for explanation of how wait times are calculated">我们是如何估算出等候时间的？</string>
+</resources>

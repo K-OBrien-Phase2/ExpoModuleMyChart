@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by nlindner on 11/22/2023
+  ~ Copyright (c) 2023 Epic Systems Corporation
+  -->
+<resources>
+  <string name="wp_checklist_tutorial_overview" context="Tutorial text introducing the patient to the checklist activity. %%CHECKLIST is replaced with the name of the activity."> %%CHECKLIST vous montre les mesures que votre équipe soignante prend pour vous préparer à quitter l\'hôpital.</string>
+  <string name="wp_checklist_tutorial_overview_proxy" context="Tutorial text introducing the patient proxy to the checklist activity %%CHECKLIST is replaced with the name of the activity."> %%CHECKLIST vous montre les mesures que l\'équipe soignante de %%PATNAME prend pour préparer %%PATNAME à quitter l\'hôpital.</string>
+</resources>

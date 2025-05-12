@@ -1,0 +1,1739 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SVGRasterizer",
+    "printedName": "SVGRasterizer",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PathParserResult",
+        "printedName": "PathParserResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SVGRasterizer16PathParserResultC5errorSSSgvp",
+            "mangledName": "$s13SVGRasterizer16PathParserResultC5errorSSSgvp",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer16PathParserResultC5errorSSSgvg",
+                "mangledName": "$s13SVGRasterizer16PathParserResultC5errorSSSgvg",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SVGRasterizer16PathParserResultC",
+        "mangledName": "$s13SVGRasterizer16PathParserResultC",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PathParser",
+        "printedName": "PathParser",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(d:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PathParser",
+                "printedName": "SVGRasterizer.PathParser",
+                "usr": "s:13SVGRasterizer10PathParserC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SVGRasterizer10PathParserC1dACSS_tcfc",
+            "mangledName": "$s13SVGRasterizer10PathParserC1dACSS_tcfc",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "parse",
+            "printedName": "parse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PathParserResult",
+                "printedName": "SVGRasterizer.PathParserResult",
+                "usr": "s:13SVGRasterizer16PathParserResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGMutablePathWrapper",
+                "printedName": "SVGRasterizer.CGMutablePathWrapper",
+                "usr": "s:13SVGRasterizer20CGMutablePathWrapperC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer10PathParserC5parseyAA0bC6ResultCAA09CGMutableB7WrapperCF",
+            "mangledName": "$s13SVGRasterizer10PathParserC5parseyAA0bC6ResultCAA09CGMutableB7WrapperCF",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SVGRasterizer10PathParserC",
+        "mangledName": "$s13SVGRasterizer10PathParserC",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGFile",
+        "printedName": "SVGFile",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "symbolDefinitions",
+            "printedName": "symbolDefinitions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : SVGRasterizer.SVGDefinition]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SVGDefinition",
+                    "printedName": "SVGRasterizer.SVGDefinition",
+                    "usr": "s:13SVGRasterizer13SVGDefinitionC"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvp",
+            "mangledName": "$s13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvp",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : SVGRasterizer.SVGDefinition]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGDefinition",
+                        "printedName": "SVGRasterizer.SVGDefinition",
+                        "usr": "s:13SVGRasterizer13SVGDefinitionC"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvg",
+                "mangledName": "$s13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvg",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : SVGRasterizer.SVGDefinition]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SVGDefinition",
+                        "printedName": "SVGRasterizer.SVGDefinition",
+                        "usr": "s:13SVGRasterizer13SVGDefinitionC"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvs",
+                "mangledName": "$s13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvs",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvM",
+                "mangledName": "$s13SVGRasterizer7SVGFileC17symbolDefinitionsSDySSAA13SVGDefinitionCGvM",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SVGRasterizer7SVGFileC3urlSSvp",
+            "mangledName": "$s13SVGRasterizer7SVGFileC3urlSSvp",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer7SVGFileC3urlSSvg",
+                "mangledName": "$s13SVGRasterizer7SVGFileC3urlSSvg",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer7SVGFileC3urlSSvs",
+                "mangledName": "$s13SVGRasterizer7SVGFileC3urlSSvs",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer7SVGFileC3urlSSvM",
+                "mangledName": "$s13SVGRasterizer7SVGFileC3urlSSvM",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawFile:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SVGFile",
+                "printedName": "SVGRasterizer.SVGFile",
+                "usr": "s:13SVGRasterizer7SVGFileC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SVGRasterizer7SVGFileC7rawFileACSS_tcfc",
+            "mangledName": "$s13SVGRasterizer7SVGFileC7rawFileACSS_tcfc",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getUIImageForKey",
+            "printedName": "getUIImageForKey(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SVGRasterizerResponse",
+                "printedName": "SVGRasterizer.SVGRasterizerResponse",
+                "usr": "s:13SVGRasterizer0A8ResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer7SVGFileC16getUIImageForKey3keyAA0A8ResponseCSS_tF",
+            "mangledName": "$s13SVGRasterizer7SVGFileC16getUIImageForKey3keyAA0A8ResponseCSS_tF",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SVGRasterizer7SVGFileC",
+        "mangledName": "$s13SVGRasterizer7SVGFileC",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGMutablePathWrapper",
+        "printedName": "CGMutablePathWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGMutablePath",
+                "printedName": "CoreGraphics.CGMutablePath",
+                "usr": "c:@T@CGMutablePathRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperC4pathSo0bC3Refavp",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC4pathSo0bC3Refavp",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGMutablePath",
+                    "printedName": "CoreGraphics.CGMutablePath",
+                    "usr": "c:@T@CGMutablePathRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer20CGMutablePathWrapperC4pathSo0bC3Refavg",
+                "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC4pathSo0bC3Refavg",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGMutablePathWrapper",
+                "printedName": "SVGRasterizer.CGMutablePathWrapper",
+                "usr": "s:13SVGRasterizer20CGMutablePathWrapperC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperCACycfc",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperCACycfc",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "move",
+            "printedName": "move(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperC4move2toySo7CGPointV_tF",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC4move2toySo7CGPointV_tF",
+            "moduleName": "SVGRasterizer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addLine",
+            "printedName": "addLine(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperC7addLine2toySo7CGPointV_tF",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC7addLine2toySo7CGPointV_tF",
+            "moduleName": "SVGRasterizer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeSubpath",
+            "printedName": "closeSubpath()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperC12closeSubpathyyF",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC12closeSubpathyyF",
+            "moduleName": "SVGRasterizer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "arcTo",
+            "printedName": "arcTo(lastX:lastY:rxIn:ryIn:xAxisRotation:largeArcFlag:sweepFlag:x:y:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperC5arcTo5lastX0G1Y4rxIn02ryI013xAxisRotation12largeArcFlag05sweepO01x1yySf_S8ftF",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC5arcTo5lastX0G1Y4rxIn02ryI013xAxisRotation12largeArcFlag05sweepO01x1yySf_S8ftF",
+            "moduleName": "SVGRasterizer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addCurve",
+            "printedName": "addCurve(to:control1:control2:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperC8addCurve2to8control18control2ySo7CGPointV_A2ItF",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC8addCurve2to8control18control2ySo7CGPointV_A2ItF",
+            "moduleName": "SVGRasterizer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addQuadCurve",
+            "printedName": "addQuadCurve(to:control:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer20CGMutablePathWrapperC12addQuadCurve2to7controlySo7CGPointV_AHtF",
+            "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC12addQuadCurve2to7controlySo7CGPointV_AHtF",
+            "moduleName": "SVGRasterizer",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SVGRasterizer20CGMutablePathWrapperC",
+        "mangledName": "$s13SVGRasterizer20CGMutablePathWrapperC",
+        "moduleName": "SVGRasterizer",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGRasterizerUtil",
+        "printedName": "SVGRasterizerUtil",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isSVGRasterizerEnabled",
+            "printedName": "isSVGRasterizerEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SVGRasterizer0A4UtilC02isA7EnabledSbyFZ",
+            "mangledName": "$s13SVGRasterizer0A4UtilC02isA7EnabledSbyFZ",
+            "moduleName": "SVGRasterizer",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SVGRasterizer0A4UtilC",
+        "mangledName": "$s13SVGRasterizer0A4UtilC",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGRasterizerResponse",
+        "printedName": "SVGRasterizerResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "key",
+            "printedName": "key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SVGRasterizer0A8ResponseC3keySSSgvp",
+            "mangledName": "$s13SVGRasterizer0A8ResponseC3keySSSgvp",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer0A8ResponseC3keySSSgvg",
+                "mangledName": "$s13SVGRasterizer0A8ResponseC3keySSSgvg",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bitmap",
+            "printedName": "bitmap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SVGRasterizer0A8ResponseC6bitmapSo7UIImageCSgvp",
+            "mangledName": "$s13SVGRasterizer0A8ResponseC6bitmapSo7UIImageCSgvp",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer0A8ResponseC6bitmapSo7UIImageCSgvg",
+                "mangledName": "$s13SVGRasterizer0A8ResponseC6bitmapSo7UIImageCSgvg",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errors",
+            "printedName": "errors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SVGRasterizer0A8ResponseC6errorsSaySSGvp",
+            "mangledName": "$s13SVGRasterizer0A8ResponseC6errorsSaySSGvp",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SVGRasterizer0A8ResponseC6errorsSaySSGvg",
+                "mangledName": "$s13SVGRasterizer0A8ResponseC6errorsSaySSGvg",
+                "moduleName": "SVGRasterizer",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:bitmap:errors:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SVGRasterizerResponse",
+                "printedName": "SVGRasterizer.SVGRasterizerResponse",
+                "usr": "s:13SVGRasterizer0A8ResponseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SVGRasterizer0A8ResponseC3key6bitmap6errorsACSSSg_So7UIImageCSgSaySSGtcfc",
+            "mangledName": "$s13SVGRasterizer0A8ResponseC3key6bitmap6errorsACSSSg_So7UIImageCSgSaySSGtcfc",
+            "moduleName": "SVGRasterizer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SVGRasterizer0A8ResponseC",
+        "mangledName": "$s13SVGRasterizer0A8ResponseC",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SVGDefinition",
+        "printedName": "SVGDefinition",
+        "declKind": "Class",
+        "usr": "s:13SVGRasterizer13SVGDefinitionC",
+        "mangledName": "$s13SVGRasterizer13SVGDefinitionC",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SVGRasterizer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/PathParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/SVGFile.swift",
+      "kind": "Dictionary",
+      "offset": 379,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/SVGFile.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/PolygonComponent.swift",
+      "kind": "Array",
+      "offset": 378,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1559,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1580,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 1731,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1791,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 1949,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 1974,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 2024,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 2049,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 2318,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2522,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2527,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 2688,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 2765,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 3032,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 3101,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 3219,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 3239,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 3779,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3824,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 3879,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 4042,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4468,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4474,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/components\/CGMutablePathWrapper.swift",
+      "kind": "FloatLiteral",
+      "offset": 4486,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/SVGXMLParserProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/SVGXMLParserProtocol.swift",
+      "kind": "Dictionary",
+      "offset": 563,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/platform\/SVGCanvas.swift",
+      "kind": "IntegerLiteral",
+      "offset": 301,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/platform\/SVGCanvas.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/platform\/SVGXMLParser.swift",
+      "kind": "Array",
+      "offset": 340,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/platform\/SVGXMLParser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 384,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/platform\/SVGXMLParser.swift",
+      "kind": "Dictionary",
+      "offset": 1432,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/SVGDefinition.swift",
+      "kind": "Array",
+      "offset": 404,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/SVGDefinition.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/SVGRasterizer\/SVGRasterizer\/Classes\/SVGDefinition.swift",
+      "kind": "Array",
+      "offset": 467,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

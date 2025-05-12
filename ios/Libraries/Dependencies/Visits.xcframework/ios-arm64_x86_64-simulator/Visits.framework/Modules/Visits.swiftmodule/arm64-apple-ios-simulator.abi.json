@@ -1,0 +1,1336 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Visits",
+    "printedName": "Visits",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AvsSnapshot",
+        "printedName": "AvsSnapshot",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AvsSnapshot",
+                "printedName": "Visits.AvsSnapshot",
+                "usr": "s:6Visits11AvsSnapshotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Visits11AvsSnapshotV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6Visits11AvsSnapshotV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Visits",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Visits11AvsSnapshotV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6Visits11AvsSnapshotV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Visits",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Visits11AvsSnapshotV",
+        "mangledName": "$s6Visits11AvsSnapshotV",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PEVisitsComponentAPI",
+        "printedName": "PEVisitsComponentAPI",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getMOPastVisitDetailsModeQSP",
+            "printedName": "getMOPastVisitDetailsModeQSP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)getMOPastVisitDetailsModeQSP",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC28getMOPastVisitDetailsModeQSPSSyF",
+            "moduleName": "Visits",
+            "objc_name": "getMOPastVisitDetailsModeQSP",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMOPastVisitDetailsOrgIdQSP",
+            "printedName": "getMOPastVisitDetailsOrgIdQSP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)getMOPastVisitDetailsOrgIdQSP",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC29getMOPastVisitDetailsOrgIdQSPSSyF",
+            "moduleName": "Visits",
+            "objc_name": "getMOPastVisitDetailsOrgIdQSP",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMOPastVisitDetailsIsExternalQSP",
+            "printedName": "getMOPastVisitDetailsIsExternalQSP()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)getMOPastVisitDetailsIsExternalQSP",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC34getMOPastVisitDetailsIsExternalQSPSSyF",
+            "moduleName": "Visits",
+            "objc_name": "getMOPastVisitDetailsIsExternalQSP",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForAfterVisitSummary",
+            "printedName": "hasAccessForAfterVisitSummary(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)hasAccessForAfterVisitSummary:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC29hasAccessForAfterVisitSummaryy6PECore011PEComponentF6ResultOAE16PEPatientContextCF",
+            "moduleName": "Visits",
+            "objc_name": "hasAccessForAfterVisitSummary:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isExternalVisit",
+            "printedName": "isExternalVisit(deepLinkUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)isExternalVisitWithDeepLinkUrl:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC15isExternalVisit11deepLinkUrlSbSSSg_tF",
+            "moduleName": "Visits",
+            "objc_name": "isExternalVisitWithDeepLinkUrl:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldUseMOPastVisitDetails",
+            "printedName": "shouldUseMOPastVisitDetails(_:deepLinkUrl:isExternal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)shouldUseMOPastVisitDetails:deepLinkUrl:isExternal:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC27shouldUseMOPastVisitDetails_11deepLinkUrl10isExternalSb6PECore16PEPatientContextC_SSSgSbtF",
+            "moduleName": "Visits",
+            "objc_name": "shouldUseMOPastVisitDetails:deepLinkUrl:isExternal:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMOPastVisitDetailsController",
+            "printedName": "getMOPastVisitDetailsController(_:isNotes:viewControllerTitle:params:orgInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PECore.PEOrganizationInfoProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEOrganizationInfoProtocol",
+                    "printedName": "any PECore.PEOrganizationInfoProtocol",
+                    "usr": "c:@M@PECore@objc(pl)PEOrganizationInfoProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)getMOPastVisitDetailsController:isNotes:viewControllerTitle:params:orgInfo:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC31getMOPastVisitDetailsController_7isNotes04viewI5Title6params7orgInfoSo06UIViewI0C6PECore16PEPatientContextC_SbSSSgSDyS2SGAK014PEOrganizationP8Protocol_pSgtF",
+            "moduleName": "Visits",
+            "objc_name": "getMOPastVisitDetailsController:isNotes:viewControllerTitle:params:orgInfo:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasAccessForBedsideVisitNotes",
+            "printedName": "hasAccessForBedsideVisitNotes(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEComponentAccessResult",
+                "printedName": "PECore.PEComponentAccessResult",
+                "usr": "c:@M@PECore@E@PEComponentAccessResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)hasAccessForBedsideVisitNotes:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC29hasAccessForBedsideVisitNotesy6PECore011PEComponentF6ResultOAE16PEPatientContextCF",
+            "moduleName": "Visits",
+            "objc_name": "hasAccessForBedsideVisitNotes:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBedsideAfterVisitSummaryViewController",
+            "printedName": "getBedsideAfterVisitSummaryViewController(_:showHeader:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)getBedsideAfterVisitSummaryViewController:showHeader:viewControllerTitle:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC41getBedsideAfterVisitSummaryViewController_10showHeader04viewK5TitleSo06UIViewK0CSg6PECore18PEEncounterContextC_SbSSSgtF",
+            "moduleName": "Visits",
+            "objc_name": "getBedsideAfterVisitSummaryViewController:showHeader:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAvsPdfViewController",
+            "printedName": "getAvsPdfViewController(_:dcsID:setTitle:showBackButton:orgID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEPatientContext",
+                "printedName": "PECore.PEPatientContext",
+                "usr": "c:@M@PECore@objc(cs)PEPatientContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)getAvsPdfViewController:dcsID:setTitle:showBackButton:orgID:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC23getAvsPdfViewController_5dcsID8setTitle14showBackButton03orgK0So06UIViewI0CSg6PECore16PEPatientContextC_SSSgS2bAOtF",
+            "moduleName": "Visits",
+            "objc_name": "getAvsPdfViewController:dcsID:setTitle:showBackButton:orgID:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBedsideVisitNotesViewController",
+            "printedName": "getBedsideVisitNotesViewController(_:viewControllerTitle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEEncounterContext",
+                "printedName": "PECore.PEEncounterContext",
+                "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)getBedsideVisitNotesViewController:viewControllerTitle:",
+            "mangledName": "$s6Visits20PEVisitsComponentAPIC34getBedsideVisitNotesViewController_04viewJ5TitleSo06UIViewJ0CSg6PECore18PEEncounterContextC_SSSgtF",
+            "moduleName": "Visits",
+            "objc_name": "getBedsideVisitNotesViewController:viewControllerTitle:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PEVisitsComponentAPI",
+                "printedName": "Visits.PEVisitsComponentAPI",
+                "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI(im)init",
+            "mangledName": "$s6Visits20PEVisitsComponentAPICACycfc",
+            "moduleName": "Visits",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Visits@objc(cs)PEVisitsComponentAPI",
+        "mangledName": "$s6Visits20PEVisitsComponentAPIC",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PEVisitsComponentAPIProtocol",
+            "printedName": "PEVisitsComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEVisitsComponentAPIProtocol",
+            "mangledName": "$s6PECore28PEVisitsComponentAPIProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PEComponentAPIProtocol",
+            "printedName": "PEComponentAPIProtocol",
+            "usr": "c:@M@PECore@objc(pl)PEComponentAPIProtocol",
+            "mangledName": "$s6PECore22PEComponentAPIProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DocumentLoadErrorHandlerProtocol",
+        "printedName": "DocumentLoadErrorHandlerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleError",
+            "printedName": "handleError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Visits32DocumentLoadErrorHandlerProtocolP06handleD0yyF",
+            "mangledName": "$s6Visits32DocumentLoadErrorHandlerProtocolP06handleD0yyF",
+            "moduleName": "Visits",
+            "genericSig": "<τ_0_0 where τ_0_0 : Visits.DocumentLoadErrorHandlerProtocol>",
+            "sugared_genericSig": "<Self where Self : Visits.DocumentLoadErrorHandlerProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Visits32DocumentLoadErrorHandlerProtocolP",
+        "mangledName": "$s6Visits32DocumentLoadErrorHandlerProtocolP",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BedsideAvsWebViewControllerManager",
+        "printedName": "BedsideAvsWebViewControllerManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encounterContext:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BedsideAvsWebViewControllerManager",
+                "printedName": "Visits.BedsideAvsWebViewControllerManager",
+                "usr": "c:@M@Visits@objc(cs)BedsideAvsWebViewControllerManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PEEncounterContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEEncounterContext",
+                    "printedName": "PECore.PEEncounterContext",
+                    "usr": "c:@M@PECore@objc(cs)PEEncounterContext"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Visits34BedsideAvsWebViewControllerManagerC16encounterContextAC6PECore011PEEncounterI0CSg_tcfc",
+            "mangledName": "$s6Visits34BedsideAvsWebViewControllerManagerC16encounterContextAC6PECore011PEEncounterI0CSg_tcfc",
+            "moduleName": "Visits",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onPageFinished",
+            "printedName": "onPageFinished(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Visits34BedsideAvsWebViewControllerManagerC14onPageFinishedyy6PECore07MyChartdeF0CF",
+            "mangledName": "$s6Visits34BedsideAvsWebViewControllerManagerC14onPageFinishedyy6PECore07MyChartdeF0CF",
+            "moduleName": "Visits",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onEpicHttpRequest",
+            "printedName": "onEpicHttpRequest(_:deepLink:forOrganization:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MyChartWebViewController",
+                "printedName": "PECore.MyChartWebViewController",
+                "usr": "c:@M@PECore@objc(cs)MyChartWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PEDeepLinkProtocol",
+                "printedName": "any PECore.PEDeepLinkProtocol",
+                "usr": "s:6PECore18PEDeepLinkProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PECore.PEOrganizationInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PEOrganizationInfo",
+                    "printedName": "PECore.PEOrganizationInfo",
+                    "usr": "c:@M@PECore@objc(cs)PEOrganizationInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Visits34BedsideAvsWebViewControllerManagerC17onEpicHttpRequest_8deepLink15forOrganizationy6PECore07MyChartdeF0C_AG06PEDeepM8Protocol_pAG18PEOrganizationInfoCSgtF",
+            "mangledName": "$s6Visits34BedsideAvsWebViewControllerManagerC17onEpicHttpRequest_8deepLink15forOrganizationy6PECore07MyChartdeF0C_AG06PEDeepM8Protocol_pAG18PEOrganizationInfoCSgtF",
+            "moduleName": "Visits",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BedsideAvsWebViewControllerManager",
+                "printedName": "Visits.BedsideAvsWebViewControllerManager",
+                "usr": "c:@M@Visits@objc(cs)BedsideAvsWebViewControllerManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Visits@objc(cs)BedsideAvsWebViewControllerManager(im)init",
+            "mangledName": "$s6Visits34BedsideAvsWebViewControllerManagerCACycfc",
+            "moduleName": "Visits",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Visits@objc(cs)BedsideAvsWebViewControllerManager",
+        "mangledName": "$s6Visits34BedsideAvsWebViewControllerManagerC",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@PECore@objc(cs)MyChartWebViewControllerManager",
+        "superclassNames": [
+          "PECore.MyChartWebViewControllerManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "PERemoteOrganizationSupportProtocol",
+            "printedName": "PERemoteOrganizationSupportProtocol",
+            "usr": "s:6PECore35PERemoteOrganizationSupportProtocolP",
+            "mangledName": "$s6PECore35PERemoteOrganizationSupportProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Visits",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PECore",
+        "printedName": "PECore",
+        "declKind": "Import",
+        "moduleName": "Visits"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "BooleanLiteral",
+      "offset": 380,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 7,
+      "value": "\"DcsID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 6,
+      "value": "\"File\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 11,
+      "value": "\"FileToken\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 17,
+      "value": "\"FileTokenUserID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 7,
+      "value": "\"Title\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/AvsSnapshot.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 10,
+      "value": "\"IsUnread\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/ViewControllers\/AvsPdfViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 760,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/ViewControllers\/AvsPdfViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 800,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/ViewControllers\/AvsPdfViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 842,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/PEVisitsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 12,
+      "value": "\"visitnotes\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/PEVisitsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 14,
+      "value": "\"visitsummary\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/PEVisitsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 10,
+      "value": "\"pageMode\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/PEVisitsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 12,
+      "value": "\"isExternal\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/PEVisitsComponentAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 8,
+      "value": "\"eorgID\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Views\/AVSPdfView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 866,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/Models\/GetBedsideAvsResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 14,
+      "value": "\"AvsSnapshots\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/BedsideAvsWebViewControllerManager.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 20,
+      "value": "\"epichttp:\/\/avs-pdf\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/ViewControllers\/BedsideAvsActivityViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 390,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/ViewControllers\/BedsideAvsActivityViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 13,
+      "value": "\"bedside-avs\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/ViewControllers\/BedsideAvsActivityViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 769,
+      "length": 12,
+      "value": "\"showHeader\""
+    },
+    {
+      "filePath": "\/Users\/epic\/jenkins_release\/workspace\/MyChart-Branded-Builds\/834_CommunityHealthNetwork\/834_CommunityHealthNetwork-iOS-SelfSubmitted\/PE-iOS\/Visits\/Visits\/Classes\/ViewControllers\/BedsideAvsActivityViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 8,
+      "value": "\"WB_AVS\""
+    }
+  ]
+}

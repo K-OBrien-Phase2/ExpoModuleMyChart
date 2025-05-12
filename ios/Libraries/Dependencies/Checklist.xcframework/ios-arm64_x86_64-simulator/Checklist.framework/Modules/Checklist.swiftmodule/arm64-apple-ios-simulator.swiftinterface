@@ -1,0 +1,24 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios16.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Checklist
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+@_exported import Checklist
+import Foundation
+import PECore
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class ChecklistWebViewControllerManager : PECore.MyChartWebViewControllerManager {
+  public init(encounterContext: PECore.PEEncounterContext? = nil)
+  override public func allowLaunchOutsideApp() -> Swift.Bool
+  override public func onViewDidAppear(_ controller: PECore.MyChartWebViewController)
+  override public func onViewWillDisappear(_ viewController: PECore.MyChartWebViewController)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PEChecklistComponentAPI : ObjectiveC.NSObject, PECore.PEChecklistComponentAPIProtocol {
+  @objc public func hasAccessForChecklist(_ patientContext: PECore.PEPatientContext) -> PECore.PEComponentAccessResult
+  @objc public func getChecklistViewController(_ encounterContext: PECore.PEEncounterContext, buttonStyle: PECore.MyChartWebViewController.ButtonStyle, viewControllerTitle: Swift.String?) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
