@@ -22,6 +22,15 @@ export default function App() {
               await ExpoMyChart.setValueAsync('Hello from JS!');
             }}
           />
+
+        </Group>
+        <Group name="MyChart Functions">
+          <Button
+            title="Initialize SDK"
+            onPress={async () => {
+              await ExpoMyChart.initializeSDK();
+            }}
+          />
         </Group>
         <Group name="Events">
           <Text>{onChangePayload?.value}</Text>

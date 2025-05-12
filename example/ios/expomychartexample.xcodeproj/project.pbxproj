@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		3E48681B460DBC3CFFECBA75 /* libPods-expomychartexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B601E8BBF204E3EF22FAAC /* libPods-expomychartexample.a */; };
+		42E8E5AED0383B8EFE94BDE1 /* libPods-expomychartexample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B753C876A9BD26FF95ECF9 /* libPods-expomychartexample.a */; };
 		A365237EA83BDDE1066813F2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FAAAB372E993B98EA446AF0E /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		C1ACDD6CAF57DC0D99CFC8A6 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5981A6BAF01F0051622649 /* ExpoModulesProvider.swift */; };
@@ -17,15 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2ADBD4EC801CC93BD7DAF3 /* Pods-expomychartexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expomychartexample.release.xcconfig"; path = "Target Support Files/Pods-expomychartexample/Pods-expomychartexample.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* expomychartexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expomychartexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = expomychartexample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = expomychartexample/Info.plist; sourceTree = "<group>"; };
 		1C5981A6BAF01F0051622649 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-expomychartexample/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		883C41A13807321954395081 /* Pods-expomychartexample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expomychartexample.release.xcconfig"; path = "Target Support Files/Pods-expomychartexample/Pods-expomychartexample.release.xcconfig"; sourceTree = "<group>"; };
-		8B252BB6FD2E04C03052CC5A /* Pods-expomychartexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expomychartexample.debug.xcconfig"; path = "Target Support Files/Pods-expomychartexample/Pods-expomychartexample.debug.xcconfig"; sourceTree = "<group>"; };
+		6DCF2A5255576CF00FCCB90E /* Pods-expomychartexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expomychartexample.debug.xcconfig"; path = "Target Support Files/Pods-expomychartexample/Pods-expomychartexample.debug.xcconfig"; sourceTree = "<group>"; };
+		86B753C876A9BD26FF95ECF9 /* libPods-expomychartexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-expomychartexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = expomychartexample/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		E8B601E8BBF204E3EF22FAAC /* libPods-expomychartexample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-expomychartexample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = expomychartexample/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* expomychartexample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "expomychartexample-Bridging-Header.h"; path = "expomychartexample/expomychartexample-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,23 +37,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E48681B460DBC3CFFECBA75 /* libPods-expomychartexample.a in Frameworks */,
+				42E8E5AED0383B8EFE94BDE1 /* libPods-expomychartexample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E7A89BB66B9CE72305F66B9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8B252BB6FD2E04C03052CC5A /* Pods-expomychartexample.debug.xcconfig */,
-				883C41A13807321954395081 /* Pods-expomychartexample.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* expomychartexample */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				E8B601E8BBF204E3EF22FAAC /* libPods-expomychartexample.a */,
+				86B753C876A9BD26FF95ECF9 /* libPods-expomychartexample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				0E7A89BB66B9CE72305F66B9 /* Pods */,
 				EDCFAFE9FAFC28DCEDB1028A /* ExpoModulesProviders */,
+				8600956ED7182A15DE485AD1 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -113,6 +103,16 @@
 				13B07F961A680F5B00A75B9A /* expomychartexample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8600956ED7182A15DE485AD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF2A5255576CF00FCCB90E /* Pods-expomychartexample.debug.xcconfig */,
+				0B2ADBD4EC801CC93BD7DAF3 /* Pods-expomychartexample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -139,14 +139,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "expomychartexample" */;
 			buildPhases = (
-				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
+				555399FF8855D3672FCB2BDA /* [CP] Check Pods Manifest.lock */,
 				D1B37715D01DD74CEC0DE7F7 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				8553B9DFFA6735D37A1D0A92 /* [CP] Embed Pods Frameworks */,
+				A10CEB4F58719739EA49C981 /* [CP] Embed Pods Frameworks */,
+				8155C4F89406768C439DB243 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,7 +218,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli', { paths: [require.resolve('expo/package.json')] })\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n# Source .xcode.env.updates if it exists to allow\n# SKIP_BUNDLING to be unset if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.updates\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.updates\"\nfi\n# Source local changes to allow overrides\n# if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
 		};
-		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
+		555399FF8855D3672FCB2BDA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -240,7 +240,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+		8155C4F89406768C439DB243 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,17 +272,77 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-expomychartexample/Pods-expomychartexample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8553B9DFFA6735D37A1D0A92 /* [CP] Embed Pods Frameworks */ = {
+		A10CEB4F58719739EA49C981 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-expomychartexample/Pods-expomychartexample-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Authentication.framework/Authentication",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/CareTeam.framework/CareTeam",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Checklist.framework/Checklist",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/ContinuingCare.framework/ContinuingCare",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Education.framework/Education",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/FriendsAndFamilyUpdates.framework/FriendsAndFamilyUpdates",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/HappeningSoon.framework/HappeningSoon",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/HomePage.framework/HomePage",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/InfectionControl.framework/InfectionControl",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/LiveActivities.framework/LiveActivities",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Medications.framework/Medications",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Messaging.framework/Messaging",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/MyChart.framework/MyChart",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/MyChartGlobals.framework/MyChartGlobals",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/MyChartNow.framework/MyChartNow",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/MyDocuments.framework/MyDocuments",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Onboarding.framework/Onboarding",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/PECore.framework/PECore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/PreventiveCare.framework/PreventiveCare",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/ProblemList.framework/ProblemList",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Questionnaires.framework/Questionnaires",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Requests.framework/Requests",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/ShareEverywhere.framework/ShareEverywhere",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/SVGRasterizer.framework/SVGRasterizer",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/TestResults.framework/TestResults",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/ToDo.framework/ToDo",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/UpcomingOrders.framework/UpcomingOrders",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/Visits.framework/Visits",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/WorkflowStep.framework/WorkflowStep",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoMyChart/MyChartLibrary.framework/MyChartLibrary",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Authentication.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CareTeam.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Checklist.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContinuingCare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Education.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FriendsAndFamilyUpdates.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappeningSoon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HomePage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InfectionControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiveActivities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Medications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Messaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyChartGlobals.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyChartNow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyDocuments.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboarding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PECore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PreventiveCare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProblemList.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Questionnaires.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Requests.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShareEverywhere.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVGRasterizer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestResults.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ToDo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UpcomingOrders.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Visits.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WorkflowStep.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyChartLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,7 +386,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B252BB6FD2E04C03052CC5A /* Pods-expomychartexample.debug.xcconfig */;
+			baseConfigurationReference = 6DCF2A5255576CF00FCCB90E /* Pods-expomychartexample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -362,7 +422,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 883C41A13807321954395081 /* Pods-expomychartexample.release.xcconfig */;
+			baseConfigurationReference = 0B2ADBD4EC801CC93BD7DAF3 /* Pods-expomychartexample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
