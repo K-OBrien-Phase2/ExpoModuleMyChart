@@ -1,36 +1,59 @@
 import { useEvent } from 'expo';
 import ExpoMyChart, { ExpoMyChartView } from 'expo-mychart';
-import { Button, SafeAreaView, ScrollView, Text, View } from 'react-native';
+import { Button, SafeAreaView, ScrollView, Text, TextInput, TextInputBase, View } from 'react-native';
+import { useState, useEffect } from 'react';
 
 export default function App() {
   const onChangePayload = useEvent(ExpoMyChart, 'onChange');
+  const [username, setUsername] = useState<string>('');
+  const [password, setPassword] = useState<string>('');
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
+  const [isInitialized, setIsInitialized] = useState<boolean | undefined>(undefined);
+
+  useEffect(() => {
+    (async () => {
+      const result = await ExpoMyChart.MyChartInitialized();
+      setIsInitialized(result);
+    })();
+  }, []);
 
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.container}>
         <Text style={styles.header}>Module API Example</Text>
         <Group name="Constants">
-          <Text>{ExpoMyChart.PI}</Text>
+          <Text>MyChart is initialized?: {isInitialized?.toString()}</Text>
         </Group>
-        <Group name="Functions">
-          <Text>{ExpoMyChart.hello()}</Text>
-        </Group>
-        <Group name="Async functions">
+        <Group name="MyChartInitializer">
           <Button
-            title="Set value"
+            title="MyChartInitializer"
             onPress={async () => {
-              await ExpoMyChart.setValueAsync('Hello from JS!');
+              await ExpoMyChart.MyChartInitializer();
             }}
-          />
+          />  
+          <Text>MyChart is initialized?: {isInitialized?.toString()}</Text>
 
         </Group>
-        <Group name="MyChart Functions">
-          <Button
-            title="Initialize SDK"
-            onPress={async () => {
-              await ExpoMyChart.initializeSDK();
+        <Group name="MyChart Login">
+          <TextInput
+            placeholder="Username"
+            onChangeText={(username) => {
+              setUsername(username)
             }}
           />
+          <TextInput
+            placeholder="Password"
+            onChangeText={(password) => {
+              setPassword(password)
+            }}
+          />
+          <Button
+            title="MyChartLogin"
+            onPress={async () => {
+              setIsLoggedIn(await ExpoMyChart.MyChartLogin(username, password));
+            }}
+          />
+          <Text>LoggedIn: {isLoggedIn.toString()}</Text>
         </Group>
         <Group name="Events">
           <Text>{onChangePayload?.value}</Text>
