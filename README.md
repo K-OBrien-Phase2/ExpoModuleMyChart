@@ -1,4 +1,5 @@
-# Expo Module Starter
+# MyChart Expo Module
+
 
 MyChart Expo Module
 ## Installation
