@@ -65,7 +65,9 @@ Pod::Spec.new do |s|
   ]
 
   s.exclude_files = [
-    'Libraries/Headers/*.h',
-    'Libraries/Headers/*.m'
+    'Libraries/Dependencies/**/*.framework/Headers/*.h',
+    'Libraries/Dependencies/**/*.framework/Headers/*.m',
+    'Libraries/**/*.framework/Headers/*.h',
+    'Libraries/**/*.framework/Headers/*.m'
   ]
 end
