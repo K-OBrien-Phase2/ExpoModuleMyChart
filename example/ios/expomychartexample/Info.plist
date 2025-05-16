@@ -30,12 +30,7 @@
           <string>expo.modules.mychart.example</string>
         </array>
       </dict>
-      <dict>
-        <key>CFBundleURLSchemes</key>
-        <array>
-          <string>exp+expo-mychart-example</string>
-        </array>
-      </dict>
+
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>

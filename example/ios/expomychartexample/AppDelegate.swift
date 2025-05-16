@@ -1,6 +1,7 @@
 import Expo
 import React
 import ReactAppDependencyProvider
+// import ExpoMyChart
 
 @UIApplicationMain
 public class AppDelegate: ExpoAppDelegate {
@@ -16,7 +17,7 @@ public class AppDelegate: ExpoAppDelegate {
     let delegate = ReactNativeDelegate()
     let factory = ExpoReactNativeFactory(delegate: delegate)
     delegate.dependencyProvider = RCTAppDependencyProvider()
-
+    // ExpoMyChartAppDelegateSubscriber.application(application, didFinishLaunchingWithOptions: launchOptions)
     reactNativeDelegate = delegate
     reactNativeFactory = factory
     bindReactNativeFactory(factory)

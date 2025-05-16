@@ -20,8 +20,8 @@
   },
   "private": true,
   "expo": {
-    "autolinking": {
-      "nativeModulesDir": ".."
-    }
+    "name": "expo-mychart",
+    "moduleType": "nativeModule",
+    "autolinking": false
   }
 }
