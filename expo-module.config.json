@@ -1,7 +1,10 @@
 {
+  "path": "./ios",
   "platforms": ["apple", "android", "web"],
   "apple": {
-    "modules": ["ExpoMyChartModule"]
+    "swiftModuleNames": ["ExpoMyChart"],
+    "modules": ["ExpoMyChartModule"],
+    "appDelegateSubscribers": ["ExpoMyChartAppDelegateSubscriber"]
   },
   "android": {
     "modules": ["expo.modules.mychart.ExpoMyChartModule"]

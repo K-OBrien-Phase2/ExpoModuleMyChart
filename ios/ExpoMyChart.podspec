@@ -14,9 +14,10 @@ Pod::Spec.new do |s|
     :ios => '15.1',
     :tvos => '15.1'
   }
-  s.swift_version  = '6.0.3'
-  s.source         = { git: 'https://github.com/K-OBrien-Phase2/expo-mychart' }
+  s.swift_version  = '5.9'
+  s.source           = { :path => '.' }
   s.static_framework = true
+  s.requires_arc = true
 
   s.dependency 'ExpoModulesCore'
   s.module_name = 'ExpoMyChart'
@@ -27,8 +28,6 @@ Pod::Spec.new do |s|
     'FRAMEWORK_SEARCH_PATHS' => '$(PODS_ROOT)/../../Libraries/Dependencies/**',
     'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/../../Libraries/Dependencies/**',
     'ENABLE_STRICT_OBJC_MSGSEND' => 'NO',
-    'SWIFT_VERSION' => '6.0.3'
-
   }
 
   s.source_files = "**/*.{h,m,mm,swift,hpp,cpp}"
@@ -66,7 +65,7 @@ Pod::Spec.new do |s|
   ]
 
   s.exclude_files = [
-    '**/Headers/*.h',
-    '**/Headers/*.m'
+    'Libraries/Headers/*.h',
+    'Libraries/Headers/*.m'
   ]
 end
