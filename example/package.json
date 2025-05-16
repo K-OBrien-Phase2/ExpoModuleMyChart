@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "expo": "~53.0.8",
+    "expo-mychart": "../",
     "react": "19.0.0",
     "react-native": "0.79.2"
   },
@@ -22,6 +23,6 @@
   "expo": {
     "name": "expo-mychart",
     "moduleType": "nativeModule",
-    "autolinking": false
+    "autolinking": true
   }
 }
